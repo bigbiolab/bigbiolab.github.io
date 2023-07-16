@@ -1,0 +1,78 @@
+---
+title: "Md. Jubayer Hossain"
+sortby: "1"
+subtitle: "Lab Director"
+image: JHossain.jpg
+started: "Fall 2020"
+toc: false
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: Website
+      href: https://hossainlab.github.io/
+    - icon: file-earmark-text
+      text: vitae
+      href: ./people/staff/girard_cv.pdf
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com/citations?user=9_K4ekoAAAAJ&hl=en&authuser=5
+    - icon: github
+      text: github
+      href: https://www.github.com/hossainlab
+    - icon: twitter
+      text: twitter
+      href: https://www.twitter.com/JHossain_28
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+I am Jubayer, recent alumni with Bachelor and Master’s in Microbiology. I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.
+
+
+Recently, I have completed my internship at the Health System and Population Studies Division, [icddr,b](https://www.icddrb.org/). I did my Bachelor and Masters from the Department of Microbiology at [Jagannath University,Dhaka](https://jnu.ac.bd/dept/portal/web/microbiology). 
+
+I am also the founder of [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.netlify.app/), a non-profit organization dedicated to health research to improve lives in Bangladesh.
+
+At CHIRAL Bangladesh, I lead four programs: [Health Research ToolBox - A Step by Step Guide for Beginners](https://hrt.chiralbd.org/), [The Undergraduate Research Training Program (URTP)](https://urtp.chiralbd.org/), [Scientific Computing for Biologists](https://chiralbd.netlify.app/teaching/programs/), and the other one is [Health Data Analytics](https://chiralbd.netlify.app/teaching/programs/). In addition, I make [content](https://www.youtube.com/channel/UCbkJ5pm65Fkcs7MK4YshLsQ) on Data Analysis with Python and R.
+
+Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.
+
+This page highlights my teaching and research projects. Please [reach out](https://allmylinks.com/jhossain28) if you want to collaborate or have questions.
+
+
+## Experience
+
+- **CHIRAL Bangladesh** | Dhaka, Bangladesh<br />
+  Founder & Management Lead | 2020–Current<br />
+  Lead Organizer & Instructor of the CHIRAL Training | 2019–Current<br />
+  Program Lead of the Research Internship Program| 2023–Current
+
+- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
+  Teaching Assistant, Department of Microbiology | 2022–2023
+
+## Education
+
+- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
+  MS in Microbiology | 2019–2020
+
+- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
+  BS in Microbiology | 2016–2019
+

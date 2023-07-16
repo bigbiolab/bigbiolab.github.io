@@ -1,0 +1,67 @@
+---
+pagetitle: "Teaching | OMICS Center"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Teaching</li>
+  </ol>
+</nav>
+```
+
+
+## Bioinformatics BootCamp 2.0
+Bioinformatics BootCamp 2.0 is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.
+
+```{=html}
+<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```
+
+
+
+## R for Bioinformatics 
+R for Bioinformatics is a specialized training program that focuses on leveraging the power of the R programming language for analyzing and interpreting biological data. This program equips participants with the necessary skills to perform various bioinformatics tasks, including data manipulation, statistical analysis, visualization, and machine learning. Through hands-on exercises and real-world case studies, participants gain proficiency in utilizing R packages and tools specifically tailored for bioinformatics applications. By the end of the program, participants will be empowered to confidently employ R as a versatile tool in their bioinformatics research and analysis endeavors.
+
+```{=html}
+<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```
+
+
+## RNA-seq Data Analysis with R
+RNA-seq Data Analysis with R is an immersive training program designed to equip participants with the knowledge and skills to effectively analyze RNA sequencing data using the R programming language. This program covers key concepts and practical techniques for data preprocessing, quality control, differential gene expression analysis, pathway enrichment analysis, and visualization of RNA-seq data. Through a combination of theoretical instruction and hands-on exercises using real-world datasets, participants will learn how to utilize popular R packages and workflows to extract meaningful insights from RNA-seq experiments. By the end of the program, participants will be proficient in leveraging R for robust and reproducible analysis of RNA-seq data, enabling them to contribute to advancements in genomics and molecular biology research.
+
+```{=html}
+<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```
+
+
+## Single Cell RNA-seq Data Analysis with R
+Single Cell RNA-seq Data Analysis with R is an in-depth training program designed to provide participants with the necessary skills to effectively analyze and interpret single-cell RNA sequencing (scRNA-seq) data using the R programming language. This program covers fundamental concepts and advanced techniques for data preprocessing, quality control, dimensionality reduction, cell clustering, differential gene expression analysis, and visualization of scRNA-seq data. Through hands-on exercises and practical examples using real scRNA-seq datasets, participants will gain proficiency in utilizing popular R packages and workflows specifically tailored for scRNA-seq analysis. By the end of the program, participants will be equipped to confidently navigate and extract meaningful insights from scRNA-seq data, enabling them to contribute to breakthroughs in the field of single-cell genomics.
+
+
+```{=html}
+<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```
+
+
+## Machine Learning for Bioinformatics
+Machine Learning for Bioinformatics is a comprehensive training program that focuses on the application of machine learning techniques to analyze and interpret biological data. This program covers essential concepts and methodologies in both machine learning and bioinformatics, including feature selection, classification, regression, clustering, and deep learning. Through a combination of theoretical instruction and hands-on exercises using real-world biological datasets, participants will gain practical experience in applying machine learning algorithms to solve bioinformatics problems. By the end of the program, participants will have a solid foundation in utilizing machine learning for tasks such as genomics, proteomics, drug discovery, and precision medicine, opening up new avenues for data-driven discoveries in the field of bioinformatics.
+
+
+```{=html}
+<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```
+

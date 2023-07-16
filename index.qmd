@@ -1,0 +1,20 @@
+---
+pagetitle: "OMICS Center"
+title: "Discovering the Secrets of Life with OMICS Research"
+# page-layout: full
+toc: false
+---
+
+::: {.lead}
+  We are an [interdisciplinary]{.fw-bolder} research group at the [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.org/){.text-primary .text-decoration-none .fw-semibold}. The mission of OMICS Center is to advance scientific knowledge and improve human health through cutting-edge OMICS research.
+  
+:::
+
+![](./img/showcase.svg){.hero}
+
+<!-- ::: {.callout-note} -->
+<!-- ## We are currently recruiting! -->
+
+<!-- If you are interested in joining the lab as a Psychology PhD student, please consider applying.<br /> -->
+<!-- You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News). -->
+<!-- ::: -->

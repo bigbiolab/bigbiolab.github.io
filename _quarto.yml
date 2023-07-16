@@ -1,0 +1,63 @@
+project:
+  type: website
+  resources:
+    - CNAME
+  output-dir: docs
+
+execute:
+    freeze: auto
+
+website:
+  title: "OMICS Center"
+  navbar:
+    background: primary
+    left:
+      # - href: news.qmd
+      #   text: News
+      # - href: research.qmd
+      #   text: Research
+      # - href: publications.qmd
+      #   text: Publications
+      # - href: resources.qmd
+      #   text: Resources
+      # - href: opportunities.qmd
+      #   text: Opportunities
+      - href: teaching.qmd
+        text: Teaching
+      - href: people.qmd
+        text: People
+      - href: contact.qmd
+        text: Contact
+
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:training.chiralbd@gmail.com"
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/chiralbd
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/omicscenter
+        rel: me
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/@hossainlab
+        rel: me
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/hossainmj
+        rel: me
+
+
+  page-footer: "Copyright 2023 &copy; OMICS Center"
+  google-analytics: "G-K5TXS64QLN"
+  site-url: https://chiralbd.org/
+  repo-url: https://github.com/omicscenter
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
