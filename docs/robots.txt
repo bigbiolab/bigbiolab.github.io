@@ -1,1 +1,1 @@
-Sitemap: https://chiralbd.org/sitemap.xml
+Sitemap: https://omicscenter.github.io/sitemap.xml

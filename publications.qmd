@@ -1,5 +1,5 @@
 ---
-pagetitle: "Publications | AffCom Lab"
+pagetitle: "Publications | OMICS Center"
 toc: false
 listing:
   - id: articles
