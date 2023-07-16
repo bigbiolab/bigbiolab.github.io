@@ -13,30 +13,17 @@ toc: true
 ```
 
 ## For Undergraduate Students
-The lab is frequently home to undergraduate students from the Psychology and Behavioral Neuroscience departments (and occasionally others). 
-
-Undergraduate students work as **research assistants**, learning about the scientific method and assisting in the collection and processing of research data. Many enroll in PSYC 480 and receive **credit hours** for this work. Research assistants attend weekly lab meetings and can expect a **letter of recommendation** from Dr. Girard describing their work in and contributions to the lab (please give one month of advanced notice). Opportunities to earn **co-authorship** on research products (e.g., conference presentations) are also occasionally offered to advanced research assistants.
-
-Honors students will also occasionally design and complete an independent research project (i.e., **honors thesis**) under the supervision of Dr. Girard over the course of their senior year. These students typically apply for (and have often won) **research awards** of $1000 from the [Center for Undergraduate Research](https://ugresearch.ku.edu/) and make oral or poster **presentations** about their work at the [Undergraduate Research Symposium](https://ugresearch.ku.edu/student/share/symposium). 
+OMICS Center offers an incredible opportunity for aspiring interns to gain valuable experience and knowledge in the field of OMICS (genomics, transcriptomics,proteomics, and metagenomics, etc.). As an intern at OMICS Center, you will have the chance to work alongside leading researchers and experts, contributing to cutting-edge projects and advancements in the field. This internship program provides a dynamic and immersive learning environment, where you will have access to state-of-the-art technologies and resources. You will engage in hands-on research, data analysis, and collaboration with a diverse team of professionals, fostering your growth and development in the OMICS field. This experience at OMICS Center for Undergraduate Students will undoubtedly be a stepping stone towards a successful career in scientific research and innovation. More information about each admissions cycle can be found on the [News](news.qmd) page.
 
 ```{=html}
-<a href="mailto:jmgirard@ku.edu" class="btn btn-primary rounded-pill">Apply to be a Research Assistant</a>
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
 
-## For Prospective Graduate Students
-The [KU Psychology Department](https://psychology.ku.edu/psychology-graduate-program) grants doctoral degrees (i.e., **PhD**s) in three tracks: Brain, Behavior, and Quantitative Science (BBQ); Clinical Psychological Science (CPS); and Social Psychology; note that the department does not offer a terminal Masters degree. 
 
-Dr. Girard advises graduate students in the **BBQ** and **CPS** tracks and is a particularly good match for students with interests that span both areas (e.g., CPS students interested in advanced methods or BBQ students interested in medical applications).
-
-Graduate students will complete coursework in the department and conduct research in the lab. They will receive a world-class education in the scientific method and have many opportunities to contribute to ongoing research projects.
-
-More information about each admissions cycle can be found on the [News](news.qmd) page.
+## For Prospective Collaborators 
+OMICS Center warmly welcomes prospective collaborators who are passionate about advancing research and innovation in the field of OMICS (genomics, proteomics, metabolomics, etc.). Collaborating with OMICS Center offers an exceptional opportunity to join a dynamic and interdisciplinary research community. By partnering with us, you will have access to cutting-edge facilities, state-of-the-art technologies, and a diverse network of experts in various fields. We value collaboration and actively seek to foster meaningful partnerships that drive scientific progress and generate impactful outcomes. Whether you are an academic researcher, industry professional, or part of a research institution, collaborating with OMICS Center will enable you to contribute your expertise, exchange ideas, and work together on groundbreaking projects. Together, we can push the boundaries of OMICS research, catalyzing discoveries that have the potential to transform healthcare, agriculture, and various other fields. Join us in this exciting journey of exploration and collaboration at OMICS Center. Please check the [News](news.qmd) page for more information.
 
 ```{=html}
-<a href="https://psychology.ku.edu/sites/psychology/files/documents/Application%20Instructions/BBQApplicationInstructions.pdf" class="btn btn-primary rounded-pill me-2">Apply to the BBQ Program</a>
-
-<a href="https://psychology.ku.edu/sites/psychology/files/documents/Application%20Instructions/Clinical%26ClinicalHealthApplicationInstructions.pdf" class="btn btn-primary rounded-pill">Apply to the CPS Program</a>
+<a href="" class="btn btn-primary rounded-pill">Submit a Proposal</a>
 ```
 
-## For Prospective Postdocs and Staff
-Postdoctoral fellowships and other staff positions in the lab will be made available as funding permits. Please check the [News](news.qmd) page for more information.
