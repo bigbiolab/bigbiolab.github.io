@@ -39,7 +39,7 @@
     "href": "news.html",
     "title": "OMICS Center",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nGPSP 2023 Convention\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nGreat Plains Student Psychology Convention\n\n\n\n\n\n\nApr 11, 2023\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nRow-wise means in dplyr\n\n\n\n\n\n\n\nteaching\n\n\ndata science\n\n\n\n\nGuide to calculating mean scores in dplyr\n\n\n\n\n\n\nMar 18, 2023\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nAdventures in Moderation\n\n\n\n\n\n\n\nteaching\n\n\npresentation\n\n\n\n\nProbing Interactions in ANOVA and Regression\n\n\n\n\n\n\nNov 18, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nICMI 2022 Paper\n\n\n\n\n\n\n\nannouncement\n\n\npaper\n\n\n\n\nToward causal understanding of therapist-client relationships\n\n\n\n\n\n\nNov 7, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nGoogle Research Grant\n\n\n\n\n\n\n\nannouncement\n\n\nfunding\n\n\n\n\nNovel Scalable Mental Health Screening Procedures on Ubiquitous Sensing Devices\n\n\n\n\n\n\nOct 28, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nNIMH R21 Grant\n\n\n\n\n\n\n\nannouncement\n\n\nfunding\n\n\n\n\nMultimodal Dynamics of Parent-Child Interactions and Suicide Risk\n\n\n\n\n\n\nSep 8, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nRecruitment 2023–2024\n\n\n\n\n\n\n\nannouncement\n\n\nrecruitment\n\n\n\n\nInformation for applicants to the psychology graduate program to start in Fall 2023\n\n\n\n\n\n\nAug 30, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\n  \n\n\n\n\nNIMH R01 Grant\n\n\n\n\n\n\n\nannouncement\n\n\nfunding\n\n\n\n\nContext-Adaptive Multimodal Informatics for Psychiatric Discharge Planning\n\n\n\n\n\n\nApr 15, 2021\n\n\nJeffrey Girard\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nICMI 2022 Paper\n\n\n\n\n\n\n\nannouncement\n\n\npaper\n\n\n\n\nToward causal understanding of therapist-client relationships\n\n\n\n\n\n\nNov 7, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "opportunities.html",
@@ -1825,5 +1825,89 @@
     "title": "OMICS Center",
     "section": "For Prospective Collaborators",
     "text": "For Prospective Collaborators\nOMICS Center warmly welcomes prospective collaborators who are passionate about advancing research and innovation in the field of OMICS (genomics, proteomics, metabolomics, etc.). Collaborating with OMICS Center offers an exceptional opportunity to join a dynamic and interdisciplinary research community. By partnering with us, you will have access to cutting-edge facilities, state-of-the-art technologies, and a diverse network of experts in various fields. We value collaboration and actively seek to foster meaningful partnerships that drive scientific progress and generate impactful outcomes. Whether you are an academic researcher, industry professional, or part of a research institution, collaborating with OMICS Center will enable you to contribute your expertise, exchange ideas, and work together on groundbreaking projects. Together, we can push the boundaries of OMICS research, catalyzing discoveries that have the potential to transform healthcare, agriculture, and various other fields. Join us in this exciting journey of exploration and collaboration at OMICS Center. Please check the News page for more information.\nSubmit a Proposal"
+  },
+  {
+    "objectID": "resources.html#r-packages",
+    "href": "resources.html#r-packages",
+    "title": "OMICS Center",
+    "section": "R Packages",
+    "text": "R Packages\n\nRNASeq Data Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
+  },
+  {
+    "objectID": "resources.html#bioconductor",
+    "href": "resources.html#bioconductor",
+    "title": "OMICS Center",
+    "section": "Bioconductor",
+    "text": "Bioconductor\nBioconductor is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more."
+  },
+  {
+    "objectID": "resources.html#how-to-use-bioconductor",
+    "href": "resources.html#how-to-use-bioconductor",
+    "title": "OMICS Center",
+    "section": "How to Use Bioconductor?",
+    "text": "How to Use Bioconductor?\n\nRequired software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)\n\n\n\nPrework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it.\n\n\n\n\nInstall Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
+  },
+  {
+    "objectID": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "href": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "title": "OMICS Center",
+    "section": "R Packages RNASeq and Single-cell RNA-seq Analysis",
+    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
+  },
+  {
+    "objectID": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "href": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "title": "OMICS Center",
+    "section": "Blogs for R Programming, Statistics, and Data Analyis",
+    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\nSimply Statistics - https://simplystatistics.org/\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\nR for Biologists - https://www.rforbiologists.org/\nComputational Genomics with R - https://compgenomr.github.io/book/\nStat and R - https://statsandr.com/\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
+  },
+  {
+    "objectID": "resources.html#guideline-for-bioconductor-users",
+    "href": "resources.html#guideline-for-bioconductor-users",
+    "title": "OMICS Center",
+    "section": "Guideline for Bioconductor Users",
+    "text": "Guideline for Bioconductor Users\nBioconductor is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more."
+  },
+  {
+    "objectID": "resources.html#required-software",
+    "href": "resources.html#required-software",
+    "title": "OMICS Center",
+    "section": "Required software",
+    "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)"
+  },
+  {
+    "objectID": "resources.html#install-bioconductor-packages",
+    "href": "resources.html#install-bioconductor-packages",
+    "title": "OMICS Center",
+    "section": "Install Bioconductor Packages",
+    "text": "Install Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
+  },
+  {
+    "objectID": "resources.html#prework",
+    "href": "resources.html#prework",
+    "title": "OMICS Center",
+    "section": "Prework",
+    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
+  },
+  {
+    "objectID": "resources.html#data-sources",
+    "href": "resources.html#data-sources",
+    "title": "OMICS Center",
+    "section": "Data Sources",
+    "text": "Data Sources\n\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nThe Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\ncBioPortal for Cancer Genomics: Description: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations."
+  },
+  {
+    "objectID": "resources.html#data-and-tools-for-cancer-genomics",
+    "href": "resources.html#data-and-tools-for-cancer-genomics",
+    "title": "OMICS Center",
+    "section": "Data and Tools for Cancer Genomics",
+    "text": "Data and Tools for Cancer Genomics\n\nThe Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nGEPIA2: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.\nUALCAN: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.\ncBioPortal for Cancer Genomics:: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nONCOMINE: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes."
+  },
+  {
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
+    "title": "OMICS Center",
+    "section": "Videos",
+    "text": "Videos\n\nJuly 9, 2023: I’m thrilled to announce that the highly anticipated videos from our workshop on “R for Research: Fundamentals of R - Part 1” are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don’t wait any longer; dive into the videos today and take your research to new heights! Check it out: \nApril 12, 2023: Watch this informative 2-hour workshop on how NASA Earth Observing Data can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out:"
   }
 ]

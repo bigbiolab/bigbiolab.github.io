@@ -12,82 +12,104 @@ toc: true
 </nav>
 ```
 
-## Datasets
+## Data and Tools for Cancer Genomics  
 
-- **GFT: Group Formation Task Spontaneous Facial Expression Database** (2017)<br />
-  A 2D video database of spontaneous behavior during unscripted social interactions<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 96)<br />
-  *Primary Article/Citation:* <https://jmgirard.com/pubs/girard2017d/><br />
-  *Website/Request Access:* <http://osf.io/7wcyz>
-  
-- **MMSE/BP4D+: Multimodal Spontaneous Emotion Database** (2016)<br />
-  An extension of BP4D that includes thermal and physiological data<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 140)<br />
-  *Primary Article/Citation:* <https://jmgirard.com/pubs/zhang2016/><br />
-  *Website/Request Access:* <http://bit.ly/2yg39Cn>
+- [The Cancer Genome Atlas (TCGA):](https://portal.gdc.cancer.gov/) TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.
+- [International Cancer Genome Consortium (ICGC):](https://icgc.org/) Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.
+- [Gene Expression Omnibus (GEO):](https://www.ncbi.nlm.nih.gov/geo/) GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.
+- [European Genome-phenome Archive (EGA):](https://ega-archive.org/) Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.
+- [National Cancer Institute (NCI) Genomic Data Commons (GDC):](https://gdc.cancer.gov/) Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.
 
-- **BP4D: Binghamton-Pittsburgh 4D Spontaneous Emotion Database** (2014)<br />
-  A 3D video database of spontaneous behavior during emotion elicitation<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 41)<br />
-  *Primary Article/Citation:* <https://jmgirard.com/pubs/zhang2014/><br />
-  *Website/Request Access:* <http://bit.ly/2yg39Cn>
+- [OncoLnc](http://www.oncolnc.org/): Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.
 
-## Software
+- [UCSC Cancer Genomics Browser:](https://genome-cancer.ucsc.edu/) The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.
 
-### Maturing
-- **lordicon** (2022)<br />
-  Extension for adding lordicon.com icons to Quarto HTML documents<br />
-  *Source Code:* <https://github.com/jmgirard/lordicon>
-  
-- **circumplex: Analysis and Visualization of Circumplex Data** (2017–2021)<br />
-  R functions and educational materials about circumplex data analysis/visualization<br />
-  *Documentation:* <https://circumplex.jmgirard.com><br />
-  *Source Code:* <http://github.com/jmgirard/circumplex>
+- [GREIN : GEO RNA-seq Experiments Interactive Navigator:](http://www.ilincs.org/apps/grein/) GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (>6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).
 
-- **mReliability: Inter-rater Reliability in MATLAB** (2015–2018)<br />
-  MATLAB functions and educational materials about inter-rater reliability<br />
-  *Documentation:* <https://mreliability.jmgirard.com><br />
-  *Source Code:* <http://github.com/jmgirard/mreliability>
+- [GEPIA2](http://gepia2.cancer-pku.cn/): GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.
 
-- **DARMA: Dual Axis Rating and Media Annotation** (2014–2018)<br />
-  Software for collecting and reviewing 2D continuous ratings of media files<br />
-  *Documentation:* <https://darma.jmgirard.com><br />
-  *Source Code:* <http://github.com/jmgirard/darma>
-  
-- **CARMA: Continuous Affect Rating and Media Annotation** (2014–2018)<br />
-  Software for collecting and reviewing 1D continuous ratings of media files<br />
-  *Documentation:* <https://carma.jmgirard.com><br />
-  *Source Code:* <http://github.com/jmgirard/carma>
-  
-### Developing
-- **varde** (2022)<br />
-  R functions for decomposing variance in multilevel models<br />
-  *Source Code:* <https://github.com/jmgirard/varde>
-  
-- **wcc** (2022)<br />
-  R functions for windowed cross-correlation (synchrony) analyses<br />
-  *Source Code:* <https://github.com/jmgirard/wcc>
+- [UALCAN](http://ualcan.path.uab.edu/): UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.
 
-- **profiles** (2022)<br />
-  R functions and RStudio add-ins for managing RStudio profiles<br />
-  *Source Code:* <https://github.com/jmgirard/profiles>
+- [cBioPortal for Cancer Genomics:](https://www.cbioportal.org/): cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.
 
-- **tidymedia** (2021–2022)<br />
-  R functions for working with audio and video files in a tidy format<br />
-  *Source Code:* <https://github.com/jmgirard/tidymedia>
+- [ONCOMINE](https://www.oncomine.org/resource/login.html): ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.
 
-- **agreement** (2018–2022)<br />
-  R functions for inter-rater reliability<br />
-  *Source Code:* <https://github.com/jmgirard/agreement>
 
-## Trainings
 
-- **Applied Machine Learning in R** (2021, 2022)<br />
-  Five-day workshop offered as part of the [Pittsburgh Summer Methodology Series](https://www.pittmethods.com)<br />
-  <https://pittmethods.github.io/appliedml>
+## Guideline for Bioconductor Users
+[Bioconductor](https://bioconductor.org/) is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.
 
-- **Introduction to R for Social Scientists** (2020, 2022)<br />
-  Three-day workshop offered as part of the [Pittsburgh Summer Methodology Series](https://www.pittmethods.com)<br />
-  <https://pittmethods.github.io/r4ss>
 
-<!-- ## Videos -->
+## Required software
+- R: <http://www.r-project.org/> (FREE)
+- RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
+
+## Prework
+
+Before attending the any workshop please have the following installed and configured on your machine.
+-   Recent version of **R**
+-   Recent version of **RStudio**
+-   Most recent release of the [**Bioconductor**](https://www.bioconductor.org/install/) and other packages used in courses
+
+Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands. 
+
+```{r, eval=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.16")
+```
+
+- Ensure you can knit R markdown documents
+
+    -   Open RStudio and create a new Rmarkdown document
+    -   Save the document and check you are able to knit it.
+
+## Install Bioconductor Packages
+
+```{r, eval=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
+```
+
+Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with
+
+
+```{r, eval=FALSE}
+BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
+```
+
+The `install()` function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.
+
+## R Packages RNASeq and Single-cell RNA-seq Analysis
+- `DESeq2`: [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) is a widely used package for differential gene expression analysis in RNA-seq data.
+- `edgeR`: [edgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html) is another popular package for differential gene expression analysis in RNA-seq data.
+- `limma`: [limma](https://bioconductor.org/packages/release/bioc/html/limma.html) is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.
+- `Ballgown`: [Ballgown](https://bioconductor.org/packages/release/bioc/html/ballgown.html) is a package for differential expression analysis and visualization of transcriptome assembly data.
+- `DEXSeq`: [DEXSeq](https://bioconductor.org/packages/release/bioc/html/DEXSeq.html) is specifically designed for the detection of differential exon usage in RNA-seq data.
+- `NOISeq`: [NOISeq](https://bioconductor.org/packages/release/bioc/html/NOISeq.html) is a package for non-parametric analysis of differential expression in RNA-seq data.
+- `clusterProfiler`: [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html) is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.
+- `GenomicFeatures`: [GenomicFeatures](https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html) provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.
+- `Seurat`: [Seurat](https://satijalab.org/seurat/) is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.
+
+
+
+
+## Blogs for R Programming, Statistics, and Data Analyis 
+- Programiz - [https://www.datamentor.io/r-programming/](https://www.datamentor.io/r-programming/)
+- PennState STAT 484 - [https://online.stat.psu.edu/stat484/](https://online.stat.psu.edu/stat484/)
+- PennState Topics in R Statistical Language - 
+ [https://online.stat.psu.edu/stat484/](https://online.stat.psu.edu/stat484/)
+- Simply Statistics - [https://simplystatistics.org/](https://simplystatistics.org/)
+- TutorialPoint - [https://www.tutorialspoint.com/r/index.htm](https://www.tutorialspoint.com/r/index.htm)
+- R for Biologists - [https://www.rforbiologists.org/](https://www.rforbiologists.org/)
+- Computational Genomics with R -  [https://compgenomr.github.io/book/](https://compgenomr.github.io/book/)
+- Stat and R - [https://statsandr.com/](https://statsandr.com/)
+- Rafa Lab - [https://rafalab.github.io/pages/harvardx.html](https://rafalab.github.io/pages/harvardx.html)
+- University of Florida - [https://bolt.mph.ufl.edu/software/r-phc-6055/](https://bolt.mph.ufl.edu/software/r-phc-6055/)
+
+## Videos 
+- **July 9, 2023**: I'm thrilled to announce that the highly anticipated videos from our workshop on "R for Research: Fundamentals of R - Part 1" are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don't wait any longer; dive into the videos today and take your research to new heights! Check it out: {{< video https://youtu.be/dQhZjmw9BK0 title="R for Research || Fundamentals of R: Part 1" aspect-ratio="16x9" >}}
+
+- **April 12, 2023**: Watch this informative 2-hour workshop on how **NASA Earth Observing Data** can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out: {{< video https://youtu.be/rHJUhAz0_98 title="Using NASA Earth Observing Data for Public Health" aspect-ratio="16x9" >}}
+

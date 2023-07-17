@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -165,13 +199,14 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link active" data-scroll-target="#datasets">Datasets</a></li>
-  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a>
-  <ul class="collapse">
-  <li><a href="#maturing" id="toc-maturing" class="nav-link" data-scroll-target="#maturing">Maturing</a></li>
-  <li><a href="#developing" id="toc-developing" class="nav-link" data-scroll-target="#developing">Developing</a></li>
-  </ul></li>
-  <li><a href="#trainings" id="toc-trainings" class="nav-link" data-scroll-target="#trainings">Trainings</a></li>
+  <li><a href="#data-and-tools-for-cancer-genomics" id="toc-data-and-tools-for-cancer-genomics" class="nav-link active" data-scroll-target="#data-and-tools-for-cancer-genomics">Data and Tools for Cancer Genomics</a></li>
+  <li><a href="#guideline-for-bioconductor-users" id="toc-guideline-for-bioconductor-users" class="nav-link" data-scroll-target="#guideline-for-bioconductor-users">Guideline for Bioconductor Users</a></li>
+  <li><a href="#required-software" id="toc-required-software" class="nav-link" data-scroll-target="#required-software">Required software</a></li>
+  <li><a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a></li>
+  <li><a href="#install-bioconductor-packages" id="toc-install-bioconductor-packages" class="nav-link" data-scroll-target="#install-bioconductor-packages">Install Bioconductor Packages</a></li>
+  <li><a href="#r-packages-rnaseq-and-single-cell-rna-seq-analysis" id="toc-r-packages-rnaseq-and-single-cell-rna-seq-analysis" class="nav-link" data-scroll-target="#r-packages-rnaseq-and-single-cell-rna-seq-analysis">R Packages RNASeq and Single-cell RNA-seq Analysis</a></li>
+  <li><a href="#blogs-for-r-programming-statistics-and-data-analyis" id="toc-blogs-for-r-programming-statistics-and-data-analyis" class="nav-link" data-scroll-target="#blogs-for-r-programming-statistics-and-data-analyis">Blogs for R Programming, Statistics, and Data Analyis</a></li>
+  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos">Videos</a></li>
   </ul>
 </nav>
     </div>
@@ -186,44 +221,99 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
     <li class="breadcrumb-item active" aria-current="page">Resources</li>
   </ol>
 </nav>
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<section id="data-and-tools-for-cancer-genomics" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-tools-for-cancer-genomics">Data and Tools for Cancer Genomics</h2>
 <ul>
-<li><p><strong>GFT: Group Formation Task Spontaneous Facial Expression Database</strong> (2017)<br> A 2D video database of spontaneous behavior during unscripted social interactions<br> Complete with frame-level FACS annotations of facial behavior (n = 96)<br> <em>Primary Article/Citation:</em> <a href="https://jmgirard.com/pubs/girard2017d/" class="uri">https://jmgirard.com/pubs/girard2017d/</a><br> <em>Website/Request Access:</em> <a href="http://osf.io/7wcyz" class="uri">http://osf.io/7wcyz</a></p></li>
-<li><p><strong>MMSE/BP4D+: Multimodal Spontaneous Emotion Database</strong> (2016)<br> An extension of BP4D that includes thermal and physiological data<br> Complete with frame-level FACS annotations of facial behavior (n = 140)<br> <em>Primary Article/Citation:</em> <a href="https://jmgirard.com/pubs/zhang2016/" class="uri">https://jmgirard.com/pubs/zhang2016/</a><br> <em>Website/Request Access:</em> <a href="http://bit.ly/2yg39Cn" class="uri">http://bit.ly/2yg39Cn</a></p></li>
-<li><p><strong>BP4D: Binghamton-Pittsburgh 4D Spontaneous Emotion Database</strong> (2014)<br> A 3D video database of spontaneous behavior during emotion elicitation<br> Complete with frame-level FACS annotations of facial behavior (n = 41)<br> <em>Primary Article/Citation:</em> <a href="https://jmgirard.com/pubs/zhang2014/" class="uri">https://jmgirard.com/pubs/zhang2014/</a><br> <em>Website/Request Access:</em> <a href="http://bit.ly/2yg39Cn" class="uri">http://bit.ly/2yg39Cn</a></p></li>
+<li><p><a href="https://portal.gdc.cancer.gov/">The Cancer Genome Atlas (TCGA):</a> TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.</p></li>
+<li><p><a href="https://icgc.org/">International Cancer Genome Consortium (ICGC):</a> Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.</p></li>
+<li><p><a href="https://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO):</a> GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.</p></li>
+<li><p><a href="https://ega-archive.org/">European Genome-phenome Archive (EGA):</a> Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.</p></li>
+<li><p><a href="https://gdc.cancer.gov/">National Cancer Institute (NCI) Genomic Data Commons (GDC):</a> Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.</p></li>
+<li><p><a href="http://www.oncolnc.org/">OncoLnc</a>: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.</p></li>
+<li><p><a href="https://genome-cancer.ucsc.edu/">UCSC Cancer Genomics Browser:</a> The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.</p></li>
+<li><p><a href="http://www.ilincs.org/apps/grein/">GREIN : GEO RNA-seq Experiments Interactive Navigator:</a> GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).</p></li>
+<li><p><a href="http://gepia2.cancer-pku.cn/">GEPIA2</a>: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.</p></li>
+<li><p><a href="http://ualcan.path.uab.edu/">UALCAN</a>: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.</p></li>
+<li><p><a href="https://www.cbioportal.org/">cBioPortal for Cancer Genomics:</a>: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.</p></li>
+<li><p><a href="https://www.oncomine.org/resource/login.html">ONCOMINE</a>: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.</p></li>
 </ul>
 </section>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<section id="maturing" class="level3">
-<h3 class="anchored" data-anchor-id="maturing">Maturing</h3>
+<section id="guideline-for-bioconductor-users" class="level2">
+<h2 class="anchored" data-anchor-id="guideline-for-bioconductor-users">Guideline for Bioconductor Users</h2>
+<p><a href="https://bioconductor.org/">Bioconductor</a> is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.</p>
+</section>
+<section id="required-software" class="level2">
+<h2 class="anchored" data-anchor-id="required-software">Required software</h2>
 <ul>
-<li><p><strong>lordicon</strong> (2022)<br> Extension for adding lordicon.com icons to Quarto HTML documents<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/lordicon" class="uri">https://github.com/jmgirard/lordicon</a></p></li>
-<li><p><strong>circumplex: Analysis and Visualization of Circumplex Data</strong> (2017–2021)<br> R functions and educational materials about circumplex data analysis/visualization<br> <em>Documentation:</em> <a href="https://circumplex.jmgirard.com" class="uri">https://circumplex.jmgirard.com</a><br> <em>Source Code:</em> <a href="http://github.com/jmgirard/circumplex" class="uri">http://github.com/jmgirard/circumplex</a></p></li>
-<li><p><strong>mReliability: Inter-rater Reliability in MATLAB</strong> (2015–2018)<br> MATLAB functions and educational materials about inter-rater reliability<br> <em>Documentation:</em> <a href="https://mreliability.jmgirard.com" class="uri">https://mreliability.jmgirard.com</a><br> <em>Source Code:</em> <a href="http://github.com/jmgirard/mreliability" class="uri">http://github.com/jmgirard/mreliability</a></p></li>
-<li><p><strong>DARMA: Dual Axis Rating and Media Annotation</strong> (2014–2018)<br> Software for collecting and reviewing 2D continuous ratings of media files<br> <em>Documentation:</em> <a href="https://darma.jmgirard.com" class="uri">https://darma.jmgirard.com</a><br> <em>Source Code:</em> <a href="http://github.com/jmgirard/darma" class="uri">http://github.com/jmgirard/darma</a></p></li>
-<li><p><strong>CARMA: Continuous Affect Rating and Media Annotation</strong> (2014–2018)<br> Software for collecting and reviewing 1D continuous ratings of media files<br> <em>Documentation:</em> <a href="https://carma.jmgirard.com" class="uri">https://carma.jmgirard.com</a><br> <em>Source Code:</em> <a href="http://github.com/jmgirard/carma" class="uri">http://github.com/jmgirard/carma</a></p></li>
+<li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
+<li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
 </ul>
 </section>
-<section id="developing" class="level3">
-<h3 class="anchored" data-anchor-id="developing">Developing</h3>
+<section id="prework" class="level2">
+<h2 class="anchored" data-anchor-id="prework">Prework</h2>
+<p>Before attending the any workshop please have the following installed and configured on your machine. - Recent version of <strong>R</strong> - Recent version of <strong>RStudio</strong> - Most recent release of the <a href="https://www.bioconductor.org/install/"><strong>Bioconductor</strong></a> and other packages used in courses</p>
+<p>Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version =</span> <span class="st">"3.16"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <ul>
-<li><p><strong>varde</strong> (2022)<br> R functions for decomposing variance in multilevel models<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/varde" class="uri">https://github.com/jmgirard/varde</a></p></li>
-<li><p><strong>wcc</strong> (2022)<br> R functions for windowed cross-correlation (synchrony) analyses<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/wcc" class="uri">https://github.com/jmgirard/wcc</a></p></li>
-<li><p><strong>profiles</strong> (2022)<br> R functions and RStudio add-ins for managing RStudio profiles<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/profiles" class="uri">https://github.com/jmgirard/profiles</a></p></li>
-<li><p><strong>tidymedia</strong> (2021–2022)<br> R functions for working with audio and video files in a tidy format<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/tidymedia" class="uri">https://github.com/jmgirard/tidymedia</a></p></li>
-<li><p><strong>agreement</strong> (2018–2022)<br> R functions for inter-rater reliability<br> <em>Source Code:</em> <a href="https://github.com/jmgirard/agreement" class="uri">https://github.com/jmgirard/agreement</a></p></li>
+<li><p>Ensure you can knit R markdown documents</p>
+<ul>
+<li>Open RStudio and create a new Rmarkdown document</li>
+<li>Save the document and check you are able to knit it.</li>
+</ul></li>
 </ul>
 </section>
+<section id="install-bioconductor-packages" class="level2">
+<h2 class="anchored" data-anchor-id="install-bioconductor-packages">Install Bioconductor Packages</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(<span class="st">"GenomicFeatures"</span>, <span class="st">"AnnotationDbi"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>The <code>install()</code> function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.</p>
 </section>
-<section id="trainings" class="level2">
-<h2 class="anchored" data-anchor-id="trainings">Trainings</h2>
+<section id="r-packages-rnaseq-and-single-cell-rna-seq-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="r-packages-rnaseq-and-single-cell-rna-seq-analysis">R Packages RNASeq and Single-cell RNA-seq Analysis</h2>
 <ul>
-<li><p><strong>Applied Machine Learning in R</strong> (2021, 2022)<br> Five-day workshop offered as part of the <a href="https://www.pittmethods.com">Pittsburgh Summer Methodology Series</a><br> <a href="https://pittmethods.github.io/appliedml" class="uri">https://pittmethods.github.io/appliedml</a></p></li>
-<li><p><strong>Introduction to R for Social Scientists</strong> (2020, 2022)<br> Three-day workshop offered as part of the <a href="https://www.pittmethods.com">Pittsburgh Summer Methodology Series</a><br> <a href="https://pittmethods.github.io/r4ss" class="uri">https://pittmethods.github.io/r4ss</a></p></li>
+<li><code>DESeq2</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> is a widely used package for differential gene expression analysis in RNA-seq data.</li>
+<li><code>edgeR</code>: <a href="https://bioconductor.org/packages/release/bioc/html/edgeR.html">edgeR</a> is another popular package for differential gene expression analysis in RNA-seq data.</li>
+<li><code>limma</code>: <a href="https://bioconductor.org/packages/release/bioc/html/limma.html">limma</a> is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.</li>
+<li><code>Ballgown</code>: <a href="https://bioconductor.org/packages/release/bioc/html/ballgown.html">Ballgown</a> is a package for differential expression analysis and visualization of transcriptome assembly data.</li>
+<li><code>DEXSeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DEXSeq.html">DEXSeq</a> is specifically designed for the detection of differential exon usage in RNA-seq data.</li>
+<li><code>NOISeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/NOISeq.html">NOISeq</a> is a package for non-parametric analysis of differential expression in RNA-seq data.</li>
+<li><code>clusterProfiler</code>: <a href="https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html">clusterProfiler</a> is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.</li>
+<li><code>GenomicFeatures</code>: <a href="https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html">GenomicFeatures</a> provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.</li>
+<li><code>Seurat</code>: <a href="https://satijalab.org/seurat/">Seurat</a> is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.</li>
 </ul>
-<!-- ## Videos -->
+</section>
+<section id="blogs-for-r-programming-statistics-and-data-analyis" class="level2">
+<h2 class="anchored" data-anchor-id="blogs-for-r-programming-statistics-and-data-analyis">Blogs for R Programming, Statistics, and Data Analyis</h2>
+<ul>
+<li>Programiz - <a href="https://www.datamentor.io/r-programming/">https://www.datamentor.io/r-programming/</a></li>
+<li>PennState STAT 484 - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
+<li>PennState Topics in R Statistical Language - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
+<li>Simply Statistics - <a href="https://simplystatistics.org/">https://simplystatistics.org/</a></li>
+<li>TutorialPoint - <a href="https://www.tutorialspoint.com/r/index.htm">https://www.tutorialspoint.com/r/index.htm</a></li>
+<li>R for Biologists - <a href="https://www.rforbiologists.org/">https://www.rforbiologists.org/</a></li>
+<li>Computational Genomics with R - <a href="https://compgenomr.github.io/book/">https://compgenomr.github.io/book/</a></li>
+<li>Stat and R - <a href="https://statsandr.com/">https://statsandr.com/</a></li>
+<li>Rafa Lab - <a href="https://rafalab.github.io/pages/harvardx.html">https://rafalab.github.io/pages/harvardx.html</a></li>
+<li>University of Florida - <a href="https://bolt.mph.ufl.edu/software/r-phc-6055/">https://bolt.mph.ufl.edu/software/r-phc-6055/</a></li>
+</ul>
+</section>
+<section id="videos" class="level2">
+<h2 class="anchored" data-anchor-id="videos">Videos</h2>
+<ul>
+<li><p><strong>July 9, 2023</strong>: I’m thrilled to announce that the highly anticipated videos from our workshop on “R for Research: Fundamentals of R - Part 1” are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don’t wait any longer; dive into the videos today and take your research to new heights! Check it out: </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dQhZjmw9BK0" title="R for Research || Fundamentals of R: Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p></li>
+<li><p><strong>April 12, 2023</strong>: Watch this informative 2-hour workshop on how <strong>NASA Earth Observing Data</strong> can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out: </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rHJUhAz0_98" title="Using NASA Earth Observing Data for Public Health" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p></li>
+</ul>
 
 
 </section>
