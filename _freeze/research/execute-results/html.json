@@ -1,0 +1,16 @@
+{
+  "hash": "84f7e31ba0aa750ff7e4ac525b0edadf",
+  "result": {
+    "markdown": "---\npagetitle: \"Research | OMICS Center\"\ntoc: true\n---\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"index.html\">Home</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">Research</li>\n  </ol>\n</nav>\n```\n\n\n## Research Topics\n\n### Multi-Omics Data Analysis for Cancer Research\nMulti-omics data analysis in cancer research involves integrating and analyzing various types of omics data, such as genomics, transcriptomics, epigenomics, proteomics, and metabolomics, to gain a comprehensive understanding of cancer biology and identify potential biomarkers and therapeutic targets. Here are some key steps and considerations for multi-omics data analysis in cancer research\n\n\n::: {.cell}\n\n```{.css .cell-code}\n.caption {\n  margin: auto;\n  text-align: center;\n}\n```\n\n\n<style type=\"text/css\">\n.caption {\n  margin: auto;\n  text-align: center;\n}\n</style>\n:::\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Workflow: Multi-Omics Data Analysis for Cancer Research](./img/multi-omics-cancer.png){fig-align='center' width=425}\n:::\n:::\n\n\n\n### RNA-Seq\n\nRNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).\n\n### Single-cell RNA\nSingle-cell RNA sequencing (scRNA-seq) is a powerful technique that enables the profiling of gene expression at the single-cell level. It provides a high-resolution view of cellular heterogeneity and allows researchers to investigate cell types, cell states, and transcriptional dynamics within complex biological systems.\n\n\n\n",
+    "supporting": [
+      "research_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

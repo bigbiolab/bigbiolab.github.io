@@ -14,14 +14,22 @@ toc: true
 
 ## Research Topics
 
+### Multi-Omics Data Analysis for Cancer Research
+Multi-omics data analysis in cancer research involves integrating and analyzing various types of omics data, such as genomics, transcriptomics, epigenomics, proteomics, and metabolomics, to gain a comprehensive understanding of cancer biology and identify potential biomarkers and therapeutic targets. Here are some key steps and considerations for multi-omics data analysis in cancer research
+
+![](./img/multi-omics-cancer.png){.hero}
+
+
 ### RNA-Seq
 
-- **The Introduction of RNA-Seq** – RNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).
+RNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).
 
-- **Advantages of RNA-Seq** – 
-  - Quantitative and precise measurements of RNA molecules at a single base-pair resolution
-  - Discovery of novel transcripts, splice variants, and gene fusions
-  - Application to any species, no matter whether reference genome is available
-  - A comparable or lower price than many other methods
+![](./img/rnaseq.png){.hero}
+
+
+### Single-cell RNA
+Single-cell RNA sequencing (scRNA-seq) is a powerful technique that enables the profiling of gene expression at the single-cell level. It provides a high-resolution view of cellular heterogeneity and allows researchers to investigate cell types, cell states, and transcriptional dynamics within complex biological systems.
+
+![](./img/scRNA.png){.hero}
 
 

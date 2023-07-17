@@ -1,0 +1,23 @@
+---
+title: "In-Silico Structural and Functional Annotation of Hypothetical Glycosyltransferase Protein"
+type: "article"
+author: "Shahnaj Akter , Sheikh Ambia, Sabiha Rafa, and Md. Jubayer Hossain"
+year: "2022"
+publication: "Structural and Functional Annotation"
+preprint: ""
+doi: ""
+materials: ""
+toc: false
+categories:
+  - Working Paper 
+---
+
+## Abstract
+Glycosyltransferases (GTs) are a diverse group of enzymes involved in the biosynthesis of glycoconjugates, which play critical roles in cellular processes and disease mechanisms. However, a significant number of GTs remain uncharacterized, including many hypothetical proteins with putative GT activity. In this study, we employed in-silico methods for the structural and functional annotation of a hypothetical glycosyltransferase protein.
+
+Using sequence homology-based approaches, we identified potential protein templates for comparative modeling. The three-dimensional structure of the hypothetical GT protein was predicted through homology modeling using Modeller software. The generated model was refined and validated using various assessment tools, including Ramachandran plots and ProSA-web analysis.
+
+Functional annotation of the hypothetical GT protein was performed by analyzing conserved domains and motifs using InterProScan, Pfam, and PROSITE databases. In addition, we used sequence alignment tools to identify functionally important residues and predict potential donor and acceptor substrate binding sites.
+
+Furthermore, molecular docking simulations were carried out to predict the potential interactions between the modeled GT protein and potential substrates. Docking studies provided insights into the putative binding modes and key residues involved in substrate recognition and catalytic activity.
+
