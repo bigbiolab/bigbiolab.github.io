@@ -12,8 +12,8 @@ website:
   navbar:
     background: primary
     left:
-      - href: news.qmd
-        text: News
+      # - href: news.qmd
+      #   text: News
       - href: research.qmd
         text: Research
       - href: publications.qmd

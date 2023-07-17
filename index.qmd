@@ -7,7 +7,7 @@ toc: false
 
 ::: {.lead}
   We are an [interdisciplinary]{.fw-bolder} research group at the [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.org/){.text-primary .text-decoration-none .fw-semibold}. The mission of OMICS Center is to advance scientific knowledge and improve human health through cutting-edge OMICS research.
-  
+
 :::
 
 ![](./img/showcase.svg){.hero}
