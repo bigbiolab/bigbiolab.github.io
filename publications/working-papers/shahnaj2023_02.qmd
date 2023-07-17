@@ -1,0 +1,17 @@
+---
+title: "Prediction of Structure and Function of Helicobacter pylori Hypothetical Protein MPG40_02440: An In-Silico Approach"
+type: "article"
+author: "Shahnaj Akter , Sheikh Ambia, Sabiha Rafa, and Md. Jubayer Hossain"
+year: "2023"
+publication: "Structural and Functional Annotation"
+preprint: ""
+doi: ""
+materials: ""
+toc: false
+categories:
+  - Working Paper 
+---
+
+## Abstract
+Hypothetical proteins (HPs) are the proteins whose occurrence has been predicted, yet in vivo function has not been manufactured up. {Helicobacter pylori (H. pylori) is a Gram-negative helical, microaerophilic bacterium, surviving in stomachs harsh acidic environment through mechanisms of acid resistance and colonization factors.} As H. pylori has been found to play a major etiological and pathogenic role in chronic gastritis, peptic ulcer disease and gastric cancer so it's important to investigate H. pylori's protein structures and functions. The current study aims to predict the structure and function of hypothetical protein MPG40_02440 from H. pylori [molybdopterin guanine dinucleotide-containing S/N-oxide reductases] 
+Some server-based Bio-informatics tools are used to get physicochemical properties, secondary structure prediction, homology modeling etc. The study shows it is a stable, soluble and intracellular protein. It belongs to bisC_fam super family. These enzymes function in general to transfer oxygen to or from a physiological molecule.
