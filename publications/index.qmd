@@ -3,8 +3,8 @@ pagetitle: "Publications | OMICS Center"
 toc: false
 listing:
   - id: articles
-    contents: "publications/*/**.qmd"
-    template: ./ejs/article.ejs
+    contents: "articles/*/**.qmd"
+    template: ../ejs/article.ejs
     categories: true
     sort:
       - "year desc"
