@@ -17,18 +17,17 @@ toc: true
 Bioinformatics BootCamp 2.0 is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.
 
 ```{=html}
-<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
 
 <a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
-
 
 
 ## R for Bioinformatics 
 R for Bioinformatics is a specialized training program that focuses on leveraging the power of the R programming language for analyzing and interpreting biological data. This program equips participants with the necessary skills to perform various bioinformatics tasks, including data manipulation, statistical analysis, visualization, and machine learning. Through hands-on exercises and real-world case studies, participants gain proficiency in utilizing R packages and tools specifically tailored for bioinformatics applications. By the end of the program, participants will be empowered to confidently employ R as a versatile tool in their bioinformatics research and analysis endeavors.
 
 ```{=html}
-<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+<a href="https://omicscenter.github.io/RforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
 
 <a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
@@ -38,7 +37,7 @@ R for Bioinformatics is a specialized training program that focuses on leveragin
 RNA-seq Data Analysis with R is an immersive training program designed to equip participants with the knowledge and skills to effectively analyze RNA sequencing data using the R programming language. This program covers key concepts and practical techniques for data preprocessing, quality control, differential gene expression analysis, pathway enrichment analysis, and visualization of RNA-seq data. Through a combination of theoretical instruction and hands-on exercises using real-world datasets, participants will learn how to utilize popular R packages and workflows to extract meaningful insights from RNA-seq experiments. By the end of the program, participants will be proficient in leveraging R for robust and reproducible analysis of RNA-seq data, enabling them to contribute to advancements in genomics and molecular biology research.
 
 ```{=html}
-<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+<a href="https://omicscenter.github.io/RNASeqwithR/" class="btn btn-primary rounded-pill me-2">Program Website</a>
 
 <a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
@@ -49,7 +48,7 @@ Single Cell RNA-seq Data Analysis with R is an in-depth training program designe
 
 
 ```{=html}
-<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+<a href="https://omicscenter.github.io/scRNASeqwithR/" class="btn btn-primary rounded-pill me-2">Program Website</a>
 
 <a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
@@ -60,7 +59,7 @@ Machine Learning for Bioinformatics is a comprehensive training program that foc
 
 
 ```{=html}
-<a href="#" class="btn btn-primary rounded-pill me-2">Program Website</a>
+<a href="https://omicscenter.github.io/MLforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
 
 <a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
 ```
