@@ -1761,28 +1761,28 @@
     "href": "teaching.html#r-for-bioinformatics",
     "title": "OMICS Center",
     "section": "R for Bioinformatics",
-    "text": "R for Bioinformatics\nR for Bioinformatics is a specialized training program that focuses on leveraging the power of the R programming language for analyzing and interpreting biological data. This program equips participants with the necessary skills to perform various bioinformatics tasks, including data manipulation, statistical analysis, visualization, and machine learning. Through hands-on exercises and real-world case studies, participants gain proficiency in utilizing R packages and tools specifically tailored for bioinformatics applications. By the end of the program, participants will be empowered to confidently employ R as a versatile tool in their bioinformatics research and analysis endeavors.\nProgram Website\n\nApply to the Program"
+    "text": "R for Bioinformatics\nSpecialized training program using R for biological data analysis. Covers data manipulation, statistics, visualization, and machine learning. Hands-on exercises and real-world case studies. Master R packages for bioinformatics tasks. Empower your bioinformatics research with R.\nProgram Website\n\nApply to the Program"
   },
   {
     "objectID": "teaching.html#rna-seq-data-analysis-with-r",
     "href": "teaching.html#rna-seq-data-analysis-with-r",
     "title": "OMICS Center",
     "section": "RNA-seq Data Analysis with R",
-    "text": "RNA-seq Data Analysis with R\nRNA-seq Data Analysis with R is an immersive training program designed to equip participants with the knowledge and skills to effectively analyze RNA sequencing data using the R programming language. This program covers key concepts and practical techniques for data preprocessing, quality control, differential gene expression analysis, pathway enrichment analysis, and visualization of RNA-seq data. Through a combination of theoretical instruction and hands-on exercises using real-world datasets, participants will learn how to utilize popular R packages and workflows to extract meaningful insights from RNA-seq experiments. By the end of the program, participants will be proficient in leveraging R for robust and reproducible analysis of RNA-seq data, enabling them to contribute to advancements in genomics and molecular biology research.\nProgram Website\n\nApply to the Program"
+    "text": "RNA-seq Data Analysis with R\nImmersive program for RNA-seq data analysis using R. Covers preprocessing, quality control, differential expression, pathway enrichment, and visualization. Hands-on exercises with real datasets. Master R packages and workflows for robust analysis. Contribute to genomics and molecular biology research.\nProgram Website\n\nApply to the Program"
   },
   {
     "objectID": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
     "href": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
     "title": "OMICS Center",
     "section": "Single Cell RNA-seq Data Analysis with R",
-    "text": "Single Cell RNA-seq Data Analysis with R\nSingle Cell RNA-seq Data Analysis with R is an in-depth training program designed to provide participants with the necessary skills to effectively analyze and interpret single-cell RNA sequencing (scRNA-seq) data using the R programming language. This program covers fundamental concepts and advanced techniques for data preprocessing, quality control, dimensionality reduction, cell clustering, differential gene expression analysis, and visualization of scRNA-seq data. Through hands-on exercises and practical examples using real scRNA-seq datasets, participants will gain proficiency in utilizing popular R packages and workflows specifically tailored for scRNA-seq analysis. By the end of the program, participants will be equipped to confidently navigate and extract meaningful insights from scRNA-seq data, enabling them to contribute to breakthroughs in the field of single-cell genomics.\nProgram Website\n\nApply to the Program"
+    "text": "Single Cell RNA-seq Data Analysis with R\nIn-depth training program for scRNA-seq data analysis using R. Covers preprocessing, quality control, dimensionality reduction, clustering, and differential expression. Hands-on exercises with real datasets. Master R packages and workflows for scRNA-seq. Gain insights for breakthroughs in single-cell genomics.\nProgram Website\n\nApply to the Program"
   },
   {
     "objectID": "teaching.html#machine-learning-for-bioinformatics",
     "href": "teaching.html#machine-learning-for-bioinformatics",
     "title": "OMICS Center",
     "section": "Machine Learning for Bioinformatics",
-    "text": "Machine Learning for Bioinformatics\nMachine Learning for Bioinformatics is a comprehensive training program that focuses on the application of machine learning techniques to analyze and interpret biological data. This program covers essential concepts and methodologies in both machine learning and bioinformatics, including feature selection, classification, regression, clustering, and deep learning. Through a combination of theoretical instruction and hands-on exercises using real-world biological datasets, participants will gain practical experience in applying machine learning algorithms to solve bioinformatics problems. By the end of the program, participants will have a solid foundation in utilizing machine learning for tasks such as genomics, proteomics, drug discovery, and precision medicine, opening up new avenues for data-driven discoveries in the field of bioinformatics.\nProgram Website\n\nApply to the Program"
+    "text": "Machine Learning for Bioinformatics\nComprehensive training program merging machine learning and bioinformatics. Covers feature selection, classification, regression, clustering, and deep learning. Hands-on exercises with real biological data. Master data-driven discoveries in genomics, proteomics, drug discovery, and precision medicine.\nProgram Website\n\nApply to the Program"
   },
   {
     "objectID": "people/staff/jubayer.html",
@@ -2000,5 +2000,47 @@
     "title": "OMICS Center",
     "section": "",
     "text": "Home\n    Publications\n  \n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#introduction-to-linux-for-bioinformatics",
+    "href": "teaching.html#introduction-to-linux-for-bioinformatics",
+    "title": "OMICS Center",
+    "section": "Introduction to Linux for Bioinformatics",
+    "text": "Introduction to Linux for Bioinformatics\nEssential course focusing on Linux for bioinformatics. Learn command-line navigation, file management, and text processing. Analyze biological data and perform sequence analysis. Gain foundational skills for bioinformatics research using Linux. No prior Linux experience required.\nProgram Website\n\nApply to the Program"
+  },
+  {
+    "objectID": "teaching.html#bioinformatics-bootcamp",
+    "href": "teaching.html#bioinformatics-bootcamp",
+    "title": "OMICS Center",
+    "section": "Bioinformatics BootCamp",
+    "text": "Bioinformatics BootCamp\nBioinformatics BootCamp is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.\nProgram Website\n\nApply to the Program"
+  },
+  {
+    "objectID": "teaching.html#python-for-bioinformatics",
+    "href": "teaching.html#python-for-bioinformatics",
+    "title": "OMICS Center",
+    "section": "Python for Bioinformatics",
+    "text": "Python for Bioinformatics\nLearn Python programming and its applications in bioinformatics. Master manipulating biological data, sequence analysis, and biopython usage. Develop custom bioinformatics solutions and automate analyses with practical projects. No prior programming experience required.\nProgram Website\n\nApply to the Program"
+  },
+  {
+    "objectID": "teaching.html#nextflow-for-bioinformatics",
+    "href": "teaching.html#nextflow-for-bioinformatics",
+    "title": "OMICS Center",
+    "section": "Nextflow for Bioinformatics",
+    "text": "Nextflow for Bioinformatics\nLearn to create, optimize, and execute bioinformatics workflows using Nextflow. Gain hands-on experience with real-world projects and process large-scale biological data efficiently. Enhance your ability to tackle complex computational challenges. Basic bioinformatics and command-line knowledge recommended."
+  },
+  {
+    "objectID": "teaching.html#whole-genome-sequence-analysis",
+    "href": "teaching.html#whole-genome-sequence-analysis",
+    "title": "OMICS Center",
+    "section": "Whole Genome Sequence Analysis",
+    "text": "Whole Genome Sequence Analysis\nAdvanced course covering variant calling, functional annotation, and structural variation detection. Hands-on exercises with real genomic data. Gain expertise for impactful contributions in genomics. Prerequisite: strong background in bioinformatics and genomics.\nProgram Website\n\nApply to the Program"
+  },
+  {
+    "objectID": "teaching.html#metagenomics-data-analysis",
+    "href": "teaching.html#metagenomics-data-analysis",
+    "title": "OMICS Center",
+    "section": "Metagenomics Data Analysis",
+    "text": "Metagenomics Data Analysis\nComprehensive course on studying microbial communities. Covers preprocessing, taxonomic profiling, functional annotation, and statistical analysis. Hands-on projects with diverse datasets. Gain insights into microbial interactions and ecological dynamics. Prerequisite: basic bioinformatics and genomics knowledge.\nProgram Website\n\nApply to the Program"
   }
 ]
