@@ -2,7 +2,7 @@
 title: "Md. Jubayer Hossain"
 sortby: "1"
 subtitle: "Lab Director"
-image: JHossain.jpg
+image: /img/research-staff/jubayer.jpg 
 started: "Fall 2020"
 toc: false
 resources: 
@@ -13,7 +13,7 @@ about:
   links:
     - icon: link
       text: Website
-      href: https://hossainlab.github.io/
+      href: https://hossainlab.owlstown.net/
     - icon: file-earmark-text
       text: vitae
       href: ./people/staff/girard_cv.pdf
@@ -44,35 +44,8 @@ about:
 
 ## Biography
 
-I am Jubayer, recent alumni with Bachelor and Master’s in Microbiology. I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.
+I am a biomedical researcher focusing on neuroepidemiology, cancer epidemiology, and cancer bioinformatics. My primary interest lies in applying machine learning algorithms to health data including electronic health records, multi-omics big data, and neurological images. I aim to optimize clinically actionable biomarkers and develop predictive models to enable early diagnosis and treatment for neurological disorders and cancer. Furthermore, I am interested in visualizing these data and models to facilitate biological interpretation and clinical applications.
 
+I am currently the Founder and Executive Director of [CHIRAL Bangladesh](https://chiralbd.org/). My leadership extends to [aiHealth Lab](https://aihealthlab.owlstown.net/) and [Big Bioinformatics Lab](https://bigbiolab.github.io/), where the focus is on advancing cancer bioinformatics and artificial intelligence for health. As an educator, I hold the position of Lead Instructor and Organizer at the Training Unit of CHIRAL. Additionally, I serve as an instructor for the Data Science for Biologists program at [cBLAST](https://www.cblast.du.ac.bd/).
 
-Recently, I have completed my internship at the Health System and Population Studies Division, [icddr,b](https://www.icddrb.org/). I did my Bachelor and Masters from the Department of Microbiology at [Jagannath University,Dhaka](https://jnu.ac.bd/dept/portal/web/microbiology). 
-
-I am also the founder of [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.netlify.app/), a non-profit organization dedicated to health research to improve lives in Bangladesh.
-
-At CHIRAL Bangladesh, I lead four programs: [Health Research ToolBox - A Step by Step Guide for Beginners](https://hrt.chiralbd.org/), [The Undergraduate Research Training Program (URTP)](https://urtp.chiralbd.org/), [Scientific Computing for Biologists](https://chiralbd.netlify.app/teaching/programs/), and the other one is [Health Data Analytics](https://chiralbd.netlify.app/teaching/programs/). In addition, I make [content](https://www.youtube.com/channel/UCbkJ5pm65Fkcs7MK4YshLsQ) on Data Analysis with Python and R.
-
-Python is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.
-
-This page highlights my teaching and research projects. Please [reach out](https://allmylinks.com/jhossain28) if you want to collaborate or have questions.
-
-
-## Experience
-
-- **CHIRAL Bangladesh** | Dhaka, Bangladesh<br />
-  Founder & Management Lead | 2020–Current<br />
-  Lead Organizer & Instructor of the CHIRAL Training | 2019–Current<br />
-  Program Lead of the Research Internship Program| 2023–Current
-
-- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
-  Teaching Assistant, Department of Microbiology | 2022–2023
-
-## Education
-
-- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
-  MS in Microbiology | 2019–2020
-
-- **Jagannath University, Dhaka** | Dhaka, Bangladesh<br />
-  BS in Microbiology | 2016–2019
-
+To further bridge data science with biomedical research, I have initiated [DataViz Gallery](https://hossainlab.github.io/dataviz-gallery/), a curated collection of compelling data visualizations using Python and R. This initiative aims to enhance the interpretability of complex biological and clinical data through effective visual storytelling. 
