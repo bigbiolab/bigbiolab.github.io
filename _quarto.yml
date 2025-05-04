@@ -49,10 +49,10 @@ website:
         aria-label: linkedin
         href: https://www.linkedin.com/company/chiral-bangladesh/
         rel: me
-  page-footer: "Copyright 2023 &copy; OMICS Center"
+  page-footer: "Copyright 2023 &copy; Big Bioifnormatics Lab (BigBio Lab)"
   google-analytics: "G-K5TXS64QLN"
-  site-url: https://omicscenter.github.io/
-  repo-url: https://github.com/omicscenter
+  site-url: https://bigbiolab.github.io/
+  repo-url: https://github.com/bigbiolab
 
 format:
   html:

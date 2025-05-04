@@ -1,1 +1,1 @@
-Sitemap: https://omicscenter.github.io/sitemap.xml
+Sitemap: https://bigbiolab.github.io/sitemap.xml

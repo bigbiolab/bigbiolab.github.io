@@ -1,5 +1,5 @@
 ---
-pagetitle: "People | OMICS Center"
+pagetitle: "People | BigBio Lab"
 toc: false
 listing:
   - id: research-staff
