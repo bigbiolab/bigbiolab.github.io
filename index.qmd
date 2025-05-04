@@ -5,6 +5,7 @@ toc: false
 ---
 
 ::: {.lead}
+<center>**Decoding Life through Data**</center>
 Big Bioinformatics Lab (BigBio Lab) is an independent bioinformatics research and training center based in Bangladesh. Our goal is to address critical health challenges through modern multi-omics data analysis and capacity building in bioinformatics.
 :::
 
