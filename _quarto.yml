@@ -8,7 +8,7 @@ execute:
     freeze: auto
 
 website:
-  title: "OMICS Center"
+  title: "BigBio Lab"
   navbar:
     background: primary
     left:

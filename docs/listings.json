@@ -1,19 +1,15 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/posts/vail2022/index.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/staff/jubayer.html"
     ]
   },
   {
-    "listing": "/publications.html",
-    "items": []
+    "listing": "/news.html",
+    "items": [
+      "/posts/vail2022/index.html"
+    ]
   },
   {
     "listing": "/publications/index.html",

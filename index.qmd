@@ -1,13 +1,12 @@
 ---
-pagetitle: "OMICS Center"
-title: "Discovering the Secrets of Life with OMICS Research"
+pagetitle: "BigBio Lab"
+title: "Decoding Life Thorugh Data"
 # page-layout: full
 toc: false
 ---
 
 ::: {.lead}
-  We are an [interdisciplinary]{.fw-bolder} research group at the [Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh)](https://chiralbd.org/){.text-primary .text-decoration-none .fw-semibold}. The mission of OMICS Center is to advance scientific knowledge and improve human health through cutting-edge OMICS research.
-
+Big Bioinformatics Lab (BigBio Lab) is an independent bioinformatics research and training center based in Bangladesh. Our goal is to address critical health challenges through modern multi-omics data analysis and capacity building in bioinformatics.
 :::
 
 ![](./img/showcase.svg){.hero}
