@@ -7,130 +7,109 @@
     "text": "Decoding Life through Data\n\nBig Bioinformatics Lab (BigBio Lab) is an independent bioinformatics research and training center based in Bangladesh. Our goal is to address critical health challenges through modern multi-omics data analysis and capacity building in bioinformatics."
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
     "title": "BigBio Lab",
     "section": "",
-    "text": "Home\n    People"
+    "text": "Home\n    Teaching"
   },
   {
-    "objectID": "people.html#research-staff",
-    "href": "people.html#research-staff",
+    "objectID": "teaching.html#bioinformatics-bootcamp",
+    "href": "teaching.html#bioinformatics-bootcamp",
     "title": "BigBio Lab",
-    "section": "Research Staff",
-    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMd. Jubayer Hossain\n\n\nLab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nMuhibullah Shahjahan\n\n\nBioinformatic Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\nMd. Wahidul Islam\n\n\nWet Lab Scientist\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Bioinformatics BootCamp",
+    "text": "Bioinformatics BootCamp\nBioinformatics BootCamp is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "people/staff/jubayer.html",
-    "href": "people/staff/jubayer.html",
-    "title": "Md. Jubayer Hossain",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Md. Jubayer Hossain"
-  },
-  {
-    "objectID": "people/staff/jubayer.html#biography",
-    "href": "people/staff/jubayer.html#biography",
-    "title": "Md. Jubayer Hossain",
-    "section": "Biography",
-    "text": "Biography\nI am Jubayer, recent alumni with Bachelor and Master’s in Microbiology. I aspire to maximize the quality of life of the human around me by working at the intersection of education, technology, and health research.\nRecently, I have completed my internship at the Health System and Population Studies Division, icddr,b. I did my Bachelor and Masters from the Department of Microbiology at Jagannath University,Dhaka.\nI am also the founder of Center for Health Innovation, Research, Action and Learning - Bangladesh (CHIRAL Bangladesh), a non-profit organization dedicated to health research to improve lives in Bangladesh.\nAt CHIRAL Bangladesh, I lead four programs: Health Research ToolBox - A Step by Step Guide for Beginners, The Undergraduate Research Training Program (URTP), Scientific Computing for Biologists, and the other one is Health Data Analytics. In addition, I make content on Data Analysis with Python and R.\nPython is my primary language for data analysis and machine learning. I also have a basic understanding of R, Julia, SPSS, QGIS, and SQL.\nThis page highlights my teaching and research projects. Please reach out if you want to collaborate or have questions."
-  },
-  {
-    "objectID": "people/staff/jubayer.html#experience",
-    "href": "people/staff/jubayer.html#experience",
-    "title": "Md. Jubayer Hossain",
-    "section": "Experience",
-    "text": "Experience\n\nCHIRAL Bangladesh | Dhaka, Bangladesh Founder & Management Lead | 2020–Current Lead Organizer & Instructor of the CHIRAL Training | 2019–Current Program Lead of the Research Internship Program| 2023–Current\nJagannath University, Dhaka | Dhaka, Bangladesh Teaching Assistant, Department of Microbiology | 2022–2023"
-  },
-  {
-    "objectID": "people/staff/jubayer.html#education",
-    "href": "people/staff/jubayer.html#education",
-    "title": "Md. Jubayer Hossain",
-    "section": "Education",
-    "text": "Education\n\nJagannath University, Dhaka | Dhaka, Bangladesh MS in Microbiology | 2019–2020\nJagannath University, Dhaka | Dhaka, Bangladesh BS in Microbiology | 2016–2019"
-  },
-  {
-    "objectID": "people/staff/muhib.html",
-    "href": "people/staff/muhib.html",
-    "title": "Muhibullah Shahjahan",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Muhibullah Shahjahan"
-  },
-  {
-    "objectID": "people/staff/muhib.html#biography",
-    "href": "people/staff/muhib.html#biography",
-    "title": "Muhibullah Shahjahan",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
+    "objectID": "teaching.html#introduction-to-linux-for-bioinformatics",
+    "href": "teaching.html#introduction-to-linux-for-bioinformatics",
     "title": "BigBio Lab",
-    "section": "",
-    "text": "Home\n    Resources"
+    "section": "Introduction to Linux for Bioinformatics",
+    "text": "Introduction to Linux for Bioinformatics\nEssential course focusing on Linux for bioinformatics. Learn command-line navigation, file management, and text processing. Analyze biological data and perform sequence analysis. Gain foundational skills for bioinformatics research using Linux. No prior Linux experience required.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#data-and-tools-for-cancer-genomics",
-    "href": "resources.html#data-and-tools-for-cancer-genomics",
+    "objectID": "teaching.html#nextflow-for-bioinformatics",
+    "href": "teaching.html#nextflow-for-bioinformatics",
     "title": "BigBio Lab",
-    "section": "Data and Tools for Cancer Genomics",
-    "text": "Data and Tools for Cancer Genomics\n\nThe Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nGEPIA2: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.\nUALCAN: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.\ncBioPortal for Cancer Genomics:: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nONCOMINE: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes."
+    "section": "Nextflow for Bioinformatics",
+    "text": "Nextflow for Bioinformatics\nLearn to create, optimize, and execute bioinformatics workflows using Nextflow. Gain hands-on experience with real-world projects and process large-scale biological data efficiently. Enhance your ability to tackle complex computational challenges. Basic bioinformatics and command-line knowledge recommended."
   },
   {
-    "objectID": "resources.html#guideline-for-bioconductor-users",
-    "href": "resources.html#guideline-for-bioconductor-users",
+    "objectID": "teaching.html#python-for-bioinformatics",
+    "href": "teaching.html#python-for-bioinformatics",
     "title": "BigBio Lab",
-    "section": "Guideline for Bioconductor Users",
-    "text": "Guideline for Bioconductor Users\nBioconductor is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more."
+    "section": "Python for Bioinformatics",
+    "text": "Python for Bioinformatics\nLearn Python programming and its applications in bioinformatics. Master manipulating biological data, sequence analysis, and biopython usage. Develop custom bioinformatics solutions and automate analyses with practical projects. No prior programming experience required.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#required-software",
-    "href": "resources.html#required-software",
+    "objectID": "teaching.html#r-for-bioinformatics",
+    "href": "teaching.html#r-for-bioinformatics",
     "title": "BigBio Lab",
-    "section": "Required software",
-    "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)"
+    "section": "R for Bioinformatics",
+    "text": "R for Bioinformatics\nSpecialized training program using R for biological data analysis. Covers data manipulation, statistics, visualization, and machine learning. Hands-on exercises and real-world case studies. Master R packages for bioinformatics tasks. Empower your bioinformatics research with R.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#prework",
-    "href": "resources.html#prework",
+    "objectID": "teaching.html#rna-seq-data-analysis-with-r",
+    "href": "teaching.html#rna-seq-data-analysis-with-r",
     "title": "BigBio Lab",
-    "section": "Prework",
-    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
+    "section": "RNA-seq Data Analysis with R",
+    "text": "RNA-seq Data Analysis with R\nImmersive program for RNA-seq data analysis using R. Covers preprocessing, quality control, differential expression, pathway enrichment, and visualization. Hands-on exercises with real datasets. Master R packages and workflows for robust analysis. Contribute to genomics and molecular biology research.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#install-bioconductor-packages",
-    "href": "resources.html#install-bioconductor-packages",
+    "objectID": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
+    "href": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
     "title": "BigBio Lab",
-    "section": "Install Bioconductor Packages",
-    "text": "Install Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
+    "section": "Single Cell RNA-seq Data Analysis with R",
+    "text": "Single Cell RNA-seq Data Analysis with R\nIn-depth training program for scRNA-seq data analysis using R. Covers preprocessing, quality control, dimensionality reduction, clustering, and differential expression. Hands-on exercises with real datasets. Master R packages and workflows for scRNA-seq. Gain insights for breakthroughs in single-cell genomics.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
-    "href": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "objectID": "teaching.html#machine-learning-for-bioinformatics",
+    "href": "teaching.html#machine-learning-for-bioinformatics",
     "title": "BigBio Lab",
-    "section": "R Packages RNASeq and Single-cell RNA-seq Analysis",
-    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
+    "section": "Machine Learning for Bioinformatics",
+    "text": "Machine Learning for Bioinformatics\nComprehensive training program merging machine learning and bioinformatics. Covers feature selection, classification, regression, clustering, and deep learning. Hands-on exercises with real biological data. Master data-driven discoveries in genomics, proteomics, drug discovery, and precision medicine.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
-    "href": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "objectID": "teaching.html#whole-genome-sequence-analysis",
+    "href": "teaching.html#whole-genome-sequence-analysis",
     "title": "BigBio Lab",
-    "section": "Blogs for R Programming, Statistics, and Data Analyis",
-    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\nSimply Statistics - https://simplystatistics.org/\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\nR for Biologists - https://www.rforbiologists.org/\nComputational Genomics with R - https://compgenomr.github.io/book/\nStat and R - https://statsandr.com/\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
+    "section": "Whole Genome Sequence Analysis",
+    "text": "Whole Genome Sequence Analysis\nAdvanced course covering variant calling, functional annotation, and structural variation detection. Hands-on exercises with real genomic data. Gain expertise for impactful contributions in genomics. Prerequisite: strong background in bioinformatics and genomics.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "resources.html#videos",
-    "href": "resources.html#videos",
+    "objectID": "teaching.html#metagenomics-data-analysis",
+    "href": "teaching.html#metagenomics-data-analysis",
     "title": "BigBio Lab",
-    "section": "Videos",
-    "text": "Videos\n\nJuly 9, 2023: I’m thrilled to announce that the highly anticipated videos from our workshop on “R for Research: Fundamentals of R - Part 1” are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don’t wait any longer; dive into the videos today and take your research to new heights! Check it out: \nApril 12, 2023: Watch this informative 2-hour workshop on how NASA Earth Observing Data can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out:"
+    "section": "Metagenomics Data Analysis",
+    "text": "Metagenomics Data Analysis\nComprehensive course on studying microbial communities. Covers preprocessing, taxonomic profiling, functional annotation, and statistical analysis. Hands-on projects with diverse datasets. Gain insights into microbial interactions and ecological dynamics. Prerequisite: basic bioinformatics and genomics knowledge.\nProgram Website\n\nApply to the Program"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
+    "objectID": "research.html",
+    "href": "research.html",
     "title": "BigBio Lab",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Research"
+  },
+  {
+    "objectID": "research.html#research-topics",
+    "href": "research.html#research-topics",
+    "title": "BigBio Lab",
+    "section": "Research Topics",
+    "text": "Research Topics\n\nMulti-Omics Data Analysis for Cancer Research\nMulti-omics data analysis in cancer research involves integrating and analyzing various types of omics data, such as genomics, transcriptomics, epigenomics, proteomics, and metabolomics, to gain a comprehensive understanding of cancer biology and identify potential biomarkers and therapeutic targets. Here are some key steps and considerations for multi-omics data analysis in cancer research\n\n\n\nRNA-Seq\nRNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).\n\n\n\nSingle-cell RNA\nSingle-cell RNA sequencing (scRNA-seq) is a powerful technique that enables the profiling of gene expression at the single-cell level. It provides a high-resolution view of cellular heterogeneity and allows researchers to investigate cell types, cell states, and transcriptional dynamics within complex biological systems."
+  },
+  {
+    "objectID": "publications/articles/zabir_etal_2025.html",
+    "href": "publications/articles/zabir_etal_2025.html",
+    "title": "Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors",
+    "section": "",
+    "text": "The chaperonin containing TCP1 subunit 5 (CCT5) is believed to function as a tumor driver. However, a systematic pan-cancer analysis of CCT5 is still lacking. Therefore, this study aimed to identify the potential role of CCT5 in different types of tumors. This study comprehensively investigated the gene expression, proteomic expression, immune infiltration, DNA methylation, genetic alterations, correlation with TMB and MSI, drug sensitivity, enrichment analysis, and prognostic significance of CCT5 in 33 different tumors based on the TIMER2.0, GEPIA2, UALCAN, SMART, cBioPortal, GSCA databases, and TCGAplot R package. The results revealed significant CCT5 overexpression in most tumors and was significantly associated with poor OS and DFS in different tumor types. Reduced promoter and N-shore methylation of CCT5, indicating its potential oncogenic and epigenetic roles. Amplification was the most common type of CCT5 alterations. Immune infiltration analysis revealed a strong correlation between CCT5 and different immune cells. CCT5 exhibited a significant correlation with TMB and MSI in KIRC and STAD. Furthermore, enrichment analysis revealed associations between CCT5 and cell cycle pathway and various cellular functions. These findings suggested that CCT5 might serve as a potential prognostic biomarker and target for immunotherapy in various cancers."
+  },
+  {
+    "objectID": "publications/articles/zabir_etal_2025.html#abstract",
+    "href": "publications/articles/zabir_etal_2025.html#abstract",
+    "title": "Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors",
+    "section": "",
+    "text": "The chaperonin containing TCP1 subunit 5 (CCT5) is believed to function as a tumor driver. However, a systematic pan-cancer analysis of CCT5 is still lacking. Therefore, this study aimed to identify the potential role of CCT5 in different types of tumors. This study comprehensively investigated the gene expression, proteomic expression, immune infiltration, DNA methylation, genetic alterations, correlation with TMB and MSI, drug sensitivity, enrichment analysis, and prognostic significance of CCT5 in 33 different tumors based on the TIMER2.0, GEPIA2, UALCAN, SMART, cBioPortal, GSCA databases, and TCGAplot R package. The results revealed significant CCT5 overexpression in most tumors and was significantly associated with poor OS and DFS in different tumor types. Reduced promoter and N-shore methylation of CCT5, indicating its potential oncogenic and epigenetic roles. Amplification was the most common type of CCT5 alterations. Immune infiltration analysis revealed a strong correlation between CCT5 and different immune cells. CCT5 exhibited a significant correlation with TMB and MSI in KIRC and STAD. Furthermore, enrichment analysis revealed associations between CCT5 and cell cycle pathway and various cellular functions. These findings suggested that CCT5 might serve as a potential prognostic biomarker and target for immunotherapy in various cancers."
   },
   {
     "objectID": "publications/articles/shahnaj2023_02.html",
@@ -147,11 +126,32 @@
     "text": "Hypothetical proteins (HPs) are the proteins whose occurrence has been predicted, yet in vivo function has not been manufactured up. {Helicobacter pylori (H. pylori) is a Gram-negative helical, microaerophilic bacterium, surviving in stomachs harsh acidic environment through mechanisms of acid resistance and colonization factors.} As H. pylori has been found to play a major etiological and pathogenic role in chronic gastritis, peptic ulcer disease and gastric cancer so it’s important to investigate H. pylori’s protein structures and functions. The current study aims to predict the structure and function of hypothetical protein MPG40_02440 from H. pylori [molybdopterin guanine dinucleotide-containing S/N-oxide reductases] Some server-based Bio-informatics tools are used to get physicochemical properties, secondary structure prediction, homology modeling etc. The study shows it is a stable, soluble and intracellular protein. It belongs to bisC_fam super family. These enzymes function in general to transfer oxygen to or from a physiological molecule."
   },
   {
-    "objectID": "posts/vail2022/index.html",
-    "href": "posts/vail2022/index.html",
-    "title": "ICMI 2022 Paper",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "BigBio Lab",
     "section": "",
-    "text": "I am very pleased to announce that a new conference paper from our team has been published in the Proceedings of the 2022 International Conference on Multimodal Interaction.\nThis paper, entitled “Toward causal understanding of therapist-client relationships: A study of language modality and social entrainment,” explores the associations between working alliance ratings and linguistic entrainment between therapist and patients with depression during brief psychotherapy.\nThis paper was authored by Vail, Girard, Bylsma, Cohn, Fournier, Swartz, and Morency and was supported in part by our “Dyadic Behavior Informatics for Psychotherapy Process and Outcome” grant from the National Science Foundation.\nClick here to access the paper"
+    "text": "Home\n    People"
+  },
+  {
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
+    "title": "BigBio Lab",
+    "section": "Research Staff",
+    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nMd. Jubayer Hossain\n\n\nLab Director\n\n\n\n\n\n\n\n\n\n\n\n\n\nMuhibullah Shahjahan\n\n\nBioinformatic Analyst\n\n\n\n\n\n\n\n\n\n\n\n\n\nMd. Wahidul Islam\n\n\nWet Lab Scientist\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/staff/muhib.html",
+    "href": "people/staff/muhib.html",
+    "title": "Muhibullah Shahjahan",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Muhibullah Shahjahan"
+  },
+  {
+    "objectID": "people/staff/muhib.html#biography",
+    "href": "people/staff/muhib.html#biography",
+    "title": "Muhibullah Shahjahan",
+    "section": "Biography",
+    "text": "Biography"
   },
   {
     "objectID": "people/ras/swift_anna.html",
@@ -406,20 +406,6 @@
     "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICMI 2022 Paper\n\n\n\n\n\n\nannouncement\n\n\npaper\n\n\n\nToward causal understanding of therapist-client relationships\n\n\n\n\n\nNov 7, 2022\n\n\nJeffrey Girard\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "docs/people/staff/wahid.html",
-    "href": "docs/people/staff/wahid.html",
-    "title": "Md. Wahidul Islam",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Md. Wahidul Islam"
-  },
-  {
-    "objectID": "docs/people/staff/wahid.html#biography",
-    "href": "docs/people/staff/wahid.html#biography",
-    "title": "Md. Wahidul Islam",
-    "section": "Biography",
-    "text": "Biography"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "BigBio Lab",
@@ -432,20 +418,6 @@
     "title": "BigBio Lab",
     "section": "Visit Us",
     "text": "Visit Us\nThe CHIRAL Bangladesh is located in Azimpur."
-  },
-  {
-    "objectID": "docs/people/staff/muhib.html",
-    "href": "docs/people/staff/muhib.html",
-    "title": "Muhibullah Shahjahan",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Muhibullah Shahjahan"
-  },
-  {
-    "objectID": "docs/people/staff/muhib.html#biography",
-    "href": "docs/people/staff/muhib.html#biography",
-    "title": "Muhibullah Shahjahan",
-    "section": "Biography",
-    "text": "Biography"
   },
   {
     "objectID": "girard/index.html",
@@ -728,6 +700,20 @@
     "text": "Education\n\nUniversity of Kansas | Lawrence, KS, USA Psychology and Molecular, Cellular, and Developmental Biology Major"
   },
   {
+    "objectID": "people/staff/jubayer.html",
+    "href": "people/staff/jubayer.html",
+    "title": "Md. Jubayer Hossain",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Md. Jubayer Hossain"
+  },
+  {
+    "objectID": "people/staff/jubayer.html#biography",
+    "href": "people/staff/jubayer.html#biography",
+    "title": "Md. Jubayer Hossain",
+    "section": "Biography",
+    "text": "Biography\nI am a biomedical researcher focusing on neuroepidemiology, cancer epidemiology, and cancer bioinformatics. My primary interest lies in applying machine learning algorithms to health data including electronic health records, multi-omics big data, and neurological images. I aim to optimize clinically actionable biomarkers and develop predictive models to enable early diagnosis and treatment for neurological disorders and cancer. Furthermore, I am interested in visualizing these data and models to facilitate biological interpretation and clinical applications.\nI am currently the Founder and Executive Director of CHIRAL Bangladesh. My leadership extends to aiHealth Lab and Big Bioinformatics Lab, where the focus is on advancing cancer bioinformatics and artificial intelligence for health. As an educator, I hold the position of Lead Instructor and Organizer at the Training Unit of CHIRAL. Additionally, I serve as an instructor for the Data Science for Biologists program at cBLAST.\nTo further bridge data science with biomedical research, I have initiated DataViz Gallery, a curated collection of compelling data visualizations using Python and R. This initiative aims to enhance the interpretability of complex biological and clinical data through effective visual storytelling."
+  },
+  {
     "objectID": "people/staff/wahid.html",
     "href": "people/staff/wahid.html",
     "title": "Md. Wahidul Islam",
@@ -742,18 +728,11 @@
     "text": "Biography"
   },
   {
-    "objectID": "publications/articles/shahnaj2023_01.html",
-    "href": "publications/articles/shahnaj2023_01.html",
-    "title": "In-Silico Structural and Functional Annotation of Hypothetical Glycosyltransferase Protein",
+    "objectID": "posts/vail2022/index.html",
+    "href": "posts/vail2022/index.html",
+    "title": "ICMI 2022 Paper",
     "section": "",
-    "text": "Glycosyltransferases (GTs) are a diverse group of enzymes involved in the biosynthesis of glycoconjugates, which play critical roles in cellular processes and disease mechanisms. However, a significant number of GTs remain uncharacterized, including many hypothetical proteins with putative GT activity. In this study, we employed in-silico methods for the structural and functional annotation of a hypothetical glycosyltransferase protein.\nUsing sequence homology-based approaches, we identified potential protein templates for comparative modeling. The three-dimensional structure of the hypothetical GT protein was predicted through homology modeling using Modeller software. The generated model was refined and validated using various assessment tools, including Ramachandran plots and ProSA-web analysis.\nFunctional annotation of the hypothetical GT protein was performed by analyzing conserved domains and motifs using InterProScan, Pfam, and PROSITE databases. In addition, we used sequence alignment tools to identify functionally important residues and predict potential donor and acceptor substrate binding sites.\nFurthermore, molecular docking simulations were carried out to predict the potential interactions between the modeled GT protein and potential substrates. Docking studies provided insights into the putative binding modes and key residues involved in substrate recognition and catalytic activity."
-  },
-  {
-    "objectID": "publications/articles/shahnaj2023_01.html#abstract",
-    "href": "publications/articles/shahnaj2023_01.html#abstract",
-    "title": "In-Silico Structural and Functional Annotation of Hypothetical Glycosyltransferase Protein",
-    "section": "",
-    "text": "Glycosyltransferases (GTs) are a diverse group of enzymes involved in the biosynthesis of glycoconjugates, which play critical roles in cellular processes and disease mechanisms. However, a significant number of GTs remain uncharacterized, including many hypothetical proteins with putative GT activity. In this study, we employed in-silico methods for the structural and functional annotation of a hypothetical glycosyltransferase protein.\nUsing sequence homology-based approaches, we identified potential protein templates for comparative modeling. The three-dimensional structure of the hypothetical GT protein was predicted through homology modeling using Modeller software. The generated model was refined and validated using various assessment tools, including Ramachandran plots and ProSA-web analysis.\nFunctional annotation of the hypothetical GT protein was performed by analyzing conserved domains and motifs using InterProScan, Pfam, and PROSITE databases. In addition, we used sequence alignment tools to identify functionally important residues and predict potential donor and acceptor substrate binding sites.\nFurthermore, molecular docking simulations were carried out to predict the potential interactions between the modeled GT protein and potential substrates. Docking studies provided insights into the putative binding modes and key residues involved in substrate recognition and catalytic activity."
+    "text": "I am very pleased to announce that a new conference paper from our team has been published in the Proceedings of the 2022 International Conference on Multimodal Interaction.\nThis paper, entitled “Toward causal understanding of therapist-client relationships: A study of language modality and social entrainment,” explores the associations between working alliance ratings and linguistic entrainment between therapist and patients with depression during brief psychotherapy.\nThis paper was authored by Vail, Girard, Bylsma, Cohn, Fournier, Swartz, and Morency and was supported in part by our “Dyadic Behavior Informatics for Psychotherapy Process and Outcome” grant from the National Science Foundation.\nClick here to access the paper"
   },
   {
     "objectID": "publications/articles/shahnaj2023_03.html",
@@ -770,94 +749,73 @@
     "text": "In bacterial genomes, there are open reading frames (ORFs) that encode protein sequences without known functions or homologies to other proteins. These ORFs are often annotated as hypothetical proteins or conserved hypothetical proteins. These designations indicate that their functions are not yet understood or that their predicted functions are based on computational analysis rather than experimental evidence. Helicobacter pylori has been shown to induce chronic active gastritis and peptic ulcer and may contribute to the development of duodenal ulcer. Helicobacter pylori (H. pylori) is a Gram-negative bacterium that colonizes the human stomach. This bacterium is associated with various gastrointestinal disorders, including gastritis, peptic ulcers, gastric adenocarcinoma (stomach cancer), and gastric mucosa-associated lymphoid tissue (MALT) lymphoma. This study aims to investigate the structural and functional annotation of hypothetical protein MPF87_06725, which is basically a CagE domain containing protein encode a type IV transporter secretion system essential for pathogenesis in H. pylori induced gastritis and peptic ulceration. The in-silico approach included methods including physiochemical properties, secondary structure prediction, homology modeling, quality assessment of the 3D structure, protein-protein interaction, functional annotation and comparative genomics."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
+    "objectID": "publications.html",
+    "href": "publications.html",
     "title": "BigBio Lab",
     "section": "",
-    "text": "Home\n    Research"
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors\n    Md. Zabir Ahmed, Md Mohtasim Billah, Jannatul Ferdous, Shoriful Islam Antar, Abdullah Al Mamun & Md. Jubayer Hossain\n    Cancer Bioinformatics\n    (2025)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n  \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research.html#research-topics",
-    "href": "research.html#research-topics",
-    "title": "BigBio Lab",
-    "section": "Research Topics",
-    "text": "Research Topics\n\nMulti-Omics Data Analysis for Cancer Research\nMulti-omics data analysis in cancer research involves integrating and analyzing various types of omics data, such as genomics, transcriptomics, epigenomics, proteomics, and metabolomics, to gain a comprehensive understanding of cancer biology and identify potential biomarkers and therapeutic targets. Here are some key steps and considerations for multi-omics data analysis in cancer research\n\n\n\nRNA-Seq\nRNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).\n\n\n\nSingle-cell RNA\nSingle-cell RNA sequencing (scRNA-seq) is a powerful technique that enables the profiling of gene expression at the single-cell level. It provides a high-resolution view of cellular heterogeneity and allows researchers to investigate cell types, cell states, and transcriptional dynamics within complex biological systems."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
+    "objectID": "resources.html",
+    "href": "resources.html",
     "title": "BigBio Lab",
     "section": "",
-    "text": "Home\n    Teaching"
+    "text": "Home\n    Resources"
   },
   {
-    "objectID": "teaching.html#bioinformatics-bootcamp",
-    "href": "teaching.html#bioinformatics-bootcamp",
+    "objectID": "resources.html#data-and-tools-for-cancer-genomics",
+    "href": "resources.html#data-and-tools-for-cancer-genomics",
     "title": "BigBio Lab",
-    "section": "Bioinformatics BootCamp",
-    "text": "Bioinformatics BootCamp\nBioinformatics BootCamp is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.\nProgram Website\n\nApply to the Program"
+    "section": "Data and Tools for Cancer Genomics",
+    "text": "Data and Tools for Cancer Genomics\n\nThe Cancer Genome Atlas (TCGA): TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.\nInternational Cancer Genome Consortium (ICGC): Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.\nGene Expression Omnibus (GEO): GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.\nEuropean Genome-phenome Archive (EGA): Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.\nNational Cancer Institute (NCI) Genomic Data Commons (GDC): Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.\nOncoLnc: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.\nUCSC Cancer Genomics Browser: The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.\nGREIN : GEO RNA-seq Experiments Interactive Navigator: GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).\nGEPIA2: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.\nUALCAN: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.\ncBioPortal for Cancer Genomics:: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.\nONCOMINE: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes."
   },
   {
-    "objectID": "teaching.html#introduction-to-linux-for-bioinformatics",
-    "href": "teaching.html#introduction-to-linux-for-bioinformatics",
+    "objectID": "resources.html#guideline-for-bioconductor-users",
+    "href": "resources.html#guideline-for-bioconductor-users",
     "title": "BigBio Lab",
-    "section": "Introduction to Linux for Bioinformatics",
-    "text": "Introduction to Linux for Bioinformatics\nEssential course focusing on Linux for bioinformatics. Learn command-line navigation, file management, and text processing. Analyze biological data and perform sequence analysis. Gain foundational skills for bioinformatics research using Linux. No prior Linux experience required.\nProgram Website\n\nApply to the Program"
+    "section": "Guideline for Bioconductor Users",
+    "text": "Guideline for Bioconductor Users\nBioconductor is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more."
   },
   {
-    "objectID": "teaching.html#nextflow-for-bioinformatics",
-    "href": "teaching.html#nextflow-for-bioinformatics",
+    "objectID": "resources.html#required-software",
+    "href": "resources.html#required-software",
     "title": "BigBio Lab",
-    "section": "Nextflow for Bioinformatics",
-    "text": "Nextflow for Bioinformatics\nLearn to create, optimize, and execute bioinformatics workflows using Nextflow. Gain hands-on experience with real-world projects and process large-scale biological data efficiently. Enhance your ability to tackle complex computational challenges. Basic bioinformatics and command-line knowledge recommended."
+    "section": "Required software",
+    "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)"
   },
   {
-    "objectID": "teaching.html#python-for-bioinformatics",
-    "href": "teaching.html#python-for-bioinformatics",
+    "objectID": "resources.html#prework",
+    "href": "resources.html#prework",
     "title": "BigBio Lab",
-    "section": "Python for Bioinformatics",
-    "text": "Python for Bioinformatics\nLearn Python programming and its applications in bioinformatics. Master manipulating biological data, sequence analysis, and biopython usage. Develop custom bioinformatics solutions and automate analyses with practical projects. No prior programming experience required.\nProgram Website\n\nApply to the Program"
+    "section": "Prework",
+    "text": "Prework\nBefore attending the any workshop please have the following installed and configured on your machine. - Recent version of R - Recent version of RStudio - Most recent release of the Bioconductor and other packages used in courses\nInstall the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install(version = \"3.16\")\n\n\nEnsure you can knit R markdown documents\n\nOpen RStudio and create a new Rmarkdown document\nSave the document and check you are able to knit it."
   },
   {
-    "objectID": "teaching.html#r-for-bioinformatics",
-    "href": "teaching.html#r-for-bioinformatics",
+    "objectID": "resources.html#install-bioconductor-packages",
+    "href": "resources.html#install-bioconductor-packages",
     "title": "BigBio Lab",
-    "section": "R for Bioinformatics",
-    "text": "R for Bioinformatics\nSpecialized training program using R for biological data analysis. Covers data manipulation, statistics, visualization, and machine learning. Hands-on exercises and real-world case studies. Master R packages for bioinformatics tasks. Empower your bioinformatics research with R.\nProgram Website\n\nApply to the Program"
+    "section": "Install Bioconductor Packages",
+    "text": "Install Bioconductor Packages\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\nBiocManager::install()\n\nInstall specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with\n\nBiocManager::install(c(\"GenomicFeatures\", \"AnnotationDbi\"))\n\nThe install() function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help."
   },
   {
-    "objectID": "teaching.html#rna-seq-data-analysis-with-r",
-    "href": "teaching.html#rna-seq-data-analysis-with-r",
+    "objectID": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
+    "href": "resources.html#r-packages-rnaseq-and-single-cell-rna-seq-analysis",
     "title": "BigBio Lab",
-    "section": "RNA-seq Data Analysis with R",
-    "text": "RNA-seq Data Analysis with R\nImmersive program for RNA-seq data analysis using R. Covers preprocessing, quality control, differential expression, pathway enrichment, and visualization. Hands-on exercises with real datasets. Master R packages and workflows for robust analysis. Contribute to genomics and molecular biology research.\nProgram Website\n\nApply to the Program"
+    "section": "R Packages RNASeq and Single-cell RNA-seq Analysis",
+    "text": "R Packages RNASeq and Single-cell RNA-seq Analysis\n\nDESeq2: DESeq2 is a widely used package for differential gene expression analysis in RNA-seq data.\nedgeR: edgeR is another popular package for differential gene expression analysis in RNA-seq data.\nlimma: limma is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.\nBallgown: Ballgown is a package for differential expression analysis and visualization of transcriptome assembly data.\nDEXSeq: DEXSeq is specifically designed for the detection of differential exon usage in RNA-seq data.\nNOISeq: NOISeq is a package for non-parametric analysis of differential expression in RNA-seq data.\nclusterProfiler: clusterProfiler is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.\nGenomicFeatures: GenomicFeatures provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.\nSeurat: Seurat is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity."
   },
   {
-    "objectID": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
-    "href": "teaching.html#single-cell-rna-seq-data-analysis-with-r",
+    "objectID": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
+    "href": "resources.html#blogs-for-r-programming-statistics-and-data-analyis",
     "title": "BigBio Lab",
-    "section": "Single Cell RNA-seq Data Analysis with R",
-    "text": "Single Cell RNA-seq Data Analysis with R\nIn-depth training program for scRNA-seq data analysis using R. Covers preprocessing, quality control, dimensionality reduction, clustering, and differential expression. Hands-on exercises with real datasets. Master R packages and workflows for scRNA-seq. Gain insights for breakthroughs in single-cell genomics.\nProgram Website\n\nApply to the Program"
+    "section": "Blogs for R Programming, Statistics, and Data Analyis",
+    "text": "Blogs for R Programming, Statistics, and Data Analyis\n\nProgramiz - https://www.datamentor.io/r-programming/\nPennState STAT 484 - https://online.stat.psu.edu/stat484/\nPennState Topics in R Statistical Language - https://online.stat.psu.edu/stat484/\nSimply Statistics - https://simplystatistics.org/\nTutorialPoint - https://www.tutorialspoint.com/r/index.htm\nR for Biologists - https://www.rforbiologists.org/\nComputational Genomics with R - https://compgenomr.github.io/book/\nStat and R - https://statsandr.com/\nRafa Lab - https://rafalab.github.io/pages/harvardx.html\nUniversity of Florida - https://bolt.mph.ufl.edu/software/r-phc-6055/"
   },
   {
-    "objectID": "teaching.html#machine-learning-for-bioinformatics",
-    "href": "teaching.html#machine-learning-for-bioinformatics",
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
     "title": "BigBio Lab",
-    "section": "Machine Learning for Bioinformatics",
-    "text": "Machine Learning for Bioinformatics\nComprehensive training program merging machine learning and bioinformatics. Covers feature selection, classification, regression, clustering, and deep learning. Hands-on exercises with real biological data. Master data-driven discoveries in genomics, proteomics, drug discovery, and precision medicine.\nProgram Website\n\nApply to the Program"
-  },
-  {
-    "objectID": "teaching.html#whole-genome-sequence-analysis",
-    "href": "teaching.html#whole-genome-sequence-analysis",
-    "title": "BigBio Lab",
-    "section": "Whole Genome Sequence Analysis",
-    "text": "Whole Genome Sequence Analysis\nAdvanced course covering variant calling, functional annotation, and structural variation detection. Hands-on exercises with real genomic data. Gain expertise for impactful contributions in genomics. Prerequisite: strong background in bioinformatics and genomics.\nProgram Website\n\nApply to the Program"
-  },
-  {
-    "objectID": "teaching.html#metagenomics-data-analysis",
-    "href": "teaching.html#metagenomics-data-analysis",
-    "title": "BigBio Lab",
-    "section": "Metagenomics Data Analysis",
-    "text": "Metagenomics Data Analysis\nComprehensive course on studying microbial communities. Covers preprocessing, taxonomic profiling, functional annotation, and statistical analysis. Hands-on projects with diverse datasets. Gain insights into microbial interactions and ecological dynamics. Prerequisite: basic bioinformatics and genomics knowledge.\nProgram Website\n\nApply to the Program"
+    "section": "Videos",
+    "text": "Videos\n\nJuly 9, 2023: I’m thrilled to announce that the highly anticipated videos from our workshop on “R for Research: Fundamentals of R - Part 1” are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don’t wait any longer; dive into the videos today and take your research to new heights! Check it out: \nApril 12, 2023: Watch this informative 2-hour workshop on how NASA Earth Observing Data can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out:"
   }
 ]

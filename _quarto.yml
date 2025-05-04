@@ -28,7 +28,7 @@ website:
       #   text: News
       - href: research.qmd
         text: Research
-      - href: publications/index.qmd
+      - href: publications.qmd
         text: Publications
       - href: teaching.qmd
         text: Teaching

@@ -2,35 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bigbiolab.github.io/index.html</loc>
-    <lastmod>2025-05-04T06:37:36.074Z</lastmod>
+    <lastmod>2025-05-04T08:39:29.406Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/people.html</loc>
-    <lastmod>2025-05-04T05:37:32.755Z</lastmod>
+    <loc>https://bigbiolab.github.io/teaching.html</loc>
+    <lastmod>2025-05-04T05:56:52.781Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/people/staff/jubayer.html</loc>
-    <lastmod>2025-05-04T05:47:15.485Z</lastmod>
+    <loc>https://bigbiolab.github.io/research.html</loc>
+    <lastmod>2025-05-04T05:56:13.039Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/people/staff/muhib.html</loc>
-    <lastmod>2025-05-04T05:53:25.555Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bigbiolab.github.io/resources.html</loc>
-    <lastmod>2025-05-04T05:56:39.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bigbiolab.github.io/publications/index.html</loc>
-    <lastmod>2025-05-04T05:56:46.289Z</lastmod>
+    <loc>https://bigbiolab.github.io/publications/articles/zabir_etal_2025.html</loc>
+    <lastmod>2025-05-04T08:10:27.746Z</lastmod>
   </url>
   <url>
     <loc>https://bigbiolab.github.io/publications/articles/shahnaj2023_02.html</loc>
     <lastmod>2025-04-24T17:29:32.425Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/posts/vail2022/index.html</loc>
-    <lastmod>2025-04-24T17:29:32.424Z</lastmod>
+    <loc>https://bigbiolab.github.io/people.html</loc>
+    <lastmod>2025-05-04T05:37:32.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bigbiolab.github.io/people/staff/muhib.html</loc>
+    <lastmod>2025-05-04T05:53:25.555Z</lastmod>
   </url>
   <url>
     <loc>https://bigbiolab.github.io/people/ras/swift_anna.html</loc>
@@ -77,16 +73,8 @@
     <lastmod>2025-05-04T05:57:21.134Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/docs/people/staff/wahid.html</loc>
-    <lastmod>2025-05-04T05:53:37.599Z</lastmod>
-  </url>
-  <url>
     <loc>https://bigbiolab.github.io/contact.html</loc>
     <lastmod>2025-05-04T05:57:10.860Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bigbiolab.github.io/docs/people/staff/muhib.html</loc>
-    <lastmod>2025-05-04T05:53:25.555Z</lastmod>
   </url>
   <url>
     <loc>https://bigbiolab.github.io/girard/index.html</loc>
@@ -133,23 +121,27 @@
     <lastmod>2025-04-24T17:29:32.386Z</lastmod>
   </url>
   <url>
+    <loc>https://bigbiolab.github.io/people/staff/jubayer.html</loc>
+    <lastmod>2025-05-04T05:47:15.485Z</lastmod>
+  </url>
+  <url>
     <loc>https://bigbiolab.github.io/people/staff/wahid.html</loc>
     <lastmod>2025-05-04T05:53:37.599Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/publications/articles/shahnaj2023_01.html</loc>
-    <lastmod>2025-04-24T17:29:32.425Z</lastmod>
+    <loc>https://bigbiolab.github.io/posts/vail2022/index.html</loc>
+    <lastmod>2025-04-24T17:29:32.424Z</lastmod>
   </url>
   <url>
     <loc>https://bigbiolab.github.io/publications/articles/shahnaj2023_03.html</loc>
     <lastmod>2025-04-24T17:29:32.425Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/research.html</loc>
-    <lastmod>2025-05-04T05:56:13.039Z</lastmod>
+    <loc>https://bigbiolab.github.io/publications.html</loc>
+    <lastmod>2025-05-04T08:39:28.026Z</lastmod>
   </url>
   <url>
-    <loc>https://bigbiolab.github.io/teaching.html</loc>
-    <lastmod>2025-05-04T05:56:52.781Z</lastmod>
+    <loc>https://bigbiolab.github.io/resources.html</loc>
+    <lastmod>2025-05-04T05:56:39.689Z</lastmod>
   </url>
 </urlset>
