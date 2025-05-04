@@ -10,6 +10,7 @@ execute:
 website:
   title: "BigBio Lab"
   navbar:
+    pinned: true
     background: primary
     left:
       # - href: news.qmd

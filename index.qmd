@@ -1,6 +1,5 @@
 ---
 pagetitle: "BigBio Lab"
-title: "Decoding Life Thorugh Data"
 # page-layout: full
 toc: false
 ---
