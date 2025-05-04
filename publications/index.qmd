@@ -1,5 +1,5 @@
 ---
-pagetitle: "Publications | OMICS Center"
+pagetitle: "Publications | BigBio Lab"
 toc: false
 listing:
   - id: articles

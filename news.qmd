@@ -1,5 +1,5 @@
 ---
-pagetitle: "News | OMICS Center"
+pagetitle: "News | BigBio Lab"
 toc: false
 listing:
   contents: "posts/**/index.qmd"

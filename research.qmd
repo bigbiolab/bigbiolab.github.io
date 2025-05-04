@@ -1,5 +1,5 @@
 ---
-pagetitle: "Research | OMICS Center"
+pagetitle: "Research | BigBio Lab"
 toc: true
 ---
 

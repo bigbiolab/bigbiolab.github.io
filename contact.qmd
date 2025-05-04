@@ -1,5 +1,5 @@
 ---
-pagetitle: "Contact | OMICS Center"
+pagetitle: "Contact | BigBio Lab"
 toc: false
 email-obfuscation: javascript
 ---

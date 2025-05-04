@@ -1,5 +1,5 @@
 ---
-pagetitle: "Teaching | OMICS Center"
+pagetitle: "Teaching | BigBio Lab"
 toc: true
 ---
 
