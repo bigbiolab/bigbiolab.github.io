@@ -10,6 +10,16 @@ execute:
 website:
   title: "BigBio Lab"
   favicon: img/showcase.svg
+  open-graph: true
+  twitter-card:
+    creator: "@hossainlab"
+    image: "img/showcase.svg"
+  # announcement:
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - announcement!"
+  #   type: primary
+  #   position: below-navbar
   navbar:
     pinned: true
     background: primary
