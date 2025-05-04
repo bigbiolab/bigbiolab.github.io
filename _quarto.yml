@@ -37,7 +37,7 @@ website:
       - href: people.qmd
         text: People
       - href: opportunities.qmd
-        text: Opportunities
+        text: Join
       - href: contact.qmd
         text: Contact
     right:
