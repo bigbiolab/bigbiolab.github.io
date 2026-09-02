@@ -1,0 +1,25 @@
+[
+  {
+    "listing": "/training/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/posts/cct5-pan-cancer-2025/index.html",
+      "/posts/junior-researcher-intake/index.html"
+    ]
+  },
+  {
+    "listing": "/collaborators/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": []
+  }
+]
