@@ -1566,3 +1566,49 @@ button:focus-visible,
 // The highlighted paper on the home page is followed by a link to the full
 // list; give the pair its own separation rather than styling the row inline.
 .c-pub + .c-btn-row { margin-top: 1.75rem; }
+
+// ---------------------------------------------------------------------------
+// Pipeline cards
+// ---------------------------------------------------------------------------
+// A pipeline is defined by what goes in and what comes out, so those two facts
+// get their own compact row rather than being buried in the description.
+
+.c-io {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.3rem 0.7rem;
+  margin: 0 0 1rem;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.c-io dt {
+  @include eyebrow;
+  font-size: 0.62rem;
+  color: var(--c-green);
+  padding-top: 0.15rem;
+}
+
+.c-io dd {
+  margin: 0;
+  color: var(--c-slate);
+}
+
+// The tools a pipeline is built from. Sits above the card's link row, which
+// `margin-top: auto` on .c-card-link pins to the bottom of the card.
+.c-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 1.1rem;
+}
+
+// A card can carry more than one destination - GitHub, Colab, docs.
+.c-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  margin-top: auto;
+}
+
+.c-card-links .c-card-link { margin-top: 0; }

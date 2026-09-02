@@ -72,6 +72,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/logo/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,9 +85,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-c7e68cbf4fd09285039b7e9a23f813c3.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-65cfacf371247d5e18e23cf619bb69c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-9c7cbacbe7536ae4c620a1e04727e719.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-65cfacf371247d5e18e23cf619bb69c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f248a8e1eb847baee2ee021224300950.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-da41eaeebea0a05d236ef9858c87d6ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f248a8e1eb847baee2ee021224300950.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,6 +115,63 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-videos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-course','listing-description','listing-playlist','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-course","listing-description","listing-playlist","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-videos'] = new List('listing-videos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pipelines .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-category','listing-tools','listing-input','listing-output','listing-links',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-category","listing-tools","listing-input","listing-output","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pipelines'] = new List('listing-pipelines', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K5TXS64QLN"></script>
 
 <script type="text/javascript">
@@ -123,6 +182,35 @@ gtag('js', new Date());
 gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Learning resources | CHIRAL Bangladesh">
 <meta property="og:description" content="Databases, tools and set-up guides we teach against and use in our own analyses.">
@@ -469,6 +557,296 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
     </p>
   </div>
 </header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Video lectures</span>
+      <h2 class="c-h2">Recorded course playlists</h2>
+      <p class="c-lede">
+        Full course recordings on YouTube, free to work through at your own pace.
+      </p>
+    </div>
+<div id="listing-videos" class="quarto-listing quarto-listing-container-custom">
+<div class="list c-grid-3">
+
+  <article class="c-card" data-index="0" data-categories="U3RhdGlzdGljcyUyQ1I=">
+    
+      <span class="c-card-meta">Statistics · R</span>
+    
+    <h3 class="listing-title">R for Research</h3>
+    <p>Video lectures covering R programming fundamentals, data manipulation, statistical testing, and visualization for researchers.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUa05wsFn5OWHEapIiSEYp7T" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="1" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQmlvaW5mb3JtYXRpY3M=">
+    
+      <span class="c-card-meta">Machine Learning · Bioinformatics</span>
+    
+    <h3 class="listing-title">Machine Learning for Bioinformatics</h3>
+    <p>Hands-on video tutorials applying machine learning techniques to biological and genomic datasets.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUaCZuWpLiM5bV5--gjuY5ZI" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="2" data-categories="R2Vub21pY3MlMkNS">
+    
+      <span class="c-card-meta">Genomics · R</span>
+    
+    <h3 class="listing-title">RNA-Seq Analysis with R</h3>
+    <p>Step-by-step video tutorials on bulk RNA-seq analysis using R and Bioconductor, from raw counts to biological interpretation.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUZUHltq6DJ5KGrncv0gn_Zj" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="3" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDRHJ1ZyUyMERpc2NvdmVyeQ==">
+    
+      <span class="c-card-meta">Machine Learning · Drug Discovery</span>
+    
+    <h3 class="listing-title">AI for Drug Discovery</h3>
+    <p>Video series introducing AI-powered approaches to drug discovery, including toxicology modeling and structure-activity analysis.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUYu0_nHZ4m9JcSHtLbJ_HUM" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="4" data-categories="Q2FuY2VyJTIwR2Vub21pY3MlMkNCaW9pbmZvcm1hdGljcw==">
+    
+      <span class="c-card-meta">Cancer Genomics · Bioinformatics</span>
+    
+    <h3 class="listing-title">Cancer Bioinformatics</h3>
+    <p>Video tutorials on cancer genomics analysis, covering TCGA data access, mutation analysis, survival modeling, and multi-omics integration.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUazUbCqCGNrsziV2heHcR2V" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="5" data-categories="QWNhZGVtaWMlMjBXcml0aW5n">
+    
+      <span class="c-card-meta">Academic Writing</span>
+    
+    <h3 class="listing-title">Academic Writing</h3>
+    <p>Video lectures on scientific writing, manuscript preparation, and publishing in peer-reviewed journals.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUba95QvQBoaKEALyRO-VBoS" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="6" data-categories="UHl0aG9uJTJDRGF0YSUyMFNjaWVuY2U=">
+    
+      <span class="c-card-meta">Python · Data Science</span>
+    
+    <h3 class="listing-title">Python for Health Data Analytics</h3>
+    <p>Video tutorials on using Python for health data analysis, covering data wrangling, visualization, and statistical methods for public health and clinical datasets.</p>
+    
+      <a class="c-card-link" href="https://www.youtube.com/playlist?list=PLQtDkvtE4BUYqRQa6Lev4NFg5MJ4fuKsw" target="_blank" rel="noopener noreferrer">Watch the playlist →</a>
+    
+  </article>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Pipelines</span>
+      <h2 class="c-h2">Reusable analysis workflows</h2>
+      <p class="c-lede">
+        Working pipelines from our own projects, with the inputs they expect and
+        the outputs they produce stated up front.
+      </p>
+    </div>
+<div id="listing-pipelines" class="quarto-listing quarto-listing-container-custom">
+<div class="list c-grid-quad">
+
+  <article class="c-card" data-index="0">
+    <span class="c-card-meta">RNA-Seq</span>
+    <h3 class="listing-title">End-to-end bulk RNA-seq Quantification Pipeline using Salmon</h3>
+    <p>A complete pipeline for pseudo-alignment and quantification of bulk RNA-seq data using Salmon — from raw sequencing reads to transcript-level abundance estimates ready for downstream differential expression analysis.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Raw FASTQ files, reference transcriptome</dd>
+        <dt>Out</dt><dd>Transcript/gene-level count matrix, quantification summary</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">Salmon</span><span class="c-tag">tximeta</span><span class="c-tag">DESeq2</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://github.com/hossainlab/salmon-rnaseq" target="_blank" rel="noopener noreferrer">GitHub →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="1">
+    <span class="c-card-meta">RNA-Seq</span>
+    <h3 class="listing-title">nf-core/rnaseqmeta: A Nextflow Pipeline for Meta-Analysis of RNA-seq Datasets</h3>
+    <p>A Nextflow-based pipeline for reproducible meta-analysis of multiple RNA-seq datasets — automating sample retrieval, quality control, quantification, batch correction, and integrated differential expression analysis across studies.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Multiple RNA-seq datasets (FASTQ or SRA accessions), sample sheets</dd>
+        <dt>Out</dt><dd>Integrated count matrix, cross-study DE results, batch-corrected expression profiles</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Nextflow</span><span class="c-tag">nf-core</span><span class="c-tag">Salmon</span><span class="c-tag">DESeq2</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://github.com/hossainlab/nf-core-rnaseqmeta" target="_blank" rel="noopener noreferrer">GitHub →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="2">
+    <span class="c-card-meta">Single-Cell</span>
+    <h3 class="listing-title">Fast and efficient preprocessing of scRNA-seq with kallisto | bustools | kb-python</h3>
+    <p>End-to-end pipeline for scRNA-seq preprocessing using kallisto, bustools, and kb-python — from raw FASTQ files to filtered count matrices ready for downstream analysis with scanpy.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Raw FASTQ files (10x Chromium or similar)</dd>
+        <dt>Out</dt><dd>Filtered cell × gene count matrix, QC metrics</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">kallisto</span><span class="c-tag">bustools</span><span class="c-tag">kb-python</span><span class="c-tag">scanpy</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/1i9WxmUjSq3mNoPostbJLSu6eeNi8vqgE?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="3">
+    <span class="c-card-meta">Single-Cell</span>
+    <h3 class="listing-title">A Practical Guide for Single-Cell Data Analysis with scverse Ecosystem</h3>
+    <p>Comprehensive walkthrough of the scverse single-cell analysis workflow — covering quality control, normalization, dimensionality reduction, clustering, marker gene identification, and cell type annotation using scanpy and related tools.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Count matrix (AnnData .h5ad or 10x format)</dd>
+        <dt>Out</dt><dd>Annotated cell clusters, UMAP embeddings, marker genes, cell type labels</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">scanpy</span><span class="c-tag">scvi-tools</span><span class="c-tag">AnnData</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/1MyBbAQvTKGLFOpPAP-w3hedyXs-l0Vff?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="4">
+    <span class="c-card-meta">Protein Structure Prediction</span>
+    <h3 class="listing-title">Predicting Protein Structures with ColabFold and AlphaFold2 in Google Colab</h3>
+    <p>Predict 3D protein structures from amino acid sequences using ColabFold's accelerated AlphaFold2 pipeline — with MSA generation via MMseqs2 and interactive structure visualization directly in the browser.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Amino acid sequence (FASTA format)</dd>
+        <dt>Out</dt><dd>Predicted 3D structures (PDB), confidence scores (pLDDT), PAE plots</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">ColabFold</span><span class="c-tag">AlphaFold2</span><span class="c-tag">MMseqs2</span><span class="c-tag">py3Dmol</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/1PQS5EWpGP5aWJ4KtrGlKetCidA44RySx?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="5">
+    <span class="c-card-meta">Protein Structure Prediction</span>
+    <h3 class="listing-title">Boltz2-Notebook: Diffusion-Based Protein–Ligand Structure Prediction &amp; Affinity Analysis</h3>
+    <p>Predict protein–ligand complex structures and binding affinities using the Boltz2 diffusion model — enabling rapid in silico docking and interaction analysis without traditional molecular dynamics simulations.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Protein sequence and ligand SMILES/SDF</dd>
+        <dt>Out</dt><dd>Predicted complex structures (PDB), binding affinity scores, interaction maps</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">Boltz2</span><span class="c-tag">RDKit</span><span class="c-tag">py3Dmol</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/1MzmcvZTvpvGEyTQdJIt5DCVn9mJOZS1J?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="6">
+    <span class="c-card-meta">Drug Discovery</span>
+    <h3 class="listing-title">AI in Drug Discovery: Molecular Property Prediction and Virtual Screening</h3>
+    <p>End-to-end pipeline for AI-driven drug discovery — covering molecular featurization, toxicity prediction, ADMET property modeling, and virtual screening of compound libraries using machine learning and cheminformatics tools.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Compound libraries (SMILES), molecular descriptors</dd>
+        <dt>Out</dt><dd>Toxicity predictions, ADMET profiles, ranked hit compounds</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">RDKit</span><span class="c-tag">DeepChem</span><span class="c-tag">scikit-learn</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/124b2zhlFujYBk2cGoT64DWPTwr0SB-Ph?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+  <article class="c-card" data-index="7">
+    <span class="c-card-meta">Drug Discovery</span>
+    <h3 class="listing-title">AI in Drug Discovery: In Silico Toxicology Modeling</h3>
+    <p>Build machine learning models to predict compound toxicity from molecular structure — covering molecular fingerprint generation, toxicity endpoint classification, structure–activity relationship analysis, and model interpretation for safety assessment in early-stage drug discovery.</p>
+    
+      <dl class="c-io">
+        <dt>In</dt><dd>Chemical compounds (SMILES), toxicity endpoint labels</dd>
+        <dt>Out</dt><dd>Toxicity classification models, SAR insights, safety predictions</dd>
+      </dl>
+    
+    
+      <div class="c-tag-row"><span class="c-tag">Python</span><span class="c-tag">RDKit</span><span class="c-tag">scikit-learn</span><span class="c-tag">Mordred</span></div>
+    
+    
+      <div class="c-card-links">
+        
+          <a class="c-card-link" href="https://colab.research.google.com/drive/1ths5Mb1sHos6y5qcnodcWOnw-XR-Mw8w?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab →</a>
+        
+      </div>
+    
+  </article>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+  </div>
+</section>
 <div class="c-wrap c-page-body">
 <div class="c-prose">
 <section id="data-and-tools-for-cancer-genomics" class="level2">
@@ -567,6 +945,7 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </section>
 </div>
 </div>
+
 
 
 

@@ -4,6 +4,13 @@ description: "Databases, tools and set-up guides we teach against and use in our
 page-layout: custom
 toc: true
 toc-location: right
+listing:
+  - id: videos
+    contents: videos.yml
+    template: ../_templates/video-card.ejs
+  - id: pipelines
+    contents: pipelines.yml
+    template: ../_templates/pipeline-card.ejs
 ---
 
 ```{=html}
@@ -16,6 +23,43 @@ toc-location: right
     </p>
   </div>
 </header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Video lectures</span>
+      <h2 class="c-h2">Recorded course playlists</h2>
+      <p class="c-lede">
+        Full course recordings on YouTube, free to work through at your own pace.
+      </p>
+    </div>
+```
+
+:::{#videos}
+:::
+
+```{=html}
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Pipelines</span>
+      <h2 class="c-h2">Reusable analysis workflows</h2>
+      <p class="c-lede">
+        Working pipelines from our own projects, with the inputs they expect and
+        the outputs they produce stated up front.
+      </p>
+    </div>
+```
+
+:::{#pipelines}
+:::
+
+```{=html}
+  </div>
+</section>
 ```
 
 ::: {.c-wrap .c-page-body}
