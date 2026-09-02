@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHIRAL × DeepBio — Onboarding &amp; Orientation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <style>
+    /* ═══════════════════════════════════════════════════════════
+       DEEPBIO BRAND TEMPLATE — applied to CHIRAL onboarding
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      --db-primary:    #205E92;
+      --db-secondary:  #64B5F6;
+      --db-dark:       #0a1628;
+      --db-accent:     #10b981;
+      --db-warning:    #f59e0b;
+      --db-danger:     #ef4444;
+      --db-white:      #ffffff;
+      --db-gray-50:    #f8fafc;
+      --db-gray-100:   #f1f5f9;
+      --db-gray-200:   #e2e8f0;
+      --db-gray-300:   #cbd5e1;
+      --db-gray-400:   #94a3b8;
+      --db-gray-500:   #64748b;
+      --db-gray-600:   #475569;
+      --db-gray-700:   #334155;
+      --db-gray-800:   #1e293b;
+      --db-gray-900:   #0f172a;
+      --font-body:     'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-heading:  'Outfit', 'Inter', sans-serif;
+    }
+    .reveal-viewport { background: var(--db-white); }
+    .reveal { font-family: var(--font-body); font-size: 22px; color: var(--db-gray-700); }
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+      font-family: var(--font-heading); font-weight: 800; text-transform: none;
+      letter-spacing: -0.025em; line-height: 1.15; color: var(--db-gray-900);
+    }
+    .reveal h1 { font-size: 2.8em; }
+    .reveal h2 { font-size: 1.8em; margin-bottom: 0.5em; }
+    .reveal h3 { font-size: 1.3em; }
+    .reveal p { line-height: 1.65; color: var(--db-gray-500); margin-bottom: 0.5em; }
+    .reveal strong { color: var(--db-gray-800); font-weight: 700; }
+    .reveal a { color: var(--db-primary); text-decoration: none; font-weight: 600; }
+    .reveal .slides > section { padding: 2em 2.5em; }
+
+    .db-logo { position: fixed; top: 16px; right: 24px; z-index: 100; pointer-events: none; opacity: 0.95;
+      font-family: var(--font-heading); font-weight: 800; font-size: 16px; letter-spacing: -0.01em; }
+    .wm-chiral { color: var(--db-primary); }
+    .wm-deepbio { color: var(--db-gray-900); }
+    .wm-x { color: var(--db-gray-300); font-weight: 600; margin: 0 2px; }
+    .title-wordmark { font-family: var(--font-heading); font-weight: 800; font-size: 1.6em;
+      letter-spacing: -0.02em; text-align: center; margin: 0 auto 0.7em; }
+    .dark-slide .wm-deepbio { color: #fff; }
+
+    .db-footer { position: fixed; bottom: 12px; left: 24px; z-index: 100; font-family: var(--font-body);
+      font-size: 11px; font-weight: 500; color: var(--db-gray-400); pointer-events: none; }
+    .reveal .slide-number { font-family: var(--font-body); font-size: 11px; font-weight: 600;
+      color: var(--db-gray-400); background: transparent; right: 24px; bottom: 12px; }
+    .reveal .progress { height: 3px; color: var(--db-primary); }
+
+    .tag { display: inline-block; padding: 0.3em 1em; border-radius: 999px; font-size: 0.5em;
+      font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; color: var(--db-primary);
+      background: rgba(32,94,146,0.08); border: 1px solid rgba(32,94,146,0.15); margin-bottom: 0.5em; }
+    .tag-green { color: var(--db-accent); background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.15); }
+    .tag-amber { color: var(--db-warning); background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.15); }
+
+    .text-brand { color: var(--db-primary); } .text-muted { color: var(--db-gray-400); }
+    .gradient-text { background: linear-gradient(135deg, var(--db-primary), var(--db-secondary));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .sep { width: 50px; height: 3px; background: linear-gradient(90deg, var(--db-primary), var(--db-secondary));
+      border-radius: 2px; margin: 0.6em auto; }
+
+    .card { background: var(--db-gray-50); border: 1px solid var(--db-gray-200); border-radius: 12px; padding: 1.2em; text-align: left; }
+    .card-bordered { background: var(--db-white); border: 1px solid var(--db-gray-200); border-radius: 12px;
+      padding: 1.2em; text-align: left; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+    .card-highlight { border-color: var(--db-primary); box-shadow: 0 2px 12px rgba(32,94,146,0.1); }
+    .card h4 { font-size: 0.85em; margin: 0 0 0.3em 0; color: var(--db-gray-800); }
+    .card p, .card-bordered p { font-size: 0.7em; margin: 0; color: var(--db-gray-500); }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.8em; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6em; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; align-items: start; }
+
+    .stat { text-align: center; padding: 0.6em; }
+    .stat-value { font-family: var(--font-heading); font-size: 2.4em; font-weight: 900; color: var(--db-primary); line-height: 1; }
+    .stat-label { font-size: 0.6em; color: var(--db-gray-400); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.3em; }
+
+    .reveal table { font-size: 0.75em; border-collapse: collapse; width: 100%; }
+    .reveal table th { font-family: var(--font-heading); font-weight: 700; text-transform: uppercase;
+      font-size: 0.7em; letter-spacing: 0.08em; color: var(--db-gray-400); padding: 0.6em 0.8em;
+      border-bottom: 2px solid var(--db-gray-200); text-align: left; }
+    .reveal table td { padding: 0.5em 0.8em; border-bottom: 1px solid var(--db-gray-100); color: var(--db-gray-600); }
+
+    .reveal ul { list-style: none; padding: 0; }
+    .reveal ul li { padding: 0.3em 0 0.3em 1.5em; position: relative; font-size: 0.85em; color: var(--db-gray-600); }
+    .reveal ul li::before { content: "→"; position: absolute; left: 0; color: var(--db-primary); font-weight: 700; }
+    .reveal .no-bullets li::before { content: none; }
+    .reveal .check-list li::before { content: "✓"; color: var(--db-accent); }
+
+    .quote-block { border-left: 3px solid var(--db-primary); padding: 0.8em 1.2em; background: var(--db-gray-50);
+      border-radius: 0 8px 8px 0; font-style: italic; color: var(--db-gray-600); font-size: 0.85em; }
+    .cta-box { border: 2px solid var(--db-primary); border-radius: 16px; padding: 1.5em 2em;
+      background: rgba(32,94,146,0.03); text-align: center; }
+    .speaker-info { text-align: center; margin-top: 0.8em; }
+    .speaker-info .speaker-name { font-size: 0.85em; font-weight: 600; color: var(--db-gray-700); }
+    .speaker-info .speaker-role { font-size: 0.7em; color: var(--db-gray-400); }
+    .speaker-info .speaker-email { font-size: 0.65em; color: var(--db-primary); font-weight: 600; }
+    .disclaimer { font-size: 0.5em; color: var(--db-gray-400); margin-top: 1em; }
+
+    /* dark variant */
+    .dark-slide h1, .dark-slide h2, .dark-slide h3, .dark-slide h4 { color: var(--db-white); }
+    .dark-slide p, .dark-slide li { color: var(--db-gray-400); }
+    .dark-slide .card { background: var(--db-gray-800); border-color: rgba(255,255,255,0.08); }
+    .dark-slide .card h4 { color: var(--db-white); } .dark-slide .card p { color: var(--db-gray-400); }
+    .dark-slide .tag { background: rgba(32,94,146,0.2); border-color: rgba(100,181,246,0.3); color: var(--db-secondary); }
+
+    /* ─── tree / node helpers (CHIRAL diagrams) ─── */
+    .tree-line { width: 2px; height: 18px; background: linear-gradient(180deg, var(--db-primary), var(--db-secondary));
+      margin: 0.4em auto; border-radius: 2px; }
+    .branch { display: flex; gap: 0.7em; justify-content: center; align-items: stretch; }
+    .branch > div { flex: 1 1 0; }
+    .unit-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.6em; }
+    .node-card { background: var(--db-white); border: 1px solid var(--db-gray-200); border-radius: 12px;
+      padding: 0.85em 0.6em; text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: 76px; }
+    .node-card.featured { border-color: var(--db-primary); box-shadow: 0 2px 12px rgba(32,94,146,0.12); }
+    .node-card.parent { background: var(--db-dark); border-color: var(--db-dark); }
+    .node-card.parent .nt { color: #fff; } .node-card.parent .ns { color: var(--db-gray-400); }
+    .node-card .nt { font-family: var(--font-heading); font-weight: 700; font-size: 0.72em; color: var(--db-gray-900); line-height: 1.2; }
+    .node-card.featured .nt { color: var(--db-primary); }
+    .node-card .ns { font-size: 0.55em; color: var(--db-gray-400); margin-top: 3px; line-height: 1.2; }
+    .roles-stack { max-width: 70%; margin: 0 auto; }
+    .roles-stack .node-card { text-align: left; }
+    .arrow-up { text-align: center; font-size: 0.6em; color: var(--db-gray-400); margin: 0.1em 0; }
+
+    @media print {
+      .reveal-viewport { background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .reveal .slides section { page-break-after: always; page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Joint logo (CHIRAL × DeepBio) -->
+  <div class="db-logo"><span class="wm-chiral">CHIRAL</span> <span class="wm-x">×</span> <span class="wm-deepbio">DeepBio</span></div>
+  <div class="db-footer">github.com/chiralbd/onboarding</div>
+
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- TITLE -->
+      <section>
+        <div class="title-wordmark"><span class="wm-chiral">CHIRAL</span> <span class="wm-x">×</span> <span class="wm-deepbio">DeepBio</span></div>
+        <div class="tag">Lab Orientation</div>
+        <h1 style="margin-top:0.2em;margin-bottom:0.1em;">Onboarding &amp; <span class="gradient-text">Orientation</span></h1>
+        <p style="font-size:1.05em;color:var(--db-primary);font-weight:500;margin-bottom:0.4em;">Center for Health Innovation, Research, Action &amp; Learning (CHIRAL), Bangladesh</p>
+        <div class="sep"></div>
+        <div class="speaker-info">
+          <div class="speaker-name">Md. Jubayer Hossain &middot; Founder</div>
+          <div class="speaker-role">CHIRAL × DeepBio Ecosystem</div>
+          <div class="speaker-email"><a href="https://github.com/chiralbd/onboarding/">github.com/chiralbd/onboarding</a></div>
+        </div>
+        <p class="disclaimer">A living document — propose changes by pull request. Accurate as of 2026.</p>
+      </section>
+
+      <!-- AGENDA -->
+      <section>
+        <div class="tag">Agenda</div>
+        <h2 style="margin-top:0.3em;">What this <span class="gradient-text">covers</span></h2>
+        <div class="grid-2" style="margin-top:0.6em;">
+          <div class="card"><h4>Ecosystem &amp; research units</h4><p>Where CHIRAL sits and how units are organized.</p></div>
+          <div class="card"><h4>Roles, recruitment &amp; commitment</h4><p>Director → Group Leader → RA; how you join; what you commit.</p></div>
+          <div class="card"><h4>Communication &amp; meetings</h4><p>Zulip, scrum, the weekly lab meeting, response times.</p></div>
+          <div class="card"><h4>Code, data &amp; reproducibility</h4><p>GitHub workflow, good practices, health-data governance.</p></div>
+          <div class="card"><h4>Publication &amp; authorship</h4><p>ICMJE, CRediT, revisions, author order.</p></div>
+          <div class="card"><h4>Affiliation, conduct &amp; accountability</h4><p>Mandatory affiliation, exclusivity, the penalty ladder.</p></div>
+        </div>
+      </section>
+
+      <!-- DIVIDER 01 -->
+      <section data-background-color="#0a1628" class="dark-slide">
+        <div class="tag">Section 01</div>
+        <h2 style="margin-top:0.3em;font-size:2.4em;">The <span class="gradient-text">Ecosystem</span></h2>
+        <p style="font-size:0.85em;">Three arms, one mission — and where this onboarding applies.</p>
+        <div class="sep" style="margin:0.6em 0 0;"></div>
+      </section>
+
+      <!-- ECOSYSTEM -->
+      <section>
+        <div class="tag">Structure</div>
+        <h2 style="margin-top:0.3em;">The DeepBio <span class="gradient-text">Ecosystem</span></h2>
+        <div style="max-width:780px;margin:0.4em auto 0;">
+          <div class="node-card parent" style="width:46%;margin:0 auto;"><div class="nt">DeepBio Ecosystem</div><div class="ns">Founder · Md. Jubayer Hossain</div></div>
+          <div class="tree-line"></div>
+          <div class="branch">
+            <div class="node-card"><div class="nt">DeepBio Limited</div><div class="ns">Services startup · paid staff</div></div>
+            <div class="node-card featured"><div class="nt">CHIRAL</div><div class="ns">Research wing · voluntary</div></div>
+            <div class="node-card"><div class="nt">DeepBio Academy</div><div class="ns">Training · trainees</div></div>
+          </div>
+        </div>
+        <div class="card-bordered card-highlight" style="margin-top:1em;">
+          <p>This onboarding governs <strong>CHIRAL only</strong>. The volunteer / authorship / affiliation rules do <strong>not</strong> apply to DeepBio Limited employees, who are paid staff under their own handbook.</p>
+        </div>
+      </section>
+
+      <!-- RESEARCH UNITS -->
+      <section>
+        <div class="tag">CHIRAL</div>
+        <h2 style="margin-top:0.3em;">Research <span class="gradient-text">Units</span></h2>
+        <div style="max-width:900px;margin:0.4em auto 0;">
+          <div class="node-card featured" style="width:32%;margin:0 auto;"><div class="nt">CHIRAL</div><div class="ns">Research wing</div></div>
+          <div class="tree-line"></div>
+          <div class="unit-grid">
+            <div class="node-card"><div class="nt">Population Health</div><div class="ns">Studies Division</div></div>
+            <div class="node-card"><div class="nt">Geospatial Health</div><div class="ns">Research Group</div></div>
+            <div class="node-card"><div class="nt">Big Bioinformatics</div><div class="ns">Lab (BBL)</div></div>
+            <div class="node-card"><div class="nt">BioHPC</div><div class="ns">Lab · HPC</div></div>
+            <div class="node-card"><div class="nt">BioAI</div><div class="ns">Lab · ML &amp; AI</div></div>
+          </div>
+        </div>
+        <p style="font-size:0.7em;text-align:center;margin-top:1em;">Shared policies apply center-wide; each unit adds a thin <strong>overlay</strong>. On conflict, shared wins unless the Director approves an exception.</p>
+      </section>
+
+      <!-- MISSION -->
+      <section>
+        <div class="tag">Mission</div>
+        <h2 style="margin-top:0.3em;">Mission &amp; your <span class="gradient-text">role</span></h2>
+        <div class="two-col" style="margin-top:0.6em;">
+          <ul>
+            <li>CHIRAL tackles public-health challenges through <strong>data-driven science</strong> and capacity building.</li>
+            <li><strong>You</strong> own the success of your project and your growth.</li>
+            <li><strong>Mentors</strong> guide planning, training, and career development.</li>
+          </ul>
+          <div class="card-bordered">
+            <h4>The deal</h4>
+            <p>~4 hours/day of active participation keeps the group in sync. In return: mentorship, training, infrastructure, authorship, and a recommendation letter. We build — and protect — a reputation for high-quality science.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIVIDER 02 -->
+      <section data-background-color="#0a1628" class="dark-slide">
+        <div class="tag">Section 02</div>
+        <h2 style="margin-top:0.3em;font-size:2.4em;">People &amp; <span class="gradient-text">Commitment</span></h2>
+        <p style="font-size:0.85em;">Who reports to whom, how you join, and what you sign up for.</p>
+        <div class="sep" style="margin:0.6em 0 0;"></div>
+      </section>
+
+      <!-- ROLES -->
+      <section>
+        <div class="tag">Structure</div>
+        <h2 style="margin-top:0.3em;">Roles &amp; <span class="gradient-text">reporting</span></h2>
+        <div class="roles-stack" style="margin-top:0.5em;">
+          <div class="node-card parent"><div class="nt">Head of Organization (Director)</div><div class="ns">Direction · standards · final authority · approvals</div></div>
+          <div class="arrow-up">▲ reports to</div>
+          <div class="node-card"><div class="nt">Group Leader</div><div class="ns">Project leadership · mentoring · review · CRediT &amp; author order · accountability</div></div>
+          <div class="arrow-up">▲ reports to</div>
+          <div class="node-card"><div class="nt">Research Assistant</div><div class="ns">Research · reproducible code · lab book · participation · revisions</div></div>
+        </div>
+        <p style="font-size:0.65em;text-align:center;margin-top:0.7em;color:var(--db-gray-400);">Conduct or safety concerns can always go straight to the Director.</p>
+      </section>
+
+      <!-- NATURE + COMMITMENT -->
+      <section>
+        <div class="tag-amber tag">Important</div>
+        <h2 style="margin-top:0.3em;">Voluntary position &amp; <span class="gradient-text">commitment</span></h2>
+        <div class="two-col" style="margin-top:0.4em;">
+          <ul>
+            <li>RA and Group Leader roles are <strong>voluntary and unpaid</strong> — a research &amp; training opportunity, not employment.</li>
+            <li>The center's levers are what it controls: <strong>authorship, recommendation letters, membership, affiliation.</strong></li>
+            <li>Authorship is <strong>contingent on honoring the term</strong>; leaving early without agreement moves incomplete work to the Acknowledgments.</li>
+          </ul>
+          <div>
+            <div class="grid-3">
+              <div class="stat"><div class="stat-value">1.5y</div><div class="stat-label">Minimum term</div></div>
+              <div class="stat"><div class="stat-value">2y</div><div class="stat-label">Standard</div></div>
+              <div class="stat"><div class="stat-value">3mo</div><div class="stat-label">Probation</div></div>
+            </div>
+            <div class="card" style="margin-top:0.4em;"><p>Genuine, <strong>communicated</strong> reasons for early departure are handled case-by-case. Silent disappearance is not.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RECRUITMENT -->
+      <section>
+        <div class="tag">Recruitment</div>
+        <h2 style="margin-top:0.3em;">How you <span class="gradient-text">join</span></h2>
+        <p style="font-size:0.75em;">Complete the required <strong>DeepBio Academy</strong> course → interview → selection.</p>
+        <div style="max-width:760px;margin:0.4em auto 0;">
+          <table>
+            <thead><tr><th>Unit</th><th>Required course</th></tr></thead>
+            <tbody>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">BBL · BioHPC Lab</td><td>Bioinformatics Mentorship</td></tr>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">Geospatial · Population Health</td><td>The Academic Research Workflow</td></tr>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">BioAI Lab</td><td>No Code &amp; Agentic AI for Life Sciences</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:0.65em;text-align:center;margin-top:0.7em;">Course = eligible, not selected. Then apply → interview (Group Leader + Director) → selection → onboarding → probation. Group Leaders: usually promoted from strong RAs, or direct entry via Director interview.</p>
+      </section>
+
+      <!-- DIVIDER 03 -->
+      <section data-background-color="#0a1628" class="dark-slide">
+        <div class="tag">Section 03</div>
+        <h2 style="margin-top:0.3em;font-size:2.4em;">Working <span class="gradient-text">Together</span></h2>
+        <p style="font-size:0.85em;">Communication, meetings, affiliation, and exclusivity.</p>
+        <div class="sep" style="margin:0.6em 0 0;"></div>
+      </section>
+
+      <!-- COMMUNICATION -->
+      <section>
+        <div class="tag">Communication</div>
+        <h2 style="margin-top:0.3em;">Stay <span class="gradient-text">in sync</span></h2>
+        <div class="two-col" style="margin-top:0.4em;">
+          <ul>
+            <li><strong>Zulip</strong> is the primary channel (open-source). Join #general, #meeting, #random.</li>
+            <li>Prioritize Zulip over email; if email is used, acknowledge it on Zulip too.</li>
+            <li>Accounts to maintain: <strong>GitHub</strong> (org) + <strong>Zulip</strong>.</li>
+          </ul>
+          <div class="grid-3">
+            <div class="stat"><div class="stat-value">48h</div><div class="stat-label">Routine reply</div></div>
+            <div class="stat"><div class="stat-value">24h</div><div class="stat-label">Active revision</div></div>
+            <div class="stat"><div class="stat-value">1wk</div><div class="stat-label">Abstracts / posters</div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEETINGS -->
+      <section>
+        <div class="tag">Meetings</div>
+        <h2 style="margin-top:0.3em;">Rhythm of the <span class="gradient-text">week</span></h2>
+        <div class="card-bordered card-highlight" style="margin:0.3em 0 0.6em;">
+          <p><strong>Lab meeting — every Thursday, 9:30–11:00 — mandatory.</strong> Can't attend? Notify #meeting ≥ 24 h ahead with a reason.</p>
+        </div>
+        <ul>
+          <li><strong>Scrum:</strong> Friday kick-off (8:30) · Saturday demo day (8:30, 3-min wins) · daily Zulip update.</li>
+          <li><strong>Research meeting:</strong> 1 hour, third Friday monthly.</li>
+          <li>Lead <strong>≥ 2 meetings / semester</strong> (≥ 1 Braintrust). Sign up December / June.</li>
+          <li>Formats: Braintrust · Tech Talk · Post-Conference · Big Ideas · Journal Club · Preprint Review.</li>
+        </ul>
+      </section>
+
+      <!-- AFFILIATION -->
+      <section>
+        <div class="tag-amber tag">Mandatory</div>
+        <h2 style="margin-top:0.3em;">Affiliation &amp; <span class="gradient-text">promotion</span></h2>
+        <ul>
+          <li>List your affiliation on <strong>LinkedIn</strong> and <strong>Facebook</strong>: “[Position], [Unit], CHIRAL, Bangladesh.”</li>
+          <li>Follow CHIRAL pages and <strong>share training &amp; research activities</strong>.</li>
+          <li>Comply <strong>within 2 weeks</strong> of joining; keep it current.</li>
+          <li>No account? Create a professional one or get a Director exception — absence isn't an automatic exemption.</li>
+        </ul>
+      </section>
+
+      <!-- EXCLUSIVITY -->
+      <section>
+        <div class="tag-amber tag">Disclosure</div>
+        <h2 style="margin-top:0.3em;">Exclusivity &amp; <span class="gradient-text">disclosure</span></h2>
+        <ul>
+          <li><strong>No concurrent membership</strong> in another research org/lab without the Director's <strong>prior written approval</strong>.</li>
+          <li><strong>Disclose all outside commitments</strong> — at onboarding and within <strong>7 days</strong> of any new one.</li>
+          <li>Your <strong>academic thesis</strong> (own degree) is exempt from approval — but still disclose it.</li>
+          <li><strong>Failure to report is itself punishable.</strong> This is disclosure-and-approval, not a non-compete.</li>
+        </ul>
+      </section>
+
+      <!-- DIVIDER 04 -->
+      <section data-background-color="#0a1628" class="dark-slide">
+        <div class="tag">Section 04</div>
+        <h2 style="margin-top:0.3em;font-size:2.4em;">Research <span class="gradient-text">Integrity</span></h2>
+        <p style="font-size:0.85em;">Code, data, authorship — done reproducibly and credited fairly.</p>
+        <div class="sep" style="margin:0.6em 0 0;"></div>
+      </section>
+
+      <!-- GITHUB -->
+      <section>
+        <div class="tag">Source Code</div>
+        <h2 style="margin-top:0.3em;">GitHub <span class="gradient-text">workflow</span></h2>
+        <div class="two-col" style="margin-top:0.4em;">
+          <ul>
+            <li>One central org: <strong>github.com/chiralbd</strong>. Public-by-default; private only when data/sponsor requires.</li>
+            <li><strong>Sign your code</strong> — attributable to your GitHub account.</li>
+            <li>Default license: <strong>BSD-2-Clause Plus Patent</strong>.</li>
+          </ul>
+          <div class="card-bordered">
+            <h4>Pull-request flow</h4>
+            <p>Org repo → fork → commit → <strong>pull request</strong> → review. At least <strong>one approval before merge</strong>. PRs focus on a single functional area.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- GOOD PRACTICES -->
+      <section>
+        <div class="tag">Reproducibility</div>
+        <h2 style="margin-top:0.3em;">Good <span class="gradient-text">practices</span></h2>
+        <ul>
+          <li><strong>Never edit data via a GUI</strong> — write code, so it's traceable and repeatable.</li>
+          <li>Self-contained projects; no hardcoded <code>setwd()</code> paths.</li>
+          <li>Pinned environments: <strong>renv</strong> (R) / conda·uv + lockfile (Python).</li>
+          <li>Write code <strong>for people</strong>: clear names, real comments, consistent style.</li>
+          <li>Version-control <strong>every</strong> analysis; push daily; informative commits. Keep a lab book.</li>
+        </ul>
+      </section>
+
+      <!-- DATA GOVERNANCE -->
+      <section>
+        <div class="tag-amber tag">Health Data</div>
+        <h2 style="margin-top:0.3em;">Data <span class="gradient-text">governance</span></h2>
+        <div class="grid-3" style="margin-top:0.3em;">
+          <div class="card" style="border-top:3px solid var(--db-accent);"><h4>Public</h4><p>Open / published data. Version-control the scripts.</p></div>
+          <div class="card" style="border-top:3px solid var(--db-warning);"><h4>Internal</h4><p>De-identified study data. CHIRAL members only.</p></div>
+          <div class="card" style="border-top:3px solid var(--db-danger);"><h4>Sensitive</h4><p>Identifiable / raw clinical / GPS. Strictest rules.</p></div>
+        </div>
+        <ul style="margin-top:0.4em;">
+          <li><strong>No identifiable human data without ethics/IRB approval</strong> and consent. When unsure → treat as Sensitive.</li>
+          <li>Encrypted, access-controlled storage only. <strong>Never commit</strong> data, keys, or credentials to Git.</li>
+          <li><strong>Report breaches to the Director the same day.</strong></li>
+        </ul>
+      </section>
+
+      <!-- AUTHORSHIP -->
+      <section>
+        <div class="tag">Authorship</div>
+        <h2 style="margin-top:0.3em;">Publication &amp; <span class="gradient-text">authorship</span></h2>
+        <div class="two-col" style="margin-top:0.4em;">
+          <div>
+            <h3 style="font-size:0.85em;margin-bottom:0.3em;">ICMJE — all four required</h3>
+            <ul>
+              <li>Substantial contribution</li>
+              <li>Draft or revise critically</li>
+              <li>Approve the final version</li>
+              <li>Accountable for the work</li>
+            </ul>
+          </div>
+          <div class="card-bordered">
+            <h4>Order &amp; credit</h4>
+            <p>First = most work · last = senior/PI · middle = by contribution. <strong>No gift, guest, or ghost authorship.</strong> Record roles in a <strong>CRediT</strong> table from day one. Every author needs an <strong>ORCID</strong>.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVISIONS -->
+      <section>
+        <div class="tag">Revisions</div>
+        <h2 style="margin-top:0.3em;">Revisions are <span class="gradient-text">part of authorship</span></h2>
+        <ul>
+          <li>Corresponding author circulates reviewer comments in <strong>3 working days</strong> and assigns them.</li>
+          <li><strong>Every author contributes</strong> to assigned comments by the internal deadline (≥ 5 working days before the journal deadline).</li>
+          <li>Silence ≠ approval. No contribution to a substantial revision → authorship may move <strong>down</strong> or to Acknowledgments.</li>
+          <li>Picking up abandoned revision work can move you <strong>up</strong> in order.</li>
+        </ul>
+      </section>
+
+      <!-- ACCOUNTABILITY -->
+      <section>
+        <div class="tag-amber tag">Accountability</div>
+        <h2 style="margin-top:0.3em;">The penalty <span class="gradient-text">ladder</span></h2>
+        <div style="max-width:760px;margin:0.3em auto 0;">
+          <table>
+            <thead><tr><th>Lapses (rolling 6 mo)</th><th>Consequence</th></tr></thead>
+            <tbody>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">1st</td><td>Logged verbal reminder + catch up</td></tr>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">2nd</td><td>Written warning + catch-up plan; mentor informed</td></tr>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">3rd</td><td style="color:var(--db-primary);font-weight:600;">Authorship review (downgrade / Acknowledgments)</td></tr>
+              <tr><td style="font-weight:600;color:var(--db-gray-800);">Persistent / severe</td><td>Removal from project + referral to Director</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:0.6em;text-align:center;margin-top:0.6em;color:var(--db-gray-400);">Applies to missed revisions, unexcused missed meetings, and missed communication windows. Penalties hit only the lapsing member — never reduce others' credit.</p>
+      </section>
+
+      <!-- MISCONDUCT -->
+      <section>
+        <div class="tag-amber tag">Ethics</div>
+        <h2 style="margin-top:0.3em;">Misconduct &amp; <span class="gradient-text">ethics</span></h2>
+        <ul>
+          <li>Prohibited: gift/ghost authorship, plagiarism, data fabrication/falsification, undisclosed duplicate submission.</li>
+          <li>Be honest; minimize bias; keep agreements; share openly; give credit.</li>
+          <li>Maintain a <strong>safe, respectful, harassment-free</strong> environment — zero tolerance.</li>
+          <li>Consequences escalate to removal and revoked affiliation; illegal acts → authorities.</li>
+        </ul>
+      </section>
+
+      <!-- DIVIDER 05 -->
+      <section data-background-color="#0a1628" class="dark-slide">
+        <div class="tag">Section 05</div>
+        <h2 style="margin-top:0.3em;font-size:2.4em;">Get <span class="gradient-text">Started</span></h2>
+        <p style="font-size:0.85em;">Your first two weeks, and where everything lives.</p>
+        <div class="sep" style="margin:0.6em 0 0;"></div>
+      </section>
+
+      <!-- FIRST TWO WEEKS -->
+      <section>
+        <div class="tag-green tag">Checklist</div>
+        <h2 style="margin-top:0.3em;">Your first <span class="gradient-text">two weeks</span></h2>
+        <div class="two-col" style="margin-top:0.4em;">
+          <ul class="check-list">
+            <li>Read the onboarding repo + your unit overlay.</li>
+            <li>Sign the onboarding agreement; disclose outside commitments.</li>
+            <li>Set up <strong>GitHub</strong> (chiralbd) + <strong>Zulip</strong>; create <strong>ORCID</strong>.</li>
+          </ul>
+          <ul class="check-list">
+            <li>Add CHIRAL affiliation on <strong>LinkedIn + Facebook</strong>; follow + share.</li>
+            <li>Meet your Group Leader; confirm first project + CRediT.</li>
+            <li>Join the Thursday 9:30 meeting + daily Zulip scrum.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- RESOURCES -->
+      <section>
+        <div class="tag">Resources</div>
+        <h2 style="margin-top:0.3em;">Where to find <span class="gradient-text">everything</span></h2>
+        <ul>
+          <li>Repo: <a href="https://github.com/chiralbd/onboarding/">github.com/chiralbd/onboarding</a></li>
+          <li><code>README.md</code> · <code>ECOSYSTEM.md</code></li>
+          <li><code>shared/</code> — center-guidelines · recruitment · publication-authorship · data-governance · good-practices · social-media · github-basics</li>
+          <li><code>units/</code> — your lab overlay</li>
+        </ul>
+      </section>
+
+      <!-- CLOSING -->
+      <section>
+        <div class="tag-amber tag">Welcome aboard</div>
+        <h2 style="margin-top:0.3em;">Welcome to <span class="gradient-text">CHIRAL</span></h2>
+        <div class="sep"></div>
+        <div class="cta-box" style="max-width:560px;margin:1em auto;">
+          <h3 style="font-size:0.95em;color:var(--db-gray-800);margin-top:0;">Do great, reproducible, well-credited science — together.</h3>
+          <p style="font-size:0.75em;margin-bottom:0;">Questions? Your Group Leader or the Director, anytime.</p>
+        </div>
+        <div class="speaker-info">
+          <div class="speaker-name">Md. Jubayer Hossain &middot; Founder</div>
+          <div class="speaker-role">CHIRAL × DeepBio Ecosystem</div>
+        </div>
+        <p class="disclaimer">CHIRAL, Bangladesh &copy; 2026 · part of the DeepBio ecosystem</p>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
+      width: 1200,
+      height: 700,
+      margin: 0.04,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      center: true,
+      controls: false,
+      progress: true,
+      pdfSeparateFragments: false,
+      pdfMaxPagesPerSlide: 1,
+    });
+    // Hide the fixed corner logo on the title slide (it shows centered there instead)
+    const cornerLogo = document.querySelector('.db-logo');
+    function updateCornerLogo() {
+      cornerLogo.style.display = Reveal.getIndices().h === 0 ? 'none' : 'block';
+    }
+    Reveal.on('ready', updateCornerLogo);
+    Reveal.on('slidechanged', updateCornerLogo);
+  </script>
+</body>
+</html>
