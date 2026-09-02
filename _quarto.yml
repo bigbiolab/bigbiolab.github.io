@@ -70,7 +70,7 @@ website:
     right:
       - icon: envelope
         aria-label: "Email CHIRAL Bangladesh"
-        href: "mailto:training.chiralbd@gmail.com"
+        href: "mailto:chiralbd@gmail.com"
       - icon: github
         aria-label: "CHIRAL Bangladesh on GitHub"
         href: https://github.com/chiralbd
@@ -130,7 +130,7 @@ website:
       </div>
       </div>
       <div class="c-foot-base">
-      <span>Azimpur, Dhaka 1205, Bangladesh &middot; <a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></span>
+      <span>Azimpur, Dhaka 1205, Bangladesh &middot; <a href="mailto:chiralbd@gmail.com">chiralbd@gmail.com</a></span>
       <span>&copy; 2025 CHIRAL Bangladesh &middot; Content CC BY 4.0 &middot; Code MIT</span>
       </div>
       </div>

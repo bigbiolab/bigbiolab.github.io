@@ -1,6 +1,6 @@
 ---
 pagetitle: "CHIRAL Bangladesh — Computational biology, Bio-AI and population health"
-description: "A multidisciplinary research centre in Dhaka working from the genome to the district map, and training Bangladesh's next generation of researchers along the way."
+description: "A multidisciplinary research centre in Dhaka turning health data into solutions, and training Bangladesh's next generation of researchers along the way."
 page-layout: custom
 toc: false
 ---
@@ -13,7 +13,7 @@ toc: false
         <span>Dhaka, Bangladesh</span><span>Established 2020</span><span>Open science</span>
       </p>
 
-      <h1>From the genome to the <em>district map</em>.</h1>
+      <h1>We turn data into <em>solutions</em>.</h1>
 
       <span class="c-hero-bn">কাইরাল বাংলাদেশ</span>
 
@@ -31,82 +31,51 @@ toc: false
     </div>
 
     <div class="c-hero-figure">
-      <!-- Chirality: two structures that are mirror images across a single axis
-           and cannot be superimposed. The same data, read at two scales — a
-           molecular graph on the left, the same topology as population markers
-           on the right. L and D are the standard notation for the two forms. -->
+      <!-- Five disciplines overlapping in one centre. A strict five-set Venn
+           needs rotated ellipses and renders 31 unreadable slivers at this
+           size, so this is a five-circle rosette: every circle contains the
+           middle, and the shared centre is the claim being made. Colours come
+           from theme tokens so the figure flips with dark mode. -->
       <svg viewBox="0 0 520 400" role="img"
-           aria-labelledby="heroFigTitle heroFigDesc">
-        <title id="heroFigTitle">The CHIRAL motif: a molecular graph and its mirror image at population scale</title>
-        <desc id="heroFigDesc">A network of connected nodes on the left, reflected across a central dashed axis and redrawn on the right as concentric map markers, illustrating the same structure read from molecular to population scale.</desc>
+           aria-labelledby="vennTitle vennDesc">
+        <title id="vennTitle">The five disciplines that meet at CHIRAL Bangladesh</title>
+        <desc id="vennDesc">Five overlapping circles labelled bioinformatics, AI, spatial, public health, and computational biology. All five intersect at a central region marked CHIRAL, showing that the centre's research sits where the disciplines meet. Hovering a circle highlights that discipline's area.</desc>
 
-        <defs>
-          <g id="cRing">
-            <circle r="9"   fill="none" stroke="#006A4E" stroke-width="1" opacity=".35"/>
-            <circle r="5.5" fill="none" stroke="#006A4E" stroke-width="1.25" opacity=".7"/>
-            <circle r="2.4" fill="#006A4E"/>
+        <g class="c-venn">
+          <g class="c-venn-item">
+            <title>Bioinformatics</title>
+            <circle class="c-venn-set" cx="260.0" cy="147.0" r="80"/>
+            <text class="c-venn-label" x="260.0" y="52.0" text-anchor="middle">Bioinformatics</text>
           </g>
-        </defs>
+          <g class="c-venn-item">
+            <title>AI</title>
+            <circle class="c-venn-set" cx="315.2" cy="187.1" r="80"/>
+            <text class="c-venn-label" x="410.3" y="161.2" text-anchor="start">AI</text>
+          </g>
+          <g class="c-venn-item">
+            <title>Spatial</title>
+            <circle class="c-venn-set" cx="294.1" cy="251.9" r="80"/>
+            <text class="c-venn-label" x="352.9" y="337.8" text-anchor="middle">Spatial Health</text>
+          </g>
+          <g class="c-venn-item">
+            <title>Public Health</title>
+            <circle class="c-venn-set" cx="225.9" cy="251.9" r="80"/>
+            <text class="c-venn-label" x="167.1" y="337.8" text-anchor="middle">Public Health</text>
+          </g>
+          <g class="c-venn-item">
+            <title>Computational Biology</title>
+            <circle class="c-venn-set" cx="204.8" cy="187.1" r="80"/>
+            <text class="c-venn-label" x="109.7" y="149.2" text-anchor="end">Computational</text>
+            <text class="c-venn-label" x="109.7" y="167.2" text-anchor="end">Biology</text>
+          </g>
 
-        <!-- mirror axis -->
-        <line x1="260" y1="34" x2="260" y2="366"
-              stroke="#006A4E" stroke-width="1" stroke-dasharray="3 6" opacity=".5"/>
-        <text x="260" y="24" text-anchor="middle"
-              font-family="IBM Plex Mono, monospace" font-size="10"
-              letter-spacing="1.5" fill="#006A4E" opacity=".65">MIRROR</text>
+          <g class="c-venn-core-group">
+            <circle class="c-venn-core" cx="260" cy="205" r="30"/>
+            <text class="c-venn-core-text" x="260" y="209" text-anchor="middle">CHIRAL</text>
+          </g>
 
-        <!-- ---------- L form: molecular graph ---------- -->
-        <g stroke="#006A4E" stroke-width="1.15" opacity=".55" fill="none">
-          <path d="M60 120 L110 70"/>
-          <path d="M60 120 L120 180"/>
-          <path d="M110 70 L175 120"/>
-          <path d="M120 180 L175 120"/>
-          <path d="M120 180 L95 255"/>
-          <path d="M95 255 L180 240"/>
-          <path d="M180 240 L215 180"/>
-          <path d="M175 120 L215 180"/>
-          <path d="M120 180 L180 240"/>
+          <text class="c-venn-caption" x="260" y="384" text-anchor="middle">FIVE DISCIPLINES · ONE CENTRE</text>
         </g>
-        <g fill="#006A4E">
-          <circle cx="60"  cy="120" r="4.5"/>
-          <circle cx="110" cy="70"  r="4.5"/>
-          <circle cx="120" cy="180" r="5.5"/>
-          <circle cx="95"  cy="255" r="4.5"/>
-          <circle cx="180" cy="240" r="4.5"/>
-          <circle cx="215" cy="180" r="4.5"/>
-        </g>
-        <circle cx="175" cy="120" r="6.5" fill="#F42A43"/>
-        <circle cx="175" cy="120" r="12"  fill="none" stroke="#F42A43" stroke-width="1" opacity=".45"/>
-
-        <text x="60" y="340" font-family="IBM Plex Mono, monospace" font-size="11"
-              letter-spacing="1" fill="#5A6B66" opacity=".95">L · molecular</text>
-
-        <!-- ---------- D form: same topology, population scale ---------- -->
-        <g stroke="#006A4E" stroke-width="1.15" opacity=".4" fill="none" stroke-dasharray="2 4">
-          <path d="M460 120 L410 70"/>
-          <path d="M460 120 L400 180"/>
-          <path d="M410 70 L345 120"/>
-          <path d="M400 180 L345 120"/>
-          <path d="M400 180 L425 255"/>
-          <path d="M425 255 L340 240"/>
-          <path d="M340 240 L305 180"/>
-          <path d="M345 120 L305 180"/>
-          <path d="M400 180 L340 240"/>
-        </g>
-        <use href="#cRing" x="460" y="120"/>
-        <use href="#cRing" x="410" y="70"/>
-        <use href="#cRing" x="400" y="180"/>
-        <use href="#cRing" x="425" y="255"/>
-        <use href="#cRing" x="340" y="240"/>
-        <use href="#cRing" x="305" y="180"/>
-        <g>
-          <circle cx="345" cy="120" r="9"   fill="none" stroke="#F42A43" stroke-width="1" opacity=".4"/>
-          <circle cx="345" cy="120" r="5.5" fill="none" stroke="#F42A43" stroke-width="1.25" opacity=".75"/>
-          <circle cx="345" cy="120" r="2.6" fill="#F42A43"/>
-        </g>
-
-        <text x="460" y="340" text-anchor="end" font-family="IBM Plex Mono, monospace"
-              font-size="11" letter-spacing="1" fill="#5A6B66" opacity=".95">D · population</text>
       </svg>
     </div>
   </div>
@@ -114,15 +83,15 @@ toc: false
   <div class="c-wrap">
     <div class="c-metrics">
       <div class="c-metric">
-        <span class="c-metric-num c-todo">—</span>
+        <span class="c-metric-num">20+</span>
         <span class="c-metric-lbl">Peer-reviewed<br>publications</span>
       </div>
       <div class="c-metric">
-        <span class="c-metric-num c-todo">—</span>
+        <span class="c-metric-num">3K+</span>
         <span class="c-metric-lbl">Students<br>trained</span>
       </div>
       <div class="c-metric">
-        <span class="c-metric-num c-todo">—</span>
+        <span class="c-metric-num">4</span>
         <span class="c-metric-lbl">Partner<br>institutions</span>
       </div>
       <div class="c-metric">

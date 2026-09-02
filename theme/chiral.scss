@@ -1132,3 +1132,93 @@ button:focus-visible,
 // Quarto's About block reserves a large top margin that the breadcrumb used to
 // occupy. With breadcrumbs gone the profile floated well below the navbar.
 .quarto-about-jolla { margin-top: 0; }
+
+// ---------------------------------------------------------------------------
+// Hero Venn: four disciplines overlapping in one centre.
+// Set fills are translucent so the overlaps darken on their own - the centre
+// is the darkest region because all four meet there, which is the point.
+// ---------------------------------------------------------------------------
+
+.c-venn-set {
+  // Outlines carry the reading. A heavier fill turns five overlapping circles
+  // into one blob, which defeats the point of showing them separately.
+  fill: var(--c-green);
+  fill-opacity: 0.045;
+  stroke: var(--c-green);
+  stroke-opacity: 0.55;
+  stroke-width: 1.25;
+}
+
+// SVG text scales with the drawing, so a size that reads at full width becomes
+// unreadable once the hero column narrows. These are set large enough to stay
+// legible at the smallest width the two-column hero reaches before it stacks.
+.c-venn-label {
+  fill: var(--c-head);
+  font-family: var(--c-sans);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.c-venn-core { fill: var(--c-green); }
+
+.c-venn-core-text {
+  fill: var(--c-on-accent);
+  font-family: var(--c-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.c-venn-caption {
+  fill: var(--c-slate);
+  font-family: var(--c-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+}
+
+// --- Hover: isolate one discipline's area -----------------------------------
+// Hovering a circle (or its label) fills that set and fades the rest, so the
+// extent of a single discipline can be read out of the overlap.
+
+.c-venn-item,
+.c-venn-core-group,
+.c-venn-caption {
+  transition: opacity 0.2s ease;
+}
+
+.c-venn-set,
+.c-venn-label {
+  transition: fill 0.2s ease, fill-opacity 0.2s ease,
+              stroke-opacity 0.2s ease, stroke-width 0.2s ease;
+}
+
+// Dim the others only while a set is genuinely hovered. Without :has support
+// the highlight below still applies, just with no dimming.
+.c-venn:has(.c-venn-item:hover) .c-venn-item { opacity: 0.22; }
+.c-venn:has(.c-venn-item:hover) .c-venn-core-group,
+.c-venn:has(.c-venn-item:hover) .c-venn-caption { opacity: 0.3; }
+
+// Must out-specify the dimming rule above, which is (0,4,0) because :has()
+// takes the specificity of its argument. A bare `.c-venn-item:hover` scores
+// lower and would leave the hovered set dimmed along with the others.
+.c-venn:has(.c-venn-item:hover) .c-venn-item:hover { opacity: 1; }
+
+.c-venn:has(.c-venn-item:hover) .c-venn-item:hover .c-venn-set {
+  fill-opacity: 0.2;
+  stroke-opacity: 0.95;
+  stroke-width: 2;
+}
+
+.c-venn:has(.c-venn-item:hover) .c-venn-item:hover .c-venn-label {
+  fill: var(--c-green);
+}
+
+// Fallback for engines without :has() - highlight still works, minus dimming.
+.c-venn-item:hover .c-venn-set {
+  fill-opacity: 0.2;
+  stroke-opacity: 0.95;
+  stroke-width: 2;
+}
+
+.c-venn-item:hover .c-venn-label { fill: var(--c-green); }

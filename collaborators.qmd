@@ -86,7 +86,7 @@ toc: false
       <div class="c-aside">
         <dl class="c-facts">
           <dt>Contact</dt>
-          <dd><a href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">training.chiralbd@gmail.com</a></dd>
+          <dd><a href="mailto:chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">chiralbd@gmail.com</a></dd>
 
           <dt>Typical first step</dt>
           <dd>A scoped pilot analysis, two to three months.</dd>
@@ -99,7 +99,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">Propose a collaboration</a>
+          <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">Propose a collaboration</a>
         </p>
       </div>
     </div>

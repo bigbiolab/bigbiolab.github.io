@@ -58,7 +58,7 @@ toc: false
         </p>
 
         <p>
-          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Application%20for%20Junior%20Student%20Research%20Fellowship">Apply as a junior fellow</a>
+          <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Application%20for%20Junior%20Student%20Research%20Fellowship">Apply as a junior fellow</a>
         </p>
       </div>
 
@@ -111,7 +111,7 @@ toc: false
         </p>
 
         <p>
-          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Volunteer%20as%20a%20Mentor">Volunteer as a mentor</a>
+          <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Volunteer%20as%20a%20Mentor">Volunteer as a mentor</a>
         </p>
       </div>
 
@@ -147,7 +147,7 @@ toc: false
     </div>
     <div class="c-btn-row">
       <a class="c-btn c-btn--dark" href="collaborators.html">How collaboration works</a>
-      <a class="c-btn c-btn--line" href="mailto:training.chiralbd@gmail.com?subject=Research%20Collaboration%20Inquiry">Propose a collaboration</a>
+      <a class="c-btn c-btn--line" href="mailto:chiralbd@gmail.com?subject=Research%20Collaboration%20Inquiry">Propose a collaboration</a>
     </div>
   </div>
 </section>

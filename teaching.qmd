@@ -87,7 +87,7 @@ toc: false
     </div>
 
     <div class="c-btn-row" style="margin-top:2.5rem">
-      <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Application%20for%20a%20training%20programme">Apply to a programme</a>
+      <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Application%20for%20a%20training%20programme">Apply to a programme</a>
       <a class="c-btn c-btn--line" href="events.html">Upcoming dates</a>
       <a class="c-btn c-btn--line" href="resources.html">Self-study resources</a>
     </div>
@@ -142,7 +142,7 @@ toc: false
           <dd><span class="c-todo">To be announced</span></dd>
 
           <dt>Enquiries</dt>
-          <dd><a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></dd>
+          <dd><a href="mailto:chiralbd@gmail.com">chiralbd@gmail.com</a></dd>
         </dl>
       </div>
     </div>

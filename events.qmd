@@ -32,7 +32,7 @@ toc: false
       <span class="c-todo">Nothing scheduled at the moment.</span>
       Announcements go out on <a href="https://www.linkedin.com/company/chiral-bangladesh/">LinkedIn</a>
       and to our mailing list — write to
-      <a href="mailto:training.chiralbd@gmail.com?subject=Event%20announcements">training.chiralbd@gmail.com</a>
+      <a href="mailto:chiralbd@gmail.com?subject=Event%20announcements">chiralbd@gmail.com</a>
       to be added.
     </p>
   </div>
@@ -59,7 +59,7 @@ toc: false
         <span class="c-card-meta">Format · Seminar</span>
         <h3>Research seminars</h3>
         <p>Talks from members and invited researchers on methods and results, with time given to the parts that did not work.</p>
-        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Seminar%20invitation">Propose a talk →</a>
+        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Seminar%20invitation">Propose a talk →</a>
       </div>
       <div class="c-card">
         <span class="c-card-meta">Format · Journal club</span>

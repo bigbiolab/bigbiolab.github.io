@@ -103,7 +103,7 @@ toc: false
       <div class="c-aside">
         <dl class="c-facts">
           <dt>Enquiries</dt>
-          <dd><a href="mailto:training.chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">training.chiralbd@gmail.com</a></dd>
+          <dd><a href="mailto:chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">chiralbd@gmail.com</a></dd>
 
           <dt>Registration status</dt>
           <dd><span class="c-todo">To be confirmed</span></dd>
@@ -116,7 +116,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">Talk to us about support</a>
+          <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">Talk to us about support</a>
         </p>
       </div>
     </div>

@@ -39,7 +39,3 @@ body { background: var(--c-paper); }
 .navbar .navbar-brand .navbar-logo {
   filter: invert(1) hue-rotate(180deg) saturate(1.4) brightness(1.15);
 }
-
-// The hero figure is drawn in the light-mode green (#006A4E), which sits too
-// dim on the dark ground. Lift it rather than maintaining a second SVG.
-.c-hero-figure svg { filter: brightness(1.85) saturate(1.05); }

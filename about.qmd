@@ -105,7 +105,7 @@ toc: false
           <dd>English and Bangla</dd>
 
           <dt>Contact</dt>
-          <dd><a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></dd>
+          <dd><a href="mailto:chiralbd@gmail.com">chiralbd@gmail.com</a></dd>
         </dl>
 
         <p style="margin-top:1.5rem">

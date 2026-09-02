@@ -24,19 +24,19 @@ email-obfuscation: javascript
         <span class="c-card-meta">Students</span>
         <h3>Joining the centre</h3>
         <p>Applications for the junior researcher track and questions about the training programmes.</p>
-        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Junior%20researcher%20application">Write to us →</a>
+        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Junior%20researcher%20application">Write to us →</a>
       </div>
       <div class="c-card">
         <span class="c-card-meta">Researchers</span>
         <h3>Collaboration &amp; mentoring</h3>
         <p>Joint projects, co-supervision, grant proposals, and volunteering as a mentor.</p>
-        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration">Write to us →</a>
+        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Research%20collaboration">Write to us →</a>
       </div>
       <div class="c-card">
         <span class="c-card-meta">Press &amp; institutions</span>
         <h3>Media and partnerships</h3>
         <p>Press enquiries, speaking requests, and institutional partnership or support.</p>
-        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Media%20or%20partnership%20enquiry">Write to us →</a>
+        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Media%20or%20partnership%20enquiry">Write to us →</a>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@ email-obfuscation: javascript
       <div class="c-aside">
         <dl class="c-facts">
           <dt>Email</dt>
-          <dd><a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></dd>
+          <dd><a href="mailto:chiralbd@gmail.com">chiralbd@gmail.com</a></dd>
 
           <dt>Address</dt>
           <dd>Azimpur, Dhaka 1205, Bangladesh</dd>
