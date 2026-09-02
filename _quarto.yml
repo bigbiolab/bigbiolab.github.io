@@ -45,6 +45,8 @@ website:
             text: Collaborators
           - href: support/index.qmd
             text: Support our work
+          - href: governance/index.qmd
+            text: Governance & accountability
           - href: contact/index.qmd
             text: Contact
       - text: Research
@@ -136,6 +138,7 @@ website:
       <li><a href="/collaborators/">Collaborators</a></li>
       <li><a href="/opportunities/">Join us</a></li>
       <li><a href="/support/">Support us</a></li>
+      <li><a href="/governance/">Governance</a></li>
       <li><a href="/contact/">Contact</a></li>
       </ul>
       </div>

@@ -1,0 +1,14 @@
+```{=html}
+<div class="list c-grid-3">
+<% for (const item of items) { %>
+  <article class="c-card" <%= metadataAttrs(item) %>>
+    <span class="c-card-meta"><%= item.scope %></span>
+    <h3 class="listing-title"><%= item.title %></h3>
+    <p><%= item.description %></p>
+    <% if (item.href) { %>
+      <a class="c-card-link" href="<%- item.href %>" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    <% } %>
+  </article>
+<% } %>
+</div>
+```

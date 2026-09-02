@@ -1,0 +1,218 @@
+---
+pagetitle: "Governance & accountability | CHIRAL Bangladesh"
+description: "How CHIRAL Bangladesh is structured and governed, the written policies every member works under, and what the centre owes the people who volunteer for it."
+page-layout: custom
+toc: false
+listing:
+  - id: policies
+    contents: policies.yml
+    template: ../_templates/policy-card.ejs
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Governance &amp; accountability</h1>
+    <p>
+      A volunteer centre asks people to work without pay. The least it owes them
+      in return is to write down what it expects, what they get, and what happens
+      when either side falls short. Those documents are public, and so is every
+      change made to them.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Where the centre sits</h2>
+        <p>
+          CHIRAL is the research arm of the DeepBio ecosystem, alongside
+          <strong>DeepBio Limited</strong>, which provides bioinformatics and data
+          services as a company, and <strong>DeepBio Academy</strong>, which runs
+          training. The three are governed separately because membership means
+          different things in each: employment, volunteering, and enrolment
+          respectively.
+        </p>
+        <p>
+          That separation matters for reading anything on this page. CHIRAL's
+          rules — unpaid positions, minimum commitment, authorship conditions —
+          are research-specific. They do not govern DeepBio Limited employees or
+          Academy trainees, and are not applied to them.
+        </p>
+
+        <h2>Positions are unpaid, and that shapes everything</h2>
+        <p>
+          Every position at CHIRAL, Research Assistant and Group Leader alike, is
+          voluntary and unpaid. It is a research and training opportunity, not
+          employment. Nobody is offered a salary, a stipend, or any financial
+          benefit.
+        </p>
+        <p>
+          In return the centre provides mentorship, training, access to
+          infrastructure, co-authorship on work a member genuinely contributed to,
+          and — on satisfactory completion — a recommendation letter. Because the
+          position is unpaid, those four things are also the only levers the
+          centre has if commitments are not met. They are earned, and they can be
+          withheld.
+        </p>
+
+        <h2>Who answers to whom</h2>
+        <p>
+          The Director leads the centre. Each unit is led by a Group Leader who
+          reports to the Director, and Research Assistants work within a unit under
+          their Group Leader. Every member knows who they report to and what their
+          role is expected to produce.
+        </p>
+        <p>
+          Centre-wide policy takes precedence over any unit's own overlay. A unit
+          may add rules for its own tools, data types and stack; where the two
+          conflict, the centre document wins unless the Director approves a
+          documented exception.
+        </p>
+
+        <h2>How someone joins</h2>
+        <p>
+          Entry runs through a prerequisite course, then an interview — not
+          through who you know. A candidate completes the DeepBio Academy course
+          required for the unit they are applying to, applies with proof of
+          completion and a written disclosure of outside commitments, interviews
+          with the unit's Group Leader, and is selected by the Group Leader with
+          the Director's approval. The first three months are probationary.
+        </p>
+        <p>
+          Completing the course makes someone eligible, not selected — selection is
+          competitive. The required course, the proof, the interview outcome and
+          the decision are recorded for every recruit, so selection can be
+          examined after the fact.
+        </p>
+
+        <h2>Authorship is earned against a published standard</h2>
+        <p>
+          Authorship follows the four
+          <a href="https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">ICMJE criteria</a>,
+          all of which must be met. Gift, guest and ghost authorship are
+          prohibited. Roles are discussed at the start of a project and revisited
+          as contributions change, each author's specific contribution is recorded
+          using CRediT, and seniority does not buy a place on a paper.
+        </p>
+        <p>
+          This is the mechanism behind the claim made elsewhere on this site that
+          students first-author their own work. It is written down so it can be
+          held against us.
+        </p>
+
+        <h2>When things go wrong</h2>
+        <p>
+          Missed revisions, unexcused absences and missed communication windows
+          follow a graded ladder rather than arbitrary judgement. A first lapse is
+          a logged reminder; a second is a written warning with a catch-up plan; a
+          third triggers an authorship review against the ICMJE criteria; persistent
+          or severe lapses mean removal from the project and referral to the
+          Director. Penalties affect only the member who lapsed — they never reduce
+          the credit of people who did the work.
+        </p>
+        <p>
+          Research misconduct, disputes over authorship, and appeals each have their
+          own written procedure in the Publication &amp; Authorship Policy.
+        </p>
+
+        <h2>Health data</h2>
+        <p>
+          No identifiable human data is collected or analysed without ethics
+          approval, and data is used only for the purpose the participant consented
+          to. Sensitive data lives in encrypted, access-controlled storage — never
+          personal laptops, personal cloud drives or personal inboxes — with access
+          granted by name on a least-privilege basis and revoked at offboarding.
+          Identifiers are separated from analysis datasets, precise household
+          coordinates are treated as identifying, and no identifiable data or
+          credentials go into Git.
+        </p>
+
+        <h2>How these documents change</h2>
+        <p>
+          They are living documents, kept in the same public repository as this
+          website. Anyone can propose a change by opening a pull request, and every
+          revision carries an author, a date and a rationale in the history. What
+          the centre required of a member in a given month can be reconstructed
+          exactly.
+        </p>
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Positions</dt>
+          <dd>Voluntary and unpaid. No salary or stipend, at any level.</dd>
+
+          <dt>Minimum commitment</dt>
+          <dd>18 months active; 2 years expected. Authorship is contingent on honouring it.</dd>
+
+          <dt>Probation</dt>
+          <dd>First 3 months.</dd>
+
+          <dt>Authorship standard</dt>
+          <dd>ICMJE, all four criteria. CRediT roles recorded per author.</dd>
+
+          <dt>Entry route</dt>
+          <dd>Prerequisite DeepBio Academy course, then interview and selection.</dd>
+
+          <dt>Ethics</dt>
+          <dd>Required before any identifiable human data is touched.</dd>
+
+          <dt>Raising a concern</dt>
+          <dd><a href="mailto:chiralbd@gmail.com?subject=Governance%20enquiry">chiralbd@gmail.com</a></dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="https://github.com/chiralbd/chiralbd.github.io/tree/main/onboarding">Read the full handbook</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Written policies</span>
+      <h2 class="c-h2">What every member works under</h2>
+      <p class="c-lede">
+        These are the documents a member signs up to at onboarding. Each links to
+        the canonical copy in the repository, with its full revision history.
+      </p>
+    </div>
+```
+
+:::{#policies}
+:::
+
+```{=html}
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Commitments</span>
+      <h2 class="c-h2">What we hold ourselves to</h2>
+    </div>
+    <ul class="c-rule-list">
+      <li><strong>Students first-author their own work.</strong> Authorship is judged against the ICMJE criteria, not against seniority.</li>
+      <li><strong>Nobody pays, and nobody is paid.</strong> There are no fees to join and no stipends, at any level of the centre.</li>
+      <li><strong>Selection is recorded.</strong> The prerequisite, the interview outcome and the decision are kept for every recruit.</li>
+      <li><strong>Consequences are graded and written down</strong> — the same ladder for everyone, applied only to the person who lapsed.</li>
+      <li><strong>Health data is not touched without ethics approval</strong>, and is used only for the purpose consented to.</li>
+      <li><strong>The rules are public and versioned.</strong> Every change to them is a public commit.</li>
+    </ul>
+
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--solid" href="/opportunities/">Join the centre</a>
+      <a class="c-btn c-btn--ghost" href="/about/">About the centre</a>
+      <a class="c-btn c-btn--ghost" href="mailto:chiralbd@gmail.com?subject=Governance%20enquiry">Raise a concern</a>
+    </div>
+  </div>
+</section>
+```

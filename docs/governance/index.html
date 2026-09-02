@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Databases, tools and set-up guides we teach against and use in our own analyses.">
+<meta name="description" content="How CHIRAL Bangladesh is structured and governed, the written policies every member works under, and what the centre owes the people who volunteer for it.">
 
-<title>Learning resources | CHIRAL Bangladesh – CHIRAL Bangladesh</title>
+<title>Governance &amp; accountability | CHIRAL Bangladesh – CHIRAL Bangladesh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,41 +27,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -72,6 +37,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/logo/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -113,6 +80,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-policies .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-scope','listing-description','listing-href',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-scope","listing-description","listing-href"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-policies'] = new List('listing-policies', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K5TXS64QLN"></script>
 
 <script type="text/javascript">
@@ -123,18 +119,47 @@ gtag('js', new Date());
 gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Learning resources | CHIRAL Bangladesh">
-<meta property="og:description" content="Databases, tools and set-up guides we teach against and use in our own analyses.">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Governance &amp; accountability | CHIRAL Bangladesh">
+<meta property="og:description" content="How CHIRAL Bangladesh is structured and governed, the written policies every member works under, and what the centre owes the people who volunteer for it.">
 <meta property="og:site_name" content="CHIRAL Bangladesh">
-<meta name="twitter:title" content="Learning resources | CHIRAL Bangladesh">
-<meta name="twitter:description" content="Databases, tools and set-up guides we teach against and use in our own analyses.">
-<meta name="twitter:image" content="https://chiralbd.github.io/resources/img/logo/social-card.jpg">
+<meta name="twitter:title" content="Governance &amp; accountability | CHIRAL Bangladesh">
+<meta name="twitter:description" content="How CHIRAL Bangladesh is structured and governed, the written policies every member works under, and what the centre owes the people who volunteer for it.">
+<meta name="twitter:image" content="https://chiralbd.github.io/governance/img/logo/social-card.jpg">
 <meta name="twitter:creator" content="@chiralbd">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -462,111 +487,264 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 
 <header class="c-pagehead">
   <div class="c-wrap">
-<h1>Learning resources</h1>
+<h1>Governance &amp; accountability</h1>
     <p>
-      The public databases, tools and set-up steps our courses are built on.
-      Everything here is free to use.
+      A volunteer centre asks people to work without pay. The least it owes them
+      in return is to write down what it expects, what they get, and what happens
+      when either side falls short. Those documents are public, and so is every
+      change made to them.
     </p>
   </div>
 </header>
-<div class="c-wrap c-page-body">
-<div class="c-prose">
-<section id="data-and-tools-for-cancer-genomics" class="level2">
-<h2 data-anchor-id="data-and-tools-for-cancer-genomics">Data and Tools for Cancer Genomics</h2>
-<ul>
-<li><p><a href="https://portal.gdc.cancer.gov/">The Cancer Genome Atlas (TCGA):</a> TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.</p></li>
-<li><p><a href="https://icgc.org/">International Cancer Genome Consortium (ICGC):</a> Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.</p></li>
-<li><p><a href="https://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO):</a> GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.</p></li>
-<li><p><a href="https://ega-archive.org/">European Genome-phenome Archive (EGA):</a> Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.</p></li>
-<li><p><a href="https://gdc.cancer.gov/">National Cancer Institute (NCI) Genomic Data Commons (GDC):</a> Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.</p></li>
-<li><p><a href="http://www.oncolnc.org/">OncoLnc</a>: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.</p></li>
-<li><p><a href="https://genome-cancer.ucsc.edu/">UCSC Cancer Genomics Browser:</a> The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.</p></li>
-<li><p><a href="http://www.ilincs.org/apps/grein/">GREIN : GEO RNA-seq Experiments Interactive Navigator:</a> GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).</p></li>
-<li><p><a href="http://gepia2.cancer-pku.cn/">GEPIA2</a>: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.</p></li>
-<li><p><a href="http://ualcan.path.uab.edu/">UALCAN</a>: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.</p></li>
-<li><p><a href="https://www.cbioportal.org/">cBioPortal for Cancer Genomics:</a>: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.</p></li>
-<li><p><a href="https://www.oncomine.org/resource/login.html">ONCOMINE</a>: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.</p></li>
-</ul>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Where the centre sits</h2>
+        <p>
+          CHIRAL is the research arm of the DeepBio ecosystem, alongside
+          <strong>DeepBio Limited</strong>, which provides bioinformatics and data
+          services as a company, and <strong>DeepBio Academy</strong>, which runs
+          training. The three are governed separately because membership means
+          different things in each: employment, volunteering, and enrolment
+          respectively.
+        </p>
+        <p>
+          That separation matters for reading anything on this page. CHIRAL's
+          rules — unpaid positions, minimum commitment, authorship conditions —
+          are research-specific. They do not govern DeepBio Limited employees or
+          Academy trainees, and are not applied to them.
+        </p>
+
+        <h2>Positions are unpaid, and that shapes everything</h2>
+        <p>
+          Every position at CHIRAL, Research Assistant and Group Leader alike, is
+          voluntary and unpaid. It is a research and training opportunity, not
+          employment. Nobody is offered a salary, a stipend, or any financial
+          benefit.
+        </p>
+        <p>
+          In return the centre provides mentorship, training, access to
+          infrastructure, co-authorship on work a member genuinely contributed to,
+          and — on satisfactory completion — a recommendation letter. Because the
+          position is unpaid, those four things are also the only levers the
+          centre has if commitments are not met. They are earned, and they can be
+          withheld.
+        </p>
+
+        <h2>Who answers to whom</h2>
+        <p>
+          The Director leads the centre. Each unit is led by a Group Leader who
+          reports to the Director, and Research Assistants work within a unit under
+          their Group Leader. Every member knows who they report to and what their
+          role is expected to produce.
+        </p>
+        <p>
+          Centre-wide policy takes precedence over any unit's own overlay. A unit
+          may add rules for its own tools, data types and stack; where the two
+          conflict, the centre document wins unless the Director approves a
+          documented exception.
+        </p>
+
+        <h2>How someone joins</h2>
+        <p>
+          Entry runs through a prerequisite course, then an interview — not
+          through who you know. A candidate completes the DeepBio Academy course
+          required for the unit they are applying to, applies with proof of
+          completion and a written disclosure of outside commitments, interviews
+          with the unit's Group Leader, and is selected by the Group Leader with
+          the Director's approval. The first three months are probationary.
+        </p>
+        <p>
+          Completing the course makes someone eligible, not selected — selection is
+          competitive. The required course, the proof, the interview outcome and
+          the decision are recorded for every recruit, so selection can be
+          examined after the fact.
+        </p>
+
+        <h2>Authorship is earned against a published standard</h2>
+        <p>
+          Authorship follows the four
+          <a href="https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">ICMJE criteria</a>,
+          all of which must be met. Gift, guest and ghost authorship are
+          prohibited. Roles are discussed at the start of a project and revisited
+          as contributions change, each author's specific contribution is recorded
+          using CRediT, and seniority does not buy a place on a paper.
+        </p>
+        <p>
+          This is the mechanism behind the claim made elsewhere on this site that
+          students first-author their own work. It is written down so it can be
+          held against us.
+        </p>
+
+        <h2>When things go wrong</h2>
+        <p>
+          Missed revisions, unexcused absences and missed communication windows
+          follow a graded ladder rather than arbitrary judgement. A first lapse is
+          a logged reminder; a second is a written warning with a catch-up plan; a
+          third triggers an authorship review against the ICMJE criteria; persistent
+          or severe lapses mean removal from the project and referral to the
+          Director. Penalties affect only the member who lapsed — they never reduce
+          the credit of people who did the work.
+        </p>
+        <p>
+          Research misconduct, disputes over authorship, and appeals each have their
+          own written procedure in the Publication &amp; Authorship Policy.
+        </p>
+
+        <h2>Health data</h2>
+        <p>
+          No identifiable human data is collected or analysed without ethics
+          approval, and data is used only for the purpose the participant consented
+          to. Sensitive data lives in encrypted, access-controlled storage — never
+          personal laptops, personal cloud drives or personal inboxes — with access
+          granted by name on a least-privilege basis and revoked at offboarding.
+          Identifiers are separated from analysis datasets, precise household
+          coordinates are treated as identifying, and no identifiable data or
+          credentials go into Git.
+        </p>
+
+        <h2>How these documents change</h2>
+        <p>
+          They are living documents, kept in the same public repository as this
+          website. Anyone can propose a change by opening a pull request, and every
+          revision carries an author, a date and a rationale in the history. What
+          the centre required of a member in a given month can be reconstructed
+          exactly.
+        </p>
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Positions</dt>
+          <dd>Voluntary and unpaid. No salary or stipend, at any level.</dd>
+
+          <dt>Minimum commitment</dt>
+          <dd>18 months active; 2 years expected. Authorship is contingent on honouring it.</dd>
+
+          <dt>Probation</dt>
+          <dd>First 3 months.</dd>
+
+          <dt>Authorship standard</dt>
+          <dd>ICMJE, all four criteria. CRediT roles recorded per author.</dd>
+
+          <dt>Entry route</dt>
+          <dd>Prerequisite DeepBio Academy course, then interview and selection.</dd>
+
+          <dt>Ethics</dt>
+          <dd>Required before any identifiable human data is touched.</dd>
+
+          <dt>Raising a concern</dt>
+          <dd><a href="mailto:chiralbd@gmail.com?subject=Governance%20enquiry">chiralbd@gmail.com</a></dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="https://github.com/chiralbd/chiralbd.github.io/tree/main/onboarding">Read the full handbook</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
-<section id="guideline-for-bioconductor-users" class="level2">
-<h2 data-anchor-id="guideline-for-bioconductor-users">Guideline for Bioconductor Users</h2>
-<p><a href="https://bioconductor.org/">Bioconductor</a> is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.</p>
-</section>
-<section id="required-software" class="level2">
-<h2 data-anchor-id="required-software">Required software</h2>
-<ul>
-<li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
-<li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
-</ul>
-</section>
-<section id="prework" class="level2">
-<h2 data-anchor-id="prework">Prework</h2>
-<p>Before attending the any workshop please have the following installed and configured on your machine. - Recent version of <strong>R</strong> - Recent version of <strong>RStudio</strong> - Most recent release of the <a href="https://www.bioconductor.org/install/"><strong>Bioconductor</strong></a> and other packages used in courses</p>
-<p>Install the latest release of R, then get the latest version of Bioconductor by starting R and entering the commands.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="at">version =</span> <span class="st">"3.16"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Written policies</span>
+      <h2 class="c-h2">What every member works under</h2>
+      <p class="c-lede">
+        These are the documents a member signs up to at onboarding. Each links to
+        the canonical copy in the repository, with its full revision history.
+      </p>
+    </div>
+<div id="listing-policies" class="quarto-listing quarto-listing-container-custom">
+<div class="list c-grid-3">
+
+  <article class="c-card" data-index="0">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Centre Guidelines</h3>
+    <p>Mission, expectations, roles and reporting, minimum commitment, communication, meetings, source code, data management and reproducibility.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/center-guidelines.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="1">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Publication &amp; Authorship Policy</h3>
+    <p>ICMJE authorship criteria, author order, CRediT contributor roles, revision responsibilities, the accountability ladder, dispute resolution and misconduct.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/publication-authorship-policy.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="2">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Data Governance Policy</h3>
+    <p>Data classification, ethics approval and consent, storage and least-privilege access, de-identification, sharing agreements, and breach handling for health data.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/data-governance.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="3">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Recruitment Policy</h3>
+    <p>How Research Assistants and Group Leaders are selected: the prerequisite course for each unit, interview, selection, probation, and the records kept of each decision.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/recruitment-policy.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="4">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Good Practices</h3>
+    <p>Coding standards, reproducibility, documentation and version control — what an analysis has to satisfy before it leaves the centre.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/good-practices.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
+  <article class="c-card" data-index="5">
+    <span class="c-card-meta">Centre-wide</span>
+    <h3 class="listing-title">Social Media Policy</h3>
+    <p>How members represent the centre online, including the affiliation requirement and the escalation that applies when it is not met.</p>
+    
+      <a class="c-card-link" href="https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/social-media-policy.md" target="_blank" rel="noopener noreferrer">Read the policy →</a>
+    
+  </article>
+
 </div>
-<ul>
-<li><p>Ensure you can knit R markdown documents</p>
-<ul>
-<li>Open RStudio and create a new Rmarkdown document</li>
-<li>Save the document and check you are able to knit it.</li>
-</ul></li>
-</ul>
-</section>
-<section id="install-bioconductor-packages" class="level2">
-<h2 data-anchor-id="install-bioconductor-packages">Install Bioconductor Packages</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p>Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(<span class="st">"GenomicFeatures"</span>, <span class="st">"AnnotationDbi"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-<p>The <code>install()</code> function (in the BiocManager package) has arguments that change its default behavior; type ?install for further help.</p>
+  </div>
 </section>
-<section id="r-packages-rnaseq-and-single-cell-rna-seq-analysis" class="level2">
-<h2 data-anchor-id="r-packages-rnaseq-and-single-cell-rna-seq-analysis">R Packages RNASeq and Single-cell RNA-seq Analysis</h2>
-<ul>
-<li><code>DESeq2</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> is a widely used package for differential gene expression analysis in RNA-seq data.</li>
-<li><code>edgeR</code>: <a href="https://bioconductor.org/packages/release/bioc/html/edgeR.html">edgeR</a> is another popular package for differential gene expression analysis in RNA-seq data.</li>
-<li><code>limma</code>: <a href="https://bioconductor.org/packages/release/bioc/html/limma.html">limma</a> is a package commonly used for the analysis of microarray and RNA-seq data, particularly for differential expression analysis.</li>
-<li><code>Ballgown</code>: <a href="https://bioconductor.org/packages/release/bioc/html/ballgown.html">Ballgown</a> is a package for differential expression analysis and visualization of transcriptome assembly data.</li>
-<li><code>DEXSeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/DEXSeq.html">DEXSeq</a> is specifically designed for the detection of differential exon usage in RNA-seq data.</li>
-<li><code>NOISeq</code>: <a href="https://bioconductor.org/packages/release/bioc/html/NOISeq.html">NOISeq</a> is a package for non-parametric analysis of differential expression in RNA-seq data.</li>
-<li><code>clusterProfiler</code>: <a href="https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html">clusterProfiler</a> is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.</li>
-<li><code>GenomicFeatures</code>: <a href="https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html">GenomicFeatures</a> provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.</li>
-<li><code>Seurat</code>: <a href="https://satijalab.org/seurat/">Seurat</a> is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.</li>
-</ul>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Commitments</span>
+      <h2 class="c-h2">What we hold ourselves to</h2>
+    </div>
+    <ul class="c-rule-list">
+      <li><strong>Students first-author their own work.</strong> Authorship is judged against the ICMJE criteria, not against seniority.</li>
+      <li><strong>Nobody pays, and nobody is paid.</strong> There are no fees to join and no stipends, at any level of the centre.</li>
+      <li><strong>Selection is recorded.</strong> The prerequisite, the interview outcome and the decision are kept for every recruit.</li>
+      <li><strong>Consequences are graded and written down</strong> — the same ladder for everyone, applied only to the person who lapsed.</li>
+      <li><strong>Health data is not touched without ethics approval</strong>, and is used only for the purpose consented to.</li>
+      <li><strong>The rules are public and versioned.</strong> Every change to them is a public commit.</li>
+    </ul>
+
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--solid" href="../opportunities/">Join the centre</a>
+      <a class="c-btn c-btn--ghost" href="../about/">About the centre</a>
+      <a class="c-btn c-btn--ghost" href="mailto:chiralbd@gmail.com?subject=Governance%20enquiry">Raise a concern</a>
+    </div>
+  </div>
 </section>
-<section id="blogs-for-r-programming-statistics-and-data-analyis" class="level2">
-<h2 data-anchor-id="blogs-for-r-programming-statistics-and-data-analyis">Blogs for R Programming, Statistics, and Data Analyis</h2>
-<ul>
-<li>Programiz - <a href="https://www.datamentor.io/r-programming/">https://www.datamentor.io/r-programming/</a></li>
-<li>PennState STAT 484 - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
-<li>PennState Topics in R Statistical Language - <a href="https://online.stat.psu.edu/stat484/">https://online.stat.psu.edu/stat484/</a></li>
-<li>Simply Statistics - <a href="https://simplystatistics.org/">https://simplystatistics.org/</a></li>
-<li>TutorialPoint - <a href="https://www.tutorialspoint.com/r/index.htm">https://www.tutorialspoint.com/r/index.htm</a></li>
-<li>R for Biologists - <a href="https://www.rforbiologists.org/">https://www.rforbiologists.org/</a></li>
-<li>Computational Genomics with R - <a href="https://compgenomr.github.io/book/">https://compgenomr.github.io/book/</a></li>
-<li>Stat and R - <a href="https://statsandr.com/">https://statsandr.com/</a></li>
-<li>Rafa Lab - <a href="https://rafalab.github.io/pages/harvardx.html">https://rafalab.github.io/pages/harvardx.html</a></li>
-<li>University of Florida - <a href="https://bolt.mph.ufl.edu/software/r-phc-6055/">https://bolt.mph.ufl.edu/software/r-phc-6055/</a></li>
-</ul>
-</section>
-<section id="videos" class="level2">
-<h2 data-anchor-id="videos">Videos</h2>
-<ul>
-<li><p><strong>July 9, 2023</strong>: I’m thrilled to announce that the highly anticipated videos from our workshop on “R for Research: Fundamentals of R - Part 1” are now available for viewing. Whether you missed the live event or want to revisit the valuable insights shared during the session, these videos are your gateway to mastering the basics of R programming language for data analysis and research. Join us as we explore the foundations of R and learn essential skills to enhance your data analysis capabilities. Don’t wait any longer; dive into the videos today and take your research to new heights! Check it out: </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dQhZjmw9BK0" title="R for Research || Fundamentals of R: Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p></li>
-<li><p><strong>April 12, 2023</strong>: Watch this informative 2-hour workshop on how <strong>NASA Earth Observing Data</strong> can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out: </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rHJUhAz0_98" title="Using NASA Earth Observing Data for Public Health" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p></li>
-</ul>
-</section>
-</div>
-</div>
+
 
 
 

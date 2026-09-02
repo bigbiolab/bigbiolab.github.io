@@ -69,8 +69,15 @@ toc: false
 
         <h2>Governance &amp; affiliation</h2>
         <p>
-          <span class="c-todo">To be completed</span> — legal registration status,
-          advisory board, and institutional affiliations.
+          CHIRAL is the research arm of the DeepBio ecosystem, alongside DeepBio
+          Limited and DeepBio Academy. It is led by a Director, organised into
+          units under Group Leaders, and run against written policies covering
+          recruitment, authorship, data governance and conduct — all of them
+          public. See <a href="/governance/">governance &amp; accountability</a>.
+        </p>
+        <p>
+          <span class="c-todo">To be completed</span> — legal registration status
+          and advisory board.
         </p>
         <!-- TODO(CHIRAL): state the centre's registration status, list the advisory
              board, and name institutional affiliations. This section is the first

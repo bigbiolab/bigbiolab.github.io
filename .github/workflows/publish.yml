@@ -1,34 +1,39 @@
 name: Build and publish site
 
-# Someone edits a .yml collection on github.com and clicks Commit; this renders
-# the site and commits the result back to docs/, which is what GitHub Pages
-# serves. No local tooling needed to change the content.
+# Renders the Quarto site and deploys it straight to GitHub Pages.
 #
-# docs/ is excluded from the trigger so this workflow's own commit does not
-# start it again.
+# This requires Settings -> Pages -> Source = "GitHub Actions". In that mode
+# GitHub's own "pages build and deployment" job no longer runs on push, so if
+# this workflow does not deploy, nothing does - which is exactly what happened
+# while this file only rendered and committed docs/.
+#
+# Nothing is committed back to the repository any more: the rendered site is
+# uploaded as an artifact and served from there. That removes the bot commits,
+# the [skip ci] guard and the risk of a build loop.
 
 on:
   push:
     branches: [main]
     paths-ignore:
-      - 'docs/**'
       - 'EDITING.md'
       - 'README.md'
   workflow_dispatch:
 
-# One build at a time; a newer push supersedes one already queued, since two
-# builds racing to commit docs/ would conflict.
+# One deployment at a time. A newer push supersedes one already queued, but a
+# run that is mid-deploy is allowed to finish rather than leaving Pages
+# half-updated.
 concurrency:
-  group: publish
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -58,14 +63,28 @@ jobs:
       - name: Render site
         run: quarto render
 
-      - name: Commit the rendered site
+      - name: Check the build is not empty
+        # A Quarto failure can still exit 0 in odd cases; refuse to publish a
+        # site with no home page rather than replacing a working one.
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
-          if git diff --staged --quiet; then
-            echo "No change to the rendered site."
-          else
-            git commit -m "Rebuild site from content changes [skip ci]"
-            git push
-          fi
+          test -f docs/index.html || { echo "docs/index.html missing - refusing to deploy"; exit 1; }
+          echo "pages built: $(find docs -name '*.html' | wc -l)"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the rendered site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,40 @@
+# The centre's written policies. Each links to the document in the repository,
+# which is the canonical copy — history and every change are public there.
+#
+# Fields: title, scope (Centre-wide / Unit), description, href.
+
+- path:
+  title: "Centre Guidelines"
+  scope: "Centre-wide"
+  description: "Mission, expectations, roles and reporting, minimum commitment, communication, meetings, source code, data management and reproducibility."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/center-guidelines.md"
+
+- path:
+  title: "Publication & Authorship Policy"
+  scope: "Centre-wide"
+  description: "ICMJE authorship criteria, author order, CRediT contributor roles, revision responsibilities, the accountability ladder, dispute resolution and misconduct."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/publication-authorship-policy.md"
+
+- path:
+  title: "Data Governance Policy"
+  scope: "Centre-wide"
+  description: "Data classification, ethics approval and consent, storage and least-privilege access, de-identification, sharing agreements, and breach handling for health data."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/data-governance.md"
+
+- path:
+  title: "Recruitment Policy"
+  scope: "Centre-wide"
+  description: "How Research Assistants and Group Leaders are selected: the prerequisite course for each unit, interview, selection, probation, and the records kept of each decision."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/recruitment-policy.md"
+
+- path:
+  title: "Good Practices"
+  scope: "Centre-wide"
+  description: "Coding standards, reproducibility, documentation and version control — what an analysis has to satisfy before it leaves the centre."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/good-practices.md"
+
+- path:
+  title: "Social Media Policy"
+  scope: "Centre-wide"
+  description: "How members represent the centre online, including the affiliation requirement and the escalation that applies when it is not met."
+  href: "https://github.com/chiralbd/chiralbd.github.io/blob/main/onboarding/shared/social-media-policy.md"
