@@ -1,0 +1,24 @@
+---
+title: "Pan-cancer study of CCT5 published in Cancer Bioinformatics"
+description: "A systematic evaluation of CCT5 across 33 tumour cohorts, led by undergraduate researchers at the centre."
+date: 2025-01-15
+categories: [Publication, Computational Biology]
+toc: false
+---
+
+Our pan-cancer analysis of the chaperonin subunit **CCT5** has been published in
+*Cancer Bioinformatics*.
+
+The study examines CCT5 across 33 tumour types, covering gene and protein
+expression, DNA methylation, genetic alteration, immune cell infiltration,
+correlation with tumour mutational burden and microsatellite instability, drug
+sensitivity, and prognostic significance. CCT5 was overexpressed in most tumours
+and associated with poorer overall and disease-free survival in several of them;
+reduced promoter and N-shore methylation points to an epigenetic component, and
+amplification was the most common alteration observed.
+
+The work was led by undergraduate researchers working through the centre's
+supervision programme, from the initial question to the submitted manuscript.
+
+[Read the paper](https://doi.org/10.1038/s41598-025-88339-z){.c-btn .c-btn--dark}
+[Abstract and details](../../publications/articles/zabir_etal_2025.qmd){.c-btn .c-btn--line}

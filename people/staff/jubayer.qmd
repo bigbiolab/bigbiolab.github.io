@@ -1,12 +1,10 @@
 ---
 title: "Md. Jubayer Hossain"
 sortby: "1"
-subtitle: "Lab Director"
-image: /img/research-staff/jubayer.jpg 
+subtitle: "Founder & Executive Director"
+image: /img/research-staff/jubayer.jpg
 started: "Fall 2020"
 toc: false
-resources: 
-  - "girard_cv.pdf"
 about:
   id: person-profile
   template: jolla
@@ -14,9 +12,6 @@ about:
     - icon: link
       text: Website
       href: https://hossainlab.owlstown.net/
-    - icon: file-earmark-text
-      text: vitae
-      href: ./people/staff/girard_cv.pdf
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.com/citations?user=9_K4ekoAAAAJ&hl=en&authuser=5
@@ -27,17 +22,6 @@ about:
       text: twitter
       href: https://www.twitter.com/JHossain_28
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Staff</li>
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::

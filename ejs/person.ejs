@@ -1,0 +1,15 @@
+```{=html}
+<div class="list c-people-grid">
+<% for (const item of items) { %>
+  <a class="c-person" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+    <% if (item.image) { %>
+      <img class="c-person-img" src="<%- item.image %>" alt="<%= item.title %>" loading="lazy">
+    <% } else { %>
+      <span class="c-person-img c-person-img--empty" aria-hidden="true"></span>
+    <% } %>
+    <p class="c-person-name listing-title"><%= item.title %></p>
+    <p class="c-person-role listing-subtitle"><%= item.subtitle %></p>
+  </a>
+<% } %>
+</div>
+```

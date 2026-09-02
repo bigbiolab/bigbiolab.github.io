@@ -1,0 +1,26 @@
+---
+title: "Junior researcher intake is open"
+description: "Applications are open to university students in their first three years who want to work on bioinformatics, machine learning or public health data science."
+date: 2025-01-06
+categories: [Recruitment, Training]
+toc: false
+---
+
+We are accepting applications for the junior researcher track from university
+students in their first, second and third years.
+
+The track is aimed at students who want to do research rather than read about it.
+Accepted applicants join one of our four divisions, work under one-to-one
+supervision on an active project, and are expected to carry that project through
+to a manuscript. There is no fee, and there is no stipend.
+
+**No prior programming experience is required.** Foundational training in Linux,
+R and Python is provided through the centre's
+[training programmes](../../teaching.qmd). What we do ask for is consistency —
+the projects run over months, not weeks.
+
+Students from life sciences, computer science, medicine, public health, pharmacy,
+statistics, geography and environmental science are all a fit.
+
+[How to apply](../../opportunities.qmd){.c-btn .c-btn--dark}
+[Browse the divisions](../../research.qmd){.c-btn .c-btn--line}

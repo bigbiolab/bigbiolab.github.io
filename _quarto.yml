@@ -5,68 +5,144 @@ project:
   output-dir: docs
 
 execute:
-    freeze: auto
+  freeze: auto
 
 website:
-  title: "BigBio Lab"
-  favicon: img/showcase.svg
+  title: "CHIRAL Bangladesh"
+  description: "Center for Health Innovation, Research, Action and Learning — Bangladesh. A multidisciplinary research centre working across computational biology, Bio-AI, public health informatics and geospatial health."
+  favicon: img/logo/favicon.jpg
   open-graph: true
   twitter-card:
-    creator: "@hossainlab"
-    image: "img/showcase.svg"
-  # announcement:
-  #   icon: info-circle
-  #   dismissable: true
-  #   content: "**Alert** - announcement!"
-  #   type: primary
-  #   position: below-navbar
+    creator: "@chiralbd"
+    image: "img/logo/social-card.jpg"
+  site-url: https://chiralbd.github.io/
+  repo-url: https://github.com/chiralbd
+
   navbar:
     pinned: true
-    background: primary
+    title: false
+    logo: img/logo/chiral_logo-removebg.png
+    logo-alt: "CHIRAL Bangladesh"
     left:
-      # - href: news.qmd
-      #   text: News
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: teaching.qmd
-        text: Teaching
-      - href: resources.qmd
-        text: Resources
-      - href: people.qmd
-        text: People
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About the centre
+          - href: people.qmd
+            text: People
+          - href: collaborators.qmd
+            text: Collaborators
+          - href: support.qmd
+            text: Support our work
+          - href: contact.qmd
+            text: Contact
+      - text: Research
+        menu:
+          - href: research.qmd
+            text: Research overview
+          - text: "---"
+          - href: groups/combio/index.qmd
+            text: Computational Biology
+          - href: groups/public-health-informatics/index.qmd
+            text: Public Health & Informatics
+          - href: groups/bio-ai/index.qmd
+            text: Bio-AI
+          - href: groups/geospatial-health/index.qmd
+            text: Geospatial Health
+      - text: Publications
+        menu:
+          - href: publications.qmd
+            text: All research outputs
+          - href: software.qmd
+            text: Software & data
+      - text: Training
+        menu:
+          - href: teaching.qmd
+            text: Programmes
+          - href: resources.qmd
+            text: Learning resources
+          - href: events.qmd
+            text: Events & seminars
+      - href: news.qmd
+        text: News
       - href: opportunities.qmd
-        text: Join
-      - href: contact.qmd
-        text: Contact
+        text: Join us
     right:
       - icon: envelope
-        aria-label: email
+        aria-label: "Email CHIRAL Bangladesh"
         href: "mailto:training.chiralbd@gmail.com"
-      - icon: twitter
-        aria-label: twitter
-        href: https://twitter.com/chiralbd
-        rel: me
       - icon: github
-        aria-label: github
-        href: https://github.com/omicscenter
-        rel: me
-      - icon: youtube
-        aria-label: youtube
-        href: https://www.youtube.com/@hossainlab
+        aria-label: "CHIRAL Bangladesh on GitHub"
+        href: https://github.com/chiralbd
         rel: me
       - icon: linkedin
-        aria-label: linkedin
+        aria-label: "CHIRAL Bangladesh on LinkedIn"
         href: https://www.linkedin.com/company/chiral-bangladesh/
         rel: me
-  page-footer: "Copyright 2025 &copy; Big Bioifnormatics Lab (BigBio Lab)"
+      - icon: twitter
+        aria-label: "CHIRAL Bangladesh on X"
+        href: https://twitter.com/chiralbd
+        rel: me
+      - icon: youtube
+        aria-label: "CHIRAL Bangladesh on YouTube"
+        href: https://www.youtube.com/@hossainlab
+        rel: me
+
+  page-footer:
+    center: |
+      <div class="c-wrap c-foot">
+      <div class="c-foot-grid">
+      <div>
+      <p class="c-foot-mark">CHIRAL Bangladesh</p>
+      <p class="c-foot-bn">কাইরাল বাংলাদেশ</p>
+      <p class="c-foot-blurb">Centre for Health Innovation, Research, Action and Learning. Computational biology, Bio-AI and population health research, based in Dhaka.</p>
+      </div>
+      <div>
+      <h4>Research</h4>
+      <ul>
+      <li><a href="/research.html">Overview</a></li>
+      <li><a href="/groups/combio/">Computational Biology</a></li>
+      <li><a href="/groups/public-health-informatics/">Public Health &amp; Informatics</a></li>
+      <li><a href="/groups/bio-ai/">Bio-AI</a></li>
+      <li><a href="/groups/geospatial-health/">Geospatial Health</a></li>
+      </ul>
+      </div>
+      <div>
+      <h4>Outputs</h4>
+      <ul>
+      <li><a href="/publications.html">Publications</a></li>
+      <li><a href="/software.html">Software &amp; data</a></li>
+      <li><a href="/teaching.html">Training programmes</a></li>
+      <li><a href="/resources.html">Learning resources</a></li>
+      <li><a href="/events.html">Events</a></li>
+      </ul>
+      </div>
+      <div>
+      <h4>Centre</h4>
+      <ul>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/people.html">People</a></li>
+      <li><a href="/collaborators.html">Collaborators</a></li>
+      <li><a href="/opportunities.html">Join us</a></li>
+      <li><a href="/support.html">Support us</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      </div>
+      </div>
+      <div class="c-foot-base">
+      <span>Azimpur, Dhaka 1205, Bangladesh &middot; <a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></span>
+      <span>&copy; 2025 CHIRAL Bangladesh &middot; Content CC BY 4.0 &middot; Code MIT</span>
+      </div>
+      </div>
+
   google-analytics: "G-K5TXS64QLN"
-  site-url: https://bigbiolab.github.io/
-  repo-url: https://github.com/bigbiolab
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, theme/chiral.scss]
+      dark: [cosmo, theme/chiral.scss, theme/chiral-dark.scss]
     toc: true
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false

@@ -1,0 +1,86 @@
+---
+pagetitle: "Geospatial Health | CHIRAL Bangladesh"
+description: "Spatial epidemiology, earth observation, healthcare accessibility modelling and environmental health risk mapping."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+    <p class="c-eyebrow">Division · Population</p>
+    <h1>Geospatial Health</h1>
+    <p>
+      Where illness falls, and why there. Bangladesh is one of the most
+      climate-exposed and densely settled countries in the world, which makes
+      place an unusually strong predictor of health here.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Spatial epidemiology &amp; disease mapping</h2>
+        <p>
+          Cluster detection and disease mapping using GIS, applied to vector-borne
+          transmission — dengue in particular — where the spatial signal arrives
+          well before the case counts do.
+        </p>
+
+        <h2>Earth observation &amp; climate health</h2>
+        <p>
+          Satellite remote sensing, including NASA earth observation data, used to
+          track temperature anomaly, precipitation, land cover change and
+          particulate pollution as environmental determinants of health.
+        </p>
+
+        <h2>Healthcare accessibility</h2>
+        <p>
+          Spatial network analysis of physical access to tertiary care, emergency
+          services and primary clinics across rural and urban Bangladesh — travel
+          time rather than straight-line distance, since the two diverge sharply
+          during flooding.
+        </p>
+
+        <h2>Environmental exposure</h2>
+        <p>
+          Mapping groundwater contamination and industrial pollutants against
+          chronic disease prevalence, a question with a long and specific history
+          in this country.
+        </p>
+
+        <h2>Selected outputs</h2>
+        <p><span class="c-todo">To be listed</span></p>
+        <!-- TODO(CHIRAL): add this division's publications and published map layers. -->
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Division lead</dt>
+          <dd><span class="c-todo">To be listed</span></dd>
+
+          <dt>Methods</dt>
+          <dd>Cluster detection · spatial regression · kriging · network accessibility · remote sensing indices</dd>
+
+          <dt>Stack</dt>
+          <dd>R (sf, terra, spdep) · Python (GeoPandas, rasterio) · QGIS · Google Earth Engine</dd>
+
+          <dt>Data sources</dt>
+          <dd>NASA Earthdata · Sentinel · Landsat · WorldPop · OpenStreetMap · national surveillance</dd>
+
+          <dt>Open to</dt>
+          <dd>Students in geography, environmental science and statistics.</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="../../opportunities.html">Join this division</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

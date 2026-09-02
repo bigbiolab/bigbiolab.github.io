@@ -1,35 +1,121 @@
 ---
-pagetitle: "Research | BigBio Lab"
-toc: true
+pagetitle: "Research | CHIRAL Bangladesh"
+description: "Four research divisions spanning molecular data, clinical records, predictive models and geographic space."
+page-layout: custom
+toc: false
 ---
 
 ```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Research</li>
-  </ol>
-</nav>
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Research</h1>
+    <p>
+      One question — how disease arises, spreads and is best treated in Bangladesh —
+      approached at four scales. Each division owns a scale; projects usually cross
+      two or more.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-axis">
+      <div class="c-axis-row">
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Molecular</span>
+          <span class="c-axis-label">Molecules &amp; genomes</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Individual</span>
+          <span class="c-axis-label">Patients &amp; records</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Predictive</span>
+          <span class="c-axis-label">Models &amp; diagnostics</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Population</span>
+          <span class="c-axis-label">Districts &amp; climate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-div-grid">
+      <article class="c-card">
+        <h3>Computational Biology</h3>
+        <p>Multi-omics integration, bulk and single-cell transcriptomics, and structural modelling, with a focus on oncogenomics and precision medicine.</p>
+        <a class="c-card-link" href="groups/combio/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Public Health &amp; Informatics</h3>
+        <p>Epidemiological surveillance, national survey analytics, digital health evaluation and evidence synthesis for health policy.</p>
+        <a class="c-card-link" href="groups/public-health-informatics/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Bio-AI</h3>
+        <p>Clinical risk prediction, biomedical image analysis, interpretable models and biomarker discovery pipelines.</p>
+        <a class="c-card-link" href="groups/bio-ai/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Geospatial Health</h3>
+        <p>Spatial epidemiology, earth observation, healthcare accessibility modelling and environmental health risk mapping.</p>
+        <a class="c-card-link" href="groups/geospatial-health/">Open division →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">How a project runs</span>
+      <h2 class="c-h2">From question to publication</h2>
+      <p class="c-lede">
+        Every project follows the same route, because the route is the thing we are
+        teaching. Students join at step one, not at the analysis.
+      </p>
+    </div>
+
+    <div class="c-grid-4">
+      <div class="c-card">
+        <span class="c-card-meta">Stage 01</span>
+        <h3>Question &amp; protocol</h3>
+        <p>Literature review, a written hypothesis, and a pre-specified analysis plan before any data is touched.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 02</span>
+        <h3>Data &amp; code</h3>
+        <p>Reproducible pipelines in R or Python, version-controlled in the open from the first commit.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 03</span>
+        <h3>Interpretation</h3>
+        <p>Weekly review with a supervisor, adversarial reading of the result, and figures built to be understood.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 04</span>
+        <h3>Peer review</h3>
+        <p>Manuscript drafting, submission and revision, with the student as first author.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Work with us</span>
+      <h2 class="c-h2">Bring us a problem</h2>
+      <p class="c-lede">
+        We take on collaborations with laboratories, hospitals, universities and
+        non-profits — usually contributing computational analysis to a study that
+        already has the domain expertise and the data.
+      </p>
+    </div>
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--solid" href="collaborators.html">Collaboration</a>
+      <a class="c-btn c-btn--ghost" href="publications.html">See our outputs</a>
+    </div>
+  </div>
+</section>
 ```
-
-## Research Topics
-
-### Multi-Omics Data Analysis for Cancer Research
-Multi-omics data analysis in cancer research involves integrating and analyzing various types of omics data, such as genomics, transcriptomics, epigenomics, proteomics, and metabolomics, to gain a comprehensive understanding of cancer biology and identify potential biomarkers and therapeutic targets. Here are some key steps and considerations for multi-omics data analysis in cancer research
-
-![](./img/multi-omics-cancer.png){.hero}
-
-
-### RNA-Seq
-
-RNA-Seq is the premier tool for mapping and quantifying transcriptomes by utilizing next-generation sequencing (NGS) technology. The transcriptome refers to the complete set of transcripts in a cell, which provides information on the transcript level for a specific developmental stage or physiological condition. Understanding the transcriptome is necessary for interpreting the functional elements of the genome and understanding development and disease. The key purpose of transcriptomics includes cataloging all species of transcripts; determining the transcriptional structure of genes; and quantifying the expression levels of each transcript under different conditions. RNA-Seq delivers an unbiased and unprecedented high-resolution view of the global transcriptional landscape, which allows an affordable and accurate approach for gene expression quantification and differential gene expression analysis between multiple groups of samples. RNA-Seq can identify novel and previously-unexpected transcripts without the need for a reference genome, allowing de novo assembly of new transcriptome that is not previously studied before. It also enables the discovery of novel gene structures, alternatively spliced isoforms, gene fusions, SNPs/InDel, and allele-specific expression (ASE).
-
-![](./img/rnaseq.png){.hero}
-
-
-### Single-cell RNA
-Single-cell RNA sequencing (scRNA-seq) is a powerful technique that enables the profiling of gene expression at the single-cell level. It provides a high-resolution view of cellular heterogeneity and allows researchers to investigate cell types, cell states, and transcriptional dynamics within complex biological systems.
-
-![](./img/scRNA.png){.hero}
-
-

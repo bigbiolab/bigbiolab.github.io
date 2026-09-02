@@ -3,44 +3,30 @@ title: "Muhibullah Shahjahan"
 sortby: "2"
 subtitle: "Bioinformatic Analyst"
 image: /img/research-staff/muhibullah.jpg
-started: "#"
+started: "2022"
 toc: false
-resources: 
-  - "cv.pdf"
 about:
   id: person-profile
   template: jolla
   links:
-    - icon: link
-      text: Website
-      href: https://hossainlab.owlstown.net/
-    - icon: file-earmark-text
-      text: vitae
-      href: ./people/staff/cv.pdf
-    - icon: mortarboard
-      text: scholar
-      href: https://scholar.google.com/citations?user=9_K4ekoAAAAJ&hl=en&authuser=5
     - icon: github
       text: github
       href: https://www.github.com/
-    - icon: twitter
-      text: twitter
-      href: https://www.twitter.com/
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Staff</li>
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
 
 :::{#person-profile}
 :::
 
 ## Biography
 
+::: {.callout-note appearance="simple"}
+This profile is not yet written.
+:::
+
+<!-- TODO(CHIRAL): write two short paragraphs - research interests, and route
+     into the centre. Also replace the placeholder social links in the front
+     matter above: they currently point at the bare github.com and
+     linkedin.com homepages, which reads worse than having no links. -->

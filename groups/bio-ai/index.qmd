@@ -1,0 +1,86 @@
+---
+pagetitle: "Bio-AI | CHIRAL Bangladesh"
+description: "Clinical risk prediction, biomedical image analysis, interpretable models and biomarker discovery pipelines."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+    <p class="c-eyebrow">Division · Predictive</p>
+    <h1>Bio-AI</h1>
+    <p>
+      Machine learning for biomedicine, built for deployment in clinics that
+      cannot absorb a black box. A model we cannot explain to a clinician is a
+      model we do not consider finished.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Predictive health analytics</h2>
+        <p>
+          Risk prediction and patient stratification from multi-modal electronic
+          health records — early deterioration, readmission, and progression —
+          validated against the shift between the data a model was trained on and
+          the population it will meet.
+        </p>
+
+        <h2>Biomedical image analysis</h2>
+        <p>
+          Convolutional networks and vision transformers applied to radiographic,
+          histopathological and neurological imaging for computer-aided diagnosis,
+          with careful attention to how little labelled data is available locally.
+        </p>
+
+        <h2>Interpretability</h2>
+        <p>
+          Feature attribution, saliency and counterfactual explanation, treated as
+          a requirement rather than an appendix. Where a model cannot be made
+          interpretable, we report that as a limitation on its use.
+        </p>
+
+        <h2>Biomarker discovery pipelines</h2>
+        <p>
+          Ensemble learning and feature selection to isolate diagnostic and
+          prognostic signatures from omics data, with the selection stability
+          reported alongside the performance.
+        </p>
+
+        <h2>Selected outputs</h2>
+        <p><span class="c-todo">To be listed</span></p>
+        <!-- TODO(CHIRAL): add this division's publications and released models. -->
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Division lead</dt>
+          <dd><span class="c-todo">To be listed</span></dd>
+
+          <dt>Methods</dt>
+          <dd>Supervised &amp; ensemble learning · CNNs and vision transformers · survival models · SHAP and attribution · calibration</dd>
+
+          <dt>Stack</dt>
+          <dd>Python · PyTorch · scikit-learn · MONAI · Weights &amp; Biases</dd>
+
+          <dt>Practice</dt>
+          <dd>External validation before publication · reported calibration, not accuracy alone · model cards for released models</dd>
+
+          <dt>Open to</dt>
+          <dd>Students from computer science and statistics, and clinicians with a labelled dataset.</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="../../opportunities.html">Join this division</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

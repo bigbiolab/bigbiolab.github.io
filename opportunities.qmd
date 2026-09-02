@@ -1,29 +1,179 @@
 ---
-pagetitle: "Opportunities | OMICS Center"
-toc: true
+pagetitle: "Join us | CHIRAL Bangladesh"
+description: "Student research fellowships, volunteer mentor roles, and institutional collaboration at CHIRAL Bangladesh."
+page-layout: custom
+toc: false
 ---
 
 ```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
-  </ol>
-</nav>
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Join us</h1>
+    <p>
+      Three ways to work with the centre. All of them are voluntary, in both
+      directions — we charge nothing, and we pay nothing.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper" id="students">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>Junior student research fellowship</h2>
+        <p>
+          The main route into the centre, and the reason it exists. It is aimed at
+          undergraduates in their first three years — earlier than most programmes
+          will take you, which is the point.
+        </p>
+
+        <h3>Who should apply</h3>
+        <ul>
+          <li>Life sciences, biotechnology, genetic engineering and biochemistry</li>
+          <li>Computer science, software engineering and data science</li>
+          <li>Medicine, public health, pharmacy and allied health sciences</li>
+          <li>Geography, environmental science and statistics</li>
+        </ul>
+
+        <h3>What you will do</h3>
+        <ul>
+          <li><strong>Work with a supervisor one-to-one</strong> in one of the four research divisions.</li>
+          <li><strong>Run a real project</strong> — form the hypothesis, do the analysis, interpret the result.</li>
+          <li><strong>Learn to write it up</strong>: literature review, figures, manuscript drafting, and the peer review process end to end.</li>
+          <li><strong>Take the training</strong> in Linux, R, Python, Nextflow, machine learning and GIS as the project requires it.</li>
+        </ul>
+
+        <h3>What we expect</h3>
+        <p>
+          Consistency more than brilliance. Projects run over months and the most
+          common reason one fails is that a student disappears in week six, not
+          that the analysis was too hard.
+        </p>
+
+        <h3>How to apply</h3>
+        <p>
+          Email us with a short statement of what you want to work on and why, your
+          year and discipline, and a CV if you have one. There is no form and no
+          deadline pressure — we read them as they arrive.
+        </p>
+
+        <p>
+          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Application%20for%20Junior%20Student%20Research%20Fellowship">Apply as a junior fellow</a>
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Eligibility</dt>
+          <dd>University students in years 1–3, any relevant discipline.</dd>
+
+          <dt>Prior experience</dt>
+          <dd>None required. Training is provided.</dd>
+
+          <dt>Cost</dt>
+          <dd>None. We do not charge fees.</dd>
+
+          <dt>Stipend</dt>
+          <dd>None. The centre is entirely voluntary.</dd>
+
+          <dt>Location</dt>
+          <dd>Hybrid and online — GitHub, Slack or Discord, and Google Meet — so students outside Dhaka can take part.</dd>
+
+          <dt>Commitment</dt>
+          <dd>Months, not weeks. Projects run to publication.</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white" id="mentors">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>Volunteer mentors and research leads</h2>
+        <p>
+          If you are a graduate student, postdoctoral fellow, academic or industry
+          data scientist, a few hours a week from you supports a team of students
+          who would otherwise have no supervision at all.
+        </p>
+
+        <h3>What mentoring involves</h3>
+        <ul>
+          <li>Guiding a team of two to four undergraduates on one focused project.</li>
+          <li>A periodic check-in and code review — usually fortnightly.</li>
+          <li>Supervising manuscript preparation, and co-authoring where you have contributed.</li>
+        </ul>
+
+        <p>
+          You do not need to be in Bangladesh, and you do not need to commit
+          beyond one project cycle.
+        </p>
+
+        <p>
+          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Volunteer%20as%20a%20Mentor">Volunteer as a mentor</a>
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Time</dt>
+          <dd>A few hours a week, one project cycle.</dd>
+
+          <dt>Location</dt>
+          <dd>Anywhere. Supervision is remote.</dd>
+
+          <dt>Authorship</dt>
+          <dd>Co-authorship where you have contributed to the work.</dd>
+
+          <dt>Useful backgrounds</dt>
+          <dd>Bioinformatics · epidemiology · machine learning · biostatistics · GIS · scientific writing</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--paper" id="institutions">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Institutions</span>
+      <h2 class="c-h2">Academic and institutional collaboration</h2>
+      <p class="c-lede">
+        We work with laboratories, research centres, hospitals and non-profits,
+        contributing multi-omics analysis, predictive modelling, geospatial work
+        and methodology for joint studies and grant proposals.
+      </p>
+    </div>
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--dark" href="collaborators.html">How collaboration works</a>
+      <a class="c-btn c-btn--line" href="mailto:training.chiralbd@gmail.com?subject=Research%20Collaboration%20Inquiry">Propose a collaboration</a>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Questions</span>
+      <h2 class="c-h2">Before you write to us</h2>
+    </div>
+    <div class="c-grid-2">
+      <div>
+        <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Do I need to be able to code?</h3>
+        <p style="font-size:.93rem;line-height:1.7;margin:0 0 1.75rem">No. The foundation courses assume nothing. What matters is curiosity and turning up consistently.</p>
+
+        <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Is it remote or in person?</h3>
+        <p style="font-size:.93rem;line-height:1.7;margin:0">Mostly remote, via GitHub, chat and video calls, so students at universities across Bangladesh can take part.</p>
+      </div>
+      <div>
+        <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Is there a fee or a stipend?</h3>
+        <p style="font-size:.93rem;line-height:1.7;margin:0 0 1.75rem">Neither. Participation costs nothing and pays nothing. We measure ourselves in publications and in where our alumni end up.</p>
+
+        <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Will I actually be an author?</h3>
+        <p style="font-size:.93rem;line-height:1.7;margin:0">If you do the work, yes — including first authorship. See <a href="publications.html" style="color:var(--c-green)">our publications</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
 ```
-
-## For Undergraduate Students
-OMICS Center offers an incredible opportunity for aspiring interns to gain valuable experience and knowledge in the field of OMICS (genomics, transcriptomics,proteomics, and metagenomics, etc.). As an intern at OMICS Center, you will have the chance to work alongside leading researchers and experts, contributing to cutting-edge projects and advancements in the field. This internship program provides a dynamic and immersive learning environment, where you will have access to state-of-the-art technologies and resources. You will engage in hands-on research, data analysis, and collaboration with a diverse team of professionals, fostering your growth and development in the OMICS field. This experience at OMICS Center for Undergraduate Students will undoubtedly be a stepping stone towards a successful career in scientific research and innovation. More information about each admissions cycle can be found on the [News](news.qmd) page.
-
-```{=html}
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## For Prospective Collaborators 
-OMICS Center warmly welcomes prospective collaborators who are passionate about advancing research and innovation in the field of OMICS (genomics, proteomics, metabolomics, etc.). Collaborating with OMICS Center offers an exceptional opportunity to join a dynamic and interdisciplinary research community. By partnering with us, you will have access to cutting-edge facilities, state-of-the-art technologies, and a diverse network of experts in various fields. We value collaboration and actively seek to foster meaningful partnerships that drive scientific progress and generate impactful outcomes. Whether you are an academic researcher, industry professional, or part of a research institution, collaborating with OMICS Center will enable you to contribute your expertise, exchange ideas, and work together on groundbreaking projects. Together, we can push the boundaries of OMICS research, catalyzing discoveries that have the potential to transform healthcare, agriculture, and various other fields. Join us in this exciting journey of exploration and collaboration at OMICS Center. Please check the [News](news.qmd) page for more information.
-
-```{=html}
-<a href="" class="btn btn-primary rounded-pill">Submit a Proposal</a>
-```
-

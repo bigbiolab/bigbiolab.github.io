@@ -11,17 +11,6 @@ about:
   template: jolla
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Assistants</li>
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
 :::{#person-profile}
 ## Biography
 Abdulhamed Aleesa is an international student from Kuwait and a senior at the University of Kansas. He expects to graduate in the spring of 2023 with a B.A. in psychology and sociology. Furthermore, he intends to pursue higher studies in either clinical or counseling psychology.

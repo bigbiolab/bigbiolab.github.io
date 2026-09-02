@@ -1,0 +1,108 @@
+---
+pagetitle: "Collaborators | CHIRAL Bangladesh"
+description: "Partner institutions, joint projects, and how to start a collaboration with the centre."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Collaborators</h1>
+    <p>
+      We work with laboratories, hospitals, universities and non-profits that have
+      a health question and the domain expertise to frame it. We usually supply the
+      computational half.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Partners</span>
+      <h2 class="c-h2">Institutions we work with</h2>
+    </div>
+
+    <!-- TODO(CHIRAL): replace each placeholder below with a real partner. Give the
+         institution name, the country, and one line naming the joint work. Delete
+         any card you cannot fill honestly — four real partners read far better
+         than eight vague ones. Logos, if you have permission to use them, go in
+         img/partners/ and replace the .c-partner-mark block. -->
+
+    <div class="c-grid-3">
+      <div class="c-card">
+        <span class="c-card-meta">Partner institution</span>
+        <h3 class="c-todo">To be listed</h3>
+        <p>Institution name, country, and the joint work it covers.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Partner institution</span>
+        <h3 class="c-todo">To be listed</h3>
+        <p>Institution name, country, and the joint work it covers.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Partner institution</span>
+        <h3 class="c-todo">To be listed</h3>
+        <p>Institution name, country, and the joint work it covers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>What we bring</h2>
+        <p>
+          Computational capacity and method, delivered as a genuine research
+          contribution rather than a service. In practice that means one of the
+          following.
+        </p>
+        <ul>
+          <li><strong>Multi-omics and transcriptomic analysis</strong> for groups with sequencing data and no bioinformatics support.</li>
+          <li><strong>Epidemiological and survey analysis</strong>, including systematic review and meta-analysis, to a reporting standard suitable for publication.</li>
+          <li><strong>Predictive modelling</strong> on clinical or imaging data, with external validation and interpretability built in.</li>
+          <li><strong>Spatial analysis</strong> — disease mapping, accessibility modelling, remote-sensing covariates.</li>
+          <li><strong>Grant support</strong>, contributing the analysis plan and computational methodology to a joint proposal.</li>
+        </ul>
+
+        <h2>What we ask</h2>
+        <p>
+          Authorship for the students who do the work, and permission to publish
+          the analysis code once the paper is out. Where data cannot be shared, the
+          code still can.
+        </p>
+
+        <h2>Starting a collaboration</h2>
+        <p>
+          Write to us with the question, the data you hold, and the timeline. If it
+          is a fit we will propose a small first piece of work rather than a full
+          agreement — it is a better test for both sides.
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Contact</dt>
+          <dd><a href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">training.chiralbd@gmail.com</a></dd>
+
+          <dt>Typical first step</dt>
+          <dd>A scoped pilot analysis, two to three months.</dd>
+
+          <dt>We can host</dt>
+          <dd>Joint student projects, co-supervised theses, and shared training workshops.</dd>
+
+          <dt>We cannot</dt>
+          <dd>Take paid contract work — the centre is volunteer-run and non-profit.</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration%20enquiry">Propose a collaboration</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

@@ -11,17 +11,6 @@ about:
   template: jolla
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Alumni</li>
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
 :::{#person-profile}
 ## Biography
 Dulguun Amgalanbaatar is a senior at the University of Kansas majoring in behavioral neuroscience BS. She will graduate in December 2022 and plans to study clinical psychology in graduate school.

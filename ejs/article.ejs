@@ -1,32 +1,31 @@
-
 ```{=html}
-<ul class="pub-list list">
+<div class="list c-pub-list">
 <% for (const item of items) { %>
-  <li <%= metadataAttrs(item) %>>
-    <span class="listing-title lead"><%= item.title %></span><br />
-    <span class="listing-author"><%= item.author %></span><br />
-    <span class="listing-publication fst-italic "><%= item.publication %></span>
-    <span class="listing-year">(<%= item.year %>)</span><br />
-    <a href="<%- item.path %>" class="btn btn-primary">
-      Details
-    </a>
-    <% if (item.doi) { %>
-    <a href="<%- item.doi %>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    <% } %>
-    <% if (item.preprint) { %>
-    <a href="<%- item.preprint %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    <% } %>
-    <% if (item.materials) { %>
-    <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-zip"></i> Materials
-    </a>
-    <% } %>
-  </li>
+  <div class="c-pub" <%= metadataAttrs(item) %>>
+    <div class="c-pub-year listing-year"><%= item.year %></div>
+    <div>
+      <h3 class="c-pub-title listing-title"><a href="<%- item.path %>"><%= item.title %></a></h3>
+      <p class="c-pub-authors listing-author"><%= item.author %></p>
+      <p class="c-pub-venue listing-publication"><%= item.publication %></p>
+      <div>
+        <% if (item.categories) { %>
+          <% for (const cat of item.categories) { %>
+            <span class="c-tag c-tag--accent"><%= cat %></span>
+          <% } %>
+        <% } %>
+        <a href="<%- item.path %>" class="c-tag">Abstract</a>
+        <% if (item.doi) { %>
+        <a href="<%- item.doi %>" class="c-tag" target="_blank" rel="noopener noreferrer">DOI</a>
+        <% } %>
+        <% if (item.preprint) { %>
+        <a href="<%- item.preprint %>" class="c-tag" target="_blank" rel="noopener noreferrer">Preprint</a>
+        <% } %>
+        <% if (item.materials) { %>
+        <a href="<%- item.materials %>" class="c-tag" target="_blank" rel="noopener noreferrer">Materials</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
 <% } %>
-</ul>
-
+</div>
 ```

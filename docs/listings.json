@@ -1,16 +1,19 @@
 [
   {
+    "listing": "/news.html",
+    "items": [
+      "/posts/cct5-pan-cancer-2025/index.html",
+      "/posts/junior-researcher-intake/index.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/staff/jubayer.html",
       "/people/staff/muhib.html",
-      "/people/staff/wahid.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/posts/vail2022/index.html"
+      "/people/staff/wahid.html",
+      "/people/ras/aleesa_abdulhamed.html",
+      "/people/alumni/amgalanbaatar_dulguun.html"
     ]
   },
   {

@@ -1,110 +1,151 @@
 ---
-pagetitle: "Teaching | BigBio Lab"
-toc: true
+pagetitle: "Training programmes | CHIRAL Bangladesh"
+description: "Bootcamps and courses in bioinformatics, programming and data analysis for students with no prior background."
+page-layout: custom
+toc: false
 ---
 
 ```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Teaching</li>
-  </ol>
-</nav>
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Training programmes</h1>
+    <p>
+      Seven hands-on programmes, taught in sequence. They exist because a student
+      cannot join a research project without them, and because nothing equivalent
+      is freely available to most undergraduates here.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Curriculum</span>
+      <h2 class="c-h2">A route, not a catalogue</h2>
+      <p class="c-lede">
+        The programmes are ordered. Foundations first, then a language, then the
+        assays. A student who completes the sequence can take on an independent
+        analysis.
+      </p>
+    </div>
+
+    <!-- TODO(CHIRAL): add the next cohort dates and a registration link to each
+         card. A course with no date attached reads as an archive rather than an
+         offer, which is the single biggest thing this page is missing. -->
+
+    <div class="c-grid-3">
+
+      <article class="c-card">
+        <span class="c-card-meta">Foundations · No prerequisites</span>
+        <h3>Linux for Bioinformatics</h3>
+        <p>Command-line navigation, file management and text processing, applied to biological data and sequence analysis. Assumes no prior Linux experience.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/BioinformaticsBootCamp/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Language · No prerequisites</span>
+        <h3>Python for Bioinformatics</h3>
+        <p>Python from the start, then biological data manipulation, sequence analysis with Biopython, and automating an analysis you would otherwise repeat by hand.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/BioinformaticsBootCamp/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Language · No prerequisites</span>
+        <h3>R for Bioinformatics</h3>
+        <p>Data manipulation, statistics, visualisation and machine learning in R, with the Bioconductor packages the later courses depend on.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/RforBioinformatics/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Assay · Requires R</span>
+        <h3>RNA-seq analysis with R</h3>
+        <p>Preprocessing, quality control, differential expression, pathway enrichment and visualisation, worked on real datasets rather than toy ones.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/RNASeqwithR/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Assay · Requires RNA-seq</span>
+        <h3>Single-cell RNA-seq with R</h3>
+        <p>Quality control, dimensionality reduction, clustering and differential expression at single-cell resolution, including where the standard pipeline misleads.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/scRNASeqwithR/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Engineering · Requires Linux</span>
+        <h3>Nextflow for Bioinformatics</h3>
+        <p>Building, optimising and running reproducible workflows at scale — the step between running an analysis once and running it reliably.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/BioinformaticsBootCamp/">Programme site →</a>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Intensive · All levels</span>
+        <h3>Bioinformatics Bootcamp</h3>
+        <p>The full sequence run as one intensive programme: sequence analysis, genomics, proteomics and data analysis across the standard toolchain.</p>
+        <a class="c-card-link" href="https://omicscenter.github.io/BioinformaticsBootCamp/">Programme site →</a>
+      </article>
+
+    </div>
+
+    <div class="c-btn-row" style="margin-top:2.5rem">
+      <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Application%20for%20a%20training%20programme">Apply to a programme</a>
+      <a class="c-btn c-btn--line" href="events.html">Upcoming dates</a>
+      <a class="c-btn c-btn--line" href="resources.html">Self-study resources</a>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>How the programmes run</h2>
+        <p>
+          Sessions are hands-on and mostly online, so students outside Dhaka can
+          take part. Every session ends with an exercise on real data, and the
+          material stays available afterwards.
+        </p>
+        <p>
+          Training is free. It is also not a certificate mill — we care whether a
+          participant can go on to do the analysis unaided, and the programmes are
+          assessed on that basis.
+        </p>
+
+        <h2>Who these are for</h2>
+        <p>
+          University students in life sciences, computer science, medicine, public
+          health, statistics, geography and related fields. No programming
+          background is assumed for the foundation courses.
+        </p>
+
+        <h2>Teaching materials</h2>
+        <p>
+          Course notebooks and slides are openly licensed and remain online after
+          each cohort. See <a href="resources.html">learning resources</a> for the
+          databases and tools we teach against, and
+          <a href="https://www.youtube.com/@hossainlab">recorded sessions</a> where
+          available.
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Cost</dt>
+          <dd>Free. The centre charges nothing for training.</dd>
+
+          <dt>Format</dt>
+          <dd>Hands-on, primarily online, with materials retained after the cohort.</dd>
+
+          <dt>Prerequisites</dt>
+          <dd>None for foundation courses. Later courses assume the earlier ones.</dd>
+
+          <dt>Next cohort</dt>
+          <dd><span class="c-todo">To be announced</span></dd>
+
+          <dt>Enquiries</dt>
+          <dd><a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
 ```
-
-
-## Bioinformatics BootCamp 
-Bioinformatics BootCamp  is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.
-
-```{=html}
-<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-##  Introduction to Linux for Bioinformatics
-Essential course focusing on Linux for bioinformatics. Learn command-line navigation, file management, and text processing. Analyze biological data and perform sequence analysis. Gain foundational skills for bioinformatics research using Linux. No prior Linux experience required.
-
-
-```{=html}
-<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## Nextflow for Bioinformatics
-Learn to create, optimize, and execute bioinformatics workflows using Nextflow. Gain hands-on experience with real-world projects and process large-scale biological data efficiently. Enhance your ability to tackle complex computational challenges. Basic bioinformatics and command-line knowledge recommended.
-
-
-##  Python for Bioinformatics
-Learn Python programming and its applications in bioinformatics. Master manipulating biological data, sequence analysis, and biopython usage. Develop custom bioinformatics solutions and automate analyses with practical projects. No prior programming experience required.
-
-```{=html}
-<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## R for Bioinformatics 
-Specialized training program using R for biological data analysis. Covers data manipulation, statistics, visualization, and machine learning. Hands-on exercises and real-world case studies. Master R packages for bioinformatics tasks. Empower your bioinformatics research with R.
-
-
-```{=html}
-<a href="https://omicscenter.github.io/RforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## RNA-seq Data Analysis with R
-Immersive program for RNA-seq data analysis using R. Covers preprocessing, quality control, differential expression, pathway enrichment, and visualization. Hands-on exercises with real datasets. Master R packages and workflows for robust analysis. Contribute to genomics and molecular biology research.
-
-
-```{=html}
-<a href="https://omicscenter.github.io/RNASeqwithR/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## Single Cell RNA-seq Data Analysis with R
-In-depth training program for scRNA-seq data analysis using R. Covers preprocessing, quality control, dimensionality reduction, clustering, and differential expression. Hands-on exercises with real datasets. Master R packages and workflows for scRNA-seq. Gain insights for breakthroughs in single-cell genomics.
-
-
-```{=html}
-<a href="https://omicscenter.github.io/scRNASeqwithR/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-
-## Machine Learning for Bioinformatics
-Comprehensive training program merging machine learning and bioinformatics. Covers feature selection, classification, regression, clustering, and deep learning. Hands-on exercises with real biological data. Master data-driven discoveries in genomics, proteomics, drug discovery, and precision medicine.
-
-
-```{=html}
-<a href="https://omicscenter.github.io/MLforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-
-## Whole Genome Sequence Analysis
-Advanced course covering variant calling, functional annotation, and structural variation detection. Hands-on exercises with real genomic data. Gain expertise for impactful contributions in genomics. Prerequisite: strong background in bioinformatics and genomics.
-
-```{=html}
-<a href="https://omicscenter.github.io/MLforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-## Metagenomics Data Analysis
-
-Comprehensive course on studying microbial communities. Covers preprocessing, taxonomic profiling, functional annotation, and statistical analysis. Hands-on projects with diverse datasets. Gain insights into microbial interactions and ecological dynamics. Prerequisite: basic bioinformatics and genomics knowledge.
-
-```{=html}
-<a href="https://omicscenter.github.io/MLforBioinformatics/" class="btn btn-primary rounded-pill me-2">Program Website</a>
-
-<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
-```
-

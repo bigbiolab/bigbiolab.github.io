@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+
+// Dark variant for the theme toggle. The site's default look is light; this
+// only swaps the surface roles, so the brand hues and every component rule in
+// chiral.scss carry over untouched.
+
+$c-green-lit: #1FBF8F;
+
+$body-bg:          #0B1A16;
+$body-color:       rgba(255, 255, 255, 0.76);
+$link-color:       $c-green-lit;
+$link-hover-color: #46DDAE;
+$headings-color:   #FFFFFF;
+
+/*-- scss:rules --*/
+
+:root {
+  --c-paper:     #0B1A16;
+  --c-surface:   #10231E;
+  --c-line:      rgba(255, 255, 255, 0.13);
+  --c-slate:     rgba(255, 255, 255, 0.58);
+  --c-body:      rgba(255, 255, 255, 0.76);
+  --c-head:      #FFFFFF;
+  --c-on-accent: #071512;
+  --c-grid:      rgba(255, 255, 255, 0.028);
+
+  // Green has to lift on a dark ground to stay legible.
+  --c-green:      #{$c-green-lit};
+  --c-green-deep: #46DDAE;
+  --c-green-pale: rgba(31, 191, 143, 0.12);
+}
+
+body { background: var(--c-paper); }
+
+.c-todo { border-bottom-color: rgba(31, 191, 143, 0.5); }
+
+// The logo artwork is a dark wordmark drawn for a white bar, so lift it here.
+.navbar .navbar-brand img,
+.navbar .navbar-brand .navbar-logo {
+  filter: invert(1) hue-rotate(180deg) saturate(1.4) brightness(1.15);
+}
+
+// The hero figure is drawn in the light-mode green (#006A4E), which sits too
+// dim on the dark ground. Lift it rather than maintaining a second SVG.
+.c-hero-figure svg { filter: brightness(1.85) saturate(1.05); }

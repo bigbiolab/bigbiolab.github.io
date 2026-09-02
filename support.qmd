@@ -1,0 +1,125 @@
+---
+pagetitle: "Support our work | CHIRAL Bangladesh"
+description: "How individuals and institutions can support a volunteer-run research centre."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Support our work</h1>
+    <p>
+      The centre runs on donated time. The things it cannot get donated — compute,
+      publication fees, travel — are where support makes the most difference.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">What is needed</span>
+      <h2 class="c-h2">Where support goes</h2>
+      <p class="c-lede">
+        We would rather name specific costs than ask in the abstract.
+      </p>
+    </div>
+
+    <div class="c-grid-3">
+      <div class="c-card">
+        <span class="c-card-meta">Need 01</span>
+        <h3>Compute</h3>
+        <p>Single-cell and imaging work outgrows a laptop quickly. Cloud credits or access to an HPC allocation removes the hardest practical limit on what students can attempt.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Need 02</span>
+        <h3>Open-access fees</h3>
+        <p>An article processing charge can exceed a Bangladeshi student's annual budget. Covering one APC is the difference between a finished study being read and being shelved.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Need 03</span>
+        <h3>Conference travel</h3>
+        <p>Presenting abroad changes a young researcher's trajectory. Travel and registration support is the most direct investment in an individual career we can name.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Need 04</span>
+        <h3>Software licences</h3>
+        <p>Most of our stack is open source by choice, but a few domain tools are not, and academic licences still cost money.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Need 05</span>
+        <h3>Your time</h3>
+        <p>The most valuable contribution remains supervision. A few hours a week from an experienced researcher supports a team of students.</p>
+        <a class="c-card-link" href="opportunities.html#mentors">Volunteer as a mentor →</a>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Need 06</span>
+        <h3>Data access</h3>
+        <p>Introductions to cohorts, registries and imaging archives willing to work with an external analysis partner.</p>
+        <a class="c-card-link" href="collaborators.html">Collaborate →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>Making a financial contribution</h2>
+        <p>
+          <span class="c-todo">To be completed.</span>
+        </p>
+        <!-- TODO(CHIRAL): before publishing a donation route, settle three things:
+             (1) the centre's legal registration status, (2) a bank or payment
+             account held in the centre's name rather than an individual's, and
+             (3) whether donations are tax-deductible in the donor's country.
+             Publishing a personal payment handle instead will cost more trust than
+             it raises. Until then, direct people to the in-kind list above. -->
+        <p>
+          Until a formal donation route is in place, the most useful contributions
+          are the in-kind ones listed above. Write to us and we will tell you
+          honestly what would help most this quarter.
+        </p>
+
+        <h2>For institutions</h2>
+        <p>
+          If your organisation supports capacity building in South Asia, we can
+          provide a short written proposal covering scope, budget and reporting.
+          We are also glad to be named as a partner on a grant where the
+          computational work is genuinely ours.
+        </p>
+
+        <h2>Transparency</h2>
+        <p>
+          Any support we receive will be listed publicly on
+          <a href="about.html">the About page</a>, with the amount and the purpose.
+          A volunteer centre that takes money quietly stops being a volunteer
+          centre.
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Enquiries</dt>
+          <dd><a href="mailto:training.chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">training.chiralbd@gmail.com</a></dd>
+
+          <dt>Registration status</dt>
+          <dd><span class="c-todo">To be confirmed</span></dd>
+
+          <dt>Tax deductibility</dt>
+          <dd><span class="c-todo">To be confirmed</span></dd>
+
+          <dt>Reporting</dt>
+          <dd>Supporters are listed publicly with amount and purpose.</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="mailto:training.chiralbd@gmail.com?subject=Supporting%20CHIRAL%20Bangladesh">Talk to us about support</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

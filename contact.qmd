@@ -1,33 +1,99 @@
 ---
-pagetitle: "Contact | BigBio Lab"
+pagetitle: "Contact | CHIRAL Bangladesh"
+description: "How to reach CHIRAL Bangladesh — enquiries, collaboration, media and location."
+page-layout: custom
 toc: false
 email-obfuscation: javascript
 ---
 
 ```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Contact</li>
-  </ol>
-</nav>
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Contact</h1>
+    <p>
+      One address reaches us for everything. Naming your subject in the first line
+      gets you to the right person faster.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-grid-3">
+      <div class="c-card">
+        <span class="c-card-meta">Students</span>
+        <h3>Joining the centre</h3>
+        <p>Applications for the junior researcher track and questions about the training programmes.</p>
+        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Junior%20researcher%20application">Write to us →</a>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Researchers</span>
+        <h3>Collaboration &amp; mentoring</h3>
+        <p>Joint projects, co-supervision, grant proposals, and volunteering as a mentor.</p>
+        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Research%20collaboration">Write to us →</a>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Press &amp; institutions</span>
+        <h3>Media and partnerships</h3>
+        <p>Press enquiries, speaking requests, and institutional partnership or support.</p>
+        <a class="c-card-link" href="mailto:training.chiralbd@gmail.com?subject=Media%20or%20partnership%20enquiry">Write to us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>Where we are</h2>
+        <p>
+          <strong>CHIRAL Bangladesh</strong><br>
+          Centre for Health Innovation, Research, Action and Learning<br>
+          Azimpur, Dhaka 1205, Bangladesh
+        </p>
+        <p>
+          The centre works primarily online. If you would like to visit, write
+          first and we will arrange a time.
+        </p>
+
+        <h2>Response times</h2>
+        <p>
+          Everyone here is a volunteer, so replies take a few days rather than a
+          few hours. If something is time-critical, say so in the subject line.
+        </p>
+
+        <div style="margin-top:1.5rem;border:1px solid var(--c-line);border-radius:2px;overflow:hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.246101968858!2d90.3800268!3d23.727376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8dc776e0c65%3A0xb35a39626f2a632e!2sAzimpur%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd"
+            width="100%" height="360" style="border:0;display:block"
+            title="Map showing Azimpur, Dhaka"
+            allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Email</dt>
+          <dd><a href="mailto:training.chiralbd@gmail.com">training.chiralbd@gmail.com</a></dd>
+
+          <dt>Address</dt>
+          <dd>Azimpur, Dhaka 1205, Bangladesh</dd>
+
+          <dt>Languages</dt>
+          <dd>English and Bangla</dd>
+
+          <dt>Follow</dt>
+          <dd>
+            <a href="https://www.linkedin.com/company/chiral-bangladesh/">LinkedIn</a> ·
+            <a href="https://twitter.com/chiralbd">X</a> ·
+            <a href="https://github.com/chiralbd">GitHub</a> ·
+            <a href="https://www.youtube.com/@hossainlab">YouTube</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
 ```
-
-## Visit Us
-
-The CHIRAL Bangladesh is located in **Azimpur**.
-
-<!-- > **Street Address:** 1415 Jayhawk Blvd, Lawrence, KS 66044 -->
-<!-- > -->
-<!-- > **Visitor Parking:** 1218 Mississippi St, Lawrence, KS 66045 -->
-
-```{=html}
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.5478774799594!2d-95.24574508375895!3d38.95715607956168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bf6f4b95fc69bd%3A0xae3cf5ffd7e06ef!2sFraser%20Hall%2C%20Lawrence%2C%20KS%2066044!5e0!3m2!1sen!2sus!4v1661872494183!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-```
-
-<!-- ## Email Us -->
-
-<!-- ```{=html} -->
-<!-- <script src="https://cdn.form.io/formiojs/formio.embed.js?src=https://ejlffjjksoybevj.form.io/affcomlabcontactform&libs=true"></script> -->
-<!-- ``` -->
-

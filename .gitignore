@@ -161,3 +161,14 @@ cython_debug/
 .Rproj.user
 
 /.quarto/
+
+**/*.quarto_ipynb
+
+# --- Quarto / R project ---
+/.quarto/
+/_site/
+*.Rproj
+*.Rproj.user
+.Rhistory
+.RData
+.Rapp.history

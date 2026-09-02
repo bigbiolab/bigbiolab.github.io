@@ -1,0 +1,150 @@
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vennTitle vennDesc" style="width:100%; height:auto; display:block; font-family:'IBM Plex Sans', -apple-system, sans-serif;">
+  <title id="vennTitle">Venn diagram of CHIRAL Bangladesh's four research divisions</title>
+  <desc id="vennDesc">Four intersecting research divisions: Computational Biology, Public Health and Informatics, Bio-AI, and Geospatial Health, meeting at the central CHIRAL core of precision health.</desc>
+
+  <defs>
+    <pattern id="vGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+
+    <filter id="vShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#071512" flood-opacity="0.04"/>
+    </filter>
+
+    <!-- Halos -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F42A43" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F42A43" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ground surface card with hairline border -->
+  <rect width="860" height="520" rx="4" fill="#FFFFFF" stroke="#DCE3E0" stroke-width="1"/>
+  <rect width="860" height="520" rx="4" fill="url(#vGrid)" style="color:#071512;"/>
+
+  <!-- Top scale reference rule -->
+  <g transform="translate(50, 24)">
+    <text x="0" y="14" font-family="'IBM Plex Mono', monospace" font-size="10.5" font-weight="600" fill="#006A4E" letter-spacing="1">10⁻⁹ m · MOLECULAR</text>
+    <line x1="165" y1="10" x2="600" y2="10" stroke="#DCE3E0" stroke-width="1" stroke-dasharray="3 4"/>
+    <text x="382" y="14" font-family="'IBM Plex Mono', monospace" font-size="9" fill="#5A6B66" text-anchor="middle" letter-spacing="1.5">SCALE CONTINUUM</text>
+    <text x="760" y="14" font-family="'IBM Plex Mono', monospace" font-size="10.5" font-weight="600" fill="#006A4E" text-anchor="end" letter-spacing="1">10⁵ m · POPULATION</text>
+  </g>
+
+  <!-- ==================== 4 OVERLAPPING VENN SETS ==================== -->
+  <!-- Center is at (430, 260) -->
+
+  <!-- Set 1: Computational Biology (Top-Left) -->
+  <g transform="translate(345, 205) rotate(-38)">
+    <ellipse cx="0" cy="0" rx="160" ry="105" fill="#006A4E" fill-opacity="0.07" stroke="#006A4E" stroke-width="1.6"/>
+  </g>
+
+  <!-- Set 2: Bio-AI (Top-Right) -->
+  <g transform="translate(515, 205) rotate(38)">
+    <ellipse cx="0" cy="0" rx="160" ry="105" fill="#0284C7" fill-opacity="0.06" stroke="#0284C7" stroke-width="1.6"/>
+  </g>
+
+  <!-- Set 3: Public Health & Informatics (Bottom-Left) -->
+  <g transform="translate(345, 315) rotate(38)">
+    <ellipse cx="0" cy="0" rx="160" ry="105" fill="#4F46E5" fill-opacity="0.06" stroke="#4F46E5" stroke-width="1.6"/>
+  </g>
+
+  <!-- Set 4: Geospatial Health (Bottom-Right) -->
+  <g transform="translate(515, 315) rotate(-38)">
+    <ellipse cx="0" cy="0" rx="160" ry="105" fill="#059669" fill-opacity="0.06" stroke="#059669" stroke-width="1.6"/>
+  </g>
+
+  <!-- ==================== CENTRAL CONVERGENCE (CHIRAL CORE) ==================== -->
+  <circle cx="430" cy="260" r="42" fill="url(#coreGlow)"/>
+  <circle cx="430" cy="260" r="32" fill="#FFFFFF" stroke="#F42A43" stroke-width="1.8" filter="url(#vShadow)"/>
+  <circle cx="430" cy="260" r="18" fill="#F42A43" fill-opacity="0.1"/>
+  <circle cx="430" cy="260" r="4" fill="#F42A43"/>
+
+  <text x="430" y="254" font-family="'Space Grotesk', sans-serif" font-size="11.5" font-weight="700" fill="#071512" text-anchor="middle" letter-spacing="-0.01em">CHIRAL</text>
+  <text x="430" y="267" font-family="'IBM Plex Mono', monospace" font-size="8" font-weight="600" fill="#F42A43" text-anchor="middle" letter-spacing="1">PRECISION</text>
+  <text x="430" y="278" font-family="'IBM Plex Mono', monospace" font-size="7.5" font-weight="500" fill="#5A6B66" text-anchor="middle" letter-spacing="0.8">HEALTH</text>
+
+  <!-- ==================== 2-WAY INTERSECTION PILLS ==================== -->
+
+  <!-- Top: CompBio & Bio-AI -->
+  <g transform="translate(430, 142)">
+    <rect x="-70" y="-12" width="140" height="24" rx="2" fill="#FFFFFF" stroke="#DCE3E0" stroke-width="0.8" filter="url(#vShadow)"/>
+    <text x="0" y="4" font-family="'IBM Plex Sans', sans-serif" font-size="9.5" font-weight="600" fill="#071512" text-anchor="middle">Biomarker Discovery &amp; ML</text>
+  </g>
+
+  <!-- Bottom: Public Health & Geospatial -->
+  <g transform="translate(430, 378)">
+    <rect x="-74" y="-12" width="148" height="24" rx="2" fill="#FFFFFF" stroke="#DCE3E0" stroke-width="0.8" filter="url(#vShadow)"/>
+    <text x="0" y="4" font-family="'IBM Plex Sans', sans-serif" font-size="9.5" font-weight="600" fill="#071512" text-anchor="middle">Spatial Epidemiology &amp; Burden</text>
+  </g>
+
+  <!-- Left: CompBio & Public Health -->
+  <g transform="translate(232, 260)">
+    <rect x="-60" y="-12" width="120" height="24" rx="2" fill="#FFFFFF" stroke="#DCE3E0" stroke-width="0.8" filter="url(#vShadow)"/>
+    <text x="0" y="4" font-family="'IBM Plex Sans', sans-serif" font-size="9.5" font-weight="600" fill="#071512" text-anchor="middle">Clinical Multi-Omics</text>
+  </g>
+
+  <!-- Right: Bio-AI & Geospatial -->
+  <g transform="translate(628, 260)">
+    <rect x="-64" y="-12" width="128" height="24" rx="2" fill="#FFFFFF" stroke="#DCE3E0" stroke-width="0.8" filter="url(#vShadow)"/>
+    <text x="0" y="4" font-family="'IBM Plex Sans', sans-serif" font-size="9.5" font-weight="600" fill="#071512" text-anchor="middle">Predictive Spatial AI</text>
+  </g>
+
+  <!-- ==================== 4 DIVISION CORNER LABELS ==================== -->
+
+  <!-- Top-Left: Computational Biology -->
+  <g transform="translate(45, 80)">
+    <rect width="215" height="74" rx="2" fill="#F7F8F6" stroke="#006A4E" stroke-width="1.2"/>
+    <line x1="0" y1="0" x2="0" y2="74" stroke="#006A4E" stroke-width="4"/>
+    <text x="14" y="20" font-family="'IBM Plex Mono', monospace" font-size="9" font-weight="600" fill="#006A4E" letter-spacing="1">10⁻⁹ m · GENOME</text>
+    <text x="14" y="38" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#071512">Computational Biology</text>
+    <text x="14" y="54" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Bulk/single-cell RNA-seq &amp; multi-omics</text>
+    <text x="14" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Structural biomolecular modelling</text>
+    <!-- Pointer -->
+    <path d="M 215 37 L 255 140" stroke="#006A4E" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="255" cy="140" r="2.5" fill="#006A4E"/>
+  </g>
+
+  <!-- Top-Right: Bio-AI -->
+  <g transform="translate(600, 80)">
+    <rect width="215" height="74" rx="2" fill="#F7F8F6" stroke="#0284C7" stroke-width="1.2"/>
+    <line x1="215" y1="0" x2="215" y2="74" stroke="#0284C7" stroke-width="4"/>
+    <text x="14" y="20" font-family="'IBM Plex Mono', monospace" font-size="9" font-weight="600" fill="#0284C7" letter-spacing="1">10² m · CLINIC</text>
+    <text x="14" y="38" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#071512">Bio-AI</text>
+    <text x="14" y="54" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Clinical risk prediction &amp; neural nets</text>
+    <text x="14" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Interpretable biomedical vision</text>
+    <!-- Pointer -->
+    <path d="M 0 37 L -40 140" stroke="#0284C7" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="-40" cy="140" r="2.5" fill="#0284C7"/>
+  </g>
+
+  <!-- Bottom-Left: Public Health & Informatics -->
+  <g transform="translate(45, 365)">
+    <rect width="215" height="74" rx="2" fill="#F7F8F6" stroke="#4F46E5" stroke-width="1.2"/>
+    <line x1="0" y1="0" x2="0" y2="74" stroke="#4F46E5" stroke-width="4"/>
+    <text x="14" y="20" font-family="'IBM Plex Mono', monospace" font-size="9" font-weight="600" fill="#4F46E5" letter-spacing="1">10⁰ m · PATIENT</text>
+    <text x="14" y="38" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#071512">Public Health &amp; Info</text>
+    <text x="14" y="54" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Survey analytics &amp; disease registries</text>
+    <text x="14" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Digital health intervention evaluation</text>
+    <!-- Pointer -->
+    <path d="M 215 37 L 255 -15" stroke="#4F46E5" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="255" cy="-15" r="2.5" fill="#4F46E5"/>
+  </g>
+
+  <!-- Bottom-Right: Geospatial Health -->
+  <g transform="translate(600, 365)">
+    <rect width="215" height="74" rx="2" fill="#F7F8F6" stroke="#059669" stroke-width="1.2"/>
+    <line x1="215" y1="0" x2="215" y2="74" stroke="#059669" stroke-width="4"/>
+    <text x="14" y="20" font-family="'IBM Plex Mono', monospace" font-size="9" font-weight="600" fill="#059669" letter-spacing="1">10⁵ m · DISTRICT</text>
+    <text x="14" y="38" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#071512">Geospatial Health</text>
+    <text x="14" y="54" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">GIS epidemic &amp; cluster mapping</text>
+    <text x="14" y="66" font-family="'IBM Plex Sans', sans-serif" font-size="9" fill="#5A6B66">Satellite earth observation &amp; climate</text>
+    <!-- Pointer -->
+    <path d="M 0 37 L -40 -15" stroke="#059669" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="-40" cy="-15" r="2.5" fill="#059669"/>
+  </g>
+
+  <!-- Bottom caption -->
+  <text x="430" y="490" font-family="'IBM Plex Mono', monospace" font-size="10" fill="#5A6B66" text-anchor="middle" letter-spacing="0.5">
+    FOUR GROUPS &middot; ONE CONTINUUM &middot; REPRODUCIBLE OPEN SCIENCE
+  </text>
+</svg>

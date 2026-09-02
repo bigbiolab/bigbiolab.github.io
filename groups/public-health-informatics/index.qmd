@@ -1,0 +1,86 @@
+---
+pagetitle: "Public Health & Informatics | CHIRAL Bangladesh"
+description: "Epidemiological surveillance, survey analytics, digital health evaluation and evidence synthesis for health policy."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+    <p class="c-eyebrow">Division · Individual</p>
+    <h1>Public Health &amp; Informatics</h1>
+    <p>
+      Population data, read for burden and inequity. We study how disease is
+      distributed in Bangladesh and South Asia, and whether the systems meant to
+      address it actually reach the people who need them.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Epidemiological surveillance</h2>
+        <p>
+          Observational study design and secondary analysis of national health
+          surveys, used to quantify the burden of non-communicable disease and of
+          infectious illness — and to say honestly how uncertain those estimates
+          are in a setting with incomplete registration.
+        </p>
+
+        <h2>Digital health &amp; health systems</h2>
+        <p>
+          Evaluation of digital health interventions, electronic medical records
+          and telemedicine: what they change in patient outcomes, and what they
+          change in clinical workflow, which is often not the same thing.
+        </p>
+
+        <h2>Evidence synthesis for policy</h2>
+        <p>
+          Systematic reviews, meta-analyses and health economic modelling, produced
+          to a standard that lets them be used in policy argument rather than only
+          in academic argument.
+        </p>
+
+        <h2>Maternal &amp; child health</h2>
+        <p>
+          Social and environmental determinants of maternal outcomes and early
+          childhood development, with attention to the gradients that national
+          averages conceal.
+        </p>
+
+        <h2>Selected outputs</h2>
+        <p><span class="c-todo">To be listed</span></p>
+        <!-- TODO(CHIRAL): add this division's publications. -->
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Division lead</dt>
+          <dd><span class="c-todo">To be listed</span></dd>
+
+          <dt>Methods</dt>
+          <dd>Survey analysis · regression modelling · systematic review &amp; meta-analysis · survival analysis · health economics</dd>
+
+          <dt>Stack</dt>
+          <dd>R · Stata · Python · REDCap · Covidence</dd>
+
+          <dt>Data sources</dt>
+          <dd>BDHS · MICS · DHIS2 · hospital registries · Global Burden of Disease</dd>
+
+          <dt>Reporting</dt>
+          <dd>STROBE · PRISMA · CONSORT where applicable</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="../../opportunities.html">Join this division</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

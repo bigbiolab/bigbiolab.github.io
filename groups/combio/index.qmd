@@ -1,0 +1,93 @@
+---
+pagetitle: "Computational Biology | CHIRAL Bangladesh"
+description: "Multi-omics integration, transcriptomics and structural modelling for oncogenomics and precision medicine."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+    <p class="c-eyebrow">Division · Molecular</p>
+    <h1>Computational Biology</h1>
+    <p>
+      High-throughput biological data, read for mechanism. We work mainly in
+      oncogenomics, looking for the molecular events that separate one tumour from
+      another and the biomarkers that make that difference actionable.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+
+        <h2>Multi-omics integration in cancer</h2>
+        <p>
+          Genomics, transcriptomics, epigenomics, proteomics and metabolomics each
+          describe one layer of a tumour. Integrated, they describe a system. We
+          synthesise multi-dimensional data from international consortia — TCGA,
+          GEO, ICGC — to characterise tumour heterogeneity and identify clinically
+          actionable targets.
+        </p>
+
+        <h2>Bulk RNA sequencing</h2>
+        <p>
+          Bulk RNA-seq gives a high-resolution view of the transcriptome across a
+          sample. We use it for differential expression, isoform discovery, gene
+          fusion detection and alternative splicing analysis across pathological
+          states.
+        </p>
+
+        <h2>Single-cell transcriptomics</h2>
+        <p>
+          scRNA-seq resolves expression to the individual cell, which is where the
+          interesting heterogeneity usually lives. Our work here concerns the
+          tumour microenvironment, rare cell populations, and the cell-state
+          trajectories that accompany progression and immune response.
+        </p>
+
+        <h2>Structural &amp; molecular modelling</h2>
+        <p>
+          Where a target emerges from the omics work, we follow it structurally —
+          binding-site characterisation, docking and stability assessment — to
+          judge whether it is tractable.
+        </p>
+
+        <h2>Selected outputs</h2>
+        <p>
+          <a href="../../publications.html">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>,
+          <em>Cancer Bioinformatics</em>, 2025.
+        </p>
+        <!-- TODO(CHIRAL): list further division outputs as they publish. -->
+
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Division lead</dt>
+          <dd><!-- TODO(CHIRAL): name the division lead -->
+            <span class="c-todo">To be listed</span></dd>
+
+          <dt>Methods</dt>
+          <dd>Bulk &amp; single-cell RNA-seq · DNA methylation · variant analysis · pathway enrichment · molecular docking</dd>
+
+          <dt>Stack</dt>
+          <dd>R / Bioconductor · Python · Seurat · DESeq2 · Nextflow</dd>
+
+          <dt>Public data</dt>
+          <dd>TCGA · GEO · ICGC · cBioPortal · UALCAN · GEPIA2</dd>
+
+          <dt>Open to</dt>
+          <dd>Undergraduate researchers, and collaborators with sequencing data and a biological question.</dd>
+        </dl>
+
+        <p style="margin-top:1.5rem">
+          <a class="c-btn c-btn--dark" href="../../opportunities.html">Join this division</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+```

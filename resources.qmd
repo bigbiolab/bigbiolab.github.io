@@ -1,16 +1,25 @@
 ---
-pagetitle: "Resources | BigBio Lab"
+pagetitle: "Learning resources | CHIRAL Bangladesh"
+description: "Databases, tools and set-up guides we teach against and use in our own analyses."
+page-layout: custom
 toc: true
+toc-location: right
 ---
 
 ```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Resources</li>
-  </ol>
-</nav>
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Learning resources</h1>
+    <p>
+      The public databases, tools and set-up steps our courses are built on.
+      Everything here is free to use.
+    </p>
+  </div>
+</header>
 ```
+
+::: {.c-wrap .c-page-body}
+::: {.c-prose}
 
 ## Data and Tools for Cancer Genomics  
 
@@ -34,11 +43,8 @@ toc: true
 
 - [ONCOMINE](https://www.oncomine.org/resource/login.html): ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.
 
-
-
 ## Guideline for Bioconductor Users
 [Bioconductor](https://bioconductor.org/) is an open-source and open-development software project that provides a comprehensive collection of bioinformatics and computational biology tools in the R programming language. It focuses on the analysis and comprehension of high-throughput genomic data, including DNA sequencing, RNA sequencing, microarray analysis, proteomics, and more.
-
 
 ## Required software
 - R: <http://www.r-project.org/> (FREE)
@@ -74,7 +80,6 @@ BiocManager::install()
 
 Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with
 
-
 ```{r, eval=FALSE}
 BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
 ```
@@ -91,9 +96,6 @@ The `install()` function (in the BiocManager package) has arguments that change 
 - `clusterProfiler`: [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html) is a package for functional enrichment analysis of gene clusters derived from RNA-seq data.
 - `GenomicFeatures`: [GenomicFeatures](https://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html) provides tools for working with genomic features, such as gene models, and is useful for annotating RNA-seq data.
 - `Seurat`: [Seurat](https://satijalab.org/seurat/) is a package for single-cell RNA-seq data analysis, allowing exploration and visualization of cellular heterogeneity.
-
-
-
 
 ## Blogs for R Programming, Statistics, and Data Analyis 
 - Programiz - [https://www.datamentor.io/r-programming/](https://www.datamentor.io/r-programming/)
@@ -113,3 +115,5 @@ The `install()` function (in the BiocManager package) has arguments that change 
 
 - **April 12, 2023**: Watch this informative 2-hour workshop on how **NASA Earth Observing Data** can help improve public health. Discover how we can use these data to monitor our environment and identify potential health risks. Learn about the different ways NASA Earth Observing Data can benefit our communities and keep us safe. Check it out: {{< video https://youtu.be/rHJUhAz0_98 title="Using NASA Earth Observing Data for Public Health" aspect-ratio="16x9" >}}
 
+:::
+:::
