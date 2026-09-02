@@ -40,13 +40,13 @@ toc: false
 
         <h2>What we work on</h2>
         <p>
-          Four divisions, arranged along a single axis of scale: molecular data,
+          Four groups, arranged along a single axis of scale: molecular data,
           patient records, predictive models, and geographic space. A tumour study
-          may start in <a href="/groups/combio/">Computational Biology</a> and end in
-          <a href="/groups/bio-ai/">Bio-AI</a>; a dengue study may span
-          <a href="/groups/public-health-informatics/">Public Health &amp; Informatics</a>
-          and <a href="/groups/geospatial-health/">Geospatial Health</a>. The
-          divisions organise supervision, not territory.
+          may start in <a href="../groups/combio/">Computational Biology</a> and end in
+          <a href="../groups/bio-ai/">Bio-AI</a>; a dengue study may span
+          <a href="../groups/public-health-informatics/">Public Health &amp; Informatics</a>
+          and <a href="../groups/geospatial-health/">Geospatial Health</a>. The
+          groups organise supervision, not territory.
         </p>
 
         <h2>How we are run</h2>
@@ -98,7 +98,7 @@ toc: false
           <dt>Model</dt>
           <dd>Volunteer-run and non-profit. No fees charged, no stipends paid.</dd>
 
-          <dt>Divisions</dt>
+          <dt>Groups</dt>
           <dd>Computational Biology · Public Health &amp; Informatics · Bio-AI · Geospatial Health</dd>
 
           <dt>Working languages</dt>
@@ -109,7 +109,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="/people/">Meet the people</a>
+          <a class="c-btn c-btn--dark" href="../people/">Meet the people</a>
         </p>
       </div>
     </div>
@@ -134,8 +134,7 @@ toc: false
     </div>
     <div class="c-thanks">
       <div class="c-thanks-card">
-        <img class="c-thanks-img" src="/img/mentors/tasneem.jpg"
-             alt="Dr. Syeda Tasneen Towhid" loading="lazy" width="132" height="132">
+        <img class="c-thanks-img" src="../img/mentors/tasneem.jpg" alt="Dr. Syeda Tasneen Towhid" loading="lazy" width="132" height="132">
         <div>
           <p class="c-thanks-name">Dr. Syeda Tasneen Towhid</p>
           <p class="c-thanks-role">
@@ -144,8 +143,7 @@ toc: false
         </div>
       </div>
       <div class="c-thanks-card">
-        <img class="c-thanks-img" src="/img/mentors/sabia.jpg"
-             alt="Sabia Sultana" loading="lazy" width="132" height="132">
+        <img class="c-thanks-img" src="../img/mentors/sabia.jpg" alt="Sabia Sultana" loading="lazy" width="132" height="132">
         <div>
           <p class="c-thanks-name">Sabia Sultana</p>
           <p class="c-thanks-role">
@@ -167,17 +165,17 @@ toc: false
       <div>
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">As a student</h3>
         <p style="font-size:.92rem;line-height:1.65">Undergraduates in any relevant discipline, from first year onward. No prior coding required.</p>
-        <a class="c-card-link" style="color:var(--c-green)" href="/opportunities/">Apply →</a>
+        <a class="c-card-link" style="color:var(--c-green)" href="../opportunities/">Apply →</a>
       </div>
       <div>
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">As a mentor</h3>
         <p style="font-size:.92rem;line-height:1.65">Graduate students, postdocs, academics and industry researchers, supervising a small team.</p>
-        <a class="c-card-link" style="color:var(--c-green)" href="/opportunities/#mentors">Volunteer →</a>
+        <a class="c-card-link" style="color:var(--c-green)" href="../opportunities/#mentors">Volunteer →</a>
       </div>
       <div>
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">As an institution</h3>
         <p style="font-size:.92rem;line-height:1.65">Universities, hospitals and non-profits bringing a question, a dataset, or a joint proposal.</p>
-        <a class="c-card-link" style="color:var(--c-green)" href="/collaborators/">Collaborate →</a>
+        <a class="c-card-link" style="color:var(--c-green)" href="../collaborators/">Collaborate →</a>
       </div>
     </div>
   </div>

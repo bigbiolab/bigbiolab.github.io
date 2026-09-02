@@ -8,7 +8,7 @@ toc: false
 ```{=html}
 <header class="c-pagehead">
   <div class="c-wrap">
-    <p class="c-eyebrow">Division · Individual</p>
+    <p class="c-eyebrow">Group · Individual</p>
     <h1>Public Health &amp; Informatics</h1>
     <p>
       Population data, read for burden and inequity. We study how disease is
@@ -54,13 +54,13 @@ toc: false
 
         <h2>Selected outputs</h2>
         <p><span class="c-todo">To be listed</span></p>
-        <!-- TODO(CHIRAL): add this division's publications. -->
+        <!-- TODO(CHIRAL): add this group's publications. -->
 
       </div>
 
       <div class="c-aside">
         <dl class="c-facts">
-          <dt>Division lead</dt>
+          <dt>Group Leader</dt>
           <dd><span class="c-todo">To be listed</span></dd>
 
           <dt>Methods</dt>
@@ -77,7 +77,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="/opportunities/">Join this division</a>
+          <a class="c-btn c-btn--dark" href="../../opportunities/">Join this group</a>
         </p>
       </div>
     </div>

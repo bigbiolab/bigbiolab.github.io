@@ -53,7 +53,7 @@ toc: false
         <span class="c-card-meta">Format · Bootcamp</span>
         <h3>Bioinformatics bootcamps</h3>
         <p>Intensive multi-week, hands-on programmes in Linux, R, Python, RNA-seq and reproducible workflows. No prior programming background assumed.</p>
-        <a class="c-card-link" href="/teaching/">See programmes →</a>
+        <a class="c-card-link" href="../training/">See programmes →</a>
       </div>
       <div class="c-card">
         <span class="c-card-meta">Format · Seminar</span>
@@ -65,7 +65,7 @@ toc: false
         <span class="c-card-meta">Format · Journal club</span>
         <h3>Journal club</h3>
         <p>Students present a recent paper and are expected to criticise its design, not just summarise its findings. This is where most members learn to read properly.</p>
-        <a class="c-card-link" href="/opportunities/">Join the centre →</a>
+        <a class="c-card-link" href="../opportunities/">Join the centre →</a>
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@ toc: false
     <!-- TODO(CHIRAL): the December 2024 bootcamp series is referenced on the
          homepage; add it here with dates, cohort size and links to materials. -->
     <div class="c-btn-row">
-      <a class="c-btn c-btn--ghost" href="/resources/">Learning resources</a>
+      <a class="c-btn c-btn--ghost" href="../resources/">Learning resources</a>
       <a class="c-btn c-btn--ghost" href="https://www.youtube.com/@hossainlab">Recorded sessions</a>
     </div>
   </div>

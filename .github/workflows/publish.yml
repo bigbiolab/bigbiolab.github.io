@@ -1,0 +1,71 @@
+name: Build and publish site
+
+# Someone edits a .yml collection on github.com and clicks Commit; this renders
+# the site and commits the result back to docs/, which is what GitHub Pages
+# serves. No local tooling needed to change the content.
+#
+# docs/ is excluded from the trigger so this workflow's own commit does not
+# start it again.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - 'EDITING.md'
+      - 'README.md'
+  workflow_dispatch:
+
+# One build at a time; a newer push supersedes one already queued, since two
+# builds racing to commit docs/ would conflict.
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up Python
+        # Used by the post-render step that strips index.html from links.
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up R
+        # Only the learning-resources page uses the knitr engine, but the whole
+        # project render needs R available for it.
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::knitr
+            any::rmarkdown
+
+      - name: Render site
+        run: quarto render
+
+      - name: Commit the rendered site
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --staged --quiet; then
+            echo "No change to the rendered site."
+          else
+            git commit -m "Rebuild site from content changes [skip ci]"
+            git push
+          fi

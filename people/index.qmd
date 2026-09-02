@@ -4,22 +4,19 @@ description: "Researchers, mentors, research assistants and alumni of CHIRAL Ban
 page-layout: custom
 toc: false
 listing:
-  - id: research-staff
-    contents: "staff/*/index.qmd"
-    template: ../ejs/person.ejs
-    sort: sortby
-  - id: research-assistants
-    contents: "ras/*/index.qmd"
-    template: ../ejs/person.ejs
-    sort: sortby
+  - id: leadership
+    contents: leadership.yml
+    template: ../_templates/person-card.ejs
+  - id: assistants
+    contents: assistants.yml
+    template: ../_templates/person-card.ejs
   - id: alumni
-    contents: "alumni/*/index.qmd"
+    contents: alumni.yml
     type: table
-    sort: sortby
-    fields: [title, subtitle, started, ended]
+    fields: [title, role, started, ended]
     field-display-names:
       title: "Name"
-      subtitle: "Role"
+      role: "Role"
       started: "Joined"
       ended: "Left"
 ---
@@ -34,20 +31,55 @@ listing:
     </p>
   </div>
 </header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Founder</span>
+      <h2 class="c-h2">Who started the centre</h2>
+    </div>
+    <div class="c-founder">
+      <img class="c-founder-img" src="/img/founder/jubayer.jpg"
+           alt="Md. Jubayer Hossain" width="864" height="1084">
+      <div class="c-founder-body">
+        <p class="c-founder-name">Md. Jubayer Hossain</p>
+        <p class="c-founder-role">Founder &amp; Executive Director</p>
+        <p>
+          He founded CHIRAL Bangladesh in 2020 to close a specific gap:
+          undergraduates here reach graduation without ever having designed a
+          study, cleaned a dataset, or read a reviewer's report on their own
+          work.
+        </p>
+        <p>
+          The centre exists to put them on real projects with real supervision
+          and keep them there until something is published — free to join,
+          volunteer-run, with students first-authoring their own work and the
+          teaching material kept open so the capacity stays in the region.
+        </p>
+        <ul class="c-person-social c-founder-social">
+          <li><a aria-label="Md. Jubayer Hossain on LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://www.github.com/hossainlab" aria-label="Md. Jubayer Hossain on GitHub"><i class="bi bi-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 ```
 
 ::: {.c-wrap .c-page-body}
 
-## Research staff
+## Leadership
 
-:::{#research-staff}
+The permanent team alongside the founder.
+
+:::{#leadership}
 :::
 
 ## Research assistants
 
 Students working on active projects under supervision.
 
-:::{#research-assistants}
+:::{#assistants}
 :::
 
 ## Alumni
@@ -56,12 +88,6 @@ Former members, and where they went next.
 
 :::{#alumni}
 :::
-
-<!-- TODO(CHIRAL): the alumni roster is the single strongest credibility signal a
-     training-focused centre has. For each alumnus add a `destination:` line to
-     their .qmd (graduate programme, employer, or current position) — "went on to
-     an MSc at X" is what a prospective student and a prospective funder both
-     look for. -->
 
 ## Join them
 

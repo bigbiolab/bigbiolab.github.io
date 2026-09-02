@@ -37,7 +37,7 @@ toc: false
 
         <h3>What you will do</h3>
         <ul>
-          <li><strong>Work with a supervisor one-to-one</strong> in one of the four research divisions.</li>
+          <li><strong>Work with a supervisor one-to-one</strong> in one of the four research groups.</li>
           <li><strong>Run a real project</strong> — form the hypothesis, do the analysis, interpret the result.</li>
           <li><strong>Learn to write it up</strong>: literature review, figures, manuscript drafting, and the peer review process end to end.</li>
           <li><strong>Take the training</strong> in Linux, R, Python, Nextflow, machine learning and GIS as the project requires it.</li>
@@ -146,7 +146,7 @@ toc: false
       </p>
     </div>
     <div class="c-btn-row">
-      <a class="c-btn c-btn--dark" href="/collaborators/">How collaboration works</a>
+      <a class="c-btn c-btn--dark" href="../collaborators/">How collaboration works</a>
       <a class="c-btn c-btn--line" href="mailto:chiralbd@gmail.com?subject=Research%20Collaboration%20Inquiry">Propose a collaboration</a>
     </div>
   </div>
@@ -171,7 +171,7 @@ toc: false
         <p style="font-size:.93rem;line-height:1.7;margin:0 0 1.75rem">Neither. Participation costs nothing and pays nothing. We measure ourselves in publications and in where our alumni end up.</p>
 
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Will I actually be an author?</h3>
-        <p style="font-size:.93rem;line-height:1.7;margin:0">If you do the work, yes — including first authorship. See <a href="/publications/" style="color:var(--c-green)">our publications</a>.</p>
+        <p style="font-size:.93rem;line-height:1.7;margin:0">If you do the work, yes — including first authorship. See <a href="../publications/" style="color:var(--c-green)">our publications</a>.</p>
       </div>
     </div>
   </div>

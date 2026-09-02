@@ -1,0 +1,19 @@
+# Leadership. One entry per person, newest last.
+#
+# Fields: title (the name), role, image, linkedin, github.
+# Leave a link empty ("") and its icon still shows, dimmed and inert.
+# Omit `image` and the person gets a placeholder tile.
+
+- path:
+  title: "Muhibullah Shahjahan"
+  role: "Bioinformatic Analyst"
+  image: "/img/research-staff/muhibullah.jpg"
+  linkedin: ""
+  github: ""
+
+- path:
+  title: "Md. Wahidul Islam"
+  role: "Wet Lab Scientist"
+  image: "/img/research-staff/wahidul.jpg"
+  linkedin: ""
+  github: ""

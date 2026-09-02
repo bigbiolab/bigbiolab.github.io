@@ -1,0 +1,11 @@
+# Alumni. `started` and `ended` fill the Joined and Left columns.
+#
+# TODO(CHIRAL): add a `destination:` line naming where each alumnus went next -
+# "went on to an MSc at X" is what a prospective student and a prospective
+# funder both look for.
+
+- path:
+  title: "Dulguun Amgalanbaatar"
+  role: "Research Assistant"
+  started: "Fall 2022"
+  ended: "Fall 2022"

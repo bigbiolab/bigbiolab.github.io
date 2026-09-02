@@ -3,6 +3,10 @@ pagetitle: "Collaborators | CHIRAL Bangladesh"
 description: "Partner institutions, joint projects, and how to start a collaboration with the centre."
 page-layout: custom
 toc: false
+listing:
+  - id: partners
+    contents: partners.yml
+    template: ../_templates/partner-card.ejs
 ---
 
 ```{=html}
@@ -30,23 +34,12 @@ toc: false
          than eight vague ones. Logos, if you have permission to use them, go in
          img/partners/ and replace the .c-partner-mark block. -->
 
-    <div class="c-grid-3">
-      <div class="c-card">
-        <span class="c-card-meta">Partner institution</span>
-        <h3 class="c-todo">To be listed</h3>
-        <p>Institution name, country, and the joint work it covers.</p>
-      </div>
-      <div class="c-card">
-        <span class="c-card-meta">Partner institution</span>
-        <h3 class="c-todo">To be listed</h3>
-        <p>Institution name, country, and the joint work it covers.</p>
-      </div>
-      <div class="c-card">
-        <span class="c-card-meta">Partner institution</span>
-        <h3 class="c-todo">To be listed</h3>
-        <p>Institution name, country, and the joint work it covers.</p>
-      </div>
-    </div>
+```
+
+:::{#partners}
+:::
+
+```{=html}
   </div>
 </section>
 

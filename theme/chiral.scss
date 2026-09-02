@@ -412,7 +412,7 @@ main.content { padding-top: 0; }
 
 // ---------------------------------------------------------------------------
 // Signature: the genome-to-geography scale axis.
-// The four divisions are not an arbitrary list, they sit at increasing
+// The four groups are not an arbitrary list, they sit at increasing
 // physical scale, so the axis states that rather than decorating it.
 // ---------------------------------------------------------------------------
 
@@ -550,6 +550,20 @@ main.content { padding-top: 0; }
 .c-grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
 .c-grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 .c-grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(238px, 1fr)); gap: 1.5rem; }
+
+// A four-card set that must read as 2x2, never 3 + an orphan. `.c-grid-2` uses
+// auto-fit, so at the 1280px content width it resolves to three columns and
+// strands the fourth card on a row of its own - which misrepresents four cards
+// that are a matched set (one per research group).
+.c-grid-quad {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .c-grid-quad { grid-template-columns: 1fr; }
+}
 
 .c-card {
   background: var(--c-surface);
@@ -986,8 +1000,8 @@ main.content h3 {
   color: var(--c-body);
 }
 
-// Division grid: shares its column count with .c-axis-row so the scale ticks
-// land directly above the division they label.
+// Group grid: shares its column count with .c-axis-row so the scale ticks
+// land directly above the group they label.
 .c-div-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1016,6 +1030,7 @@ main.content h3 {
 .c-grid-2 > *,
 .c-grid-3 > *,
 .c-grid-4 > *,
+.c-grid-quad > *,
 .c-div-grid > *,
 .c-axis-row > *,
 .c-people-grid > *,
@@ -1311,3 +1326,243 @@ button:focus-visible,
 @media (max-width: 460px) {
   .c-thanks-card { grid-template-columns: 1fr; }
 }
+
+// ---------------------------------------------------------------------------
+// Founder band
+// ---------------------------------------------------------------------------
+// One person, given the room a listing tile cannot: a portrait at reading
+// scale beside a short standfirst. Not `.c-person` - that is a uniform square
+// tile built for a grid of many, and the founder photo is a 4:5 portrait.
+
+.c-founder {
+  display: grid;
+  grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+  gap: clamp(1.75rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.c-founder-img {
+  width: 100%;
+  // Explicit: the <img> carries intrinsic width/height attributes so the
+  // browser can reserve the box before the file arrives, and without this the
+  // height attribute wins over `aspect-ratio` and the portrait renders at its
+  // full 1084px.
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--c-line);
+  filter: grayscale(1);
+  transition: filter 0.25s ease;
+  display: block;
+}
+
+.c-founder:hover .c-founder-img { filter: grayscale(0); }
+
+.c-founder-name {
+  font-family: var(--c-display);
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--c-head);
+  margin: 0 0 0.4rem;
+}
+
+.c-founder-role {
+  font-family: var(--c-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-green);
+  margin: 0 0 1.15rem;
+}
+
+.c-founder-body p {
+  font-size: 0.97rem;
+  line-height: 1.75;
+  color: var(--c-body);
+  max-width: 60ch;
+  margin: 0 0 1rem;
+}
+
+.c-founder-body p:last-of-type { margin-bottom: 1.4rem; }
+
+@media (max-width: 620px) {
+  .c-founder { grid-template-columns: 1fr; }
+  .c-founder-img { max-width: 240px; }
+}
+
+// ---------------------------------------------------------------------------
+// Person social links
+// ---------------------------------------------------------------------------
+// People cards no longer link through to a profile page, so the card itself is
+// an <article> and the only links on it are these. Kept at the same weight as
+// the navbar's social row: slate at rest, green on hover.
+
+.c-person-social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+}
+
+.c-person-social li { margin: 0; }
+
+.c-person-social a {
+  color: var(--c-slate);
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+
+.c-person-social a[href]:hover,
+.c-person-social a[href]:focus-visible { color: var(--c-green); }
+
+// An icon whose URL is not known yet. It still shows - the row reads as a
+// complete set - but it is inert and dimmed, so a filled link is visibly the
+// live one and nobody clicks into a dead end.
+.c-person-social a:not([href]) {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.c-person-social .bi {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+
+// The founder band gives the same row a little more air, since it sits under
+// body copy rather than a caption.
+.c-founder-social { margin-top: 1.4rem; }
+
+// ---------------------------------------------------------------------------
+// Bare cards
+// ---------------------------------------------------------------------------
+// A card with no panel around it: used where a slab already carries a border
+// or a colour field and a second box inside it would read as clutter. These
+// rules replace the inline styles the markup used to carry, so the shape is
+// now set in one place rather than repeated per card.
+
+.c-bare-card h3 {
+  font-family: var(--c-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--c-head);
+  margin: 0 0 0.5rem;
+}
+
+.c-bare-card p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--c-body);
+  margin: 0 0 1rem;
+}
+
+.c-bare-card .c-card-link { color: var(--c-green); }
+
+// ---------------------------------------------------------------------------
+// Data tables
+// ---------------------------------------------------------------------------
+// Rosters and schedules rendered from _data. Deliberately rule-based rather
+// than boxed, to match the hairline language the rest of the site uses.
+
+.c-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.c-table th {
+  @include eyebrow;
+  font-size: 0.68rem;
+  color: var(--c-slate);
+  text-align: left;
+  padding: 0 1rem 0.6rem 0;
+  border-bottom: 1px solid var(--c-line);
+}
+
+.c-table td {
+  padding: 0.7rem 1rem 0.7rem 0;
+  border-bottom: 1px solid var(--c-line);
+  color: var(--c-body);
+  vertical-align: top;
+}
+
+.c-table tr:last-child td { border-bottom: 0; }
+
+// Wide rosters must scroll inside their own box, never push the page sideways.
+.c-table-scroll { overflow-x: auto; }
+
+// A list of commitments or criteria, separated by hairlines rather than
+// bullets. Replaces the inline styles this pattern used to carry.
+.c-rule-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.c-rule-list li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--c-line);
+}
+
+.c-rule-list li:last-child { border-bottom: 0; }
+
+// A button row directly under a slab head needs no separation - the head's own
+// bottom margin supplies it. Following a grid or a body of prose it does, so
+// the spacing is attached to the preceding block rather than written into the
+// markup case by case.
+.c-grid-2 + .c-btn-row,
+.c-grid-3 + .c-btn-row,
+.c-grid-4 + .c-btn-row,
+.c-grid-quad + .c-btn-row,
+.c-people-grid + .c-btn-row,
+.c-prose + .c-btn-row,
+.c-mini + .c-btn-row,
+.c-table + .c-btn-row { margin-top: clamp(2rem, 3vw, 2.5rem); }
+
+// ---------------------------------------------------------------------------
+// Question and answer pairs
+// ---------------------------------------------------------------------------
+// Replaces the inline styles the FAQ markup used to repeat on every heading and
+// paragraph. The last answer in a column carries no trailing space so the
+// columns end level.
+
+.c-faq h3 {
+  font-family: var(--c-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--c-head);
+  margin: 0 0 0.5rem;
+}
+
+.c-faq > div > div {
+  font-size: 0.93rem;
+  line-height: 1.7;
+  margin: 0 0 1.75rem;
+}
+
+.c-faq > div > div p { margin: 0; }
+.c-faq > div > div:last-child { margin-bottom: 0; }
+.c-faq a { color: var(--c-green); }
+
+// Same reasoning as the button row: a footnote block following a grid needs
+// separating from it, and that spacing belongs to the pair, not to the markup.
+.c-grid-2 + .c-mini,
+.c-grid-3 + .c-mini,
+.c-grid-4 + .c-mini,
+.c-grid-quad + .c-mini,
+.c-people-grid + .c-mini,
+.c-table + .c-mini { margin-top: clamp(2rem, 3vw, 2.5rem); }
+
+// The highlighted paper on the home page is followed by a link to the full
+// list; give the pair its own separation rather than styling the row inline.
+.c-pub + .c-btn-row { margin-top: 1.75rem; }

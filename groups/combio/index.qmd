@@ -8,7 +8,7 @@ toc: false
 ```{=html}
 <header class="c-pagehead">
   <div class="c-wrap">
-    <p class="c-eyebrow">Division · Molecular</p>
+    <p class="c-eyebrow">Group · Molecular</p>
     <h1>Computational Biology</h1>
     <p>
       High-throughput biological data, read for mechanism. We work mainly in
@@ -57,17 +57,17 @@ toc: false
 
         <h2>Selected outputs</h2>
         <p>
-          <a href="/publications/">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>,
-          <em>Cancer Bioinformatics</em>, 2025.
+          <a href="../../publications/">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>,
+          <em>Scientific Reports</em>, 2025.
         </p>
-        <!-- TODO(CHIRAL): list further division outputs as they publish. -->
+        <!-- TODO(CHIRAL): list further group outputs as they publish. -->
 
       </div>
 
       <div class="c-aside">
         <dl class="c-facts">
-          <dt>Division lead</dt>
-          <dd><!-- TODO(CHIRAL): name the division lead -->
+          <dt>Group Leader</dt>
+          <dd><!-- TODO(CHIRAL): name the Group Leader -->
             <span class="c-todo">To be listed</span></dd>
 
           <dt>Methods</dt>
@@ -84,7 +84,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="/opportunities/">Join this division</a>
+          <a class="c-btn c-btn--dark" href="../../opportunities/">Join this group</a>
         </p>
       </div>
     </div>

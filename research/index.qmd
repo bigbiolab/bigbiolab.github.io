@@ -1,6 +1,6 @@
 ---
 pagetitle: "Research | CHIRAL Bangladesh"
-description: "Four research divisions spanning molecular data, clinical records, predictive models and geographic space."
+description: "Four research groups spanning molecular data, clinical records, predictive models and geographic space."
 page-layout: custom
 toc: false
 ---
@@ -11,7 +11,7 @@ toc: false
 <h1>Research</h1>
     <p>
       One question — how disease arises, spreads and is best treated in Bangladesh —
-      approached at four scales. Each division owns a scale; projects usually cross
+      approached at four scales. Each group owns a scale; projects usually cross
       two or more.
     </p>
   </div>
@@ -44,22 +44,22 @@ toc: false
       <article class="c-card">
         <h3>Computational Biology</h3>
         <p>Multi-omics integration, bulk and single-cell transcriptomics, and structural modelling, with a focus on oncogenomics and precision medicine.</p>
-        <a class="c-card-link" href="/groups/combio/">Open division →</a>
+        <a class="c-card-link" href="../groups/combio/">Open group →</a>
       </article>
       <article class="c-card">
         <h3>Public Health &amp; Informatics</h3>
         <p>Epidemiological surveillance, national survey analytics, digital health evaluation and evidence synthesis for health policy.</p>
-        <a class="c-card-link" href="/groups/public-health-informatics/">Open division →</a>
+        <a class="c-card-link" href="../groups/public-health-informatics/">Open group →</a>
       </article>
       <article class="c-card">
         <h3>Bio-AI</h3>
         <p>Clinical risk prediction, biomedical image analysis, interpretable models and biomarker discovery pipelines.</p>
-        <a class="c-card-link" href="/groups/bio-ai/">Open division →</a>
+        <a class="c-card-link" href="../groups/bio-ai/">Open group →</a>
       </article>
       <article class="c-card">
         <h3>Geospatial Health</h3>
         <p>Spatial epidemiology, earth observation, healthcare accessibility modelling and environmental health risk mapping.</p>
-        <a class="c-card-link" href="/groups/geospatial-health/">Open division →</a>
+        <a class="c-card-link" href="../groups/geospatial-health/">Open group →</a>
       </article>
     </div>
   </div>
@@ -113,8 +113,8 @@ toc: false
       </p>
     </div>
     <div class="c-btn-row">
-      <a class="c-btn c-btn--solid" href="/collaborators/">Collaboration</a>
-      <a class="c-btn c-btn--ghost" href="/publications/">See our outputs</a>
+      <a class="c-btn c-btn--solid" href="../collaborators/">Collaboration</a>
+      <a class="c-btn c-btn--ghost" href="../publications/">See our outputs</a>
     </div>
   </div>
 </section>

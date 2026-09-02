@@ -1,0 +1,14 @@
+```{=html}
+<div class="list c-grid-quad">
+<% for (const item of items) { %>
+  <article class="c-card" <%= metadataAttrs(item) %>>
+    <span class="c-card-meta">Required for · <%= item.group %></span>
+    <h3 class="listing-title"><%= item.title %></h3>
+    <p><%= item.description %></p>
+    <% if (item.href) { %>
+      <a class="c-card-link" href="<%- item.href %>">Group →</a>
+    <% } %>
+  </article>
+<% } %>
+</div>
+```

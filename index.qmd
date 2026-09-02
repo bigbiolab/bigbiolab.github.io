@@ -25,8 +25,8 @@ toc: false
       </p>
 
       <div class="c-btn-row">
-        <a class="c-btn c-btn--solid" href="/research/">Explore our research</a>
-        <a class="c-btn c-btn--ghost" href="/opportunities/">Join the centre</a>
+        <a class="c-btn c-btn--solid" href="./research/">Explore our research</a>
+        <a class="c-btn c-btn--ghost" href="./opportunities/">Join the centre</a>
       </div>
     </div>
 
@@ -36,41 +36,40 @@ toc: false
            size, so this is a five-circle rosette: every circle contains the
            middle, and the shared centre is the claim being made. Colours come
            from theme tokens so the figure flips with dark mode. -->
-      <svg viewBox="0 0 520 400" role="img"
-           aria-labelledby="vennTitle vennDesc">
+      <svg viewbox="0 0 520 400" role="img" aria-labelledby="vennTitle vennDesc">
         <title id="vennTitle">The five disciplines that meet at CHIRAL Bangladesh</title>
         <desc id="vennDesc">Five overlapping circles labelled bioinformatics, AI, spatial, public health, and computational biology. All five intersect at a central region marked CHIRAL, showing that the centre's research sits where the disciplines meet. Hovering a circle highlights that discipline's area.</desc>
 
         <g class="c-venn">
           <g class="c-venn-item">
             <title>Bioinformatics</title>
-            <circle class="c-venn-set" cx="260.0" cy="147.0" r="80"/>
+            <circle class="c-venn-set" cx="260.0" cy="147.0" r="80"></circle>
             <text class="c-venn-label" x="260.0" y="52.0" text-anchor="middle">Bioinformatics</text>
           </g>
           <g class="c-venn-item">
             <title>AI</title>
-            <circle class="c-venn-set" cx="315.2" cy="187.1" r="80"/>
+            <circle class="c-venn-set" cx="315.2" cy="187.1" r="80"></circle>
             <text class="c-venn-label" x="410.3" y="161.2" text-anchor="start">AI</text>
           </g>
           <g class="c-venn-item">
             <title>Spatial</title>
-            <circle class="c-venn-set" cx="294.1" cy="251.9" r="80"/>
+            <circle class="c-venn-set" cx="294.1" cy="251.9" r="80"></circle>
             <text class="c-venn-label" x="352.9" y="353.0" text-anchor="middle">Spatial Health</text>
           </g>
           <g class="c-venn-item">
             <title>Public Health</title>
-            <circle class="c-venn-set" cx="225.9" cy="251.9" r="80"/>
+            <circle class="c-venn-set" cx="225.9" cy="251.9" r="80"></circle>
             <text class="c-venn-label" x="167.1" y="353.0" text-anchor="middle">Public Health</text>
           </g>
           <g class="c-venn-item">
             <title>Computational Biology</title>
-            <circle class="c-venn-set" cx="204.8" cy="187.1" r="80"/>
+            <circle class="c-venn-set" cx="204.8" cy="187.1" r="80"></circle>
             <text class="c-venn-label" x="109.7" y="149.2" text-anchor="end">Computational</text>
             <text class="c-venn-label" x="109.7" y="167.2" text-anchor="end">Biology</text>
           </g>
 
           <g class="c-venn-core-group">
-            <circle class="c-venn-core" cx="260" cy="205" r="30"/>
+            <circle class="c-venn-core" cx="260" cy="205" r="30"></circle>
             <text class="c-venn-core-text" x="260" y="209" text-anchor="middle">CHIRAL</text>
           </g>
 
@@ -96,7 +95,7 @@ toc: false
       </div>
       <div class="c-metric">
         <span class="c-metric-num">4</span>
-        <span class="c-metric-lbl">Research<br>divisions</span>
+        <span class="c-metric-lbl">Research<br>groups</span>
       </div>
     </div>
     <!-- TODO(CHIRAL): replace the three em-dashes above with real counts.
@@ -107,16 +106,16 @@ toc: false
 <section class="c-slab c-slab--paper">
   <div class="c-wrap">
     <div class="c-slab-head">
-      <span class="c-eyebrow">Research divisions</span>
+      <span class="c-eyebrow">Research groups</span>
       <h2 class="c-h2">Four groups, one axis of scale</h2>
       <p class="c-lede">
-        Our divisions are not separate departments. They are four positions on a
+        Our groups are not separate departments. They are four positions on a
         single continuum — the same disease read as a molecule, as a patient
         record, as a prediction, and as a place.
       </p>
     </div>
 
-    <!-- Signature: the scale axis. Ticks sit directly above the division they
+    <!-- Signature: the scale axis. Ticks sit directly above the group they
          label, so the ordering of the cards carries real information. -->
     <div class="c-axis">
       <div class="c-axis-row">
@@ -142,60 +141,56 @@ toc: false
     <div class="c-div-grid">
       <article class="c-card">
         <div class="c-card-icon">
-          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"
-               stroke-linecap="round" aria-hidden="true">
-            <path d="M9 3c0 6.5 14 6.5 14 13S9 22.5 9 29"/>
-            <path d="M23 3c0 6.5-14 6.5-14 13s14 6.5 14 13"/>
-            <path d="M11 8h10M10.5 13h11M10.5 19h11M11 24h10"/>
+          <svg viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+            <path d="M9 3c0 6.5 14 6.5 14 13S9 22.5 9 29"></path>
+            <path d="M23 3c0 6.5-14 6.5-14 13s14 6.5 14 13"></path>
+            <path d="M11 8h10M10.5 13h11M10.5 19h11M11 24h10"></path>
           </svg>
         </div>
         <h3>Computational Biology</h3>
         <p>Multi-omics integration, bulk and single-cell RNA-seq, and structural modelling to locate the mechanisms and biomarkers behind complex disease.</p>
-        <a class="c-card-link" href="/groups/combio/">Division →</a>
+        <a class="c-card-link" href="./groups/combio/">Group →</a>
       </article>
 
       <article class="c-card">
         <div class="c-card-icon">
-          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M6 4h14l6 6v18H6z"/>
-            <path d="M20 4v6h6"/>
-            <path d="M10 17h4l2-4 2 8 2-4h2"/>
+          <svg viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 4h14l6 6v18H6z"></path>
+            <path d="M20 4v6h6"></path>
+            <path d="M10 17h4l2-4 2 8 2-4h2"></path>
           </svg>
         </div>
         <h3>Public Health &amp; Informatics</h3>
         <p>Survey analytics, clinical registries and digital health evaluation, quantifying disease burden and health inequity across Bangladesh and South Asia.</p>
-        <a class="c-card-link" href="/groups/public-health-informatics/">Division →</a>
+        <a class="c-card-link" href="./groups/public-health-informatics/">Group →</a>
       </article>
 
       <article class="c-card">
         <div class="c-card-icon">
-          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="16" cy="16" r="3.2"/>
-            <circle cx="6"  cy="7"  r="2.4"/>
-            <circle cx="26" cy="7"  r="2.4"/>
-            <circle cx="6"  cy="25" r="2.4"/>
-            <circle cx="26" cy="25" r="2.4"/>
-            <path d="M8.2 8.6 13.6 14M23.8 8.6 18.4 14M8.2 23.4 13.6 18M23.8 23.4 18.4 18"/>
+          <svg viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="16" cy="16" r="3.2"></circle>
+            <circle cx="6" cy="7" r="2.4"></circle>
+            <circle cx="26" cy="7" r="2.4"></circle>
+            <circle cx="6" cy="25" r="2.4"></circle>
+            <circle cx="26" cy="25" r="2.4"></circle>
+            <path d="M8.2 8.6 13.6 14M23.8 8.6 18.4 14M8.2 23.4 13.6 18M23.8 23.4 18.4 18"></path>
           </svg>
         </div>
         <h3>Bio-AI</h3>
         <p>Risk prediction, medical image analysis and interpretable machine learning built for clinical settings where transparency matters as much as accuracy.</p>
-        <a class="c-card-link" href="/groups/bio-ai/">Division →</a>
+        <a class="c-card-link" href="./groups/bio-ai/">Group →</a>
       </article>
 
       <article class="c-card">
         <div class="c-card-icon">
-          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M16 29s9-9.5 9-16A9 9 0 0 0 7 13c0 6.5 9 16 9 16z"/>
-            <circle cx="16" cy="13" r="3.4"/>
+          <svg viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 29s9-9.5 9-16A9 9 0 0 0 7 13c0 6.5 9 16 9 16z"></path>
+            <circle cx="16" cy="13" r="3.4"></circle>
           </svg>
         </div>
         <h3>Geospatial Health</h3>
         <p>Disease mapping, satellite earth observation and accessibility modelling, linking climate and environment to where illness actually falls.</p>
-        <a class="c-card-link" href="/groups/geospatial-health/">Division →</a>
+        <a class="c-card-link" href="./groups/geospatial-health/">Group →</a>
       </article>
     </div>
   </div>
@@ -218,15 +213,15 @@ toc: false
         <h3 class="c-pub-title">
           <a href="https://doi.org/10.1038/s41598-025-88339-z">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>
         </h3>
-        <p class="c-pub-authors">Md. Zabir Ahmed, Md Mohtasim Billah, Jannatul Ferdous, Shoriful Islam Antar, Abdullah Al Mamun, Md. Jubayer Hossain</p>
-        <p class="c-pub-venue">Cancer Bioinformatics · doi:10.1038/s41598-025-88339-z</p>
+        <p class="c-pub-authors">Ahmed, M. Z., Billah, M. M., Ferdous, J., Antar, S. I., Al Mamun, A., & Hossain, M. J.</p>
+        <p class="c-pub-venue">Scientific Reports · doi:10.1038/s41598-025-88339-z</p>
         <span class="c-tag c-tag--accent">Journal article</span>
         <span class="c-tag">Computational Biology</span>
       </div>
     </div>
 
     <p style="margin-top:1.75rem">
-      <a class="c-btn c-btn--line" href="/publications/">All publications</a>
+      <a class="c-btn c-btn--line" href="./publications/">All publications</a>
     </p>
   </div>
 </section>
@@ -250,14 +245,14 @@ toc: false
         <span class="c-card-meta">Open · Recruitment</span>
         <h3>Junior researcher intake is open</h3>
         <p>Applications are open to university students in their first three years who want to work on bioinformatics, machine learning or health data science.</p>
-        <a class="c-card-link" href="/opportunities/">How to apply →</a>
+        <a class="c-card-link" href="./opportunities/">How to apply →</a>
       </article>
 
       <article class="c-card">
         <span class="c-card-meta">Dec 2024 · Training</span>
         <h3>Bioinformatics bootcamps concluded</h3>
         <p>Hands-on sessions in R, Python, bulk RNA-seq and reproducible workflows for students with no prior programming background.</p>
-        <a class="c-card-link" href="/teaching/">Our programmes →</a>
+        <a class="c-card-link" href="./training/">Our programmes →</a>
       </article>
     </div>
   </div>
@@ -295,9 +290,9 @@ toc: false
     </div>
 
     <div class="c-btn-row" style="margin-top:2.5rem">
-      <a class="c-btn c-btn--solid" href="/opportunities/">Join as a student</a>
-      <a class="c-btn c-btn--ghost" href="/opportunities/#mentors">Volunteer as a mentor</a>
-      <a class="c-btn c-btn--ghost" href="/collaborators/">Collaborate with us</a>
+      <a class="c-btn c-btn--solid" href="./opportunities/">Join as a student</a>
+      <a class="c-btn c-btn--ghost" href="./opportunities/#mentors">Volunteer as a mentor</a>
+      <a class="c-btn c-btn--ghost" href="./collaborators/">Collaborate with us</a>
     </div>
   </div>
 </section>

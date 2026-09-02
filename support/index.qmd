@@ -51,13 +51,13 @@ toc: false
         <span class="c-card-meta">Need 05</span>
         <h3>Your time</h3>
         <p>The most valuable contribution remains supervision. A few hours a week from an experienced researcher supports a team of students.</p>
-        <a class="c-card-link" href="/opportunities/#mentors">Volunteer as a mentor →</a>
+        <a class="c-card-link" href="../opportunities/#mentors">Volunteer as a mentor →</a>
       </div>
       <div class="c-card">
         <span class="c-card-meta">Need 06</span>
         <h3>Data access</h3>
         <p>Introductions to cohorts, registries and imaging archives willing to work with an external analysis partner.</p>
-        <a class="c-card-link" href="/collaborators/">Collaborate →</a>
+        <a class="c-card-link" href="../collaborators/">Collaborate →</a>
       </div>
     </div>
   </div>
@@ -94,7 +94,7 @@ toc: false
         <h2>Transparency</h2>
         <p>
           Any support we receive will be listed publicly on
-          <a href="/about/">the About page</a>, with the amount and the purpose.
+          <a href="../about/">the About page</a>, with the amount and the purpose.
           A volunteer centre that takes money quietly stops being a volunteer
           centre.
         </p>

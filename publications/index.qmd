@@ -5,17 +5,17 @@ page-layout: custom
 toc: false
 listing:
   - id: articles
-    contents: "articles/*/index.qmd"
-    template: ../ejs/article.ejs
+    contents: journal-articles.yml
+    template: ../_templates/publication-card.ejs
     categories: true
     sort:
       - "year desc"
       - "title"
-    sort-ui: [year, title, author, publication]
-    filter-ui: [title, author, publication, year]
+    sort-ui: [year, title, author, journal]
+    filter-ui: [title, author, journal, year]
     page-size: 25
     field-display-names:
-      publication: "Journal"
+      journal: "Journal"
       year: "Year"
 ---
 
@@ -36,12 +36,12 @@ listing:
 :::{#articles}
 :::
 
-<!-- TODO(CHIRAL): add one .qmd per output under publications/articles/ (or a new
-     publications/preprints/ folder — the listing already globs both). Copy the
-     front matter from publications/articles/zabir_etal_2025.qmd: title, author,
-     year, publication, doi, preprint, materials, categories. Conference
-     abstracts and posters belong here too; an international lab page is judged
-     on the shape of the output list, not only its length. -->
+<!-- TODO(CHIRAL): add each new output as an entry in journal-articles.yml.
+     Copy the entry that is already there and change the fields. Conference
+     abstracts and posters belong here too - an international lab page is
+     judged on the shape of the output list, not only its length. Preprints
+     and other output types can go in their own .yml file with a second
+     listing block, the way the people page splits its rosters. -->
 
 ## Elsewhere
 

@@ -1,0 +1,31 @@
+# Training programmes. One entry per programme, one programme per research group.
+#
+# Fields: title, group (the research group it is the entry requirement for),
+# description, href (link to that group's page).
+#
+# TODO(CHIRAL): add the next cohort dates and a registration link to each entry.
+# A course with no date attached reads as an archive rather than an offer.
+
+- path:
+  title: "Genomic Data Analysis"
+  group: "Computational Biology"
+  href: "/groups/combio/"
+  description: "The Linux command line, R and Bioconductor, then the transcriptomic workflow itself: quality control, differential expression, pathway enrichment, and single-cell analysis. Ends with a full RNA-seq analysis run on a public tumour dataset."
+
+- path:
+  title: "Epidemiological Data Analysis"
+  group: "Public Health & Informatics"
+  href: "/groups/public-health-informatics/"
+  description: "Observational study design, then biostatistics and survey analysis in R — weighting, regression modelling, and the systematic review and meta-analysis methods the group publishes with. Ends with a secondary analysis of a national health survey."
+
+- path:
+  title: "Machine Learning for Biomedicine"
+  group: "Bio-AI"
+  href: "/groups/bio-ai/"
+  description: "Python, then supervised learning and deep learning on clinical and imaging data with scikit-learn and PyTorch. Validation, class imbalance and interpretability are taught as part of the method, not after it. Ends with a validated, explained prediction model."
+
+- path:
+  title: "Spatial Epidemiology & GIS"
+  group: "Geospatial Health"
+  href: "/groups/geospatial-health/"
+  description: "Coordinate systems and spatial data handling in R and QGIS, then disease mapping, cluster detection, accessibility modelling and satellite earth-observation data. Ends with a disease map built from Bangladesh surveillance and environmental layers."

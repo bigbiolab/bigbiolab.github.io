@@ -172,3 +172,6 @@ cython_debug/
 .Rhistory
 .RData
 .Rapp.history
+
+# Reference checkout of another site, kept locally only
+hossainlab.github.io/

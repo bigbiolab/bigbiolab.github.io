@@ -8,6 +8,12 @@ project:
   # strips that suffix back out of the rendered output.
   post-render:
     - python scripts/clean-urls.py
+  # Only this site's own pages. A reference checkout of another Quarto
+  # site sits untracked in the working tree; without this, Quarto walks
+  # into it and publishes its pages under docs/.
+  render:
+    - "**/*.qmd"
+    - "!hossainlab.github.io/**"
 
 execute:
   freeze: auto
@@ -62,7 +68,7 @@ website:
             text: Software & data
       - text: Training
         menu:
-          - href: teaching/index.qmd
+          - href: training/index.qmd
             text: Programmes
           - href: resources/index.qmd
             text: Learning resources
@@ -117,7 +123,7 @@ website:
       <ul>
       <li><a href="/publications/">Publications</a></li>
       <li><a href="/software/">Software &amp; data</a></li>
-      <li><a href="/teaching/">Training programmes</a></li>
+      <li><a href="/training/">Training programmes</a></li>
       <li><a href="/resources/">Learning resources</a></li>
       <li><a href="/events/">Events</a></li>
       </ul>

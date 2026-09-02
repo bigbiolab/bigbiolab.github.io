@@ -1,0 +1,27 @@
+# Partner institutions.
+#
+# Fields: title (institution name), kind, description, href.
+# `todo: true` marks a title as a placeholder (dashed green).
+#
+# TODO(CHIRAL): replace each placeholder with a real partner. Give the
+# institution name, the country, and one line naming the joint work. Delete any
+# entry you cannot fill honestly - four real partners read far better than eight
+# vague ones.
+
+- path:
+  title: "To be listed"
+  todo: true
+  kind: "Partner institution"
+  description: "Institution name, country, and the joint work it covers."
+
+- path:
+  title: "To be listed"
+  todo: true
+  kind: "Partner institution"
+  description: "Institution name, country, and the joint work it covers."
+
+- path:
+  title: "To be listed"
+  todo: true
+  kind: "Partner institution"
+  description: "Institution name, country, and the joint work it covers."

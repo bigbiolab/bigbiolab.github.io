@@ -72,7 +72,7 @@ toc: false
 
     <p class="c-prose"><span class="c-todo">To be listed.</span> Until then, the
     external databases we build on are catalogued in
-    <a href="/resources/">learning resources</a>.</p>
+    <a href="../resources/">learning resources</a>.</p>
   </div>
 </section>
 

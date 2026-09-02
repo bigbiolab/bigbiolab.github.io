@@ -1,0 +1,130 @@
+---
+pagetitle: "Training programmes | CHIRAL Bangladesh"
+description: "The four programmes a student completes before joining a research group at CHIRAL Bangladesh."
+page-layout: custom
+toc: false
+listing:
+  - id: programmes
+    contents: programmes.yml
+    template: ../_templates/programme-card.ejs
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Training programmes</h1>
+    <p>
+      Four programmes, one for each research group. Each is the entry
+      requirement for its group: a student completes the relevant programme
+      first, then joins a project. They exist because nothing equivalent is
+      freely available to most undergraduates here.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Entry requirements</span>
+      <h2 class="c-h2">One programme per group</h2>
+      <p class="c-lede">
+        Apply to the group whose questions interest you, and take its
+        programme. Each one ends where the group's real work begins — a
+        student who finishes it can be handed a dataset and a supervisor rather
+        than a tutorial.
+      </p>
+    </div>
+
+    <!-- TODO(CHIRAL): add the next cohort dates and a registration link to each
+         card. A course with no date attached reads as an archive rather than an
+         offer, which is the single biggest thing this page is missing. -->
+
+```
+
+:::{#programmes}
+:::
+
+```{=html}
+    <div class="c-mini" style="margin-top:2.5rem">
+      <p>
+        <strong>Open course materials.</strong> Much of what these programmes
+        teach is already online and free to work through before you apply:
+        <a href="https://omicscenter.github.io/BioinformaticsBootCamp/">Bioinformatics Bootcamp</a>,
+        <a href="https://omicscenter.github.io/RforBioinformatics/">R for Bioinformatics</a>,
+        <a href="https://omicscenter.github.io/RNASeqwithR/">RNA-seq analysis with R</a> and
+        <a href="https://omicscenter.github.io/scRNASeqwithR/">single-cell RNA-seq with R</a>.
+      </p>
+    </div>
+
+    <div class="c-btn-row" style="margin-top:2.5rem">
+      <a class="c-btn c-btn--dark" href="mailto:chiralbd@gmail.com?subject=Application%20for%20a%20training%20programme">Apply to a programme</a>
+      <a class="c-btn c-btn--line" href="../events/">Upcoming dates</a>
+      <a class="c-btn c-btn--line" href="../resources/">Self-study resources</a>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-split">
+      <div class="c-prose">
+        <h2>How the programmes run</h2>
+        <p>
+          Sessions are hands-on and mostly online, so students outside Dhaka can
+          take part. Every session ends with an exercise on real data, and the
+          material stays available afterwards.
+        </p>
+        <p>
+          Training is free. It is also not a certificate mill — the programmes are
+          assessed on whether a participant can go on to do the analysis unaided,
+          because that is what joining a group actually asks of them.
+        </p>
+
+        <h2>Who these are for</h2>
+        <p>
+          University students in life sciences, computer science, medicine, public
+          health, statistics, geography and related fields. No programming
+          background is assumed — each programme starts from the command line or
+          the language it needs, and builds from there.
+        </p>
+        <p>
+          Take the programme for the group you want to join. Nothing stops a
+          student taking a second one later, and several of our researchers have,
+          but one is what is required to start.
+        </p>
+
+        <h2>Teaching materials</h2>
+        <p>
+          Course notebooks and slides are openly licensed and remain online after
+          each cohort. See <a href="../resources/">learning resources</a> for the
+          databases and tools we teach against, and
+          <a href="https://www.youtube.com/@hossainlab">recorded sessions</a> where
+          available.
+        </p>
+      </div>
+
+      <div class="c-aside">
+        <dl class="c-facts">
+          <dt>Cost</dt>
+          <dd>Free. The centre charges nothing for training.</dd>
+
+          <dt>Format</dt>
+          <dd>Hands-on, primarily online, with materials retained after the cohort.</dd>
+
+          <dt>Prerequisites</dt>
+          <dd>None. Each programme starts from the beginning.</dd>
+
+          <dt>Required for</dt>
+          <dd>Joining a research group. One programme, matched to the group you apply to.</dd>
+
+          <dt>Next cohort</dt>
+          <dd><span class="c-todo">To be announced</span></dd>
+
+          <dt>Enquiries</dt>
+          <dd><a href="mailto:chiralbd@gmail.com">chiralbd@gmail.com</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+```
