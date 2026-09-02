@@ -25,8 +25,8 @@ toc: false
       </p>
 
       <div class="c-btn-row">
-        <a class="c-btn c-btn--solid" href="research.html">Explore our research</a>
-        <a class="c-btn c-btn--ghost" href="opportunities.html">Join the centre</a>
+        <a class="c-btn c-btn--solid" href="/research/">Explore our research</a>
+        <a class="c-btn c-btn--ghost" href="/opportunities/">Join the centre</a>
       </div>
     </div>
 
@@ -151,7 +151,7 @@ toc: false
         </div>
         <h3>Computational Biology</h3>
         <p>Multi-omics integration, bulk and single-cell RNA-seq, and structural modelling to locate the mechanisms and biomarkers behind complex disease.</p>
-        <a class="c-card-link" href="groups/combio/">Division →</a>
+        <a class="c-card-link" href="/groups/combio/">Division →</a>
       </article>
 
       <article class="c-card">
@@ -165,7 +165,7 @@ toc: false
         </div>
         <h3>Public Health &amp; Informatics</h3>
         <p>Survey analytics, clinical registries and digital health evaluation, quantifying disease burden and health inequity across Bangladesh and South Asia.</p>
-        <a class="c-card-link" href="groups/public-health-informatics/">Division →</a>
+        <a class="c-card-link" href="/groups/public-health-informatics/">Division →</a>
       </article>
 
       <article class="c-card">
@@ -182,7 +182,7 @@ toc: false
         </div>
         <h3>Bio-AI</h3>
         <p>Risk prediction, medical image analysis and interpretable machine learning built for clinical settings where transparency matters as much as accuracy.</p>
-        <a class="c-card-link" href="groups/bio-ai/">Division →</a>
+        <a class="c-card-link" href="/groups/bio-ai/">Division →</a>
       </article>
 
       <article class="c-card">
@@ -195,7 +195,7 @@ toc: false
         </div>
         <h3>Geospatial Health</h3>
         <p>Disease mapping, satellite earth observation and accessibility modelling, linking climate and environment to where illness actually falls.</p>
-        <a class="c-card-link" href="groups/geospatial-health/">Division →</a>
+        <a class="c-card-link" href="/groups/geospatial-health/">Division →</a>
       </article>
     </div>
   </div>
@@ -226,7 +226,7 @@ toc: false
     </div>
 
     <p style="margin-top:1.75rem">
-      <a class="c-btn c-btn--line" href="publications.html">All publications</a>
+      <a class="c-btn c-btn--line" href="/publications/">All publications</a>
     </p>
   </div>
 </section>
@@ -250,14 +250,14 @@ toc: false
         <span class="c-card-meta">Open · Recruitment</span>
         <h3>Junior researcher intake is open</h3>
         <p>Applications are open to university students in their first three years who want to work on bioinformatics, machine learning or health data science.</p>
-        <a class="c-card-link" href="opportunities.html">How to apply →</a>
+        <a class="c-card-link" href="/opportunities/">How to apply →</a>
       </article>
 
       <article class="c-card">
         <span class="c-card-meta">Dec 2024 · Training</span>
         <h3>Bioinformatics bootcamps concluded</h3>
         <p>Hands-on sessions in R, Python, bulk RNA-seq and reproducible workflows for students with no prior programming background.</p>
-        <a class="c-card-link" href="teaching.html">Our programmes →</a>
+        <a class="c-card-link" href="/teaching/">Our programmes →</a>
       </article>
     </div>
   </div>
@@ -295,9 +295,9 @@ toc: false
     </div>
 
     <div class="c-btn-row" style="margin-top:2.5rem">
-      <a class="c-btn c-btn--solid" href="opportunities.html">Join as a student</a>
-      <a class="c-btn c-btn--ghost" href="opportunities.html#mentors">Volunteer as a mentor</a>
-      <a class="c-btn c-btn--ghost" href="collaborators.html">Collaborate with us</a>
+      <a class="c-btn c-btn--solid" href="/opportunities/">Join as a student</a>
+      <a class="c-btn c-btn--ghost" href="/opportunities/#mentors">Volunteer as a mentor</a>
+      <a class="c-btn c-btn--ghost" href="/collaborators/">Collaborate with us</a>
     </div>
   </div>
 </section>

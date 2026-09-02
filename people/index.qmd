@@ -1,0 +1,74 @@
+---
+pagetitle: "People | CHIRAL Bangladesh"
+description: "Researchers, mentors, research assistants and alumni of CHIRAL Bangladesh."
+page-layout: custom
+toc: false
+listing:
+  - id: research-staff
+    contents: "staff/*/index.qmd"
+    template: ../ejs/person.ejs
+    sort: sortby
+  - id: research-assistants
+    contents: "ras/*/index.qmd"
+    template: ../ejs/person.ejs
+    sort: sortby
+  - id: alumni
+    contents: "alumni/*/index.qmd"
+    type: table
+    sort: sortby
+    fields: [title, subtitle, started, ended]
+    field-display-names:
+      title: "Name"
+      subtitle: "Role"
+      started: "Joined"
+      ended: "Left"
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>People</h1>
+    <p>
+      A small permanent team and a rotating cohort of student researchers. Most
+      names on this page arrived as undergraduates with no research experience.
+    </p>
+  </div>
+</header>
+```
+
+::: {.c-wrap .c-page-body}
+
+## Research staff
+
+:::{#research-staff}
+:::
+
+## Research assistants
+
+Students working on active projects under supervision.
+
+:::{#research-assistants}
+:::
+
+## Alumni
+
+Former members, and where they went next.
+
+:::{#alumni}
+:::
+
+<!-- TODO(CHIRAL): the alumni roster is the single strongest credibility signal a
+     training-focused centre has. For each alumnus add a `destination:` line to
+     their .qmd (graduate programme, employer, or current position) — "went on to
+     an MSc at X" is what a prospective student and a prospective funder both
+     look for. -->
+
+## Join them
+
+We take new student researchers each intake, and welcome volunteer mentors
+year-round.
+
+[Apply as a student researcher](/opportunities/){.c-btn .c-btn--dark}
+[Volunteer as a mentor](/opportunities/#mentors){.c-btn .c-btn--line}
+
+:::

@@ -57,7 +57,7 @@ toc: false
 
         <h2>Selected outputs</h2>
         <p>
-          <a href="../../publications.html">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>,
+          <a href="/publications/">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>,
           <em>Cancer Bioinformatics</em>, 2025.
         </p>
         <!-- TODO(CHIRAL): list further division outputs as they publish. -->
@@ -84,7 +84,7 @@ toc: false
         </dl>
 
         <p style="margin-top:1.5rem">
-          <a class="c-btn c-btn--dark" href="../../opportunities.html">Join this division</a>
+          <a class="c-btn c-btn--dark" href="/opportunities/">Join this division</a>
         </p>
       </div>
     </div>

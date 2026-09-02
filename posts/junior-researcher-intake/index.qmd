@@ -16,11 +16,11 @@ to a manuscript. There is no fee, and there is no stipend.
 
 **No prior programming experience is required.** Foundational training in Linux,
 R and Python is provided through the centre's
-[training programmes](../../teaching.qmd). What we do ask for is consistency —
+[training programmes](/teaching/). What we do ask for is consistency —
 the projects run over months, not weeks.
 
 Students from life sciences, computer science, medicine, public health, pharmacy,
 statistics, geography and environmental science are all a fit.
 
-[How to apply](../../opportunities.qmd){.c-btn .c-btn--dark}
-[Browse the divisions](../../research.qmd){.c-btn .c-btn--line}
+[How to apply](/opportunities/){.c-btn .c-btn--dark}
+[Browse the divisions](/research/){.c-btn .c-btn--line}

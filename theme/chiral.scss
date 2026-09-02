@@ -1224,3 +1224,90 @@ button:focus-visible,
 }
 
 .c-venn-item:hover .c-venn-label { fill: var(--c-green); }
+
+// ---------------------------------------------------------------------------
+// Navbar gutter alignment
+// ---------------------------------------------------------------------------
+// Quarto renders the navbar inside a full-bleed `.container-fluid`, so the logo
+// sat hard against the viewport edge while the hero headline started at the
+// 1280px content column. Constrain the navbar row to the same measure and
+// gutter as `.c-wrap` so the logo lines up with "We turn data into solutions."
+// and the social icons close on the same right-hand margin as the hero.
+
+.navbar > .navbar-container,
+.navbar .navbar-container.container-fluid {
+  max-width: var(--c-max);
+  margin-inline: auto;
+  padding-inline: var(--c-gut);
+}
+
+// Quarto centres the brand with `mx-auto` when the navbar title is off; that
+// auto margin competes with the nav lists' own auto margins and floats the
+// logo away from the gutter. Pin it to the start of the row instead. Only from
+// the `lg` breakpoint up: below it the collapsed navbar relies on that centring
+// to keep the logo away from the toggler.
+@media (min-width: 992px) {
+  .navbar .navbar-brand-container.mx-auto {
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Acknowledgements - the two academics who set the centre in motion
+// ---------------------------------------------------------------------------
+// Deliberately not `.c-person`: these are not roster entries and they do not
+// link anywhere, so they carry a portrait at reading scale beside a short
+// citation rather than the uniform grid tile used on the People page.
+
+.c-thanks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: clamp(1.75rem, 3vw, 2.75rem);
+  margin-top: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+.c-thanks-card {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.c-thanks-img {
+  width: 132px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid var(--c-line);
+  filter: grayscale(1);
+  display: block;
+}
+
+.c-thanks-name {
+  font-family: var(--c-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--c-head);
+  margin: 0 0 0.3rem;
+}
+
+.c-thanks-role {
+  font-family: var(--c-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-slate);
+  margin: 0 0 0.6rem;
+  line-height: 1.5;
+}
+
+.c-thanks-note {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--c-body);
+  margin: 0;
+}
+
+@media (max-width: 460px) {
+  .c-thanks-card { grid-template-columns: 1fr; }
+}

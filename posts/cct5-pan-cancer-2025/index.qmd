@@ -21,4 +21,4 @@ The work was led by undergraduate researchers working through the centre's
 supervision programme, from the initial question to the submitted manuscript.
 
 [Read the paper](https://doi.org/10.1038/s41598-025-88339-z){.c-btn .c-btn--dark}
-[Abstract and details](../../publications/articles/zabir_etal_2025.qmd){.c-btn .c-btn--line}
+[Abstract and details](/publications/articles/zabir_etal_2025/){.c-btn .c-btn--line}

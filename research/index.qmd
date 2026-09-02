@@ -1,0 +1,121 @@
+---
+pagetitle: "Research | CHIRAL Bangladesh"
+description: "Four research divisions spanning molecular data, clinical records, predictive models and geographic space."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Research</h1>
+    <p>
+      One question — how disease arises, spreads and is best treated in Bangladesh —
+      approached at four scales. Each division owns a scale; projects usually cross
+      two or more.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-axis">
+      <div class="c-axis-row">
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Molecular</span>
+          <span class="c-axis-label">Molecules &amp; genomes</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Individual</span>
+          <span class="c-axis-label">Patients &amp; records</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Predictive</span>
+          <span class="c-axis-label">Models &amp; diagnostics</span>
+        </div>
+        <div class="c-axis-step">
+          <span class="c-axis-scale">Population</span>
+          <span class="c-axis-label">Districts &amp; climate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="c-div-grid">
+      <article class="c-card">
+        <h3>Computational Biology</h3>
+        <p>Multi-omics integration, bulk and single-cell transcriptomics, and structural modelling, with a focus on oncogenomics and precision medicine.</p>
+        <a class="c-card-link" href="/groups/combio/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Public Health &amp; Informatics</h3>
+        <p>Epidemiological surveillance, national survey analytics, digital health evaluation and evidence synthesis for health policy.</p>
+        <a class="c-card-link" href="/groups/public-health-informatics/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Bio-AI</h3>
+        <p>Clinical risk prediction, biomedical image analysis, interpretable models and biomarker discovery pipelines.</p>
+        <a class="c-card-link" href="/groups/bio-ai/">Open division →</a>
+      </article>
+      <article class="c-card">
+        <h3>Geospatial Health</h3>
+        <p>Spatial epidemiology, earth observation, healthcare accessibility modelling and environmental health risk mapping.</p>
+        <a class="c-card-link" href="/groups/geospatial-health/">Open division →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">How a project runs</span>
+      <h2 class="c-h2">From question to publication</h2>
+      <p class="c-lede">
+        Every project follows the same route, because the route is the thing we are
+        teaching. Students join at step one, not at the analysis.
+      </p>
+    </div>
+
+    <div class="c-grid-4">
+      <div class="c-card">
+        <span class="c-card-meta">Stage 01</span>
+        <h3>Question &amp; protocol</h3>
+        <p>Literature review, a written hypothesis, and a pre-specified analysis plan before any data is touched.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 02</span>
+        <h3>Data &amp; code</h3>
+        <p>Reproducible pipelines in R or Python, version-controlled in the open from the first commit.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 03</span>
+        <h3>Interpretation</h3>
+        <p>Weekly review with a supervisor, adversarial reading of the result, and figures built to be understood.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Stage 04</span>
+        <h3>Peer review</h3>
+        <p>Manuscript drafting, submission and revision, with the student as first author.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Work with us</span>
+      <h2 class="c-h2">Bring us a problem</h2>
+      <p class="c-lede">
+        We take on collaborations with laboratories, hospitals, universities and
+        non-profits — usually contributing computational analysis to a study that
+        already has the domain expertise and the data.
+      </p>
+    </div>
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--solid" href="/collaborators/">Collaboration</a>
+      <a class="c-btn c-btn--ghost" href="/publications/">See our outputs</a>
+    </div>
+  </div>
+</section>
+```

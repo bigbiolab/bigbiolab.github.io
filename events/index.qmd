@@ -1,0 +1,93 @@
+---
+pagetitle: "Events & seminars | CHIRAL Bangladesh"
+description: "Workshops, seminars, journal clubs and bootcamps run by the centre."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Events &amp; seminars</h1>
+    <p>
+      Bootcamps, seminars and journal clubs, most of them online and open to
+      students from any university in Bangladesh.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Upcoming</span>
+      <h2 class="c-h2">What is next</h2>
+    </div>
+
+    <!-- TODO(CHIRAL): add upcoming events. Each needs a date, a format (online or
+         in person), and a registration link. An events page with nothing dated on
+         it reads worse than no events page, so keep this current or remove the
+         section. -->
+
+    <p class="c-prose">
+      <span class="c-todo">Nothing scheduled at the moment.</span>
+      Announcements go out on <a href="https://www.linkedin.com/company/chiral-bangladesh/">LinkedIn</a>
+      and to our mailing list — write to
+      <a href="mailto:chiralbd@gmail.com?subject=Event%20announcements">chiralbd@gmail.com</a>
+      to be added.
+    </p>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Recurring</span>
+      <h2 class="c-h2">What we run regularly</h2>
+      <p class="c-lede">
+        Three formats, each aimed at a different point in a student's progression.
+      </p>
+    </div>
+
+    <div class="c-grid-3">
+      <div class="c-card">
+        <span class="c-card-meta">Format · Bootcamp</span>
+        <h3>Bioinformatics bootcamps</h3>
+        <p>Intensive multi-week, hands-on programmes in Linux, R, Python, RNA-seq and reproducible workflows. No prior programming background assumed.</p>
+        <a class="c-card-link" href="/teaching/">See programmes →</a>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Format · Seminar</span>
+        <h3>Research seminars</h3>
+        <p>Talks from members and invited researchers on methods and results, with time given to the parts that did not work.</p>
+        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Seminar%20invitation">Propose a talk →</a>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Format · Journal club</span>
+        <h3>Journal club</h3>
+        <p>Students present a recent paper and are expected to criticise its design, not just summarise its findings. This is where most members learn to read properly.</p>
+        <a class="c-card-link" href="/opportunities/">Join the centre →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Archive</span>
+      <h2 class="c-h2">Past events</h2>
+      <p class="c-lede">
+        <span class="c-todo">To be compiled</span> — dated list of previous
+        bootcamps and seminars, with cohort sizes and materials where they are
+        public.
+      </p>
+    </div>
+    <!-- TODO(CHIRAL): the December 2024 bootcamp series is referenced on the
+         homepage; add it here with dates, cohort size and links to materials. -->
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--ghost" href="/resources/">Learning resources</a>
+      <a class="c-btn c-btn--ghost" href="https://www.youtube.com/@hossainlab">Recorded sessions</a>
+    </div>
+  </div>
+</section>
+```

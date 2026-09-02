@@ -3,6 +3,11 @@ project:
   resources:
     - CNAME
   output-dir: docs
+  # Pages are authored as <name>/index.qmd so the site serves directory URLs.
+  # Quarto still writes "index.html" into the links it generates itself; this
+  # strips that suffix back out of the rendered output.
+  post-render:
+    - python scripts/clean-urls.py
 
 execute:
   freeze: auto
@@ -26,19 +31,19 @@ website:
     left:
       - text: About
         menu:
-          - href: about.qmd
+          - href: about/index.qmd
             text: About the centre
-          - href: people.qmd
+          - href: people/index.qmd
             text: People
-          - href: collaborators.qmd
+          - href: collaborators/index.qmd
             text: Collaborators
-          - href: support.qmd
+          - href: support/index.qmd
             text: Support our work
-          - href: contact.qmd
+          - href: contact/index.qmd
             text: Contact
       - text: Research
         menu:
-          - href: research.qmd
+          - href: research/index.qmd
             text: Research overview
           - text: "---"
           - href: groups/combio/index.qmd
@@ -51,21 +56,21 @@ website:
             text: Geospatial Health
       - text: Publications
         menu:
-          - href: publications.qmd
+          - href: publications/index.qmd
             text: All research outputs
-          - href: software.qmd
+          - href: software/index.qmd
             text: Software & data
       - text: Training
         menu:
-          - href: teaching.qmd
+          - href: teaching/index.qmd
             text: Programmes
-          - href: resources.qmd
+          - href: resources/index.qmd
             text: Learning resources
-          - href: events.qmd
+          - href: events/index.qmd
             text: Events & seminars
-      - href: news.qmd
+      - href: news/index.qmd
         text: News
-      - href: opportunities.qmd
+      - href: opportunities/index.qmd
         text: Join us
     right:
       - icon: envelope
@@ -100,7 +105,7 @@ website:
       <div>
       <h4>Research</h4>
       <ul>
-      <li><a href="/research.html">Overview</a></li>
+      <li><a href="/research/">Overview</a></li>
       <li><a href="/groups/combio/">Computational Biology</a></li>
       <li><a href="/groups/public-health-informatics/">Public Health &amp; Informatics</a></li>
       <li><a href="/groups/bio-ai/">Bio-AI</a></li>
@@ -110,22 +115,22 @@ website:
       <div>
       <h4>Outputs</h4>
       <ul>
-      <li><a href="/publications.html">Publications</a></li>
-      <li><a href="/software.html">Software &amp; data</a></li>
-      <li><a href="/teaching.html">Training programmes</a></li>
-      <li><a href="/resources.html">Learning resources</a></li>
-      <li><a href="/events.html">Events</a></li>
+      <li><a href="/publications/">Publications</a></li>
+      <li><a href="/software/">Software &amp; data</a></li>
+      <li><a href="/teaching/">Training programmes</a></li>
+      <li><a href="/resources/">Learning resources</a></li>
+      <li><a href="/events/">Events</a></li>
       </ul>
       </div>
       <div>
       <h4>Centre</h4>
       <ul>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/people.html">People</a></li>
-      <li><a href="/collaborators.html">Collaborators</a></li>
-      <li><a href="/opportunities.html">Join us</a></li>
-      <li><a href="/support.html">Support us</a></li>
-      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/people/">People</a></li>
+      <li><a href="/collaborators/">Collaborators</a></li>
+      <li><a href="/opportunities/">Join us</a></li>
+      <li><a href="/support/">Support us</a></li>
+      <li><a href="/contact/">Contact</a></li>
       </ul>
       </div>
       </div>
