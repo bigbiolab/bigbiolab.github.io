@@ -1,0 +1,57 @@
+# Collaborating researchers.
+#
+# Fields:
+#   title        the person's name, as they publish it
+#   role         their position
+#   affiliation  department and institution
+#   photo        /img/collaborators/<file> — square crops look best; omit the
+#                line entirely and the card shows a placeholder tile
+#   scholar      Google Scholar profile URL. Recorded here but not currently
+#                shown on the card; kept so it is not lost.
+#
+# `role` and `affiliation` are optional — a card omits either line if it is
+# blank, rather than rendering an empty row.
+#
+# Source: img/collaborators/collaborators.csv
+
+- path:
+  title: "Dr. Syeda Tasneem Towhid"
+  role: "Associate Professor"
+  affiliation: "Department of Microbiology, Jagannath University"
+  photo: "/img/collaborators/tasneem.jpg"
+  scholar: "https://scholar.google.com/citations?user=zy-f6I8AAAAJ&hl=en"
+
+- path:
+  title: "Dr. Zeba Islam Seraj"
+  role: "Director"
+  affiliation: "cBLAST, University of Dhaka"
+  photo: "/img/collaborators/Zeba-I-Seraj-Ph-D.jpg"
+  scholar: "https://scholar.google.com/citations?user=Gt6T1jwAAAAJ&hl=en"
+
+- path:
+  title: "Dr. Md. Salequl Islam"
+  role: "Professor"
+  affiliation: "Department of Microbiology, Jahangirnagar University"
+  photo: "/img/collaborators/salequl_islam.jpg"
+  scholar: "https://scholar.google.com/citations?user=b8tVpt8AAAAJ&hl=en"
+
+- path:
+  title: "Dr. Iqbal Mahmud"
+  role: "Senior Research Scientist"
+  affiliation: "Department of Bioinformatics and Computational Biology, MD Anderson"
+  photo: "/img/collaborators/iqbal_mahmud.jpg"
+  scholar: "https://scholar.google.com/citations?user=-NKhd0oAAAAJ&hl=en"
+
+- path:
+  title: "Dr. Yeon Ju Kim"
+  role: "Associate Professor"
+  affiliation: "Department of Convergent Biotechnology & Advanced Materials Science, Kyung Hee University, South Korea"
+  photo: "/img/collaborators/DrKim.jpg"
+  scholar: ""
+
+- path:
+  title: "Sayed Mashequl Bari"
+  role: "Assistant Professor"
+  affiliation: "Faculty of Fisheries and Marine Science, Sher-e-Bangla Agricultural University, Dhaka, Bangladesh"
+  photo: "/img/collaborators/bari.jpeg"
+  scholar: ""

@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-c7e68cbf4fd09285039b7e9a23f813c3.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f248a8e1eb847baee2ee021224300950.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-da41eaeebea0a05d236ef9858c87d6ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-f248a8e1eb847baee2ee021224300950.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-35cc97859c0b282b10bec5d35d795c0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-cd93cbb8d2006991804757ec4f2fec14.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-35cc97859c0b282b10bec5d35d795c0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,6 +81,34 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-researchers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-role','listing-affiliation','listing-photo','listing-scholar',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-role","listing-affiliation","listing-photo","listing-scholar"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-researchers'] = new List('listing-researchers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-partners .list');
@@ -497,6 +525,79 @@ window.Quarto = {
 </header>
 
 <section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Collaborators</span>
+      <h2 class="c-h2">Researchers we work with</h2>
+      <p class="c-lede">
+        Domain expertise we do not have in-house, on joint studies and
+        co-supervised student projects.
+      </p>
+    </div>
+<div id="listing-researchers" class="quarto-listing quarto-listing-container-custom">
+<div class="list c-people-grid">
+
+  <article class="c-person" data-index="0">
+    
+      <img class="c-person-img" src="../img/collaborators/tasneem.jpg" alt="Dr. Syeda Tasneem Towhid" loading="lazy">
+    
+    <p class="c-person-name listing-title">Dr. Syeda Tasneem Towhid</p>
+    <p class="c-person-role">Associate Professor</p>
+    <p class="c-person-affil">Department of Microbiology, Jagannath University</p>
+  </article>
+
+  <article class="c-person" data-index="1">
+    
+      <img class="c-person-img" src="../img/collaborators/Zeba-I-Seraj-Ph-D.jpg" alt="Dr. Zeba Islam Seraj" loading="lazy">
+    
+    <p class="c-person-name listing-title">Dr. Zeba Islam Seraj</p>
+    <p class="c-person-role">Director</p>
+    <p class="c-person-affil">cBLAST, University of Dhaka</p>
+  </article>
+
+  <article class="c-person" data-index="2">
+    
+      <img class="c-person-img" src="../img/collaborators/salequl_islam.jpg" alt="Dr. Md. Salequl Islam" loading="lazy">
+    
+    <p class="c-person-name listing-title">Dr. Md. Salequl Islam</p>
+    <p class="c-person-role">Professor</p>
+    <p class="c-person-affil">Department of Microbiology, Jahangirnagar University</p>
+  </article>
+
+  <article class="c-person" data-index="3">
+    
+      <img class="c-person-img" src="../img/collaborators/iqbal_mahmud.jpg" alt="Dr. Iqbal Mahmud" loading="lazy">
+    
+    <p class="c-person-name listing-title">Dr. Iqbal Mahmud</p>
+    <p class="c-person-role">Senior Research Scientist</p>
+    <p class="c-person-affil">Department of Bioinformatics and Computational Biology, MD Anderson</p>
+  </article>
+
+  <article class="c-person" data-index="4">
+    
+      <img class="c-person-img" src="../img/collaborators/DrKim.jpg" alt="Dr. Yeon Ju Kim" loading="lazy">
+    
+    <p class="c-person-name listing-title">Dr. Yeon Ju Kim</p>
+    <p class="c-person-role">Associate Professor</p>
+    <p class="c-person-affil">Department of Convergent Biotechnology &amp; Advanced Materials Science, Kyung Hee University, South Korea</p>
+  </article>
+
+  <article class="c-person" data-index="5">
+    
+      <img class="c-person-img" src="../img/collaborators/bari.jpeg" alt="Sayed Mashequl Bari" loading="lazy">
+    
+    <p class="c-person-name listing-title">Sayed Mashequl Bari</p>
+    <p class="c-person-role">Assistant Professor</p>
+    <p class="c-person-affil">Faculty of Fisheries and Marine Science, Sher-e-Bangla Agricultural University, Dhaka, Bangladesh</p>
+  </article>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
   <div class="c-wrap">
     <div class="c-slab-head">
       <span class="c-eyebrow">Partners</span>

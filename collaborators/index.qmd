@@ -4,6 +4,9 @@ description: "Partner institutions, joint projects, and how to start a collabora
 page-layout: custom
 toc: false
 listing:
+  - id: researchers
+    contents: researchers.yml
+    template: ../_templates/collaborator-card.ejs
   - id: partners
     contents: partners.yml
     template: ../_templates/partner-card.ejs
@@ -22,6 +25,25 @@ listing:
 </header>
 
 <section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Collaborators</span>
+      <h2 class="c-h2">Researchers we work with</h2>
+      <p class="c-lede">
+        Domain expertise we do not have in-house, on joint studies and
+        co-supervised student projects.
+      </p>
+    </div>
+```
+
+:::{#researchers}
+:::
+
+```{=html}
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
   <div class="c-wrap">
     <div class="c-slab-head">
       <span class="c-eyebrow">Partners</span>

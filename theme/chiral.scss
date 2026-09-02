@@ -1612,3 +1612,13 @@ button:focus-visible,
 }
 
 .c-card-links .c-card-link { margin-top: 0; }
+
+// The institution line on a collaborator card. Sits under the role, a shade
+// quieter than it, since the person is the point and the affiliation is
+// context.
+.c-person-affil {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--c-slate);
+  margin: 0.3rem 0 0;
+}
