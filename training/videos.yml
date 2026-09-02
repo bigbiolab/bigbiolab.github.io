@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────────
+# Teaching Videos — YouTube Playlists
+# ─────────────────────────────────────────────────
+
+- path:
+  course: "R for Research"
+  description: "Video lectures covering R programming fundamentals, data manipulation, statistical testing, and visualization for researchers."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUa05wsFn5OWHEapIiSEYp7T"
+  categories:
+    - Statistics
+    - R
+
+- path:
+  course: "Machine Learning for Bioinformatics"
+  description: "Hands-on video tutorials applying machine learning techniques to biological and genomic datasets."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUaCZuWpLiM5bV5--gjuY5ZI"
+  categories:
+    - Machine Learning
+    - Bioinformatics
+
+- path:
+  course: "RNA-Seq Analysis with R"
+  description: "Step-by-step video tutorials on bulk RNA-seq analysis using R and Bioconductor, from raw counts to biological interpretation."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUZUHltq6DJ5KGrncv0gn_Zj"
+  categories:
+    - Genomics
+    - R
+
+- path:
+  course: "AI for Drug Discovery"
+  description: "Video series introducing AI-powered approaches to drug discovery, including toxicology modeling and structure-activity analysis."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUYu0_nHZ4m9JcSHtLbJ_HUM"
+  categories:
+    - Machine Learning
+    - Drug Discovery
+
+- path:
+  course: "Cancer Bioinformatics"
+  description: "Video tutorials on cancer genomics analysis, covering TCGA data access, mutation analysis, survival modeling, and multi-omics integration."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUazUbCqCGNrsziV2heHcR2V"
+  categories:
+    - Cancer Genomics
+    - Bioinformatics
+
+- path:
+  course: "Academic Writing"
+  description: "Video lectures on scientific writing, manuscript preparation, and publishing in peer-reviewed journals."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUba95QvQBoaKEALyRO-VBoS"
+  categories:
+    - Academic Writing
+
+- path:
+  course: "Python for Health Data Analytics"
+  description: "Video tutorials on using Python for health data analysis, covering data wrangling, visualization, and statistical methods for public health and clinical datasets."
+  playlist: "https://www.youtube.com/playlist?list=PLQtDkvtE4BUYqRQa6Lev4NFg5MJ4fuKsw"
+  categories:
+    - Python
+    - Data Science

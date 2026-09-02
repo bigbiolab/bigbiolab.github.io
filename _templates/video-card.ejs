@@ -1,0 +1,16 @@
+<div class="playlist-grid">
+<% for (const item of items) { %>
+<div class="playlist-card" data-categories="<%= (item.categories || []).join(',') %>">
+<div class="playlist-body">
+<h3 class="playlist-title"><%= item.course %></h3>
+<p class="playlist-desc"><%= item.description %></p>
+<% if (item.categories && item.categories.length > 0) { %>
+<div class="project-tags"><% for (const cat of item.categories) { %><span class="tag"><%= cat %></span> <% } %></div>
+<% } %>
+<% if (item.playlist) { %>
+<a href="<%= item.playlist %>" class="project-btn" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 461.001 461.001" style="vertical-align:-2px;margin-right:4px;"><path d="M365.257 67.393H95.744C42.866 67.393 0 110.259 0 163.137v134.728c0 52.878 42.866 95.744 95.744 95.744h269.513c52.878 0 95.744-42.866 95.744-95.744V163.137c0-52.878-42.866-95.744-95.744-95.744zm-134.952 224.69V169.919l127.468 61.082-127.468 61.082z" fill="#FF0000"/></svg> Watch Playlist</a>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>

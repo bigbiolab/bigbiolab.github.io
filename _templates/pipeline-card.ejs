@@ -1,0 +1,48 @@
+<%
+  const allCategories = [...new Set(items.map(item => item.category).filter(Boolean))].sort();
+%>
+<% if (allCategories.length > 0) { %>
+<div class="category-filters"><button class="category-btn active" data-category="all">All</button> <% for (const cat of allCategories) { %><button class="category-btn" data-category="<%= cat %>"><%= cat %></button> <% } %></div>
+<% } %>
+
+<div class="project-grid">
+<% for (const item of items) { %>
+<div class="project-card" data-categories="<%= item.category || '' %>">
+<div class="project-content">
+<div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-bottom:0.25rem;"><h3 class="project-title" style="margin:0;"><%= item.title %></h3><% if (item.category) { %><span class="pipeline-category"><%= item.category %></span><% } %></div>
+<p><%= item.description %></p>
+<% if (item.input || item.output) { %>
+<div class="pipeline-io">
+<% if (item.input) { %><div class="pipeline-io-item"><strong>Input:</strong> <%= item.input %></div><% } %>
+<% if (item.output) { %><div class="pipeline-io-item"><strong>Output:</strong> <%= item.output %></div><% } %>
+</div>
+<% } %>
+<% if (item.tools && item.tools.length > 0) { %>
+<div class="project-tags"><% for (const tool of item.tools) { %><span class="tag"><%= tool %></span> <% } %></div>
+<% } %>
+<% if (item.links && item.links.length > 0) { %>
+<div class="project-links"><% for (const link of item.links) { %><a href="<%= link.url %>" class="project-btn" target="_blank"><% if (link.icon === 'colab') { %><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" style="vertical-align:-2px;margin-right:4px;"><path d="M16.9414 4.9757a7.033 7.033 0 0 0-4.9308 2.0646 7.033 7.033 0 0 0-.0714 9.864 7.033 7.033 0 0 0 9.8926.1454c2.5617-2.4988 2.6137-6.6007.1177-9.1597a6.4522 6.4522 0 0 0-5.0081-2.915zM7.0586 4.9757a6.4522 6.4522 0 0 0-5.0081 2.915C-.4435 10.4497-.3915 14.5515 2.17 17.0504a7.033 7.033 0 0 0 9.8926-.1454 7.033 7.033 0 0 0-.0714-9.864 7.033 7.033 0 0 0-4.9326-2.0653z" fill="#F9AB00"/><path d="M7.0586 4.9757a7.033 7.033 0 0 0-4.9308 2.0646C-.367 9.5765-.42 13.6783 2.075 16.2374a7.033 7.033 0 0 0 5.9282 2.077 7.033 7.033 0 0 0 4.9326-2.0653 7.033 7.033 0 0 0 .0714-9.864 7.033 7.033 0 0 0-5.9486-2.2094z" fill="#E8710A"/></svg><% } else { %><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align:-2px;margin-right:4px;" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><% } %> <%= link.label %></a> <% } %></div>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".category-filters").forEach(function (filterBar) {
+    var grid = filterBar.nextElementSibling;
+    filterBar.addEventListener("click", function (e) {
+      var btn = e.target.closest(".category-btn");
+      if (!btn) return;
+      filterBar.querySelectorAll(".category-btn").forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var cat = btn.getAttribute("data-category");
+      grid.querySelectorAll(".project-card").forEach(function (card) {
+        var cats = card.getAttribute("data-categories");
+        card.style.display = (cat === "all" || cats === cat) ? "" : "none";
+      });
+    });
+  });
+});
+</script>

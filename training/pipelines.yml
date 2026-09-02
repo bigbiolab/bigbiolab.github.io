@@ -1,0 +1,144 @@
+# ─────────────────────────────────────────────────
+# Bioinformatics Pipelines — YML Data Management
+# ─────────────────────────────────────────────────
+# Each entry is a reusable bioinformatics pipeline/workflow.
+#
+# Fields:
+#   title:        Pipeline name
+#   description:  What the pipeline does (1-3 sentences)
+#   category:     Analysis type (e.g., RNA-Seq, Single-Cell, Variant Calling)
+#   tools:        Key tools/libraries used
+#   input:        Expected input data format
+#   output:       What the pipeline produces
+#   links:        List of {label, url, icon?} for Colab/GitHub/docs
+# ─────────────────────────────────────────────────
+
+- path:
+  title: "End-to-end bulk RNA-seq Quantification Pipeline using Salmon"
+  description: "A complete pipeline for pseudo-alignment and quantification of bulk RNA-seq data using Salmon — from raw sequencing reads to transcript-level abundance estimates ready for downstream differential expression analysis."
+  category: RNA-Seq
+  tools:
+    - Python
+    - Salmon
+    - tximeta
+    - DESeq2
+  input: "Raw FASTQ files, reference transcriptome"
+  output: "Transcript/gene-level count matrix, quantification summary"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/hossainlab/salmon-rnaseq"
+      icon: github
+
+- path:
+  title: "nf-core/rnaseqmeta: A Nextflow Pipeline for Meta-Analysis of RNA-seq Datasets"
+  description: "A Nextflow-based pipeline for reproducible meta-analysis of multiple RNA-seq datasets — automating sample retrieval, quality control, quantification, batch correction, and integrated differential expression analysis across studies."
+  category: RNA-Seq
+  tools:
+    - Nextflow
+    - nf-core
+    - Salmon
+    - DESeq2
+  input: "Multiple RNA-seq datasets (FASTQ or SRA accessions), sample sheets"
+  output: "Integrated count matrix, cross-study DE results, batch-corrected expression profiles"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/hossainlab/nf-core-rnaseqmeta"
+      icon: github
+
+- path:
+  title: "Fast and efficient preprocessing of scRNA-seq with kallisto | bustools | kb-python"
+  description: "End-to-end pipeline for scRNA-seq preprocessing using kallisto, bustools, and kb-python — from raw FASTQ files to filtered count matrices ready for downstream analysis with scanpy."
+  category: Single-Cell
+  tools:
+    - Python
+    - kallisto
+    - bustools
+    - kb-python
+    - scanpy
+  input: "Raw FASTQ files (10x Chromium or similar)"
+  output: "Filtered cell × gene count matrix, QC metrics"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/1i9WxmUjSq3mNoPostbJLSu6eeNi8vqgE?usp=sharing"
+      icon: colab
+
+- path:
+  title: "A Practical Guide for Single-Cell Data Analysis with scverse Ecosystem"
+  description: "Comprehensive walkthrough of the scverse single-cell analysis workflow — covering quality control, normalization, dimensionality reduction, clustering, marker gene identification, and cell type annotation using scanpy and related tools."
+  category: Single-Cell
+  tools:
+    - Python
+    - scanpy
+    - scvi-tools
+    - AnnData
+  input: "Count matrix (AnnData .h5ad or 10x format)"
+  output: "Annotated cell clusters, UMAP embeddings, marker genes, cell type labels"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/1MyBbAQvTKGLFOpPAP-w3hedyXs-l0Vff?usp=sharing"
+      icon: colab
+
+- path:
+  title: "Predicting Protein Structures with ColabFold and AlphaFold2 in Google Colab"
+  description: "Predict 3D protein structures from amino acid sequences using ColabFold's accelerated AlphaFold2 pipeline — with MSA generation via MMseqs2 and interactive structure visualization directly in the browser."
+  category: Protein Structure Prediction
+  tools:
+    - Python
+    - ColabFold
+    - AlphaFold2
+    - MMseqs2
+    - py3Dmol
+  input: "Amino acid sequence (FASTA format)"
+  output: "Predicted 3D structures (PDB), confidence scores (pLDDT), PAE plots"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/1PQS5EWpGP5aWJ4KtrGlKetCidA44RySx?usp=sharing"
+      icon: colab
+
+- path:
+  title: "Boltz2-Notebook: Diffusion-Based Protein–Ligand Structure Prediction & Affinity Analysis"
+  description: "Predict protein–ligand complex structures and binding affinities using the Boltz2 diffusion model — enabling rapid in silico docking and interaction analysis without traditional molecular dynamics simulations."
+  category: Protein Structure Prediction
+  tools:
+    - Python
+    - Boltz2
+    - RDKit
+    - py3Dmol
+  input: "Protein sequence and ligand SMILES/SDF"
+  output: "Predicted complex structures (PDB), binding affinity scores, interaction maps"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/1MzmcvZTvpvGEyTQdJIt5DCVn9mJOZS1J?usp=sharing"
+      icon: colab
+
+- path:
+  title: "AI in Drug Discovery: Molecular Property Prediction and Virtual Screening"
+  description: "End-to-end pipeline for AI-driven drug discovery — covering molecular featurization, toxicity prediction, ADMET property modeling, and virtual screening of compound libraries using machine learning and cheminformatics tools."
+  category: Drug Discovery
+  tools:
+    - Python
+    - RDKit
+    - DeepChem
+    - scikit-learn
+  input: "Compound libraries (SMILES), molecular descriptors"
+  output: "Toxicity predictions, ADMET profiles, ranked hit compounds"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/124b2zhlFujYBk2cGoT64DWPTwr0SB-Ph?usp=sharing"
+      icon: colab
+
+- path:
+  title: "AI in Drug Discovery: In Silico Toxicology Modeling"
+  description: "Build machine learning models to predict compound toxicity from molecular structure — covering molecular fingerprint generation, toxicity endpoint classification, structure–activity relationship analysis, and model interpretation for safety assessment in early-stage drug discovery."
+  category: Drug Discovery
+  tools:
+    - Python
+    - RDKit
+    - scikit-learn
+    - Mordred
+  input: "Chemical compounds (SMILES), toxicity endpoint labels"
+  output: "Toxicity classification models, SAR insights, safety predictions"
+  links:
+    - label: "Google Colab"
+      url: "https://colab.research.google.com/drive/1ths5Mb1sHos6y5qcnodcWOnw-XR-Mw8w?usp=sharing"
+      icon: colab
