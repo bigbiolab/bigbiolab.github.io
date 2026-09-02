@@ -55,12 +55,12 @@ toc: false
           <g class="c-venn-item">
             <title>Spatial</title>
             <circle class="c-venn-set" cx="294.1" cy="251.9" r="80"/>
-            <text class="c-venn-label" x="352.9" y="337.8" text-anchor="middle">Spatial Health</text>
+            <text class="c-venn-label" x="352.9" y="353.0" text-anchor="middle">Spatial Health</text>
           </g>
           <g class="c-venn-item">
             <title>Public Health</title>
             <circle class="c-venn-set" cx="225.9" cy="251.9" r="80"/>
-            <text class="c-venn-label" x="167.1" y="337.8" text-anchor="middle">Public Health</text>
+            <text class="c-venn-label" x="167.1" y="353.0" text-anchor="middle">Public Health</text>
           </g>
           <g class="c-venn-item">
             <title>Computational Biology</title>
@@ -74,7 +74,7 @@ toc: false
             <text class="c-venn-core-text" x="260" y="209" text-anchor="middle">CHIRAL</text>
           </g>
 
-          <text class="c-venn-caption" x="260" y="384" text-anchor="middle">FIVE DISCIPLINES · ONE CENTRE</text>
+          <text class="c-venn-caption" x="260" y="390" text-anchor="middle">FIVE DISCIPLINES · ONE CENTRE</text>
         </g>
       </svg>
     </div>

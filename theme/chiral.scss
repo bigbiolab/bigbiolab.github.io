@@ -513,7 +513,9 @@ main.content { padding-top: 0; }
   font-size: clamp(1.9rem, 3.4vw, 2.75rem);
   line-height: 1;
   letter-spacing: -0.03em;
-  color: var(--c-head);
+  // Brand green on every figure: the metrics band is the page's credibility
+  // strip, so the numbers carry the accent and the labels stay quiet.
+  color: var(--c-green);
   display: block;
   margin-bottom: 0.5rem;
   font-variant-numeric: tabular-nums;
