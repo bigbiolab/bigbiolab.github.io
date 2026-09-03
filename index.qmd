@@ -201,10 +201,6 @@ listing:
         <a class="c-card-link" href="./groups/geospatial-health/">Group →</a>
       </article>
     </div>
-
-    <div class="c-venn-block" style="margin-top: 2.5rem;">
-      <img src="/img/venn-four-groups.svg" alt="Venn diagram showing intersection and convergence of CHIRAL Bangladesh's four research divisions" style="width: 100%; height: auto; border: 1px solid var(--c-line); border-radius: var(--border-radius-lg, 3px); display: block;" loading="lazy">
-    </div>
   </div>
 </section>
 
