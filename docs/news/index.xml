@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>CHIRAL Bangladesh</title>
+<link>https://chiralbd.github.io/news/</link>
+<atom:link href="https://chiralbd.github.io/news/index.xml" rel="self" type="application/rss+xml"/>
+<description>Announcements, publications and programme news from CHIRAL Bangladesh.</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 14 Jan 2025 18:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pan-cancer study of CCT5 published in Scientific Reports</title>
+  <link>https://chiralbd.github.io/posts/cct5-pan-cancer-2025/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Our pan-cancer analysis of the chaperonin subunit <strong>CCT5</strong> has been published in <em>Scientific Reports</em>.</p>
+<p>The study examines CCT5 across 33 tumour types, covering gene and protein expression, DNA methylation, genetic alteration, immune cell infiltration, correlation with tumour mutational burden and microsatellite instability, drug sensitivity, and prognostic significance. CCT5 was overexpressed in most tumours and associated with poorer overall and disease-free survival in several of them; reduced promoter and N-shore methylation points to an epigenetic component, and amplification was the most common alteration observed.</p>
+<p>The work was led by undergraduate researchers working through the centre’s supervision programme, from the initial question to the submitted manuscript.</p>
+<p><a href="https://doi.org/10.1038/s41598-025-88339-z" class="c-btn c-btn--dark">Read the paper</a> <a href="../../publications/" class="c-btn c-btn--line">All publications</a></p>
+
+
+
+ ]]></description>
+  <category>Publication</category>
+  <category>Computational Biology</category>
+  <guid>https://chiralbd.github.io/posts/cct5-pan-cancer-2025/</guid>
+  <pubDate>Tue, 14 Jan 2025 18:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Junior researcher intake is open</title>
+  <link>https://chiralbd.github.io/posts/junior-researcher-intake/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are accepting applications for the junior researcher track from university students in their first, second and third years.</p>
+<p>The track is aimed at students who want to do research rather than read about it. Accepted applicants join one of our four groups, work under one-to-one supervision on an active project, and are expected to carry that project through to a manuscript. There is no fee, and there is no stipend.</p>
+<p><strong>No prior programming experience is required.</strong> Foundational training in Linux, R and Python is provided through the centre’s <a href="../../training/">training programmes</a>. What we do ask for is consistency — the projects run over months, not weeks.</p>
+<p>Students from life sciences, computer science, medicine, public health, pharmacy, statistics, geography and environmental science are all a fit.</p>
+<p><a href="../../opportunities/" class="c-btn c-btn--dark">How to apply</a> <a href="../../research/" class="c-btn c-btn--line">Browse the groups</a></p>
+
+
+
+ ]]></description>
+  <category>Recruitment</category>
+  <category>Training</category>
+  <guid>https://chiralbd.github.io/posts/junior-researcher-intake/</guid>
+  <pubDate>Sun, 05 Jan 2025 18:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
