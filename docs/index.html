@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./img/logo/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -78,6 +80,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-year','listing-date','listing-journal','listing-doi','listing-preprint','listing-materials','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-year","listing-date","listing-journal","listing-doi","listing-preprint","listing-materials","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent'] = new List('listing-recent', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K5TXS64QLN"></script>
 
 <script type="text/javascript">
@@ -88,6 +119,35 @@ gtag('js', new Date());
 gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="CHIRAL Bangladesh — Computational biology, Bio-AI and population health">
 <meta property="og:description" content="A multidisciplinary research centre in Dhaka turning health data into solutions, and training Bangladesh’s next generation of researchers along the way.">
@@ -612,6 +672,10 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
         <a class="c-card-link" href="./groups/geospatial-health/">Group →</a>
       </article>
     </div>
+
+    <div class="c-venn-block" style="margin-top: 2.5rem;">
+      <img src="./img/venn-four-groups.svg" alt="Venn diagram showing intersection and convergence of CHIRAL Bangladesh's four research divisions" style="width: 100%; height: auto; border: 1px solid var(--c-line); border-radius: var(--border-radius-lg, 3px); display: block;" loading="lazy">
+    </div>
   </div>
 </section>
 
@@ -626,22 +690,40 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
       </p>
     </div>
 
-    <div class="c-pub">
-      <div class="c-pub-year">2025</div>
+<div id="listing-recent" class="quarto-listing quarto-listing-container-custom">
+<div class="list c-pub-list">
+
+  <div class="c-pub" data-index="0" data-categories="QW50aW1pY3JvYmlhbCUyMFJlc2lzdGFuY2U=" data-listing-date-sort="1784916000000">
+    <div class="c-pub-year listing-year">2026</div>
+    <div>
+      <h3 class="c-pub-title listing-title">
+        
+          <a href="https://doi.org/10.1002/hsr2.72866" target="_blank" rel="noopener noreferrer">Lack of Knowledge and Training About Antibiotic Resistance Among Community Pharmacists in Bangladesh: A Cross‐Sectional Study</a>
+        
+      </h3>
+      <p class="c-pub-authors listing-author">Hossain, M. J., Shahariar, M., Barsha, L. H. J., Shahjahan, M., Towhid, S. T., Sheikh, M. K., Hasan, M. M., Rahaman, M. H., &amp; Sazid, M. S.</p>
+      <p class="c-pub-venue listing-journal">Health Science Reports</p>
       <div>
-        <h3 class="c-pub-title">
-          <a href="https://doi.org/10.1038/s41598-025-88339-z">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>
-        </h3>
-        <p class="c-pub-authors">Ahmed, M. Z., Billah, M. M., Ferdous, J., Antar, S. I., Al Mamun, A., &amp; Hossain, M. J.</p>
-        <p class="c-pub-venue">Scientific Reports · doi:10.1038/s41598-025-88339-z</p>
-        <span class="c-tag c-tag--accent">Journal article</span>
-        <span class="c-tag">Computational Biology</span>
+        
+          
+            <span class="c-tag c-tag--accent">Antimicrobial Resistance</span>
+          
+        
+        
+        <a href="https://doi.org/10.1002/hsr2.72866" class="c-tag" target="_blank" rel="noopener noreferrer">DOI</a>
+        
+        
+        
       </div>
     </div>
+  </div>
 
-    <p style="margin-top:1.75rem">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+    <div class="c-btn-row">
       <a class="c-btn c-btn--line" href="./publications/">All publications</a>
-    </p>
+    </div>
   </div>
 </section>
 
@@ -715,6 +797,7 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
     </div>
   </div>
 </section>
+
 
 
 

@@ -9,8 +9,7 @@ listing:
     template: ../_templates/publication-card.ejs
     categories: true
     sort:
-      - "year desc"
-      - "title"
+      - "date desc"
     sort-ui: [year, title, author, journal]
     filter-ui: [title, author, journal, year]
     page-size: 25

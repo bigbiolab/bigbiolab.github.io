@@ -1,5 +1,5 @@
-# Peer-reviewed journal articles. Newest first — the listing sorts by year
-# anyway, but keeping the file in order makes it easier to scan.
+# Peer-reviewed journal articles, newest first. The listings sort on `date`, so
+# a new entry can go anywhere in the file - the top is just easier to scan.
 #
 # Fields:
 #   title       the paper's title
@@ -10,6 +10,9 @@
 #               they earned, and we do not reorder by seniority. Where a
 #               surname is more than one word ("Al Mamun"), keep it whole.
 #   year        publication year, in quotes
+#   date        publication date, YYYY-MM-DD. This is what orders the list and
+#               decides which paper the home page features, so a year alone is
+#               not enough when several papers share one.
 #   journal     journal or venue name
 #   doi         full https:// link, or "" if none yet
 #   preprint    full https:// link, or ""
@@ -24,6 +27,7 @@
   title: "Integrative Bioinformatics Analysis Reveals COL13A1 and COL23A1 as Potential Diagnostic and Prognostic Biomarkers in Thyroid Cancer"
   author: "Islam, M. W., Rahman, M. M., Naznin, H., Hossain, M. S., Akter, T., Shatabde, Z. A., & Hossain, M. J."
   year: "2026"
+  date: "2026-06-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.72617"
   preprint: ""
@@ -35,6 +39,7 @@
   title: "Lack of Knowledge and Training About Antibiotic Resistance Among Community Pharmacists in Bangladesh: A Cross‐Sectional Study"
   author: "Hossain, M. J., Shahariar, M., Barsha, L. H. J., Shahjahan, M., Towhid, S. T., Sheikh, M. K., Hasan, M. M., Rahaman, M. H., & Sazid, M. S."
   year: "2026"
+  date: "2026-07-25"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.72866"
   preprint: ""
@@ -46,6 +51,7 @@
   title: "Epidemiological Trends, Public Health Challenges, and Strategic Control Priorities of Dengue in Bangladesh (2000—2024): A Narrative Review"
   author: "Hossain, M. J., Mim, N. A., Akter, N., Sony, S. A., Saikat, E. H., Hossain, M. A., Parvin, N., Evan, M. R., Juma, J. J., Roy, P. P., Maruf, M. F. I., Islam, R., Labib, A., Shatabde, Z. A., Das, M., & Amanulla, M."
   year: "2026"
+  date: "2026-07-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.72747"
   preprint: ""
@@ -57,6 +63,7 @@
   title: "Comprehensive bioinformatics analysis reveals prognostic significance and immunological roles of WNT gene family in breast cancer"
   author: "Fariha, F. T. J., Fuad, M., Saha, C. S., Hossen, S., & Hossain, M. J."
   year: "2025"
+  date: "2025-10-03"
   journal: "Scientific Reports"
   doi: "https://doi.org/10.1038/s41598-025-13315-6"
   preprint: ""
@@ -68,6 +75,7 @@
   title: "Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors"
   author: "Ahmed, M. Z., Billah, M. M., Ferdous, J., Antar, S. I., Al Mamun, A., & Hossain, M. J."
   year: "2025"
+  date: "2025-04-24"
   journal: "Scientific Reports"
   doi: "https://doi.org/10.1038/s41598-025-88339-z"
   preprint: ""
@@ -79,6 +87,7 @@
   title: "A meta-analysis of public RNA-Seq data identifies conserved stress responses in rainbow trout"
   author: "Bari, S. M., Fuad, M., Hossain, M. J., Ahammad, I., Begum, M., & Helal, M. M. U."
   year: "2025"
+  date: "2025-11-05"
   journal: "BMC Genomics"
   doi: "https://doi.org/10.1186/s12864-025-12127-2"
   preprint: ""
@@ -90,6 +99,7 @@
   title: "Clinical and Hematological Manifestation of Dengue Patients in 2022 Outbreak: A Tertiary Care Hospital‐Based Cross‐Sectional Study"
   author: "Hossain, M. J., Das, M., Shahjahan, M., Islam, M. W., & Towhid, S. T."
   year: "2025"
+  date: "2025-01-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.70356"
   preprint: ""
@@ -101,6 +111,7 @@
   title: "Young stroke in Bangladesh: addressing rare cases with diagnostic challenges and much-needed solutions"
   author: "Das, M., & Hossain, M. J."
   year: "2025"
+  date: "2025-04-07"
   journal: "Stroke and Vascular Neurology"
   doi: "https://doi.org/10.1136/svn-2025-004178"
   preprint: ""
@@ -112,6 +123,7 @@
   title: "Preventing the Silent Threat: A Perspective on Preparing Bangladesh for Human Metapneumovirus (HMPV)"
   author: "Hossain, M. J., Sony, S. A., Fariha, F. T. J., & Hossen, S."
   year: "2025"
+  date: "2025-08-27"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.71101"
   preprint: ""
@@ -123,6 +135,7 @@
   title: "Resistance and Co-Resistance of Metallo-Beta-Lactamase Genes in Diarrheal and Urinary-Tract Pathogens in Bangladesh"
   author: "Shanta, A. S., Islam, N., Al Asad, M., Akter, K., Habib, M. B., Hossain, M. J., Nahar, S., Godman, B., & Islam, S."
   year: "2024"
+  date: "2024-08-05"
   journal: "Microorganisms"
   doi: "https://doi.org/10.3390/microorganisms12081589"
   preprint: ""
@@ -134,6 +147,7 @@
   title: "Urgent call for compulsory premarital screening: a crucial step towards thalassemia prevention in Bangladesh"
   author: "Hossain, M. J., Das, M., & Munni, U. R."
   year: "2024"
+  date: "2024-09-06"
   journal: "Orphanet Journal of Rare Diseases"
   doi: "https://doi.org/10.1186/s13023-024-03344-1"
   preprint: ""
@@ -145,6 +159,7 @@
   title: "Factors contributing to antibiotic misuse among parents of school-going children in Dhaka City, Bangladesh"
   author: "Islam, M. W., Shahjahan, M., Azad, A. K., & Hossain, M. J."
   year: "2024"
+  date: "2024-01-28"
   journal: "Scientific Reports"
   doi: "https://doi.org/10.1038/s41598-024-52313-y"
   preprint: ""
@@ -156,6 +171,7 @@
   title: "Community engagement and social participation in dengue prevention: A cross‐sectional study in Dhaka City"
   author: "Hossain, M. J., Das, M., Islam, M. W., Shahjahan, M., & Ferdous, J."
   year: "2024"
+  date: "2024-04-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.2022"
   preprint: ""
@@ -167,6 +183,7 @@
   title: "Prevalence, antibiotic resistance pattern for bacteriuria from patients with urinary tract infections"
   author: "Hossain, M. J., Azad, A. K., Shahid, M. S. B., Shahjahan, M., & Ferdous, J."
   year: "2024"
+  date: "2024-04-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.2039"
   preprint: ""
@@ -178,6 +195,7 @@
   title: "Food Consumption Patterns and Sedentary Behaviors Among the University Students: A Cross‐Sectional Study"
   author: "Akter, M. M., & Hossain, M. J."
   year: "2024"
+  date: "2024-12-01"
   journal: "Health Science Reports"
   doi: "https://doi.org/10.1002/hsr2.70259"
   preprint: ""
@@ -189,6 +207,7 @@
   title: "Health-related quality of life among thalassemia patients in Bangladesh using the SF-36 questionnaire"
   author: "Hossain, M. J., Islam, M. W., Munni, U. R., Gulshan, R., Mukta, S. A., Miah, M. S., Sultana, S., Karmakar, M., Ferdous, J., & Islam, M. A."
   year: "2023"
+  date: "2023-05-12"
   journal: "Scientific Reports"
   doi: "https://doi.org/10.1038/s41598-023-34205-9"
   preprint: ""
@@ -200,6 +219,7 @@
   title: "Perception of Students on Antibiotic Resistance and Prevention: An Online, Community-Based Case Study from Dhaka, Bangladesh"
   author: "Towhid, S. T., Hossain, M. J., Sammo, M. A. S., & Akter, S."
   year: "2022"
+  date: "2022-05-25"
   journal: "European Journal of Biology and Biotechnology"
   doi: "https://doi.org/10.24018/ejbio.2022.3.3.341"
   preprint: ""
@@ -211,6 +231,7 @@
   title: "Knowledge and Attitudes towards Thalassemia among Public University Students in Bangladesh"
   author: "Hossain, M. J., Towhid, S. T., Sultana, S., Mukta, S. A., Gulshan, R., & Miah, M. S."
   year: "2022"
+  date: "2022-12-01"
   journal: "Journal of Primeasia"
   doi: "https://doi.org/10.25163/microbbioacts.526325"
   preprint: ""

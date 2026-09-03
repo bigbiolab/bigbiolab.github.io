@@ -6,14 +6,35 @@
 
 - path:
   title: "Muhibullah Shahjahan"
-  role: "Bioinformatic Analyst"
+  role: "Deputy Director"
   image: "/img/research-staff/muhibullah.jpg"
   linkedin: ""
   github: ""
 
 - path:
   title: "Md. Wahidul Islam"
-  role: "Wet Lab Scientist"
+  role: "Deputy Director"
   image: "/img/research-staff/wahidul.jpg"
+  linkedin: ""
+  github: ""
+
+- path:
+  title: "Musab Shahriar"
+  role: "Group Leader, Insilico Drug Discovery"
+  image: "/img/group_leaders/musab.jpg"
+  linkedin: ""
+  github: ""
+
+- path:
+  title: "Pritom Kundu"
+  role: "Deputy Group Leader, Insilico Drug Discovery"
+  image: "/img/group_leaders/pritom.jpg"
+  linkedin: ""
+  github: ""
+
+- path:
+  title: "Nishat Mim"
+  role: "Group Leader, Geospatial Health"
+  image: "/img/group_leaders/nishat.jpg"
   linkedin: ""
   github: ""

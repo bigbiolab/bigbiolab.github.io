@@ -61,7 +61,7 @@ toc: false
       <div class="c-aside">
         <dl class="c-facts">
           <dt>Group Leader</dt>
-          <dd><span class="c-todo">To be listed</span></dd>
+          <dd>Nishat Mim</dd>
 
           <dt>Methods</dt>
           <dd>Cluster detection · spatial regression · kriging · network accessibility · remote sensing indices</dd>

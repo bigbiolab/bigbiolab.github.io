@@ -3,6 +3,14 @@ pagetitle: "CHIRAL Bangladesh — Computational biology, Bio-AI and population h
 description: "A multidisciplinary research centre in Dhaka turning health data into solutions, and training Bangladesh's next generation of researchers along the way."
 page-layout: custom
 toc: false
+listing:
+  # The home page's "Recent work" card is the newest entry in the publication
+  # list, so adding a paper there puts it here too - nothing to update twice.
+  - id: recent
+    contents: publications/journal-articles.yml
+    template: _templates/publication-card.ejs
+    sort: "date desc"
+    max-items: 1
 ---
 
 ```{=html}
@@ -193,6 +201,10 @@ toc: false
         <a class="c-card-link" href="./groups/geospatial-health/">Group →</a>
       </article>
     </div>
+
+    <div class="c-venn-block" style="margin-top: 2.5rem;">
+      <img src="/img/venn-four-groups.svg" alt="Venn diagram showing intersection and convergence of CHIRAL Bangladesh's four research divisions" style="width: 100%; height: auto; border: 1px solid var(--c-line); border-radius: var(--border-radius-lg, 3px); display: block;" loading="lazy">
+    </div>
   </div>
 </section>
 
@@ -207,22 +219,15 @@ toc: false
       </p>
     </div>
 
-    <div class="c-pub">
-      <div class="c-pub-year">2025</div>
-      <div>
-        <h3 class="c-pub-title">
-          <a href="https://doi.org/10.1038/s41598-025-88339-z">Pan-cancer analysis reveals immunological and prognostic significance of CCT5 in human tumors</a>
-        </h3>
-        <p class="c-pub-authors">Ahmed, M. Z., Billah, M. M., Ferdous, J., Antar, S. I., Al Mamun, A., & Hossain, M. J.</p>
-        <p class="c-pub-venue">Scientific Reports · doi:10.1038/s41598-025-88339-z</p>
-        <span class="c-tag c-tag--accent">Journal article</span>
-        <span class="c-tag">Computational Biology</span>
-      </div>
-    </div>
+```
 
-    <p style="margin-top:1.75rem">
-      <a class="c-btn c-btn--line" href="./publications/">All publications</a>
-    </p>
+:::{#recent}
+:::
+
+```{=html}
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--line" href="/publications/">All publications</a>
+    </div>
   </div>
 </section>
 
