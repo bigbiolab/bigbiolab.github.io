@@ -1,0 +1,44 @@
+```{=html}
+<div class="list c-proj-grid">
+<% for (const item of items) { %>
+  <article class="c-card c-proj" <%= metadataAttrs(item) %>>
+    <% if (item.status || item.stage) { %>
+      <p class="c-proj-flag">
+        <% if (item.status) { %><span class="c-proj-dot c-proj-dot--<%= item.status.toLowerCase() %>"></span><% } %>
+        <span class="c-card-meta">
+          <%= item.status %><% if (item.status && item.stage) { %> · <% } %><%= item.stage %>
+        </span>
+      </p>
+    <% } %>
+
+    <h3 class="listing-title"><%= item.title %></h3>
+    <p><%= item.description %></p>
+
+    <% if (item.group || item.lead || item.period || item.team || item.data) { %>
+      <dl class="c-io">
+        <% if (item.group)  { %><dt>Group</dt><dd><%= item.group %></dd><% } %>
+        <% if (item.lead)   { %><dt>Lead</dt><dd><%= item.lead %></dd><% } %>
+        <% if (item.period) { %><dt>Run</dt><dd><%= item.period %></dd><% } %>
+        <% if (item.team && item.team.length) { %><dt>Team</dt><dd><%= item.team.join(" · ") %></dd><% } %>
+        <% if (item.data)   { %><dt>Data</dt><dd><%= item.data %></dd><% } %>
+      </dl>
+    <% } %>
+
+    <% if (item.methods && item.methods.length) { %>
+      <div class="c-tag-row"><% for (const method of item.methods) { %><span class="c-tag"><%= method %></span><% } %></div>
+    <% } %>
+
+    <% if (item.outputs && item.outputs.length) { %>
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          <% for (const output of item.outputs) { %>
+            <li><a href="<%- output.url %>"><%= output.label %> →</a></li>
+          <% } %>
+        </ul>
+      </div>
+    <% } %>
+  </article>
+<% } %>
+</div>
+```

@@ -1,6 +1,6 @@
 ---
 pagetitle: "Computational Biology | CHIRAL Bangladesh"
-description: "Multi-omics integration, transcriptomics and structural modelling for oncogenomics and precision medicine."
+description: "Computational drug discovery across the pipeline — discovery biology, human genetics, medicinal chemistry, protein sciences, DMPK and clinical development."
 page-layout: custom
 toc: false
 ---
@@ -11,14 +11,94 @@ toc: false
     <p class="c-eyebrow">Group · Molecular</p>
     <h1>Computational Biology</h1>
     <p>
-      High-throughput biological data, read for mechanism. We work mainly in
-      oncogenomics, looking for the molecular events that separate one tumour from
-      another and the biomarkers that make that difference actionable.
+      High-throughput biological data, read for mechanism — and carried forward.
+      Our work spans the computational drug discovery pipeline: finding the
+      disease signal in public omics data, testing with human genetics whether a
+      target is causal, designing the molecule or biologic that engages it, and
+      producing the safety and clinical evidence that decides whether it should
+      be dosed.
     </p>
   </div>
 </header>
 
 <section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Capabilities</span>
+      <h2 class="c-h2">Six areas, one pipeline</h2>
+      <p class="c-lede">
+        The areas below are ordered the way a programme actually moves — a
+        hypothesis becomes a target, a target becomes a molecule, a molecule
+        becomes a dose, and a dose becomes evidence in patients. Projects
+        usually sit in one area and borrow from the ones on either side.
+      </p>
+    </div>
+
+    <div class="c-grid-3">
+      <article class="c-card">
+        <span class="c-card-meta">Early discovery</span>
+        <h3>Discovery Biology</h3>
+        <ul class="c-rule-list">
+          <li>Build consensus disease signatures across public omics datasets</li>
+          <li>Cluster and annotate cell types in single-cell atlases</li>
+          <li>Map spatial transcriptomics onto tissue architecture</li>
+        </ul>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Target validation</span>
+        <h3>Human Genetics</h3>
+        <ul class="c-rule-list">
+          <li>Map GWAS loci to causal genes with fine-mapping and Mendelian randomisation</li>
+          <li>Review tractability, druggability and tissue-specific safety</li>
+          <li>Gate candidates on genetic constraint and direction of effect</li>
+        </ul>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Hit to lead</span>
+        <h3>Medicinal Chemistry</h3>
+        <ul class="c-rule-list">
+          <li>Run large-scale virtual screens and triage the hits</li>
+          <li>Design molecules generatively with synthesisable routes</li>
+          <li>Predict ADMET properties and dock against the structure</li>
+        </ul>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Hit to lead</span>
+        <h3>Protein Sciences &amp; Biologics</h3>
+        <ul class="c-rule-list">
+          <li>Predict protein structure and binding mode</li>
+          <li>Design de novo binder and antibody candidates in silico</li>
+          <li>Assess developability, immunogenicity and humanisation</li>
+        </ul>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Lead optimisation</span>
+        <h3>Preclinical Safety &amp; DMPK</h3>
+        <ul class="c-rule-list">
+          <li>Model population PK and exposure-response to inform dose selection</li>
+          <li>Predict off-target, hERG and secondary-pharmacology liabilities</li>
+          <li>Detect adverse-event signals in public pharmacovigilance data</li>
+        </ul>
+      </article>
+
+      <article class="c-card">
+        <span class="c-card-meta">Clinical</span>
+        <h3>Clinical Development</h3>
+        <ul class="c-rule-list">
+          <li>Analyse real-world outcomes in EHR and claims data</li>
+          <li>Run survival analysis and stratify patient risk</li>
+          <li>Synthesise evidence systematically with meta-analysis</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
   <div class="c-wrap">
     <div class="c-split">
       <div class="c-prose">
@@ -40,19 +120,36 @@ toc: false
           states.
         </p>
 
-        <h2>Single-cell transcriptomics</h2>
+        <h2>Single-cell and spatial transcriptomics</h2>
         <p>
           scRNA-seq resolves expression to the individual cell, which is where the
           interesting heterogeneity usually lives. Our work here concerns the
           tumour microenvironment, rare cell populations, and the cell-state
-          trajectories that accompany progression and immune response.
+          trajectories that accompany progression and immune response. Spatial
+          assays put those states back on the tissue, so a signature can be read
+          against the architecture it came from.
         </p>
 
-        <h2>Structural &amp; molecular modelling</h2>
+        <h2>From target to molecule</h2>
         <p>
-          Where a target emerges from the omics work, we follow it structurally —
-          binding-site characterisation, docking and stability assessment — to
-          judge whether it is tractable.
+          Where a target emerges from the omics work, we ask whether human
+          genetics supports it being causal — fine-mapping GWAS loci to genes,
+          Mendelian randomisation for direction of effect, constraint and
+          tissue-specific expression for safety. Targets that survive that gate
+          are followed structurally, through binding-site characterisation,
+          structure prediction, docking and stability assessment, and then into
+          virtual screening, generative design against synthesisable routes, and
+          in-silico binder and antibody design.
+        </p>
+
+        <h2>From molecule to dose and evidence</h2>
+        <p>
+          A candidate is only useful at a dose that works and does not harm. We
+          model population PK and exposure-response to inform dose selection,
+          predict off-target, hERG and secondary-pharmacology liabilities, and
+          mine public pharmacovigilance data for adverse-event signals.
+          Downstream, real-world EHR and claims data, survival analysis and
+          systematic meta-analysis test whether the effect holds in patients.
         </p>
 
         <h2>Selected outputs</h2>
@@ -71,13 +168,13 @@ toc: false
             <span class="c-todo">To be listed</span></dd>
 
           <dt>Methods</dt>
-          <dd>Bulk &amp; single-cell RNA-seq · DNA methylation · variant analysis · pathway enrichment · molecular docking</dd>
+          <dd>Bulk, single-cell &amp; spatial RNA-seq · DNA methylation · variant analysis · GWAS fine-mapping &amp; Mendelian randomisation · pathway enrichment · virtual screening &amp; molecular docking · generative molecular design · ADMET prediction · protein structure prediction &amp; de novo binder design · population PK / exposure-response · survival analysis · meta-analysis</dd>
 
           <dt>Stack</dt>
-          <dd>R / Bioconductor · Python · Seurat · DESeq2 · Nextflow</dd>
+          <dd>R / Bioconductor · Python · Seurat · Scanpy · DESeq2 · RDKit · AutoDock Vina · AlphaFold &amp; ESM · PyMC · Nextflow</dd>
 
           <dt>Public data</dt>
-          <dd>TCGA · GEO · ICGC · cBioPortal · UALCAN · GEPIA2</dd>
+          <dd>TCGA · GEO · ICGC · cBioPortal · UALCAN · GEPIA2 · GWAS Catalog · GTEx · Open Targets · ChEMBL · PDB · UniProt · FAERS · ClinicalTrials.gov</dd>
 
           <dt>Open to</dt>
           <dd>Undergraduate researchers, and collaborators with sequencing data and a biological question.</dd>

@@ -1,0 +1,204 @@
+# ─────────────────────────────────────────────────
+# Research projects — YML Data Management
+# ─────────────────────────────────────────────────
+# One entry per project. A project is a workstream, not a paper: several
+# publications usually come out of one entry below, and they are listed under
+# `outputs`. Papers themselves live in publications/journal-articles.yml.
+#
+# Fields:
+#   title        project name (a workstream, not a paper title)
+#   description  what the project is asking and how, 2-3 sentences
+#   status       Active | Completed | Planned  — drives the status dot
+#   stage        pipeline stage, matching the Computational Biology group page:
+#                Early discovery | Target validation | Hit to lead |
+#                Lead optimisation | Clinical. Leave blank for projects that
+#                do not sit on the drug discovery pipeline.
+#   group        owning research group
+#   lead         person leading the work, or "" if not yet assigned
+#   team         list of named contributors (optional)
+#   period       human-readable span, e.g. "2023 – present"
+#   date         YYYY-MM-DD used only for ordering the listing. Use the most
+#                recent milestone (latest output, or the start date if none).
+#   methods      list of methods/tools shown as pills
+#   data         the data the project runs on, one line (optional)
+#   outputs      list of {label, url} — papers, preprints, code, talks
+#   categories   one or more tags shown as pills, and used by the page filter
+#
+# TODO(CHIRAL): `status`, `period` and `lead` are the fields that go stale
+# first. Review them when a project publishes or a lead changes. Projects
+# below are grouped from the centre's published record; confirm each grouping
+# and lead with the team before treating this page as authoritative.
+# ─────────────────────────────────────────────────
+
+- path:
+  title: "Phytochemical adjuvants for cisplatin-resistant ovarian cancer"
+  description: "Cisplatin resistance is a property of particular cell states inside a tumour, not of the tumour as a whole, so the work starts at single-cell resolution. Resistance-associated targets recovered from scRNA-seq anchor a network pharmacology screen of Withania somnifera phytochemicals, narrowed by docking and structural dynamics into compound–target hypotheses to be tested."
+  status: Active
+  stage: "Hit to lead"
+  group: "Computational Biology"
+  lead: "Musab Shahriar"
+  team:
+    - "Sheikh Naem Islam Abhi"
+    - "Musab Shahriar"
+    - "Lamia Hasan Joarder Barsha"
+    - "Mst. Afsana Meme"
+    - "Md. Jubayer Hossain"
+  period: "2025 – present"
+  date: "2026-09-04"
+  methods:
+    - scRNA-seq
+    - Network pharmacology
+    - Molecular docking
+    - Molecular dynamics
+  data: "Public ovarian cancer scRNA-seq cohorts, phytochemical and target databases"
+  outputs:
+    - label: "IEEE BECITHCON 2026 presentation"
+      url: "/posts/becithcon-2026-ovarian-cancer/"
+  categories:
+    - Drug Discovery
+    - Oncogenomics
+    - Single-Cell
+
+- path:
+  title: "Pan-cancer biomarker discovery from public omics"
+  description: "A running programme that mines consortium data — TCGA, GEO, ICGC — for genes whose expression, methylation and immune context separate tumour from normal and predict outcome. Each cycle takes one gene or family across all available tumour cohorts, then follows the survivors into prognostic and immunological validation."
+  status: Active
+  stage: "Early discovery"
+  group: "Computational Biology"
+  lead: "Md. Jubayer Hossain"
+  team:
+    - "Md. Zahid Ahmed"
+    - "Fahmida Tasnim Jannat Fariha"
+    - "Md. Wahidul Islam"
+  period: "2023 – present"
+  date: "2026-06-01"
+  methods:
+    - Differential expression
+    - Survival analysis
+    - Methylation analysis
+    - Immune infiltration
+    - Pathway enrichment
+  data: "TCGA · GEO · ICGC · cBioPortal · UALCAN · GEPIA2"
+  outputs:
+    - label: "CCT5 pan-cancer (Sci Rep, 2025)"
+      url: "https://doi.org/10.1038/s41598-025-88339-z"
+    - label: "WNT family in breast cancer (Sci Rep, 2025)"
+      url: "https://doi.org/10.1038/s41598-025-13315-6"
+    - label: "COL13A1 / COL23A1 in thyroid cancer (HSR, 2026)"
+      url: "https://doi.org/10.1002/hsr2.72617"
+  categories:
+    - Oncogenomics
+    - Bioinformatics
+
+- path:
+  title: "Antimicrobial resistance surveillance in Bangladesh"
+  description: "Resistance is measured here on two fronts at once: what the isolates carry, and what the people prescribing and taking antibiotics know. Laboratory surveys of resistance genes in clinical pathogens run alongside cross-sectional studies of pharmacists, parents and students, so a resistance pattern can be read against the behaviour producing it."
+  status: Active
+  stage: ""
+  group: "Public Health & Informatics"
+  lead: "Md. Jubayer Hossain"
+  team:
+    - "Md. Wahidul Islam"
+    - "Md. Shahjahan"
+  period: "2022 – present"
+  date: "2026-07-25"
+  methods:
+    - Cross-sectional survey
+    - Antimicrobial susceptibility testing
+    - Molecular typing
+    - Regression modelling
+  data: "Hospital isolates, community pharmacy and household survey data"
+  outputs:
+    - label: "Community pharmacists KAP (HSR, 2026)"
+      url: "https://doi.org/10.1002/hsr2.72866"
+    - label: "Metallo-beta-lactamase genes (Microorganisms, 2024)"
+      url: "https://doi.org/10.3390/microorganisms12081589"
+    - label: "Antibiotic misuse among parents (Sci Rep, 2024)"
+      url: "https://doi.org/10.1038/s41598-024-52313-y"
+    - label: "Bacteriuria resistance patterns (HSR, 2024)"
+      url: "https://doi.org/10.1002/hsr2.2039"
+  categories:
+    - Antimicrobial Resistance
+    - Public Health
+
+- path:
+  title: "Dengue epidemiology and control in Bangladesh"
+  description: "Dengue in Bangladesh is now an annual event rather than an outbreak, and the project treats it that way. Clinical and haematological profiling of hospitalised patients sits beside community-level work on prevention behaviour and a synthesis of national trends since 2000, to say where control effort actually changes the curve."
+  status: Active
+  stage: ""
+  group: "Public Health & Informatics"
+  lead: "Md. Jubayer Hossain"
+  team:
+    - "Mousumi Das"
+    - "Md. Shahjahan"
+  period: "2022 – present"
+  date: "2026-07-01"
+  methods:
+    - Clinical cohort analysis
+    - Cross-sectional survey
+    - Narrative synthesis
+    - Trend analysis
+  data: "Tertiary-care hospital records, community surveys in Dhaka, national surveillance reports"
+  outputs:
+    - label: "Epidemiological trends 2000–2024 (HSR, 2026)"
+      url: "https://doi.org/10.1002/hsr2.72747"
+    - label: "2022 outbreak clinical profile (HSR, 2025)"
+      url: "https://doi.org/10.1002/hsr2.70356"
+    - label: "Community engagement in prevention (HSR, 2024)"
+      url: "https://doi.org/10.1002/hsr2.2022"
+  categories:
+    - Public Health
+    - Infectious Disease
+
+- path:
+  title: "Thalassemia burden, quality of life and prevention"
+  description: "Bangladesh carries one of the heavier thalassemia burdens in the region with no compulsory screening in place. The project quantifies what the disease costs patients through validated quality-of-life instruments, measures what the population knows about carrier status, and argues the prevention case from that evidence."
+  status: Active
+  stage: ""
+  group: "Public Health & Informatics"
+  lead: "Md. Jubayer Hossain"
+  team:
+    - "Umme Rumman Munni"
+    - "Mousumi Das"
+  period: "2022 – present"
+  date: "2024-09-06"
+  methods:
+    - SF-36 quality of life
+    - Cross-sectional survey
+    - Policy analysis
+  data: "Thalassemia treatment centre patients, university student cohorts"
+  outputs:
+    - label: "Premarital screening case (Orphanet JRD, 2024)"
+      url: "https://doi.org/10.1186/s13023-024-03344-1"
+    - label: "Health-related quality of life (Sci Rep, 2023)"
+      url: "https://doi.org/10.1038/s41598-023-34205-9"
+  categories:
+    - Thalassemia
+    - Public Health
+
+- path:
+  title: "Cross-study RNA-seq meta-analysis of stress response"
+  description: "Single RNA-seq studies are underpowered for anything conserved. This project re-processes public datasets through one uniform pipeline so expression can be compared across studies, and applies it to stress response in rainbow trout — a test of whether a conserved signature survives batch, lab and design differences."
+  status: Completed
+  stage: "Early discovery"
+  group: "Computational Biology"
+  lead: "Md. Jubayer Hossain"
+  team:
+    - "S. M. Bari"
+    - "Md. Fuad"
+  period: "2024 – 2025"
+  date: "2025-11-05"
+  methods:
+    - RNA-seq meta-analysis
+    - Nextflow
+    - Batch correction
+    - Differential expression
+  data: "Public RNA-seq datasets retrieved from SRA and GEO"
+  outputs:
+    - label: "Conserved stress responses (BMC Genomics, 2025)"
+      url: "https://doi.org/10.1186/s12864-025-12127-2"
+    - label: "nf-core/rnaseqmeta pipeline"
+      url: "https://github.com/hossainlab/nf-core-rnaseqmeta"
+  categories:
+    - Bioinformatics
+    - Meta-analysis

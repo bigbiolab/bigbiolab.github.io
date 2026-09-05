@@ -1,0 +1,110 @@
+---
+pagetitle: "Projects | CHIRAL Bangladesh"
+description: "The research workstreams running at the centre — what each one asks, who leads it, and what it has produced."
+page-layout: custom
+toc: false
+listing:
+  # Projects are managed entirely in projects.yml. Adding an entry there adds a
+  # card here; nothing in this file needs to change.
+  - id: projects
+    contents: projects.yml
+    template: ../_templates/project-card.ejs
+    categories: true
+    sort:
+      - "date desc"
+    filter-ui: [title, lead, group, status]
+    field-display-names:
+      lead: "Lead"
+      group: "Group"
+      status: "Status"
+---
+
+```{=html}
+<header class="c-pagehead">
+  <div class="c-wrap">
+<h1>Projects</h1>
+    <p>
+      A project here is a workstream, not a paper. Each one below is a question
+      the centre has kept working on across several outputs — the papers it has
+      produced are listed on its card, and the students who ran the analyses are
+      named on it.
+    </p>
+  </div>
+</header>
+
+<section class="c-slab c-slab--paper">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Current portfolio</span>
+      <h2 class="c-h2">What we are working on</h2>
+      <p class="c-lede">
+        Filter by group, lead or status. A project stays listed after it closes:
+        the record of what was asked and what came of it is the point.
+      </p>
+    </div>
+```
+
+:::{#projects}
+:::
+
+```{=html}
+  </div>
+</section>
+
+<section class="c-slab c-slab--white">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">How a project starts</span>
+      <h2 class="c-h2">From question to workstream</h2>
+      <p class="c-lede">
+        Projects are not assigned. They begin when someone in the centre can
+        state a question, name the data that would answer it, and commit to
+        seeing it through to a submitted manuscript.
+      </p>
+    </div>
+
+    <div class="c-grid-4">
+      <div class="c-card">
+        <span class="c-card-meta">Step 01</span>
+        <h3>Question</h3>
+        <p>A specific, answerable question, with the reason it matters for health in Bangladesh written down before any analysis starts.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Step 02</span>
+        <h3>Data and method</h3>
+        <p>The datasets are identified and the analysis plan is agreed with a supervisor, so the method is fixed before the results are seen.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Step 03</span>
+        <h3>Analysis</h3>
+        <p>Students run the analysis themselves, in code that is reviewed and kept, under one-to-one supervision rather than delegation.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Step 04</span>
+        <h3>Output</h3>
+        <p>Manuscript, code release and, where useful, a reusable pipeline. The student who did the work takes first authorship.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-slab c-slab--panel">
+  <div class="c-wrap">
+    <div class="c-slab-head">
+      <span class="c-eyebrow">Get involved</span>
+      <h2 class="c-h2">Join a project, or bring one</h2>
+      <p class="c-lede">
+        Students join existing workstreams and take a defined piece of the
+        analysis. Collaborators with a dataset and a question can start a new
+        one — we work in the open and publish jointly.
+      </p>
+    </div>
+
+    <div class="c-btn-row">
+      <a class="c-btn c-btn--solid" href="/opportunities/">Join as a student</a>
+      <a class="c-btn c-btn--ghost" href="/collaborators/">Collaborate with us</a>
+      <a class="c-btn c-btn--ghost" href="/publications/">All publications</a>
+    </div>
+  </div>
+</section>
+```

@@ -156,7 +156,7 @@ listing:
           </svg>
         </div>
         <h3>Computational Biology</h3>
-        <p>Multi-omics integration, bulk and single-cell RNA-seq, and structural modelling to locate the mechanisms and biomarkers behind complex disease.</p>
+        <p>Computational drug discovery end to end: disease signatures from public omics, causal targets from human genetics, molecule and biologic design, and safety, PK and clinical evidence.</p>
         <a class="c-card-link" href="./groups/combio/">Group →</a>
       </article>
 

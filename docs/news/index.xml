@@ -20,29 +20,25 @@
 
 
 
-<p>We are delighted to share that <strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong>, Group Leader of In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative research study at <strong>IEEE BECITHCON 2026</strong> (IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health 2026).</p>
-<p>The study, titled:</p>
+<p><strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong>, Group Leader for In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative study at <strong>IEEE BECITHCON 2026</strong> — the IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health.</p>
 <blockquote class="blockquote">
-<p><strong>“Single-Cell Transcriptomic and Network Pharmacology Insights into the Therapeutic Potential of <em>Withania somnifera</em>-Derived Phytochemicals Against Cisplatin-Resistant Ovarian Cancer”</strong></p>
+<p><strong>Single-Cell Transcriptomic and Network Pharmacology Insights into the Therapeutic Potential of <em>Withania somnifera</em>-Derived Phytochemicals Against Cisplatin-Resistant Ovarian Cancer</strong></p>
 </blockquote>
-<p>bridges single-cell RNA sequencing (scRNA-seq) transcriptomics, computational biology, and network pharmacology to investigate cellular heterogeneity and chemoresistance mechanisms in ovarian cancer.</p>
-<section id="key-highlights-of-the-study" class="level3">
-<h3 class="anchored" data-anchor-id="key-highlights-of-the-study">Key Highlights of the Study</h3>
-<ul>
-<li><strong>Dissecting Chemoresistance</strong>: By leveraging single-cell transcriptomic profiles of ovarian cancer cohorts, the team mapped distinct cell states, transcriptional reprogramming, and critical molecular drivers associated with cisplatin resistance.</li>
-<li><strong>Natural Phytochemical Screening</strong>: The study systematically evaluated bioactive phytochemicals derived from <em>Withania somnifera</em> (Ashwagandha) through network pharmacology, molecular docking, and structural dynamics to identify high-affinity lead compounds capable of targeting resistance-associated signaling pathways.</li>
-<li><strong>Therapeutic Implications</strong>: Uncovering novel compound-target interactions provides computational evidence for natural product-derived adjuvant therapies to overcome drug resistance in high-grade ovarian carcinomas.</li>
-</ul>
+<p>Cisplatin remains the backbone of treatment for high-grade ovarian carcinoma, and relapse after resistance emerges is what most often decides the outcome. Resistance is not a property of the tumour as a whole but of particular cell states within it, which is why the study starts at single-cell resolution rather than with bulk expression.</p>
+<section id="what-the-study-does" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-study-does">What the study does</h3>
+<p>The work joins two analyses that are usually run apart. Single-cell RNA sequencing of ovarian cancer cohorts is used to resolve the cell states present in resistant tumours and the transcriptional programmes that separate them from sensitive ones, yielding a set of resistance-associated targets grounded in the cells that actually carry the phenotype.</p>
+<p>Those targets then become the anchor for a network pharmacology screen of bioactive phytochemicals from <em>Withania somnifera</em> (ashwagandha), narrowed by molecular docking and structural dynamics to compounds with plausible binding to resistance-associated signalling. The result is a set of compound–target hypotheses for natural-product adjuvants, each traceable back to the cell population that motivated it — computational evidence to be tested, not a therapy.</p>
 </section>
-<section id="research-team" class="level3">
-<h3 class="anchored" data-anchor-id="research-team">Research Team</h3>
-<p>This multi-scale investigation was conducted through the Big Bioinformatics Lab within CHIRAL Bangladesh’s Computational Biology division. Huge congratulations to the entire research team:</p>
+<section id="the-team" class="level3">
+<h3 class="anchored" data-anchor-id="the-team">The team</h3>
+<p>The work was carried out in the Big Bioinformatics Lab, part of the centre’s computational biology division. Congratulations to the full team:</p>
 <ul>
 <li><strong>Sheikh Naem Islam Abhi</strong></li>
-<li><strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong> (Presenter &amp; Group Leader)</li>
+<li><strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong> — presenter, Group Leader, In Silico Drug Discovery</li>
 <li><strong>Lamia Hasan Joarder Barsha</strong></li>
 <li><strong>Mst. Afsana Meme</strong></li>
-<li><strong>Md. Jubayer Hossain</strong> (Senior Supervisor &amp; Founder)</li>
+<li><strong>Md. Jubayer Hossain</strong> — supervisor and founder</li>
 </ul>
 <p><a href="../../news/" class="c-btn c-btn--dark">All news &amp; announcements</a> <a href="../../groups/combio/" class="c-btn c-btn--line">Explore computational biology</a></p>
 

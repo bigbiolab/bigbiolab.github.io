@@ -4,15 +4,11 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects/index.html",
     "items": []
   },
   {
-    "listing": "/collaborators/index.html",
-    "items": []
-  },
-  {
-    "listing": "/governance/index.html",
+    "listing": "/people/index.html",
     "items": []
   },
   {
@@ -24,7 +20,15 @@
     ]
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/governance/index.html",
+    "items": []
+  },
+  {
+    "listing": "/collaborators/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
     "items": []
   },
   {

@@ -1031,6 +1031,7 @@ main.content h3 {
 .c-grid-3 > *,
 .c-grid-4 > *,
 .c-grid-quad > *,
+.c-proj-grid > *,
 .c-div-grid > *,
 .c-axis-row > *,
 .c-people-grid > *,
@@ -1621,4 +1622,71 @@ button:focus-visible,
   line-height: 1.5;
   color: var(--c-slate);
   margin: 0.3rem 0 0;
+}
+
+// ---------------------------------------------------------------------------
+// Project cards
+// ---------------------------------------------------------------------------
+// A project card carries more than a pipeline card does - a status, a lead, a
+// team, a method list and a list of outputs - so it needs a wider column than
+// the three-up grids elsewhere. Fixed at two, not auto-fit: auto-fit resolves
+// to three columns at the 1280px content width and the method pills then wrap
+// one per line.
+.c-proj-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 860px) {
+  .c-proj-grid { grid-template-columns: 1fr; }
+}
+
+.c-proj .c-io { margin-bottom: 0.9rem; }
+
+// Status. The dot reads at a glance; the word beside it carries the same state
+// for anyone who cannot separate the colours, so both are always present.
+.c-proj-flag {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0 0 0.75rem;
+}
+
+.c-proj-flag .c-card-meta { margin-bottom: 0; }
+
+.c-proj-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  flex: none;
+  background: var(--c-slate);
+}
+
+.c-proj-dot--active    { background: var(--c-green); }
+.c-proj-dot--completed { background: var(--c-slate); }
+.c-proj-dot--planned   { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c-slate); }
+
+// Outputs are pinned to the bottom of the card so a row of cards ends level
+// regardless of how long each description runs.
+.c-proj-outputs {
+  margin-top: auto;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--c-line);
+}
+
+.c-proj-outputs .c-rule-list { font-size: 0.88rem; }
+.c-proj-outputs .c-rule-list li { padding: 0.45rem 0; }
+.c-proj-outputs .c-rule-list li:first-child { padding-top: 0.6rem; }
+
+.c-proj-outputs a {
+  color: var(--c-head);
+  text-decoration: none;
+  border-bottom: 1px solid var(--c-line);
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.c-proj-outputs a:hover {
+  color: var(--c-green);
+  border-bottom-color: var(--c-green);
 }

@@ -53,6 +53,8 @@ website:
         menu:
           - href: research/index.qmd
             text: Research overview
+          - href: projects/index.qmd
+            text: Projects
           - text: "---"
           - href: groups/combio/index.qmd
             text: Computational Biology
@@ -123,6 +125,7 @@ website:
       <div>
       <h4>Outputs</h4>
       <ul>
+      <li><a href="/projects/">Projects</a></li>
       <li><a href="/publications/">Publications</a></li>
       <li><a href="/software/">Software &amp; data</a></li>
       <li><a href="/training/">Training programmes</a></li>

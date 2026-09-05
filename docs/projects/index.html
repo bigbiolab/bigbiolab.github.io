@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Workshops, seminars, journal clubs and bootcamps run by the centre.">
+<meta name="description" content="The research workstreams running at the centre — what each one asks, who leads it, and what it has produced.">
 
-<title>Events &amp; seminars | CHIRAL Bangladesh – CHIRAL Bangladesh</title>
+<title>Projects | CHIRAL Bangladesh – CHIRAL Bangladesh</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/logo/favicon.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -78,6 +80,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-status','listing-stage','listing-group','listing-lead','listing-team','listing-period','listing-date','listing-methods','listing-data','listing-outputs','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-lead","listing-group","listing-status"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K5TXS64QLN"></script>
 
 <script type="text/javascript">
@@ -88,13 +119,42 @@ gtag('js', new Date());
 gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Events &amp; seminars | CHIRAL Bangladesh">
-<meta property="og:description" content="Workshops, seminars, journal clubs and bootcamps run by the centre.">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Projects | CHIRAL Bangladesh">
+<meta property="og:description" content="The research workstreams running at the centre — what each one asks, who leads it, and what it has produced.">
 <meta property="og:site_name" content="CHIRAL Bangladesh">
-<meta name="twitter:title" content="Events &amp; seminars | CHIRAL Bangladesh">
-<meta name="twitter:description" content="Workshops, seminars, journal clubs and bootcamps run by the centre.">
-<meta name="twitter:image" content="https://chiralbd.github.io/events/img/logo/social-card.jpg">
+<meta name="twitter:title" content="Projects | CHIRAL Bangladesh">
+<meta name="twitter:description" content="The research workstreams running at the centre — what each one asks, who leads it, and what it has produced.">
+<meta name="twitter:image" content="https://chiralbd.github.io/projects/img/logo/social-card.jpg">
 <meta name="twitter:creator" content="@chiralbd">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -431,10 +491,12 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 
 <header class="c-pagehead">
   <div class="c-wrap">
-<h1>Events &amp; seminars</h1>
+<h1>Projects</h1>
     <p>
-      Bootcamps, seminars and journal clubs, most of them online and open to
-      students from any university in Bangladesh.
+      A project here is a workstream, not a paper. Each one below is a question
+      the centre has kept working on across several outputs — the papers it has
+      produced are listed on its card, and the students who ran the analyses are
+      named on it.
     </p>
   </div>
 </header>
@@ -442,53 +504,312 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 <section class="c-slab c-slab--paper">
   <div class="c-wrap">
     <div class="c-slab-head">
-      <span class="c-eyebrow">Upcoming</span>
-      <h2 class="c-h2">What is next</h2>
+      <span class="c-eyebrow">Current portfolio</span>
+      <h2 class="c-h2">What we are working on</h2>
+      <p class="c-lede">
+        Filter by group, lead or status. A project stays listed after it closes:
+        the record of what was asked and what came of it is the point.
+      </p>
     </div>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list c-proj-grid">
 
-    <!-- TODO(CHIRAL): add upcoming events. Each needs a date, a format (online or
-         in person), and a registration link. An events page with nothing dated on
-         it reads worse than no events page, so keep this current or remove the
-         section. -->
+  <article class="c-card c-proj" data-index="0" data-categories="RHJ1ZyUyMERpc2NvdmVyeSUyQ09uY29nZW5vbWljcyUyQ1NpbmdsZS1DZWxs" data-listing-date-sort="1788458400000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--active"></span>
+        <span class="c-card-meta">
+          Active · Hit to lead
+        </span>
+      </p>
+    
 
-    <p class="c-prose">
-      <span class="c-todo">Nothing scheduled at the moment.</span>
-      Announcements go out on <a href="https://www.linkedin.com/company/chiral-bangladesh/">LinkedIn</a>
-      and to our mailing list — write to
-      <a href="mailto:chiralbd@gmail.com?subject=Event%20announcements">chiralbd@gmail.com</a>
-      to be added.
-    </p>
+    <h3 class="listing-title">Phytochemical adjuvants for cisplatin-resistant ovarian cancer</h3>
+    <p>Cisplatin resistance is a property of particular cell states inside a tumour, not of the tumour as a whole, so the work starts at single-cell resolution. Resistance-associated targets recovered from scRNA-seq anchor a network pharmacology screen of Withania somnifera phytochemicals, narrowed by docking and structural dynamics into compound–target hypotheses to be tested.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Computational Biology</dd>
+        <dt>Lead</dt><dd>Musab Shahriar</dd>
+        <dt>Run</dt><dd>2025 – present</dd>
+        <dt>Team</dt><dd>Sheikh Naem Islam Abhi · Musab Shahriar · Lamia Hasan Joarder Barsha · Mst. Afsana Meme · Md. Jubayer Hossain</dd>
+        <dt>Data</dt><dd>Public ovarian cancer scRNA-seq cohorts, phytochemical and target databases</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">scRNA-seq</span><span class="c-tag">Network pharmacology</span><span class="c-tag">Molecular docking</span><span class="c-tag">Molecular dynamics</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="../posts/becithcon-2026-ovarian-cancer/">IEEE BECITHCON 2026 presentation →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+  <article class="c-card c-proj" data-index="1" data-categories="QW50aW1pY3JvYmlhbCUyMFJlc2lzdGFuY2UlMkNQdWJsaWMlMjBIZWFsdGg=" data-listing-date-sort="1784916000000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--active"></span>
+        <span class="c-card-meta">
+          Active
+        </span>
+      </p>
+    
+
+    <h3 class="listing-title">Antimicrobial resistance surveillance in Bangladesh</h3>
+    <p>Resistance is measured here on two fronts at once: what the isolates carry, and what the people prescribing and taking antibiotics know. Laboratory surveys of resistance genes in clinical pathogens run alongside cross-sectional studies of pharmacists, parents and students, so a resistance pattern can be read against the behaviour producing it.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Public Health &amp; Informatics</dd>
+        <dt>Lead</dt><dd>Md. Jubayer Hossain</dd>
+        <dt>Run</dt><dd>2022 – present</dd>
+        <dt>Team</dt><dd>Md. Wahidul Islam · Md. Shahjahan</dd>
+        <dt>Data</dt><dd>Hospital isolates, community pharmacy and household survey data</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">Cross-sectional survey</span><span class="c-tag">Antimicrobial susceptibility testing</span><span class="c-tag">Molecular typing</span><span class="c-tag">Regression modelling</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="https://doi.org/10.1002/hsr2.72866">Community pharmacists KAP (HSR, 2026) →</a></li>
+          
+            <li><a href="https://doi.org/10.3390/microorganisms12081589">Metallo-beta-lactamase genes (Microorganisms, 2024) →</a></li>
+          
+            <li><a href="https://doi.org/10.1038/s41598-024-52313-y">Antibiotic misuse among parents (Sci Rep, 2024) →</a></li>
+          
+            <li><a href="https://doi.org/10.1002/hsr2.2039">Bacteriuria resistance patterns (HSR, 2024) →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+  <article class="c-card c-proj" data-index="2" data-categories="UHVibGljJTIwSGVhbHRoJTJDSW5mZWN0aW91cyUyMERpc2Vhc2U=" data-listing-date-sort="1782842400000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--active"></span>
+        <span class="c-card-meta">
+          Active
+        </span>
+      </p>
+    
+
+    <h3 class="listing-title">Dengue epidemiology and control in Bangladesh</h3>
+    <p>Dengue in Bangladesh is now an annual event rather than an outbreak, and the project treats it that way. Clinical and haematological profiling of hospitalised patients sits beside community-level work on prevention behaviour and a synthesis of national trends since 2000, to say where control effort actually changes the curve.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Public Health &amp; Informatics</dd>
+        <dt>Lead</dt><dd>Md. Jubayer Hossain</dd>
+        <dt>Run</dt><dd>2022 – present</dd>
+        <dt>Team</dt><dd>Mousumi Das · Md. Shahjahan</dd>
+        <dt>Data</dt><dd>Tertiary-care hospital records, community surveys in Dhaka, national surveillance reports</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">Clinical cohort analysis</span><span class="c-tag">Cross-sectional survey</span><span class="c-tag">Narrative synthesis</span><span class="c-tag">Trend analysis</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="https://doi.org/10.1002/hsr2.72747">Epidemiological trends 2000–2024 (HSR, 2026) →</a></li>
+          
+            <li><a href="https://doi.org/10.1002/hsr2.70356">2022 outbreak clinical profile (HSR, 2025) →</a></li>
+          
+            <li><a href="https://doi.org/10.1002/hsr2.2022">Community engagement in prevention (HSR, 2024) →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+  <article class="c-card c-proj" data-index="3" data-categories="T25jb2dlbm9taWNzJTJDQmlvaW5mb3JtYXRpY3M=" data-listing-date-sort="1780250400000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--active"></span>
+        <span class="c-card-meta">
+          Active · Early discovery
+        </span>
+      </p>
+    
+
+    <h3 class="listing-title">Pan-cancer biomarker discovery from public omics</h3>
+    <p>A running programme that mines consortium data — TCGA, GEO, ICGC — for genes whose expression, methylation and immune context separate tumour from normal and predict outcome. Each cycle takes one gene or family across all available tumour cohorts, then follows the survivors into prognostic and immunological validation.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Computational Biology</dd>
+        <dt>Lead</dt><dd>Md. Jubayer Hossain</dd>
+        <dt>Run</dt><dd>2023 – present</dd>
+        <dt>Team</dt><dd>Md. Zahid Ahmed · Fahmida Tasnim Jannat Fariha · Md. Wahidul Islam</dd>
+        <dt>Data</dt><dd>TCGA · GEO · ICGC · cBioPortal · UALCAN · GEPIA2</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">Differential expression</span><span class="c-tag">Survival analysis</span><span class="c-tag">Methylation analysis</span><span class="c-tag">Immune infiltration</span><span class="c-tag">Pathway enrichment</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="https://doi.org/10.1038/s41598-025-88339-z">CCT5 pan-cancer (Sci Rep, 2025) →</a></li>
+          
+            <li><a href="https://doi.org/10.1038/s41598-025-13315-6">WNT family in breast cancer (Sci Rep, 2025) →</a></li>
+          
+            <li><a href="https://doi.org/10.1002/hsr2.72617">COL13A1 / COL23A1 in thyroid cancer (HSR, 2026) →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+  <article class="c-card c-proj" data-index="4" data-categories="QmlvaW5mb3JtYXRpY3MlMkNNZXRhLWFuYWx5c2lz" data-listing-date-sort="1762279200000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--completed"></span>
+        <span class="c-card-meta">
+          Completed · Early discovery
+        </span>
+      </p>
+    
+
+    <h3 class="listing-title">Cross-study RNA-seq meta-analysis of stress response</h3>
+    <p>Single RNA-seq studies are underpowered for anything conserved. This project re-processes public datasets through one uniform pipeline so expression can be compared across studies, and applies it to stress response in rainbow trout — a test of whether a conserved signature survives batch, lab and design differences.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Computational Biology</dd>
+        <dt>Lead</dt><dd>Md. Jubayer Hossain</dd>
+        <dt>Run</dt><dd>2024 – 2025</dd>
+        <dt>Team</dt><dd>S. M. Bari · Md. Fuad</dd>
+        <dt>Data</dt><dd>Public RNA-seq datasets retrieved from SRA and GEO</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">RNA-seq meta-analysis</span><span class="c-tag">Nextflow</span><span class="c-tag">Batch correction</span><span class="c-tag">Differential expression</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="https://doi.org/10.1186/s12864-025-12127-2">Conserved stress responses (BMC Genomics, 2025) →</a></li>
+          
+            <li><a href="https://github.com/hossainlab/nf-core-rnaseqmeta">nf-core/rnaseqmeta pipeline →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+  <article class="c-card c-proj" data-index="5" data-categories="VGhhbGFzc2VtaWElMkNQdWJsaWMlMjBIZWFsdGg=" data-listing-date-sort="1725559200000">
+    
+      <p class="c-proj-flag">
+        <span class="c-proj-dot c-proj-dot--active"></span>
+        <span class="c-card-meta">
+          Active
+        </span>
+      </p>
+    
+
+    <h3 class="listing-title">Thalassemia burden, quality of life and prevention</h3>
+    <p>Bangladesh carries one of the heavier thalassemia burdens in the region with no compulsory screening in place. The project quantifies what the disease costs patients through validated quality-of-life instruments, measures what the population knows about carrier status, and argues the prevention case from that evidence.</p>
+
+    
+      <dl class="c-io">
+        <dt>Group</dt><dd>Public Health &amp; Informatics</dd>
+        <dt>Lead</dt><dd>Md. Jubayer Hossain</dd>
+        <dt>Run</dt><dd>2022 – present</dd>
+        <dt>Team</dt><dd>Umme Rumman Munni · Mousumi Das</dd>
+        <dt>Data</dt><dd>Thalassemia treatment centre patients, university student cohorts</dd>
+      </dl>
+    
+
+    
+      <div class="c-tag-row"><span class="c-tag">SF-36 quality of life</span><span class="c-tag">Cross-sectional survey</span><span class="c-tag">Policy analysis</span></div>
+    
+
+    
+      <div class="c-proj-outputs">
+        <span class="c-card-meta">Outputs</span>
+        <ul class="c-rule-list">
+          
+            <li><a href="https://doi.org/10.1186/s13023-024-03344-1">Premarital screening case (Orphanet JRD, 2024) →</a></li>
+          
+            <li><a href="https://doi.org/10.1038/s41598-023-34205-9">Health-related quality of life (Sci Rep, 2023) →</a></li>
+          
+        </ul>
+      </div>
+    
+  </article>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
   </div>
 </section>
 
 <section class="c-slab c-slab--white">
   <div class="c-wrap">
     <div class="c-slab-head">
-      <span class="c-eyebrow">Recurring</span>
-      <h2 class="c-h2">What we run regularly</h2>
+      <span class="c-eyebrow">How a project starts</span>
+      <h2 class="c-h2">From question to workstream</h2>
       <p class="c-lede">
-        Three formats, each aimed at a different point in a student's progression.
+        Projects are not assigned. They begin when someone in the centre can
+        state a question, name the data that would answer it, and commit to
+        seeing it through to a submitted manuscript.
       </p>
     </div>
 
-    <div class="c-grid-3">
+    <div class="c-grid-4">
       <div class="c-card">
-        <span class="c-card-meta">Format · Bootcamp</span>
-        <h3>Bioinformatics bootcamps</h3>
-        <p>Intensive multi-week, hands-on programmes in Linux, R, Python, RNA-seq and reproducible workflows. No prior programming background assumed.</p>
-        <a class="c-card-link" href="../training/">See programmes →</a>
+        <span class="c-card-meta">Step 01</span>
+        <h3>Question</h3>
+        <p>A specific, answerable question, with the reason it matters for health in Bangladesh written down before any analysis starts.</p>
       </div>
       <div class="c-card">
-        <span class="c-card-meta">Format · Seminar</span>
-        <h3>Research seminars</h3>
-        <p>Talks from members and invited researchers on methods and results, with time given to the parts that did not work.</p>
-        <a class="c-card-link" href="mailto:chiralbd@gmail.com?subject=Seminar%20invitation">Propose a talk →</a>
+        <span class="c-card-meta">Step 02</span>
+        <h3>Data and method</h3>
+        <p>The datasets are identified and the analysis plan is agreed with a supervisor, so the method is fixed before the results are seen.</p>
       </div>
       <div class="c-card">
-        <span class="c-card-meta">Format · Journal club</span>
-        <h3>Journal club</h3>
-        <p>Students present a recent paper and are expected to criticise its design, not just summarise its findings. This is where most members learn to read properly.</p>
-        <a class="c-card-link" href="../opportunities/">Join the centre →</a>
+        <span class="c-card-meta">Step 03</span>
+        <h3>Analysis</h3>
+        <p>Students run the analysis themselves, in code that is reviewed and kept, under one-to-one supervision rather than delegation.</p>
+      </div>
+      <div class="c-card">
+        <span class="c-card-meta">Step 04</span>
+        <h3>Output</h3>
+        <p>Manuscript, code release and, where useful, a reusable pipeline. The student who did the work takes first authorship.</p>
       </div>
     </div>
   </div>
@@ -497,22 +818,23 @@ gtag('config', 'G-K5TXS64QLN', { 'anonymize_ip': true});
 <section class="c-slab c-slab--panel">
   <div class="c-wrap">
     <div class="c-slab-head">
-      <span class="c-eyebrow">Archive</span>
-      <h2 class="c-h2">Past events</h2>
+      <span class="c-eyebrow">Get involved</span>
+      <h2 class="c-h2">Join a project, or bring one</h2>
       <p class="c-lede">
-        <span class="c-todo">To be compiled</span> — dated list of previous
-        bootcamps and seminars, with cohort sizes and materials where they are
-        public.
+        Students join existing workstreams and take a defined piece of the
+        analysis. Collaborators with a dataset and a question can start a new
+        one — we work in the open and publish jointly.
       </p>
     </div>
-    <!-- TODO(CHIRAL): the December 2024 bootcamp series is referenced on the
-         homepage; add it here with dates, cohort size and links to materials. -->
+
     <div class="c-btn-row">
-      <a class="c-btn c-btn--ghost" href="../resources/">Learning resources</a>
-      <a class="c-btn c-btn--ghost" href="https://www.youtube.com/@hossainlab">Recorded sessions</a>
+      <a class="c-btn c-btn--solid" href="../opportunities/">Join as a student</a>
+      <a class="c-btn c-btn--ghost" href="../collaborators/">Collaborate with us</a>
+      <a class="c-btn c-btn--ghost" href="../publications/">All publications</a>
     </div>
   </div>
 </section>
+
 
 
 

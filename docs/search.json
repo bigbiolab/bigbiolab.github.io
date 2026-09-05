@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/junior-researcher-intake/index.html",
-    "href": "posts/junior-researcher-intake/index.html",
-    "title": "Junior researcher intake is open",
+    "objectID": "posts/cct5-pan-cancer-2025/index.html",
+    "href": "posts/cct5-pan-cancer-2025/index.html",
+    "title": "Pan-cancer study of CCT5 published in Scientific Reports",
     "section": "",
-    "text": "We are accepting applications for the junior researcher track from university students in their first, second and third years.\nThe track is aimed at students who want to do research rather than read about it. Accepted applicants join one of our four groups, work under one-to-one supervision on an active project, and are expected to carry that project through to a manuscript. There is no fee, and there is no stipend.\nNo prior programming experience is required. Foundational training in Linux, R and Python is provided through the centre’s training programmes. What we do ask for is consistency — the projects run over months, not weeks.\nStudents from life sciences, computer science, medicine, public health, pharmacy, statistics, geography and environmental science are all a fit.\nHow to apply Browse the groups"
-  },
-  {
-    "objectID": "posts/becithcon-2026-ovarian-cancer/index.html",
-    "href": "posts/becithcon-2026-ovarian-cancer/index.html",
-    "title": "Single-cell and network pharmacology study presented at IEEE BECITHCON 2026",
-    "section": "",
-    "text": "Musab Shahriar, Group Leader for In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative study at IEEE BECITHCON 2026 — the IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health.\n\nSingle-Cell Transcriptomic and Network Pharmacology Insights into the Therapeutic Potential of Withania somnifera-Derived Phytochemicals Against Cisplatin-Resistant Ovarian Cancer\n\nCisplatin remains the backbone of treatment for high-grade ovarian carcinoma, and relapse after resistance emerges is what most often decides the outcome. Resistance is not a property of the tumour as a whole but of particular cell states within it, which is why the study starts at single-cell resolution rather than with bulk expression.\n\nWhat the study does\nThe work joins two analyses that are usually run apart. Single-cell RNA sequencing of ovarian cancer cohorts is used to resolve the cell states present in resistant tumours and the transcriptional programmes that separate them from sensitive ones, yielding a set of resistance-associated targets grounded in the cells that actually carry the phenotype.\nThose targets then become the anchor for a network pharmacology screen of bioactive phytochemicals from Withania somnifera (ashwagandha), narrowed by molecular docking and structural dynamics to compounds with plausible binding to resistance-associated signalling. The result is a set of compound–target hypotheses for natural-product adjuvants, each traceable back to the cell population that motivated it — computational evidence to be tested, not a therapy.\n\n\nThe team\nThe work was carried out in the Big Bioinformatics Lab, part of the centre’s computational biology division. Congratulations to the full team:\n\nSheikh Naem Islam Abhi\nMusab Shahriar — presenter, Group Leader, In Silico Drug Discovery\nLamia Hasan Joarder Barsha\nMst. Afsana Meme\nMd. Jubayer Hossain — supervisor and founder\n\nAll news & announcements Explore computational biology"
+    "text": "Our pan-cancer analysis of the chaperonin subunit CCT5 has been published in Scientific Reports.\nThe study examines CCT5 across 33 tumour types, covering gene and protein expression, DNA methylation, genetic alteration, immune cell infiltration, correlation with tumour mutational burden and microsatellite instability, drug sensitivity, and prognostic significance. CCT5 was overexpressed in most tumours and associated with poorer overall and disease-free survival in several of them; reduced promoter and N-shore methylation points to an epigenetic component, and amplification was the most common alteration observed.\nThe work was led by undergraduate researchers working through the centre’s supervision programme, from the initial question to the submitted manuscript.\nRead the paper All publications"
   },
   {
     "objectID": "people/index.html#leadership",
@@ -42,11 +35,18 @@
     "text": "Join them\nWe take new student researchers each intake, and welcome volunteer mentors year-round.\nApply as a student researcher Volunteer as a mentor"
   },
   {
-    "objectID": "posts/cct5-pan-cancer-2025/index.html",
-    "href": "posts/cct5-pan-cancer-2025/index.html",
-    "title": "Pan-cancer study of CCT5 published in Scientific Reports",
+    "objectID": "posts/becithcon-2026-ovarian-cancer/index.html",
+    "href": "posts/becithcon-2026-ovarian-cancer/index.html",
+    "title": "Single-cell and network pharmacology study presented at IEEE BECITHCON 2026",
     "section": "",
-    "text": "Our pan-cancer analysis of the chaperonin subunit CCT5 has been published in Scientific Reports.\nThe study examines CCT5 across 33 tumour types, covering gene and protein expression, DNA methylation, genetic alteration, immune cell infiltration, correlation with tumour mutational burden and microsatellite instability, drug sensitivity, and prognostic significance. CCT5 was overexpressed in most tumours and associated with poorer overall and disease-free survival in several of them; reduced promoter and N-shore methylation points to an epigenetic component, and amplification was the most common alteration observed.\nThe work was led by undergraduate researchers working through the centre’s supervision programme, from the initial question to the submitted manuscript.\nRead the paper All publications"
+    "text": "Musab Shahriar, Group Leader for In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative study at IEEE BECITHCON 2026 — the IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health.\n\nSingle-Cell Transcriptomic and Network Pharmacology Insights into the Therapeutic Potential of Withania somnifera-Derived Phytochemicals Against Cisplatin-Resistant Ovarian Cancer\n\nCisplatin remains the backbone of treatment for high-grade ovarian carcinoma, and relapse after resistance emerges is what most often decides the outcome. Resistance is not a property of the tumour as a whole but of particular cell states within it, which is why the study starts at single-cell resolution rather than with bulk expression.\n\nWhat the study does\nThe work joins two analyses that are usually run apart. Single-cell RNA sequencing of ovarian cancer cohorts is used to resolve the cell states present in resistant tumours and the transcriptional programmes that separate them from sensitive ones, yielding a set of resistance-associated targets grounded in the cells that actually carry the phenotype.\nThose targets then become the anchor for a network pharmacology screen of bioactive phytochemicals from Withania somnifera (ashwagandha), narrowed by molecular docking and structural dynamics to compounds with plausible binding to resistance-associated signalling. The result is a set of compound–target hypotheses for natural-product adjuvants, each traceable back to the cell population that motivated it — computational evidence to be tested, not a therapy.\n\n\nThe team\nThe work was carried out in the Big Bioinformatics Lab, part of the centre’s computational biology division. Congratulations to the full team:\n\nSheikh Naem Islam Abhi\nMusab Shahriar — presenter, Group Leader, In Silico Drug Discovery\nLamia Hasan Joarder Barsha\nMst. Afsana Meme\nMd. Jubayer Hossain — supervisor and founder\n\nAll news & announcements Explore computational biology"
+  },
+  {
+    "objectID": "posts/junior-researcher-intake/index.html",
+    "href": "posts/junior-researcher-intake/index.html",
+    "title": "Junior researcher intake is open",
+    "section": "",
+    "text": "We are accepting applications for the junior researcher track from university students in their first, second and third years.\nThe track is aimed at students who want to do research rather than read about it. Accepted applicants join one of our four groups, work under one-to-one supervision on an active project, and are expected to carry that project through to a manuscript. There is no fee, and there is no stipend.\nNo prior programming experience is required. Foundational training in Linux, R and Python is provided through the centre’s training programmes. What we do ask for is consistency — the projects run over months, not weeks.\nStudents from life sciences, computer science, medicine, public health, pharmacy, statistics, geography and environmental science are all a fit.\nHow to apply Browse the groups"
   },
   {
     "objectID": "publications/index.html#elsewhere",
