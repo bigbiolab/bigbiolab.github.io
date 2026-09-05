@@ -164,7 +164,7 @@ toc: false
         <p style="font-size:.93rem;line-height:1.7;margin:0 0 1.75rem">No. The foundation courses assume nothing. What matters is curiosity and turning up consistently.</p>
 
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Is it remote or in person?</h3>
-        <p style="font-size:.93rem;line-height:1.7;margin:0">Mostly remote, via GitHub, chat and video calls, so students at universities across Bangladesh can take part.</p>
+        <p style="font-size:.93rem;line-height:1.7;margin:0">Remote. The centre has no office — it runs on a virtual HQ model, over GitHub, chat and video calls, so students at universities across Bangladesh can take part on equal terms.</p>
       </div>
       <div>
         <h3 style="font-family:var(--c-display);font-size:1.05rem;margin:0 0 .5rem">Is there a fee or a stipend?</h3>

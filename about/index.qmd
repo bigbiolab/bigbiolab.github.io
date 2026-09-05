@@ -100,10 +100,10 @@ toc: false
           <dd>2020</dd>
 
           <dt>Based in</dt>
-          <dd>Azimpur, Dhaka 1205, Bangladesh</dd>
+          <dd>Dhaka, Bangladesh. Virtual HQ — no physical premises.</dd>
 
           <dt>Model</dt>
-          <dd>Volunteer-run and non-profit. No fees charged, no stipends paid.</dd>
+          <dd>Volunteer-run and non-profit, distributed by default. No fees charged, no stipends paid.</dd>
 
           <dt>Groups</dt>
           <dd>Computational Biology · Public Health &amp; Informatics · Bio-AI · Geospatial Health</dd>
