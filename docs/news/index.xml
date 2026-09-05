@@ -10,7 +10,52 @@
 <atom:link href="https://chiralbd.github.io/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Announcements, publications and programme news from CHIRAL Bangladesh.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 14 Jan 2025 18:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 18:00:00 GMT</lastBuildDate>
+<item>
+  <title>Single-cell and network pharmacology study presented at IEEE BECITHCON 2026</title>
+  <link>https://chiralbd.github.io/posts/becithcon-2026-ovarian-cancer/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are delighted to share that <strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong>, Group Leader of In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative research study at <strong>IEEE BECITHCON 2026</strong> (IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health 2026).</p>
+<p>The study, titled:</p>
+<blockquote class="blockquote">
+<p><strong>“Single-Cell Transcriptomic and Network Pharmacology Insights into the Therapeutic Potential of <em>Withania somnifera</em>-Derived Phytochemicals Against Cisplatin-Resistant Ovarian Cancer”</strong></p>
+</blockquote>
+<p>bridges single-cell RNA sequencing (scRNA-seq) transcriptomics, computational biology, and network pharmacology to investigate cellular heterogeneity and chemoresistance mechanisms in ovarian cancer.</p>
+<section id="key-highlights-of-the-study" class="level3">
+<h3 class="anchored" data-anchor-id="key-highlights-of-the-study">Key Highlights of the Study</h3>
+<ul>
+<li><strong>Dissecting Chemoresistance</strong>: By leveraging single-cell transcriptomic profiles of ovarian cancer cohorts, the team mapped distinct cell states, transcriptional reprogramming, and critical molecular drivers associated with cisplatin resistance.</li>
+<li><strong>Natural Phytochemical Screening</strong>: The study systematically evaluated bioactive phytochemicals derived from <em>Withania somnifera</em> (Ashwagandha) through network pharmacology, molecular docking, and structural dynamics to identify high-affinity lead compounds capable of targeting resistance-associated signaling pathways.</li>
+<li><strong>Therapeutic Implications</strong>: Uncovering novel compound-target interactions provides computational evidence for natural product-derived adjuvant therapies to overcome drug resistance in high-grade ovarian carcinomas.</li>
+</ul>
+</section>
+<section id="research-team" class="level3">
+<h3 class="anchored" data-anchor-id="research-team">Research Team</h3>
+<p>This multi-scale investigation was conducted through the Big Bioinformatics Lab within CHIRAL Bangladesh’s Computational Biology division. Huge congratulations to the entire research team:</p>
+<ul>
+<li><strong>Sheikh Naem Islam Abhi</strong></li>
+<li><strong><a href="https://www.linkedin.com/in/mshahariar/">Musab Shahriar</a></strong> (Presenter &amp; Group Leader)</li>
+<li><strong>Lamia Hasan Joarder Barsha</strong></li>
+<li><strong>Mst. Afsana Meme</strong></li>
+<li><strong>Md. Jubayer Hossain</strong> (Senior Supervisor &amp; Founder)</li>
+</ul>
+<p><a href="../../news/" class="c-btn c-btn--dark">All news &amp; announcements</a> <a href="../../groups/combio/" class="c-btn c-btn--line">Explore computational biology</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Conference</category>
+  <category>Computational Biology</category>
+  <category>Drug Discovery</category>
+  <guid>https://chiralbd.github.io/posts/becithcon-2026-ovarian-cancer/</guid>
+  <pubDate>Thu, 03 Sep 2026 18:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Pan-cancer study of CCT5 published in Scientific Reports</title>
   <link>https://chiralbd.github.io/posts/cct5-pan-cancer-2025/</link>

@@ -1,0 +1,52 @@
+---
+title: "Single-cell and network pharmacology study presented at IEEE BECITHCON 2026"
+description: "Musab Shahriar presented our collaborative work on Withania somnifera-derived phytochemicals against cisplatin-resistant ovarian cancer."
+date: 2026-09-04
+categories: [Conference, Computational Biology, Drug Discovery]
+toc: false
+---
+
+**[Musab Shahriar](https://www.linkedin.com/in/mshahariar/)**, Group Leader for
+In Silico Drug Discovery at CHIRAL Bangladesh, presented our collaborative study
+at **IEEE BECITHCON 2026** — the IEEE International Conference on Biomedical
+Engineering, Computer and Information Technology for Health.
+
+> **Single-Cell Transcriptomic and Network Pharmacology Insights into the
+> Therapeutic Potential of *Withania somnifera*-Derived Phytochemicals Against
+> Cisplatin-Resistant Ovarian Cancer**
+
+Cisplatin remains the backbone of treatment for high-grade ovarian carcinoma,
+and relapse after resistance emerges is what most often decides the outcome.
+Resistance is not a property of the tumour as a whole but of particular cell
+states within it, which is why the study starts at single-cell resolution rather
+than with bulk expression.
+
+### What the study does
+
+The work joins two analyses that are usually run apart. Single-cell RNA
+sequencing of ovarian cancer cohorts is used to resolve the cell states present
+in resistant tumours and the transcriptional programmes that separate them from
+sensitive ones, yielding a set of resistance-associated targets grounded in the
+cells that actually carry the phenotype.
+
+Those targets then become the anchor for a network pharmacology screen of
+bioactive phytochemicals from *Withania somnifera* (ashwagandha), narrowed by
+molecular docking and structural dynamics to compounds with plausible binding to
+resistance-associated signalling. The result is a set of compound–target
+hypotheses for natural-product adjuvants, each traceable back to the cell
+population that motivated it — computational evidence to be tested, not a
+therapy.
+
+### The team
+
+The work was carried out in the Big Bioinformatics Lab, part of the centre's
+computational biology division. Congratulations to the full team:
+
+- **Sheikh Naem Islam Abhi**
+- **[Musab Shahriar](https://www.linkedin.com/in/mshahariar/)** — presenter, Group Leader, In Silico Drug Discovery
+- **Lamia Hasan Joarder Barsha**
+- **Mst. Afsana Meme**
+- **Md. Jubayer Hossain** — supervisor and founder
+
+[All news & announcements](/news/){.c-btn .c-btn--dark}
+[Explore computational biology](/groups/combio/){.c-btn .c-btn--line}

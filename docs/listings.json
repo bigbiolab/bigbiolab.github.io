@@ -4,18 +4,7 @@
     "items": []
   },
   {
-    "listing": "/people/index.html",
-    "items": []
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/posts/cct5-pan-cancer-2025/index.html",
-      "/posts/junior-researcher-intake/index.html"
-    ]
-  },
-  {
-    "listing": "/governance/index.html",
+    "listing": "/index.html",
     "items": []
   },
   {
@@ -23,7 +12,19 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/governance/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/posts/becithcon-2026-ovarian-cancer/index.html",
+      "/posts/cct5-pan-cancer-2025/index.html",
+      "/posts/junior-researcher-intake/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
     "items": []
   },
   {
