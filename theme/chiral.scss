@@ -868,6 +868,30 @@ footer.footer a:hover { color: var(--c-green); }
   margin: 0;
 }
 
+.c-foot-eco {
+  margin: 1rem 0 0;
+  font-family: var(--c-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+}
+
+.c-foot-eco a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--c-line);
+  border-radius: 999px;
+  color: var(--c-head);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.c-foot-eco a:hover {
+  border-color: var(--c-green);
+  color: var(--c-green);
+}
+
 .c-foot-base {
   display: flex;
   flex-wrap: wrap;
